@@ -9,15 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-Download CV [Here](CV_ESTEBAN_GARZON_13_11_2023.pdf)
+Download full CV [Here](http://estebanjgc.github.io/files/CV_ESTEBAN_GARZON_13_11_2023.pdf)
 
-<!--
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Electronics Engineering, University of Calabria, Italy, 2022 
+* Double M.Sc Degree:
+  * M.Sc in Electronics Engineering, University of Calabria, Italy, 2018
+  * M.Sc in Nanoelectronics, Universidad San Francisco de Quito, Ecuador, 2018
+* B.Sc in Electronics Engineering, Universidad San Francisco de Quito, Ecuador, 2016
 
+<!--
 Work experience
 ======
 * Summer 2015: Research Assistant
