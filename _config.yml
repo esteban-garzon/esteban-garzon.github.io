@@ -84,8 +84,8 @@ author:
   avatar           : "profile.png"
   bio              : ""
   location         : "Rende, Italy"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : "University of Calabria"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=79YaVDsAAAAJ&hl=en&oi=ao"
   email            :  "esteban.garzon@unical.it"
   researchgate     :  "https://www.researchgate.net/profile/Esteban-Garzon"
