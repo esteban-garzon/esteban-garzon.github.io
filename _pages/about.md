@@ -19,4 +19,4 @@ In 2019-2020 I was a visiting Ph.D student at EnICS laboratories, BIU, Israel. I
 I was IEEE graduate student member from 2016, and became IEEE member from 2022. I also have authored/coauthored more than 40 scientific papers in international peer-reviewed journals and conferences, and has participated in several IC tapeouts. My research interests include domain-specific hardware accelerators, electronics/spintronics, cryogenic memories, and standard and emerging technologies for logic & memory, and low-power applications. He has received several awards, research grants, and funding. Moreover, I also have been part of several IEEE conference committees, journal boards (review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering), and have been an active reviewer of several journals (IEEE and Elsevier) and conferences (only IEEE).
 
 News
-======
+====== 
