@@ -4,11 +4,11 @@ collection: publications
 permalink: /publication/2019-01-01-Assessment-of-STT-MRAM-performance-at-nanoscaled-technology-nodes-using-a-device-to-memory-simulation-framework
 date: 2019-01-01
 venue: 'Microelectronic Engineering'
-excerpt: 'some description'
+excerpt: ''
 ---
 Access paper here: [DOI](https://doi.org/10.1016/j.mee.2019.111009){:target="_blank"}
 
-test..
+Scientific significance: The assessment of the technology scalability of STT-MRAMs based on nanoscaled perpendicular MTJs and FinFET technology.
 
 <!--
 ---
