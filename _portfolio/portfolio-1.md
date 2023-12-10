@@ -1,7 +1,13 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Spintronic Technology For Energy-Efficient In-Memory Computing"
+excerpt: "Short course I did in June 2023. Enjoy the content!"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The course is divided into 5 parts:
+
+1. Lecture - 1: Introduction and Motivation ([L1](http://estebanjgc.github.io/files/_2023_PhdCourseSpintronicsCMOS_L1.pdf))
+2. Lecture - 2: Spintronic Fundamentals ([L2](http://estebanjgc.github.io/files/_2023_PhdCourseSpintronicsCMOS_L2.pdf))
+3. Lecture - 3: Magnetic Tunnel Junction ([L3](http://estebanjgc.github.io/files/_2023_PhdCourseSpintronicsCMOS_L3.pdf))
+4. Lecture - 4: Emerging Memory Structures: MRAM ([L4](http://estebanjgc.github.io/files/_2023_PhdCourseSpintronicsCMOS_L4.pdf))
+5. Lecture - 5: Embedded MRAM and STT-MTJs For In-Data Processing (Upon request)
