@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Download full CV [Here](http://estebanjgc.github.io/files/CV_ESTEBAN_GARZON_03_12_2023.pdf)
+Download full CV [Here](http://estebanjgc.github.io/files/CV_ESTEBAN_GARZON_15_12_2023.pdf)
 
 
 Work experience
