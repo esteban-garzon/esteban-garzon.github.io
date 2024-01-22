@@ -9,7 +9,7 @@ A complete list of my articles on my [Google Scholar profile](https://scholar.go
 
 
 ### Selected Publications
-1. FASTA: Revisiting Fully Associative Memories in Computer Microarchitecture, _IEEE Access_, 2023. DOI:[10.1109/ACCESS.2024.3355961](https://doi.org/10.1109/TC.2023.3315829)
+1. FASTA: Revisiting Fully Associative Memories in Computer Microarchitecture, _IEEE Access_, 2024. DOI:[10.1109/ACCESS.2024.3355961](https://doi.org/10.1109/TC.2023.3315829)
 2. DIPER: Detection and Identification of Pathogens using Edit distance-tolerant Resistive CAM, _IEEE TC_, 2023. DOI:[10.1109/TC.2023.3315829](https://doi.org/10.1109/TC.2023.3315829)
 3. AM<sup>4</sup>: MRAM Crossbar Based CAM/TCAM/ACAM/AP For In-Memory Computing, _IEEE JETCAS_, 2023. DOI:[10.1109/JETCAS.2023.3243222](https://doi.org/10.1109/JETCAS.2023.3243222)
 4. A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory, _IEEE TCAS-II_, 2023. DOI:[10.1109/TCSII.2023.3286257](https://doi.org/10.1109/TCSII.2023.3286257) 
