@@ -3,6 +3,7 @@ title: "Spintronic Technology For Energy-Efficient In-Memory Computing"
 excerpt: "Short course I did in June 2023. Enjoy the content!"
 collection: portfolio
 ---
+{% include base_path %}
 
 The course is divided into 5 parts:
 
