@@ -84,10 +84,7 @@ Bibliometric Indicators
   * [Google Scholar](https://scholar.google.com/citations?user=79YaVDsAAAAJ&hl=en)
   * [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57189659787)
 
-
-1. Lecture - 1: Introduction and Motivation ([L1](https://estebanjgc.github.io/files/_2023_PhdCourseSpintronicsCMOS_L1.pdf))
 <!--
-
 Publications
 ======
   <ul>{% for post in site.publications %}
