@@ -110,6 +110,8 @@ been an active reviewer of several journals (IEEE and Elsevier) and conferences 
 {% endif %}
 
 {% if site.data.grants %}
+
+<!-- 
 ## Grants
 
 {% for grant in site.data.grants %}
@@ -117,6 +119,7 @@ been an active reviewer of several journals (IEEE and Elsevier) and conferences 
 {% endfor %}
 
 {% endif %}
+-->
 
 <!-- 
 ## Collaborators
