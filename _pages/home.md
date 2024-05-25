@@ -11,39 +11,20 @@ code {padding: 6px 8px; font-size: 90%;}
 
 # Welcome!
 
-I lead a team at <a href="https://www.bayer.com/en/agriculture" target="_blank">Bayer Crop Science</a> researching and implementing methods for using Artificial Intelligence (AI) to inform genetic design of climate resilient crops. If you are interested in our vision/research or are curious about joining the team, please do not hesistate to reach out to me at ethan.pickering@bayer.com.  
+I am a postdoctoral scholar at the <a href="https://www.unical.it/" target="_blank">Universitiy of Calabria</a>. My research interests include domain-specific hardware accelerators, electronics/spintronics, cryogenic memories, and standard and emerging technologies for logic \& memory, and low-power applications. 
 
-I also lecture and collaborate frequently at MIT. Previous to my new roles, I was a postdoctoral associate in Mechanical Engineering working with <a href="http://sandlab.mit.edu/" target="_blank">Professor Themis Sapsis</a> on prediction of extreme events in chaotic systems at the <a href="http://meche.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>. Specifically, we combine deep neural networks with optimal sampling techniques to efficiently perform experimental design. Check out newest publication in Nature Computational Science on Discovering Extremes with AI, as well as our related 2022 preprints on the publications page.
+I received my Ph.D. degree in Electronics Engineering from <a href="https://www.unical.it/" target="_blank">Universitiy of Calabria</a>, in 2022, under the supervision of <a href="https://people.dimes.unical.it/marcolanuzza/" target="_blank">Prof. Marco Lanuzza</a> and <a href="https://www.eng.biu.ac.il/temanad/" target="_blank">Prof. Adam Teman</a>. In 2022, I won a highly competitive research fellowship funded by the Italian Ministry for Universities and Research (MUR), under the call "Horizon Europe 2021-2027 Programme". 
+In 2019-2020 I was a visiting Ph.D. student at <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> laboratories, Bar-Ilan University, Israel. In Jul-Sep 2022 and Jul-Aug 2023, I was a visiting researcher at EnICS labs. In Jan-Feb 2024, I was a visiting researcher at the Department of Information Engineering, University of Pisa, Italy. 
 
-I completed my Ph.D. in Mechanical Engineering working with <a href="https://www.colonius.caltech.edu/" target="_blank">Professor Tim Colonius</a> on reduced-order turbulence models at the <a href="https://www.caltech.edu/" target="_blank">California Institute of Technology</a>. I began my studies (B.S.) at Case Western Reserve University in Mechanical and Aerospace Engineering (Summa Cum Laude) and continued with a Masters (M.S.) in Mechanical Engineering studying building energy efficiency data analytics.  I have work experience with Philips Healthcare, NASA, and the Great Lakes Energy Institute.  In these roles I spent time working as a prototype engineer, a thermodynamic system modeler, and a building energy data analyst. Currently,  I am pursuing research at the intersection of computational fluid dynamics and data science.
-
-### Active Learning for Discovering Extremes
-
-My recent research activity at MIT centers around discovery and prediction of extreme
-events by leveraging recent advancements in deep neural networks and Bayesian
-statistics. Check out this quick 3 minute <a href="https://www.youtube.com/watch?v=ZYbB9TayxmQ" target="_blank">video</a> for a snapshot into my current work. Please check out our publication page form my information on this work.
-
-<br/>
-
-<div class="row" style="text-align:center">
-<video controls autoplay muted loop width="90%" style="display:inline-block; border-radius: 25px; border:0px solid #FFF;">
-  <source src="{{ site.url }}{{ site.baseurl }}/images/videos/jet_spod_resolvent.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-  Spectral Proper Orthogonal Decomposition and Resolvent Analysis of a Mach 1.5 jet. 
-<br/>
-Pickering et al., *Journal of Fluid Mechanics* (2020)
-</div>
-<br/>
-
-### Data-Driven Turbulence Modeling
-
-My research investigates the fundamental mechanisms that exist in complex and chaotic fluid flows by leveraging large, high-fidelity datasets to inform and validate reduced-order modeling strategies. These mechanisms are of importance as they govern engineering quantities such as noise, drag, and efficiency. Unfortunately, both high-fidelity datasets and reduced order models, alone, can only provide limited insight into these mechanisms. In much of my research, I look to pose optimization problems where our models assimilate/learn various properties of turbulence from the data to yield reduced-order models that are both predictive and general (i.e. applicable to other flows geometries and conditions). In short, this research takes a constrained-''machine learning'' approach, where the Navier-Stokes equations remain a central component of the model.
+I am IEEE Senior Member. I have authored/coauthored more than 45 scientific papers in international peer-reviewed journals and conferences, and have participated in several IC tapeouts. I have received several awards, research grants, and funding. I have been part of several IEEE conference committees, journal boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering, and Executive Guest-Editor of a special issue in "Memories - Materials, Devices, Circuits and Systems" from Elsevier. Moreover, I have been an active reviewer of several journals (IEEE and Elsevier) and conferences (only IEEE).
 
 
-To learn from the data, turbulent flows are decomposed into their most energetic components (using Spectral Proper Orthogonal Decomposition) and then modeled via linear amplification theory of the equations of motion (Resolvent Analysis). Check out the video above on how we decompose massive datasets (numerous TB) into SPOD modes and then seek to model their theoretical equivalent with resolvent analysis.
+### Research
+
+My recent research activity at UNICAL .... 
 
 
+<!-- 
 <br/>
 <div class="well-md">
 <h4>Sponsors</h4>
@@ -52,5 +33,5 @@ To learn from the data, turbulent flows are decomposed into their most energetic
 </div>
 
 </div>
-
+-->
 

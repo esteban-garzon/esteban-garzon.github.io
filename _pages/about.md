@@ -77,12 +77,31 @@ permalink: /about/
 
 {% endfor %}
 
-## Sketch
+## Brief Biography
 
-Dr. Ethan Pickering investigates chaotic systems of engineering interest that exhibit rare and extreme events. He is currently a postdoctoral associate in Mechanical Engineering at the Massachusetts Institute of Technology, working with Themis Sapsis and collaborating with numerous institutions that cover state of the art computational, experimental, and theoretical abilities.
+Esteban Garzón received the B.Sc. Degree (cum laude) in Electronics Engineering from the Universidad San
+Francisco de Quito (USFQ), Ecuador, in 2016, the dual M.Sc. degree (GPA: 4.0/4.0) in Nanoelectronics
+and Electronics from USFQ and University of Calabria (UNICAL), Italy, in 2018, and the Ph.D. degree
+in Electronics Engineering from UNICAL, in 2022. The same year, he won a highly competitive research
+fellowship funded by the Italian Ministry for Universities and Research (MUR), under the call “Horizon
+Europe 2021-2027 Programme”. He is currently a research fellow with the Department of Computer
+Engineering, Modeling, Electronics, and Systems Engineering (DIMES), UNICAL.
+In 2019-2020 he was a visiting Ph.D. student at EnICS laboratories, BIU, Israel. In Jul-Sep 2022 and
+Jul-Aug 2023, he was a visiting researcher at EnICS labs. In Jan-Feb 2024, he was a visiting researcher at
+the Department of Information Engineering, University of Pisa, Italy.
+
+E. Garzón was an IEEE graduate student member from 2016, became an IEEE member in 2022, and
+IEEE Senior Member in 2024. He has authored/coauthored more than 45 scientific papers in international
+peer-reviewed journals and conferences, and has participated in several IC tapeouts. His research interests
+include domain-specific hardware accelerators, electronics/spintronics, cryogenic memories, and standard
+and emerging technologies for logic & memory, and low-power applications. He has received several awards,
+research grants, and funding. E. Garzón has been part of several IEEE conference committees, journal
+boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering, and Guest-Editor
+of a special issue in ”Memories - Materials, Devices, Circuits and Systems” from Elsevier. Moreover, he has
+been an active reviewer of several journals (IEEE and Elsevier) and conferences (only IEEE).
 
 {% if site.data.awards %}
-## Awards
+## Awards & Honours
 
 {% for award in site.data.awards %}
 * {{ award.name }}
@@ -99,6 +118,7 @@ Dr. Ethan Pickering investigates chaotic systems of engineering interest that ex
 
 {% endif %}
 
+<!-- 
 ## Collaborators
 
 * <a href="http://colonius.caltech.edu/" target="_blank">Professor Tim Colonius (Department of Mechanical and Civil Engineering, Caltech)</a>
@@ -109,7 +129,7 @@ Dr. Ethan Pickering investigates chaotic systems of engineering interest that ex
 * <a href="http://denissipp.free.fr/" target="_blank"> Dr. Denis Sipp (Research Director at ONERA)</a>
 * <a href="http://www.ita.br/~cavalieri" target="_blank"> Professor Andre Cavalieri (Engenharia Aeronáutica, Instituto Tecnológico de Aeronáutica)</a>
 * <a href="https://www.cascadetechnologies.com/" target="_blank"> Dr. Guillaume Brès (Director of Operations and Senior Research Scientist, CASCADE Technologies)</a>
-
+-->
 
 
 
