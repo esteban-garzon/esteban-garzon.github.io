@@ -1,23 +1,19 @@
-- name: Dr. Esteban Garzón
-  photo: Ethan_smile_close.JPG
+- name: Dr. Esteban Garzón | IEEE Senior Member
+  photo: EG.JPG
   info: VLSI Design Engineer | Post-Doctoral Researcher at UNICAL 
   email: esteban.garzon@unical.it
   github: https://github.com/ethan-pickering
   researchgate: https://www.researchgate.net/profile/Ethan_Pickering
   scholar: https://scholar.google.com/citations?user=q3KI3-0AAAAJ&hl=en
-  cv: https://github.com/ethan-pickering/cv/blob/master/Ethan_Pickering_Curriculum_Vitae.pdf
-  number_educ: 7
-  education1: (2022-  ) AI-Assisted Genetic Design Team Lead, Bayer Crop Sciences
-  education2: (2023-  ) Lecturer in Mechanical Engineering, MIT
-  education3: (2021-2022) Postdoctoral Scholar in Mechanical Engineering, MIT (with <a href="http://sandlab.mit.edu/" target="_blank">Professor Themis Sapsis</a>)
-  education4: (2016-2021) Ph.D. in Mechanical Engineering, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education5: (2018) M.S. in Mechanical Engineering, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education6: (2016) M.S. Mechanical Engineering, Case Western Reserve University (with <a href="https://engineering.dartmouth.edu/people/faculty/alexis-abramson" target="_blank">Alexis Abramson</a> (now at Dartmouth) and <a href="https://engineering.case.edu/centers/sdle/roger-french" target="_blank">Roger French</a>)
-  education7: (2015) B.S. Mechanical and Aerospace Engineering, Case Western Reserve University
-  education1short: (2022-  ) AI Team Lead, Bayer
-  education2short: (2023-  ) Lecturer, MIT
-  education3short: (2021-2022) Postdoc ME, MIT
-  education4short: (2016-2021) Ph.D. ME, Caltech 
-  education5short: (2018) M.S. ME, Caltech 
-  education6short: (2016) M.S. ME, CWRU 
-  education7short: (2015) B.S. MAE, CWRU
+  cv: https://github.com/esteban-garzon/esteban-garzon.github.io/blob/master/papers/CV_ESTEBAN_GARZON_ 25_05_2024.pdf
+  number_educ: 5
+  education1: (2022-   ) Postdoctoral Scholar in Electronics Engineering, University of Calabria, Rende, Italy
+  education2: (2018-2022) Ph.D. Electronics Engineering, University of Calabria, Rende, Italy
+  education3: (2016-2018) M.Sc. in Electronics Engineering (2/2), University of Calabria, Rende, Italy 
+  education4: (2016-2018) M.Sc. in Nanoelectronics (1/2), Universidad San Francisco de Quito, Quito, Ecuador 
+  education5: (2011-2016) B.Sc. in Electronics Engineering, Universidad San Francisco de Quito, Quito, Ecuador 
+  education1short: (2022-    ) Postdoc Electronics Engineering, UNICAL, Italy 
+  education2short: (2018-2022) Ph.D. Electronics Engineering, UNICAL, Italy
+  education3short: (2016-2018) M.Sc. Electronics Engineering (2/2), UNICAL, Italy
+  education4short: (2016-2018) M.Sc. Nanoelectronics (1/2), USFQ, Ecuador 
+  education5short: (2011-2016) B.Sc. Electronics Engineering, USFQ, Ecuador 
