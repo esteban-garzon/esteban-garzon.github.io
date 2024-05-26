@@ -5,16 +5,26 @@ sitemap: false
 permalink: /talks/
 ---
 
+
 # Talks
 
+{% if site.data.conference_talks %}
+## Personal Talks in Conferences
+
+{% for publi in site.data.conference_talks %}
+* <strong>{{ publi.title }}</strong> <br/> <i>{{ publi.authors }}</i>, {{ publi.conf }} ({{ publi.year }})
+{% endfor %}
+{% endif %}
+
 {% if site.data.invited_talks %}
-## Invited Talks and Seminars
+## Invited Talks/Seminars
 
 {% for publi in site.data.invited_talks %}
 * {{ publi.name }}
 {% endfor %}
 {% endif %}
 
+<!--
 {% if site.data.conference_talks %}
 ## Conference Abstracts
 
@@ -22,3 +32,5 @@ permalink: /talks/
 * <strong>{{ publi.title }}</strong> <br/> <i>{{ publi.authors }}</i>, {{ publi.conf }} ({{ publi.year }})
 {% endfor %}
 {% endif %}
+
+-->
