@@ -1,5 +1,7 @@
+# colors: blue, red, lightgreen, 
+
 - title: ViRAL:Vision transformer based accelerator for ReAL time lineage assignment of viral pathogens
-  authors: Z. Jahshan, <b style='color:red !important;'>E. Garzón</b>, L. Yavits
+  authors: Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-IEEEAccess-ViRAL
   image: 2024-IEEEAccess-ViRAL-image.png
