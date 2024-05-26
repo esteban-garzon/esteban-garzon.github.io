@@ -1,4 +1,4 @@
-@ARTICLE{jahshan2024viral,
+@article{jahshan2024viral,
   author={Jahshan, Zuher and Garzón, Esteban and Yavits, Leonid},
   journal={IEEE Access}, 
   title={{ViRAL: Vision Transformer Based Accelerator for ReAL Time Lineage Assignment of Viral Pathogens}}, 
