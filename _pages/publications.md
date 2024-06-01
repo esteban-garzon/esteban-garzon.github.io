@@ -7,6 +7,11 @@ permalink: /publications/
 
 # Publications
 
+* Total Number of publications: 47
+  * International Journals: 31
+  * Conferences: 15
+  * Book Chapter: 1
+
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
   {% if publi.year %}{% else %}

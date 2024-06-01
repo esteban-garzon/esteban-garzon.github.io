@@ -50,6 +50,18 @@
   abstract: "In-memory computing seeks to minimize data movement and alleviate the memory wall by computing in-situ, in the same place that the data is located. One of the key emerging technologies that promises to enable such computing-in-memory is spin-transfer torque magnetic tunnel junction (STT-MTJ). This paper proposes AM4, a combined STT-MTJ-based Content Addressable Memory (CAM), Ternary CAM (TCAM), approximate matching (similarity search) CAM (ACAM), and in-memory Associative Processor (AP) design, inspired by the recently announced Samsung MRAM crossbar. We demonstrate and evaluate the performance and energy-efficiency of the AM4-based AP using a variety of data intensive workloads. We show that an AM4-based AP outperforms state-of-the-art solutions both in performance (with the average speedup of about 10X) and energy-efficiency (by about 60X on average)."
 
 
+- title: "SIMPLY+: A Reliable STT-MRAM-Based Smart Material Implication Architecture for In-Memory Computing"
+  authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza 
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-IEEEAccess-SIMPLYplus
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Access</b>
+  year: 2023
+  doi: 10.1109/ACCESS.2023.3344197
+  #arxiv: XXXX.13080
+  abstract: "This paper introduces SIMPLY+, an advanced Spin-Transfer Torque Magnetic Random-Access Memory (STT-MRAM)-based Logic-in-Memory (LIM) architecture that evolves from the previously proposed smart material implication (SIMPLY) logic scheme. More specifically, the latter is enhanced by incorporating additional circuitry to enhance the reliability of preliminary read operations. In this study, the proposed architecture is benchmarked against its conventional counterpart. Obtained results show a significant improvement in terms of reliability, i.e., the nominal read margin (RM) by a factor of about 3−4X and accordingly the bit error rate (BER) by more than four orders of magnitude. These improvements come at minimal cost in terms of circuit area and complexity compared to the conventional SIMPLY design. Overall, this research establishes SIMPLY+ as a promising solution for the design of reliable and energy-efficient in-memory computing architectures."
+
+
 - title: "XNOR-Bitcount Operation Exploiting Computing-In-Memory With STT-MRAMs"
   authors: A. Musello, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, L.M. Prócel, and R. Taco
   #pdf: 2024-SSCL-OCCAM
