@@ -1,0 +1,10 @@
+@article{zambrano2022compact,
+  author={Zambrano, Benjamin and Garzón, Esteban and Strangio, Sebastiano and Iannaccone, Giuseppe and Lanuzza, Marco},
+  journal={IEEE Sensors Journal}, 
+  title={{A 0.6V–1.8V Compact Temperature Sensor With 0.24°C Resolution, ±1.4°C Inaccuracy and 1.06nJ per Conversion}}, 
+  year={2022},
+  volume={22},
+  number={12},
+  pages={11480-11488},
+  doi={10.1109/JSEN.2022.3171106}
+}

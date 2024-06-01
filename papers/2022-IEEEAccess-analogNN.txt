@@ -1,0 +1,10 @@
+@article{zambrano2022analog,
+  author={Zambrano, Benjamin and Strangio, Sebastiano and Rizzo, Tommaso and Garzón, Esteban and Lanuzza, Marco and Iannaccone, Giuseppe},
+  journal={IEEE Access}, 
+  title={{All-Analog Silicon Integration of Image Sensor and Neural Computing Engine for Image Classification}}, 
+  year={2022},
+  volume={10},
+  number={},
+  pages={94417-94430},
+  doi={10.1109/ACCESS.2022.3203394}
+}

@@ -1,0 +1,11 @@
+@article{vicuna2021energy,
+  title={{Energy efficient self-adaptive Dual Mode Logic address decoder}},
+  author={Vicu{\~n}a, Kevin and Mosquera, Cristhopher and Musello, Ariana and Benedictis, Sara and Rend{\'o}n, Mateo and Garz{\'o}n, Esteban and Pr{\'o}cel, Luis Miguel and Trojman, Lionel and Taco, Ramiro},
+  journal={Electronics},
+  volume={10},
+  number={9},
+  pages={1052},
+  year={2021},
+  publisher={MDPI}
+  doi={10.3390/electronics10091052}
+}

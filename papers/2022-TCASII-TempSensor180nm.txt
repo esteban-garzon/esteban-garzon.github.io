@@ -1,0 +1,10 @@
+@article{zambrano2022fully,
+  author={Zambrano, Benjamin and Garzón, Esteban and Strangio, Sebastiano and Crupi, Felice and Lanuzza, Marco},
+  journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, 
+  title={{A 0.05\,mm$^2$, 350\,mV, 14\,nW Fully-Integrated Temperature Sensor in 180-nm CMOS}}, 
+  year={2022},
+  volume={69},
+  number={3},
+  pages={749-753},
+  doi={10.1109/TCSII.2021.3112812}
+}

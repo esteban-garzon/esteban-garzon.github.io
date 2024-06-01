@@ -1,0 +1,10 @@
+@article{moposita2023simply+,
+  author={Moposita, Tatiana and Garzón, Esteban and De Rose, Raffaele and Crupi, Felice and Vladimirescu, Andrei and Trojman, Lionel and Lanuzza, Marco},
+  journal={IEEE Access}, 
+  title={{SIMPLY+: A Reliable STT-MRAM-Based Smart Material Implication Architecture for In-Memory Computing}}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={144084-144094},
+  doi={10.1109/ACCESS.2023.3344197}
+}

@@ -1,10 +1,10 @@
-@article{jahshan2024viral,
-  author={Jahshan, Zuher and Garzón, Esteban and Yavits, Leonid},
-  journal={IEEE Access}, 
-  title={{ViRAL: Vision Transformer Based Accelerator for ReAL Time Lineage Assignment of Viral Pathogens}}, 
-  year={2024},
-  volume={12},
-  number={},
-  pages={28353-28368},
-  doi={10.1109/ACCESS.2024.3367801}
+@article{garzon2023approximate,
+  author = {Garzón, Esteban and Yavits, Leonid and Teman, Adam and Lanuzza, Marco},
+  title = {{Approximate Content-Addressable Memories: A Review}},
+  journal = {Chips},
+  volume = {2},
+  year = {2023},
+  number = {2},
+  pages = {70--82},
+  doi = {10.3390/chips2020005}
 }

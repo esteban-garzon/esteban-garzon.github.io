@@ -1,0 +1,10 @@
+@article{garzon2022adjusting,
+  author = {Esteban Garzón and Raffaele {De Rose} and Felice Crupi and Lionel Trojman and Adam Teman and Marco Lanuzza},
+  title = {{Adjusting thermal stability in double-barrier MTJ for energy improvement in cryogenic STT-MRAMs}},
+  journal = {Solid-State Electronics},
+  volume = {194},
+  pages = {108315},
+  year = {2022},
+  issn = {0038-1101},
+  doi = {10.1016/j.sse.2022.108315}
+}

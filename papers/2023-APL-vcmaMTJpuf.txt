@@ -1,0 +1,11 @@
+@article{meo2023voltage,
+    author = {Meo, Andrea and Garzón, Esteban and De Rose, Raffaele and Finocchio, Giovanni and Lanuzza, Marco and Carpentieri, Mario},
+    title = {{Voltage-controlled magnetic anisotropy based physical unclonable function}},
+    journal = {Applied Physics Letters},
+    volume = {123},
+    number = {6},
+    pages = {062405},
+    year = {2023},
+    month = {08},
+    doi = {10.1063/5.0166164}
+}

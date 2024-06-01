@@ -1,0 +1,12 @@
+@article{garzon2021ultralow,
+  author={Garzón, Esteban and Lanuzza, Marco and Taco, Ramiro and Strangio, Sebastiano},
+  title={{Ultralow Voltage FinFET- Versus TFET-Based STT-MRAM Cells for IoT Applications}},
+  journal={Electronics},
+  volume={10},
+  year={2021},
+  nunber={15},
+  doi={10.3390/electronics10151756}
+}
+
+
+

@@ -1,10 +1,10 @@
-@article{jahshan2024viral,
-  author={Jahshan, Zuher and Garzón, Esteban and Yavits, Leonid},
-  journal={IEEE Access}, 
-  title={{ViRAL: Vision Transformer Based Accelerator for ReAL Time Lineage Assignment of Viral Pathogens}}, 
-  year={2024},
-  volume={12},
-  number={},
-  pages={28353-28368},
-  doi={10.1109/ACCESS.2024.3367801}
+@article{moposita2023efficiency,
+  author={Moposita, Tatiana and Garzón, Esteban and Crupi, Felice and Trojman, Lionel and Vladimirescu, Andrei and Lanuzza, Marco},
+  journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, 
+  title={{Efficiency of Double-Barrier Magnetic Tunnel Junction-Based Digital eNVM Array for Neuro-Inspired Computing}}, 
+  year={2023},
+  volume={70},
+  number={3},
+  pages={1254-1258},
+  doi={10.1109/TCSII.2023.3240474}
 }

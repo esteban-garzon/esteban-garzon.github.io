@@ -1,0 +1,10 @@
+@article{garzon2023lowenergy,
+  author={Garzón, Esteban and Yavits, Leonid and Finocchio, Giovanni and Carpentieri, Mario and Teman, Adam and Lanuzza, Marco},
+  journal={IEEE Access}, 
+  title={{A Low-Energy DMTJ-Based Ternary Content- Addressable Memory With Reliable Sub-Nanosecond Search Operation}}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={16812-16819},
+  doi={10.1109/ACCESS.2023.3245981}
+}

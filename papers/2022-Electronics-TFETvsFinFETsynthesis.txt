@@ -1,0 +1,13 @@
+@article{rendon2022performance,
+  title={{Performance benchmarking of TFET and FinFET digital circuits from a synthesis-based perspective}},
+  author={Rend{\'o}n, Mateo and Cao, Christian and Land{\'a}zuri, Kevin and Garz{\'o}n, Esteban and Pr{\'o}cel, Luis Miguel and Taco, Ramiro},
+  journal={Electronics},
+  volume={11},
+  number={4},
+  pages={632},
+  year={2022},
+  publisher={MDPI},
+  doi={10.3390/electronics11040632}
+}
+
+

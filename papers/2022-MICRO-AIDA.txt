@@ -1,0 +1,11 @@
+@article{garzon2022aida,
+  author={Garzón, Esteban and Teman, Adam and Lanuzza, Marco and Yavits, Leonid},
+  journal={IEEE Micro}, 
+  title={{AIDA: Associative In-Memory Deep Learning Accelerator}}, 
+  year={2022},
+  volume={42},
+  number={6},
+  pages={67-75},
+  keywords={Random access memory;Registers;Deep learning;Edge computing;Arithmetic;Deep learning;Logic gates},
+  doi={10.1109/MM.2022.3190924}
+}

@@ -1,0 +1,10 @@
+@article{garzon2021relaxing,
+  author = {Esteban Garzón and Raffaele {De Rose} and Felice Crupi and Lionel Trojman and Adam Teman and Marco Lanuzza},
+  title = {{Relaxing non-volatility for energy-efficient DMTJ based cryogenic STT-MRAM}},
+  journal = {Solid-State Electronics},
+  volume = {184},
+  pages = {108090},
+  year = {2021},
+  issn = {0038-1101},
+  doi = {10.1016/j.sse.2021.108090}
+}

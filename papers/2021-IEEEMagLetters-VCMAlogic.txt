@@ -1,0 +1,10 @@
+@article{cutugno2021field,
+  author={Cutugno, Francesco and Garzón, Esteban and De Rose, Raffaele and Finocchio, Giovanni and Lanuzza, Marco and Carpentieri, Mario},
+  journal={IEEE Magnetics Letters}, 
+  title={{Field-Free Magnetic Tunnel Junction for Logic Operations Based on Voltage-Controlled Magnetic Anisotropy}}, 
+  year={2021},
+  volume={12},
+  number={},
+  pages={1-4},
+  doi={10.1109/LMAG.2021.3118562}
+}

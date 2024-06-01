@@ -1,0 +1,10 @@
+@article{garzon2020assessment,
+  author = {Esteban Garzón and Raffaele {De Rose} and Felice Crupi and Lionel Trojman and Giovanni Finocchio and Mario Carpentieri and Marco Lanuzza}
+  title = {{Assessment of STT-MRAMs based on double-barrier MTJs for cache applications by means of a device-to-system level simulation framework}},
+  journal = {Integration},
+  volume = {71},
+  pages = {56-69},
+  year = {2020},
+  issn = {0167-9260},
+  doi = {10.1016/j.vlsi.2020.01.002}
+}

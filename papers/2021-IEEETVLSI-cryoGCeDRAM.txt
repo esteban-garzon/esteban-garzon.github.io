@@ -1,0 +1,10 @@
+@article{garzon2021gain,
+  author={Garzón, Esteban and Greenblatt, Yosi and Harel, Odem and Lanuzza, Marco and Teman, Adam},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
+  title={{Gain-Cell Embedded DRAM Under Cryogenic Operation—A First Study}}, 
+  year={2021},
+  volume={29},
+  number={7},
+  pages={1319-1324},
+  doi={10.1109/TVLSI.2021.3081043}
+}

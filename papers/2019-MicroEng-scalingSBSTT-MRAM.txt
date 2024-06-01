@@ -1,0 +1,10 @@
+@article{garzon2019assessment,
+  author = {Esteban Garzón and Raffaele {De Rose} and Felice Crupi and Lionel Trojman and Marco Lanuzza},
+  title = {{Assessment of STT-MRAM performance at nanoscaled technology nodes using a device-to-memory simulation framework}},
+  journal = {Microelectronic Engineering},
+  volume = {215},
+  pages = {111009},
+  year = {2019},
+  issn = {0167-9317},
+  doi = {10.1016/j.mee.2019.111009}
+}

@@ -1,10 +1,10 @@
-@article{jahshan2024viral,
-  author={Jahshan, Zuher and Garzón, Esteban and Yavits, Leonid},
+@article{garzon2024fasta,
+  author={Garzón, Esteban and Hanhan, Robert and Lanuzza, Marco and Teman, Adam and Yavits, Leonid},
   journal={IEEE Access}, 
-  title={{ViRAL: Vision Transformer Based Accelerator for ReAL Time Lineage Assignment of Viral Pathogens}}, 
+  title={{FASTA: Revisiting Fully Associative Memories in Computer Microarchitecture}}, 
   year={2024},
   volume={12},
   number={},
-  pages={28353-28368},
-  doi={10.1109/ACCESS.2024.3367801}
+  pages={13923-13943},
+  doi={10.1109/ACCESS.2024.3355961}
 }

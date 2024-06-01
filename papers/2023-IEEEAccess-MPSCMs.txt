@@ -1,0 +1,10 @@
+@article{marinberg2023efficient,
+  author={Marinberg, Hanan and Garzón, Esteban and Noy, Tzachi and Lanuzza, Marco and Teman, Adam},
+  journal={IEEE Access}, 
+  title={{Efficient Implementation of Many-Ported Memories by Using Standard-Cell Memory Approach}}, 
+  year={2023},
+  volume={11},
+  number={},
+  pages={94885-94897},
+  doi={10.1109/ACCESS.2023.3310940}
+}

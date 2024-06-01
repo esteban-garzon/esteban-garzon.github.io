@@ -1,0 +1,10 @@
+@article{avnon2021quantum,
+  author = {Asaf Avnon and Roman Golman and Esteban Garzón and Ha-Duong Ngo and Marco Lanuzza and Adam Teman},
+  title = {{Quantum capacitance transient phenomena in high-k dielectric armchair graphene nanoribbon field-effect transistor model}},
+  journal = {Solid-State Electronics},
+  volume = {184},
+  pages = {108060},
+  year = {2021},
+  issn = {0038-1101},
+  doi = {10.1016/j.sse.2021.108060}
+}

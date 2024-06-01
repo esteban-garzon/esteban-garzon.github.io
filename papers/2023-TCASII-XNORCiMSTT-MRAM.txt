@@ -1,10 +1,10 @@
-@article{jahshan2024viral,
-  author={Jahshan, Zuher and Garzón, Esteban and Yavits, Leonid},
-  journal={IEEE Access}, 
-  title={{ViRAL: Vision Transformer Based Accelerator for ReAL Time Lineage Assignment of Viral Pathogens}}, 
-  year={2024},
-  volume={12},
-  number={},
-  pages={28353-28368},
-  doi={10.1109/ACCESS.2024.3367801}
+@article{musello2023xnor,
+  author={Musello, Ariana and Garzón, Esteban and Lanuzza, Marco and Prócel, Luis Miguel and Taco, Ramiro},
+  journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, 
+  title={{XNOR-Bitcount Operation Exploiting Computing-In-Memory With STT-MRAMs}}, 
+  year={2023},
+  volume={70},
+  number={3},
+  pages={1259-1263},
+  doi={10.1109/TCSII.2023.3241163}
 }

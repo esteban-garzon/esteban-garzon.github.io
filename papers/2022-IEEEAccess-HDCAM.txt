@@ -1,0 +1,10 @@
+@article{garzon2022hdcam,
+  author={Garzón, Esteban and Golman, Roman and Jahshan, Zuher and Hanhan, Robert and Vinshtok-Melnik, Natan and Lanuzza, Marco and Teman, Adam and Yavits, Leonid},
+  journal={IEEE Access}, 
+  title={{Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification}}, 
+  year={2022},
+  volume={10},
+  number={},
+  pages={28080-28093},
+  doi={10.1109/ACCESS.2022.3158305}
+}

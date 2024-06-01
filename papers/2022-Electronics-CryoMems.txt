@@ -1,0 +1,11 @@
+@article{garzon2021embedded,
+  title={{Embedded memories for cryogenic applications}},
+  author={Garz{\'o}n, Esteban and Teman, Adam and Lanuzza, Marco},
+  journal={Electronics},
+  volume={11},
+  number={1},
+  pages={61},
+  year={2021},
+  publisher={MDPI},
+  doi={10.3390/electronics11010061}
+}
