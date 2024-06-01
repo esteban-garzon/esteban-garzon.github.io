@@ -38,6 +38,18 @@
   abstract: "Associative access is widely used in fundamental microarchitectural components, such as caches and TLBs. However, associative (or content addressable) memories (CAMs) have been traditionally considered too large, too energy-hungry, and not scalable, and therefore, have limited use in modern computer microarchitecture. This work revisits these presumptions and proposes an energy-efficient fully-associative tag array (FASTA) architecture, based on a novel complementary CAM (CCAM) bitcell. CCAM offers a full CMOS solution for CAM, removing the need for time- and energy-consuming precharge and combining the speed of NOR CAM and low energy consumption of NAND CAM. While providing better performance and energy consumption, CCAM features a larger area compared to state-of-the-art CAM designs. We further show how FASTA can be used to construct a novel aliasing-free, energy-efficient, Very-Many-Way Associative (VMWA) cache. Circuit-level simulations using 16 nm FinFET technology show that a 128 kB FASTA-based 256-way 8-set associative cache is 28% faster and consumes 88% less energy-per-access than a same sized 8-way (256-set) SRAM based cache, while also providing aliasing-free operation. System-level evaluation performed on the Sniper simulator shows that the VMWA cache exhibits lower Misses Per Kilo Instructions (MPKI) for the majority of benchmarks. Specifically, the 256-way associative cache achieves 17.3%, 11.5%, and 1.2% lower average MPKI for L1, L2, and L3 caches, respectively, compared to a 16-way associative cache. The average IPC improvement for L1, L2, and L3 caches are 1.6%, 1.4%, and 0.2%, respectively."
 
 
+- title: "AM4: MRAM Crossbar Based CAM/TCAM/ACAM/AP for In-Memory Computing"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 22023-JETCAS-AM4
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Journal on Emerging and Selected Topics in Circuits and Systems</b>
+  year: 2023
+  doi: 10.1109/JETCAS.2023.3243222
+  #arxiv: XXXX.13080
+  abstract: "In-memory computing seeks to minimize data movement and alleviate the memory wall by computing in-situ, in the same place that the data is located. One of the key emerging technologies that promises to enable such computing-in-memory is spin-transfer torque magnetic tunnel junction (STT-MTJ). This paper proposes AM4, a combined STT-MTJ-based Content Addressable Memory (CAM), Ternary CAM (TCAM), approximate matching (similarity search) CAM (ACAM), and in-memory Associative Processor (AP) design, inspired by the recently announced Samsung MRAM crossbar. We demonstrate and evaluate the performance and energy-efficiency of the AM4-based AP using a variety of data intensive workloads. We show that an AM4-based AP outperforms state-of-the-art solutions both in performance (with the average speedup of about 10X) and energy-efficiency (by about 60X on average)."
+
+
 - title: "XNOR-Bitcount Operation Exploiting Computing-In-Memory With STT-MRAMs"
   authors: A. Musello, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, L.M. Prócel, and R. Taco
   #pdf: 2024-SSCL-OCCAM
@@ -96,6 +108,7 @@
   doi: 10.3390/chips2020005
   #arxiv: XXXX.13080
   abstract: "Content-addressable memory (CAM) has been part of the memory market for more than five decades. CAM can carry out a single clock cycle lookup based on the content rather than an address. Thanks to this attractive feature, CAM is utilized in memory systems where a high-speed content lookup technique is required. However, typical CAM applications only support exact matching, as opposed to approximate matching, where a certain Hamming distance (several mismatching characters between a query pattern and the dataset stored in CAM) needs to be tolerated. Recent interest in approximate search has led to the development of new CAM-based alternatives, accelerating the processing of large data workloads in the realm of big data, genomics, and other data-intensive applications. In this review, we provide an overview of approximate CAM and describe its current and potential applications that would benefit from approximate search computing."
+
 
 
 # - title: Resolvent modeling of turbulent jets
