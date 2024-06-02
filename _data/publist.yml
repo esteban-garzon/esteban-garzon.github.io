@@ -159,16 +159,52 @@
   abstract: "Content-addressable memory (CAM) has been part of the memory market for more than five decades. CAM can carry out a single clock cycle lookup based on the content rather than an address. Thanks to this attractive feature, CAM is utilized in memory systems where a high-speed content lookup technique is required. However, typical CAM applications only support exact matching, as opposed to approximate matching, where a certain Hamming distance (several mismatching characters between a query pattern and the dataset stored in CAM) needs to be tolerated. Recent interest in approximate search has led to the development of new CAM-based alternatives, accelerating the processing of large data workloads in the realm of big data, genomics, and other data-intensive applications. In this review, we provide an overview of approximate CAM and describe its current and potential applications that would benefit from approximate search computing."
 
 ###### 2022
+- title: "All-Analog Silicon Integration of Image Sensor and Neural Computing Engine for Image Classification"
+  authors: B. Zambrano, S. Strangio, T. Rizzo, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, G. Iannaccone
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-IEEEAccess-analogNN
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Access</b>
+  year: 2022
+  doi: 10.1109/ACCESS.2022.3203394
+  #arxiv: XXXX.13080
+  abstract: "We have designed a fully-integrated analog CMOS cognitive image sensor based on a two-layer artificial neural network and targeted to low-resolution image classification. We have used a single poly 180 nm CMOS process technology, which includes process modules for realizing the building blocks of the CMOS image sensor. Our design includes all the analog sub-circuits required to perform the cognitive sensing task, from image sensing to output classification decision. The weights of the network are stored in single-poly floating-gate memory cells, using a single transistor per analog weight. This enables the classifier to be intrinsically reconfigurable, and to be trained for various classification problems, based on low-resolution images. As a case study, the classifier capability is tested using a low-resolution version of the MNIST dataset of handwritten digits. The circuit exhibits a classification accuracy of 87.8%, that is comparable to an equivalent software implementation operating in the digital domain with floating point data precision, with an average energy consumption of 6 nJ per inference, a latency of 22.5 μs and a throughput of up to 133.3 thousand inferences per second."
+
+
+- title: "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-IEEEAccess-HDCAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Access</b>
+  year: 2022
+  doi: 10.1109/ACCESS.2022.3158305
+  #arxiv: XXXX.13080
+  abstract: "This paper proposes a novel Hamming distance tolerant content-addressable memory (HD-CAM) for energy-efficient in-memory approximate matching applications. HD-CAM exploits NOR-type based static associative memory bitcells, where we add circuitry to enable approximate search with programmable tolerance. HD-CAM implements approximate search using matchline charge redistribution rather than its rise or fall time, frequently employed in state-of-the-art solutions. HD-CAM was designed in a 65 nm 1.2 V CMOS technology and evaluated through extensive Monte Carlo simulations. Our analysis shows that HD-CAM supports robust operation under significant process variations and changes in the design parameters, enabling a wide range of mismatch threshold (tolerable Hamming distance) levels and pattern lengths. HD-CAM was functionally evaluated for virus DNA classification, which makes HD-CAM suitable for hardware acceleration of genomic surveillance of viral outbreaks, such as Covid-19 pandemics."
+
+
 - title: "A 0.6V–1.8V Compact Temperature Sensor With 0.24°C Resolution, ±1.4°C Inaccuracy and 1.06nJ per Conversion"
   authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
-  url: 2022-MICRO-AIDA
+  url: 2022-IEEESensorsJ-TempSensor
   #image: 2024-SSCL-OCCAM-image.png
   display: <b>IEEE Sensors Journal</b>
   year: 2022
   doi: 10.1109/JSEN.2022.3171106
   #arxiv: XXXX.13080
   abstract: "This paper presents a fully-integrated CMOS temperature sensor for densely-distributed thermal monitoring in systems on chip supporting dynamic voltage and frequency scaling. The sensor front-end exploits a sub-threshold PMOS-based circuit to convert the local temperature into two biasing currents. These are then used to define two oscillation frequencies, whose ratio is proportional to absolute-temperature. Finally, the sensor back-end translates such frequency ratio into the digital temperature code. Thanks to its low-complexity architecture, the proposed design achieves a very compact footprint along with low-power consumption and high accuracy in a wide temperature range. Moreover, thanks to a simple embedded line regulation mechanism, our sensor supports voltage-scalability. The design was prototyped in a 180nm CMOS technology with a 0°C−100°C temperature detection range, a very wide supply voltage operating range from 0.6V up to 1.8V and very small silicon area occupation of just 0.021mm2 . Experimental measurements performed on 20 test chips have shown very competitive figures of merit, including a resolution of 0.24°C, an inaccuracy of ±1.4°C, a sampling rate of about 1.5kHz and an energy per conversion of 1.06nJ at 30°C."
+
+
+- title: "Performance benchmarking of TFET and FinFET digital circuits from a synthesis-based perspective"
+  authors: M. Rendón, C. Cao, K. Landázuri, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, R. Taco
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-Electronics-TFETvsFinFETsynthesis
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Electronics</b>
+  year: 2022
+  doi: 10.3390/electronics11040632
+  #arxiv: XXXX.13080
+  abstract: "Miniaturization and portable devices have reshaped the electronic device landscape, emphasizing the importance of high performance while maintaining energy efficiency to ensure long battery life. FinFET and Tunnel-FET technologies have emerged as attractive alternatives to overcome the limitations of supply voltage scaling for ultra-low power applications. This work compares the performance of 10 nm FinFET- and TFET-based digital circuits from basic logic gates up to an 8k gates low-power microprocessor. When compared with their FinFET-based counterparts, the TFET-based logic gates have lower leakage power when operated below 300 mV, show higher input capacitance, and exhibit a reduced propagation delay under different fan-in and fan-out conditions. Our comparative study was extended to the synthesis of an MSP-430 microprocessor through standard cell libraries built particularly for this work. It is demonstrated that the TFET-based synthesized circuits operating at ultra-low voltages achieve a higher performance in terms of speed at the cost of increased power consumption. When the speed requirements are relaxed, the TFET-based designs are the most energy-efficient alternative. It is concluded that the TFET is an optimal solution for ultra-low voltage design."
 
 
 - title: "AIDA: Associative In-Memory Deep Learning Accelerator"
@@ -193,6 +229,18 @@
   doi: 10.1016/j.sse.2022.108315
   #arxiv: XXXX.13080
   abstract: "This paper investigates the impact of thermal stability relaxation in double-barrier magnetic tunnel junctions (DMTJs) for energy-efficient spin-transfer torque magnetic random access memories (STT-MRAMs) operating at the liquid nitrogen boiling point (77 K). Our study is carried out through a macrospin-based Verilog-A compact model of DMTJ, along with a 65 nm commercial process design kit (PDK) calibrated down to 77 K under silicon measurements. Comprehensive bitcell-level electrical characterization is used to estimate the energy/latency per operation and leakage power at the memory architecture-level. As a main result of our analysis, we show that energy-efficient small-to-large embedded memories can be obtained by significantly relaxing the non-volatility requirement of DMTJ devices at room temperature (i.e., by reducing the cross-section area), while maintaining the typical 10-years retention time at cryogenic temperatures. This makes DMTJ-based STT-MRAM operating at 77 K more energy-efficient than six-transistors static random-access memory (6T-SRAM) under both read and write accesses (−56% and −37% on average, respectively). Obtained results thus prove that DMTJ-based STT-MRAM with relaxed retention time is a promising alternative for the realization of reliable and energy-efficient embedded memories operating at cryogenic temperatures."
+
+
+- title: "Embedded memories for cryogenic applications"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-Electronics-CryoMems
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Electronics</b>
+  year: 2022
+  doi: 10.3390/electronics11010061
+  #arxiv: XXXX.13080
+  abstract: "The ever-growing interest in cryogenic applications has prompted the investigation for energy-efficient and high-density memory technologies that are able to operate efficiently at extremely low temperatures. This work analyzes three appealing embedded memory technologies under cooling—from room temperature (300 K) down to cryogenic levels (77 K). As the temperature goes down to 77 K, six-transistor static random-access memory (6T-SRAM) presents slight improvements for static noise margin (SNM) during hold and read operations, while suffering from lower (−16%) write SNM. Gain-cell embedded DRAM (GC-eDRAM) shows significant benefits under these conditions, with read voltage margins and data retention time improved by about 2× and 900×, respectively. Non-volatile spin-transfer torque magnetic random access memory (STT-MRAM) based on single- or double-barrier magnetic tunnel junctions (MTJs) exhibit higher read voltage sensing margins (36% and 48%, respectively), at the cost of longer write access time (1.45X and 2.1X, respectively). The above characteristics make the considered memory technologies to be attractive candidates not only for high-performance computing, but also enable the possibility to bridge the gap from room-temperature to the realm of cryogenic applications that operate down to liquid helium temperatures and below."
 
 
 - title: "A 0.05 mm2, 350 mV, 14 nW Fully-Integrated Temperature Sensor in 180-nm CMOS"
