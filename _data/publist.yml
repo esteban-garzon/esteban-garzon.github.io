@@ -255,6 +255,42 @@
   abstract: "In this brief, we present a fully-integrated ring-oscillator based CMOS temperature sensor for Internet-of-Things. Our design relies on a low-complexity PMOS-based sensing circuit to convert temperature into two sub-threshold biasing currents. These are then used to define two oscillation frequencies, whose ratio increases linearly with the temperature. Change in the frequency ratio is finally translated into a digital output code. The proposed sensor was fabricated in 180-nm CMOS technology. When powered at 350 mV, it can achieve an energy/conversion of 0.46 nJ in a conversion time of 33 ms. Moreover, it exhibits a measurement resolution of 0.27°C and a resolution figure-of-merit as low as 0.034 nJ°C^2."
 
 ###### 2021
+- title: "Gain-Cell Embedded DRAM Under Cryogenic Operation—A First Study"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Greenblatt, O.Harel, M. Lanuzza, A. Teman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-IEEETVLSI-cryoGCeDRAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
+  year: 2021
+  doi: 10.1109/TVLSI.2021.3081043
+  #arxiv: XXXX.13080
+  abstract: "Operating circuits under cryogenic conditions is effective for a large spectrum of applications. However, the refrigeration requirement for the cooling of cryogenic systems introduces serious issues in terms of power dissipation. Gain-cell embedded dynamic random access memory (GC-eDRAM) is a low-area, logic-compatible embedded memory alternative to static random access memory (SRAM), which has the potential to provide ultralow-power operation under cryogenic conditions due to the lower leakages at these temperatures. In this article, we present the first comparative design exploration of GC-eDRAM under cryogenic conditions performed with transistor models characterized based on actual silicon measurements under temperatures as low as 77 K. Our study shows that the two-transistor (2T)-based GC-eDRAM configurations turn out to be the best solutions for very low-temperature operation. In particular, the 2T mixed GC-eDRAM configurations allow read sensing margin improvements (up to 99%) within the 2T-based configurations while at the same time excel in terms of data retention time (+44%) and power consumption (-27%) when compared to more complex GC-eDRAM topologies. Moreover, even better improvements in terms of area (-73%), leakage power (-97%), retention power (-76%), and energy (-66%) are observed when compared to conventional 6T-SRAM."
+
+
+- title: "Relaxing non-volatility for energy-efficient DMTJ based cryogenic STT-MRAM"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-SSE-RelaxingNVcryo
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Solid-State Electronics</b>
+  year: 2021
+  doi: 10.1016/j.sse.2021.108090
+  #arxiv: XXXX.13080
+  abstract: "Spin-transfer torque magnetic random-access memory (STT-MRAM) is considered as a premiere candidate for replacing conventional six-transistors static random-access memory (6T-SRAM) in processor caches. This paper explores STT-MRAMs based on double-barrier magnetic tunnel junction with two reference layers (DMTJ), while operating at cryogenic temperatures (77 K). To deal with large dynamc energy and long latency of write operation, we suggest to significantly relax the non-volatility requirement of DMTJ devices at room temperature by reducing the cross-section area, while maintaining the typical 10-years retention time at the target operating temperature. This leads the cryogenic DMTJ-based STT-MRAM to be more energy-efficient than its 6T-SRAM counterpart under both read and write operations, while exhibiting smaller area footprint."
+
+
+- title: "Quantum capacitance transient phenomena in high-k dielectric armchair graphene nanoribbon field-effect transistor model"
+  authors: A. Avnon, R. Golman, <b style='color:#FF6666 !important;'>E. Garzón</b>, H.D Ngo, M. Lanuzza, A. Teman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-SSE-QuantumCapGNRFET
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Solid-State Electronics</b>
+  year: 2021
+  doi: 10.1016/j.sse.2021.108060
+  #arxiv: XXXX.13080
+  abstract: "Graphene Nanoribbons (GNRs) are an emerging candidate to challenge the place of current semiconductor-based technology. In this work, we extend a model for Armchair Graphene Nanoribbons Field-Effect Transistor (AGNRFET) to the high-k dielectrics realm and examine the influences of quantum capacitance on its transient phenomena. The model is coded with Verilog-A and evaluated through SPICE simulations. We have considered a comparison between the extended model with and without the influence of the quantum capacitance. Simulation results show a realistic scenario where influence of the quantum capacitance significantly impacts the transient behaviour in circuit design. This proves the proposed model to be a valuable aid for the circuit design of future graphene-based applications."
+
+
 - title: "Simulation Analysis of DMTJ-Based STT-MRAM Operating at Cryogenic Temperatures"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Carpentieri, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
@@ -265,6 +301,18 @@
   doi: 10.1109/TMAG.2021.3073861
   #arxiv: XXXX.13080
   abstract: "This article investigates spin-transfer torque magnetic random access memories (STT-MRAMs) based on double-barrier magnetic tunnel junction (DMTJ) with two reference layers when operating at cryogenic temperatures. Our study is based on architecture-level estimations relying on preliminary bitcell-level electrical simulations, which have been carried out by exploiting a macrospin-based Verilog-A compact model of DMTJ, along with a 65 nm cryogenic-aware CMOS technology. Compared to conventional six-transistor static random access memory (6T-SRAM), DMTJ-based STT-MRAM proves to be faster under read access and less energy-hungry under both read/write accesses for medium to large memory sizes. Quantitatively, compared to its 6T-SRAM counterpart, a 2 MB DMTJ-based STT-MRAM operating at 77 K improves read access time by 28% and energy consumption by 52% and 38% for read and write operations, respectively. This is achieved while providing considerably lower leakage power (-98%) and a smaller on-chip area (by about 3X), at the only cost of worsened write access time."
+
+
+- title: "Field-Free Magnetic Tunnel Junction for Logic Operations Based on Voltage-Controlled Magnetic Anisotropy"
+  authors: F. Cutugno, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, G. Finocchio, M. Lanuzza, M. Carpentieri
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-IEEEMagLetters-VCMAlogic
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Magnetics Letters</b>
+  year: 2021
+  doi: 10.1109/LMAG.2021.3118562
+  #arxiv: XXXX.13080
+  abstract: "This letter demonstrates how to perform logic operations on the data stored in magnetic tunnel junction (MTJ) devices within a memory array, without any intermediate electronic circuitry. The basic structure consists of one MTJ, exhibiting voltage-controlled magnetic anisotropy, in series connection with a MOSFET access device. The material implication and not logic operations can be performed without any external magnetic field by supplying a proper bias voltage to the circuit structure. This innovative solution enables higher energy-delay efficiency and better integration density than conventional CMOS-based computational architectures."
 
 
 - title: "Exploiting STT-MRAMs for Cryogenic Non-Volatile Cache Applications"
