@@ -254,6 +254,30 @@
   #arxiv: XXXX.13080
   abstract: "In this brief, we present a fully-integrated ring-oscillator based CMOS temperature sensor for Internet-of-Things. Our design relies on a low-complexity PMOS-based sensing circuit to convert temperature into two sub-threshold biasing currents. These are then used to define two oscillation frequencies, whose ratio increases linearly with the temperature. Change in the frequency ratio is finally translated into a digital output code. The proposed sensor was fabricated in 180-nm CMOS technology. When powered at 350 mV, it can achieve an energy/conversion of 0.46 nJ in a conversion time of 33 ms. Moreover, it exhibits a measurement resolution of 0.27°C and a resolution figure-of-merit as low as 0.034 nJ°C^2."
 
+###### 2021
+- title: "Simulation Analysis of DMTJ-Based STT-MRAM Operating at Cryogenic Temperatures"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Carpentieri, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-TMAG-DMTJcryoSTTMRAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Transactions on Magnetics</b>
+  year: 2021
+  doi: 10.1109/TMAG.2021.3073861
+  #arxiv: XXXX.13080
+  abstract: "This article investigates spin-transfer torque magnetic random access memories (STT-MRAMs) based on double-barrier magnetic tunnel junction (DMTJ) with two reference layers when operating at cryogenic temperatures. Our study is based on architecture-level estimations relying on preliminary bitcell-level electrical simulations, which have been carried out by exploiting a macrospin-based Verilog-A compact model of DMTJ, along with a 65 nm cryogenic-aware CMOS technology. Compared to conventional six-transistor static random access memory (6T-SRAM), DMTJ-based STT-MRAM proves to be faster under read access and less energy-hungry under both read/write accesses for medium to large memory sizes. Quantitatively, compared to its 6T-SRAM counterpart, a 2 MB DMTJ-based STT-MRAM operating at 77 K improves read access time by 28% and energy consumption by 52% and 38% for read and write operations, respectively. This is achieved while providing considerably lower leakage power (-98%) and a smaller on-chip area (by about 3X), at the only cost of worsened write access time."
+
+
+- title: "Exploiting STT-MRAMs for Cryogenic Non-Volatile Cache Applications"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-TNANO-SMTJcryoSTT-MRAMs
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Transactions on Nanotechnology</b>
+  year: 2021
+  doi: 10.1109/TNANO.2021.3049694
+  #arxiv: XXXX.13080
+  abstract: "This paper evaluates the potential of spin-transfer torque magnetic random-access memories (STT-MRAMs) operating at cryogenic temperatures. Our study was carried out at both circuit and architecture levels by exploiting experimental magnetic tunnel junction (MTJ) data and a CMOS technology that was fully characterized down to 77K. As a main result of our analysis, we show that for medium to large sized cache architectures, STT-MRAMs outperform their six-transistor static random access memory (6T-SRAM) counterparts at 77K in terms of both dynamic and static (leakage) power as well as read access latency, only underperforming in terms of write latency. For an 8 MB STT-MRAM cache, the read latency is improved by 2× along with a reduction of 45% and 30% in read and write energy, respectively, as compared to an SRAM implementation."
+
 
 # - title: Resolvent modeling of turbulent jets
 #   authors:
