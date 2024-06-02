@@ -38,10 +38,12 @@
   abstract: "Associative access is widely used in fundamental microarchitectural components, such as caches and TLBs. However, associative (or content addressable) memories (CAMs) have been traditionally considered too large, too energy-hungry, and not scalable, and therefore, have limited use in modern computer microarchitecture. This work revisits these presumptions and proposes an energy-efficient fully-associative tag array (FASTA) architecture, based on a novel complementary CAM (CCAM) bitcell. CCAM offers a full CMOS solution for CAM, removing the need for time- and energy-consuming precharge and combining the speed of NOR CAM and low energy consumption of NAND CAM. While providing better performance and energy consumption, CCAM features a larger area compared to state-of-the-art CAM designs. We further show how FASTA can be used to construct a novel aliasing-free, energy-efficient, Very-Many-Way Associative (VMWA) cache. Circuit-level simulations using 16 nm FinFET technology show that a 128 kB FASTA-based 256-way 8-set associative cache is 28% faster and consumes 88% less energy-per-access than a same sized 8-way (256-set) SRAM based cache, while also providing aliasing-free operation. System-level evaluation performed on the Sniper simulator shows that the VMWA cache exhibits lower Misses Per Kilo Instructions (MPKI) for the majority of benchmarks. Specifically, the 256-way associative cache achieves 17.3%, 11.5%, and 1.2% lower average MPKI for L1, L2, and L3 caches, respectively, compared to a 16-way associative cache. The average IPC improvement for L1, L2, and L3 caches are 1.6%, 1.4%, and 0.2%, respectively."
 
 
+###### 2023
+
 - title: "AM4: MRAM Crossbar Based CAM/TCAM/ACAM/AP for In-Memory Computing"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
-  url: 22023-JETCAS-AM4
+  url: 2023-JETCAS-AM4
   #image: 2024-SSCL-OCCAM-image.png
   display: <b>IEEE Journal on Emerging and Selected Topics in Circuits and Systems</b>
   year: 2023
@@ -62,6 +64,41 @@
   abstract: "This paper introduces SIMPLY+, an advanced Spin-Transfer Torque Magnetic Random-Access Memory (STT-MRAM)-based Logic-in-Memory (LIM) architecture that evolves from the previously proposed smart material implication (SIMPLY) logic scheme. More specifically, the latter is enhanced by incorporating additional circuitry to enhance the reliability of preliminary read operations. In this study, the proposed architecture is benchmarked against its conventional counterpart. Obtained results show a significant improvement in terms of reliability, i.e., the nominal read margin (RM) by a factor of about 3−4X and accordingly the bit error rate (BER) by more than four orders of magnitude. These improvements come at minimal cost in terms of circuit area and complexity compared to the conventional SIMPLY design. Overall, this research establishes SIMPLY+ as a promising solution for the design of reliable and energy-efficient in-memory computing architectures."
 
 
+- title: "Voltage-controlled magnetic anisotropy based physical unclonable function"
+  authors: A. Meo, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, G. Finocchio, M. Lanuzza, and M. Carpentieri
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-APL-vcmaMTJpuf
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Applied Physics Letters</b>
+  year: 2023
+  doi: 10.1063/5.0166164
+  #arxiv: XXXX.13080
+  abstract: "We design a spintronic physical unclonable function (PUF) based on sub-100nm voltage-controlled magnetic anisotropy hybrid magnetic tunnel junctions (VCMA-MTJs). This complementary metal-oxide-semiconductor VCMA-MTJ (CMOS/VCMA-MTJ) PUF architecture was evaluated by combining micromagnetic simulations, Verilog-A modeling, and circuit-level simulations. The PUF architecture, comprising four 16x16 columns arrays, demonstrates effective read and write operations using conventional voltage sensing that are orders of magnitudes lower than previous spintronic-based PUFs. This study proves the potential of the proposed solution in security applications based on hardware authentication."
+
+- title: "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-TCASII-MLSSHDCAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Transactions on Circuits and Systems II</b>
+  year: 2023
+  doi: 10.1109/TCSII.2023.3286257
+  #arxiv: XXXX.13080
+  abstract: "The need for approximate rather than exact search arises in numerous compare-intensive applications, from networking to computational genomics. This brief presents a novel sensing approach for approximate matching content-addressable memory (CAM) designed to handle large Hamming distances (HDs) between the query pattern and stored data. The proposed matchline sensing scheme (MLSS) employs a replica mechanism and a 12-transistor positive feedback sense amplifier to effectively resolve the approximate match operation. The MLSS was integrated into a 4 kB approximate CAM array and fabricated in a 65 nm CMOS technology. With an overall area footprint of 0.0048 mm2, which includes 512 sense amplifiers and the replica mechanism, the MLSS allows a flexible and dynamic adjustment of the HD tolerance threshold via several design variables. Experimental measurements demonstrate the efficiency of our sensing scheme in tolerating very large HDs with the highest sensitivity."
+
+
+- title: "Efficient Implementation of Many-Ported Memories by Using Standard-Cell Memory Approach"
+  authors: H. Marinberg, <b style='color:#FF6666 !important;'>E. Garzón</b>, T. Noy, M. Lanuzza, and A. Teman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-IEEEAccess-MPSCMs
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Access</b>
+  year: 2023
+  doi: 10.1109/ACCESS.2023.3310940
+  #arxiv: XXXX.13080
+  abstract: "Multi-ported memories are widely used in many applications, such as for high-speed and high-performance parallel computations. While conventional SRAM-based memory macros are limited in both flexibility (e.g., to accommodate a large number of write inputs and read outputs) and performance, standard cell-based memories are much more flexible and can be parameterized. The physical implementation approaches of the existing tools have great difficulty in dealing with these memories due to the multiplicity of wiring and misunderstanding of the regular structure of these arrays, to the point of inability to converge under certain conditions. This paper presents novel methodologies for the logical and physical implementation of many-ported standard cell memories (MPSCMs). Two methodologies are proposed to replace the standard design flow by controlling and guiding the design tools to improve power consumption, area and performance of these arrays. A commercial 65 nm CMOS technology was used to evaluate and benchmark the two design methodologies on MPSCM macros of different sizes as compared to other equivalent macros designed with standard methodologies and state-of-the-art designs. Physical implementation results show that as compared to a standard RTL approach, the implementation of a 3-write, 5-read port (3W5R) register file with the tightly-controlled methodology leads a 2X increase in placement density along with significant reductions in write power (–66%), read power (–37%) and leakage power (–80%), while also improving the access time (–6%). When considering an extreme case of a many-ported memory with 20-write and 20-read ports (20W/20R), the guided methodology leads to improvements in delay (–13%), write power (–62%), and leakage power (–51%). Both methodologies were implemented within an automation utility based on the “Salamandra” open source netlisting tool, enabling fast and easy migration to additional process nodes and standard cell libraries for generating MPSCMs with various sizes and features."
+
+
 - title: "XNOR-Bitcount Operation Exploiting Computing-In-Memory With STT-MRAMs"
   authors: A. Musello, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, L.M. Prócel, and R. Taco
   #pdf: 2024-SSCL-OCCAM
@@ -72,6 +109,18 @@
   doi: 10.1109/TCSII.2023.3241163
   #arxiv: XXXX.13080
   abstract: "This brief presents an energy-efficient and high-performance XNOR-bitcount architecture exploiting the benefits of computing-in-memory (CiM) and unique properties of spin-transfer torque magnetic RAM (STT-MRAM) based on double-barrier magnetic tunnel junctions (DMTJs). Our work proposes hardware and algorithmic optimizations, benchmarked against a state-of-the-art CiM-based XNOR-bitcount design. Simulation results show that our hardware optimization reduces the storage requirement (–50%) for each XNOR-bitcount operation. The proposed algorithmic optimization improves execution time and energy consumption by about 30% (78%) and 26% (85%), respectively, for single (5 sequential) 9-bit XNOR-bitcount operations. As a case study, our solution is demonstrated for shape analysis using bit-quads."
+
+
+- title: "A Low-Energy DMTJ-Based Ternary Content- Addressable Memory With Reliable Sub-Nanosecond Search Operation"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L Yavits, G. Finocchio, M. Carpentieri, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-IEEEAccess-nvTCAMdmtj
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Access</b>
+  year: 2023
+  doi: 10.1109/ACCESS.2023.3245981
+  #arxiv: XXXX.13080
+  abstract: "In this paper, we propose an energy-efficient, reliable, hybrid, 10-transistor/2-Double-Barrier-Magnetic-Tunnel-Junction (10T2DMTJ) non-volatile (NV) ternary content-addressable memory (TCAM) with sub-nanosecond search operation. Our cell design relies on low-energy-demanding MTJs organized in a low-complexity voltage-divider-based circuit along with a simple dynamic logic CMOS matching network, which improves the search reliability. The proposed NV-TCAM was designed in 28 nm FDSOI process and evaluated under exhaustive Monte Carlo simulations. When compared to the best previous proposed NV-TCAMs, our solution achieves lower search error rate (3.8X) and lower write and search energy (–73% and–79%, respectively), while also exhibiting smaller area footprint (–74%). Such benefits are achieved at the expense of reduced search speed."
 
 
 - title: "Efficiency of Double-Barrier Magnetic Tunnel Junction-Based Digital eNVM Array for Neuro-Inspired Computing"
@@ -86,20 +135,8 @@
   abstract: "This brief deals with the impact of spin-transfer torque magnetic random access memory (STT-MRAM) cell based on double-barrier magnetic tunnel junction (DMTJ) on the performance of a two-layer multilayer perceptron (MLP) neural network. The DMTJ-based cell is benchmarked against the conventional single-barrier MTJ (SMTJ) counterpart by means of a comprehensive evaluation carried out through a state-of-the-art device-to-algorithm simulation framework. The benchmark is based on the MNIST handwritten dataset, Verilog-A MTJ compact models developed by our group, and 0.8 V FinFET technology. Our results point out that the use of DMTJ-based STT-MRAM cells to implement digital embedded non-volatile memory (eNVM) synaptic core allows write/read energy and latency improvements of about 53%/61% and 66%/17%, respectively, as compared to the SMTJ-based equivalent design. This is achieved by ensuring a reduced area footprint and a learning accuracy of about 91%. Such results make the DMTJ-based STT-MRAM cell a good eNVM option for neuro-inspired computing."
 
 
-- title: "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
-  #pdf: 2024-SSCL-OCCAM
-  url: 2023-TCASII-MLSSHDCAM
-  #image: 2024-SSCL-OCCAM-image.png
-  display: <b>IEEE Transactions on Circuits and Systems II</b>
-  year: 2023
-  doi: 10.1109/TCSII.2023.3286257
-  #arxiv: XXXX.13080
-  abstract: "The need for approximate rather than exact search arises in numerous compare-intensive applications, from networking to computational genomics. This brief presents a novel sensing approach for approximate matching content-addressable memory (CAM) designed to handle large Hamming distances (HDs) between the query pattern and stored data. The proposed matchline sensing scheme (MLSS) employs a replica mechanism and a 12-transistor positive feedback sense amplifier to effectively resolve the approximate match operation. The MLSS was integrated into a 4 kB approximate CAM array and fabricated in a 65 nm CMOS technology. With an overall area footprint of 0.0048 mm2, which includes 512 sense amplifiers and the replica mechanism, the MLSS allows a flexible and dynamic adjustment of the HD tolerance threshold via several design variables. Experimental measurements demonstrate the efficiency of our sensing scheme in tolerating very large HDs with the highest sensitivity."
-
-
 - title: "DIPER: Detection and Identification of Pathogens using Edit distance-tolerant Resistive CAM"
-  authors: I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, and L. Yavits
+  authors: I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TC-DIPERRRAM
   #image: 2024-SSCL-OCCAM-image.png
