@@ -267,6 +267,18 @@
   abstract: "Operating circuits under cryogenic conditions is effective for a large spectrum of applications. However, the refrigeration requirement for the cooling of cryogenic systems introduces serious issues in terms of power dissipation. Gain-cell embedded dynamic random access memory (GC-eDRAM) is a low-area, logic-compatible embedded memory alternative to static random access memory (SRAM), which has the potential to provide ultralow-power operation under cryogenic conditions due to the lower leakages at these temperatures. In this article, we present the first comparative design exploration of GC-eDRAM under cryogenic conditions performed with transistor models characterized based on actual silicon measurements under temperatures as low as 77 K. Our study shows that the two-transistor (2T)-based GC-eDRAM configurations turn out to be the best solutions for very low-temperature operation. In particular, the 2T mixed GC-eDRAM configurations allow read sensing margin improvements (up to 99%) within the 2T-based configurations while at the same time excel in terms of data retention time (+44%) and power consumption (-27%) when compared to more complex GC-eDRAM topologies. Moreover, even better improvements in terms of area (-73%), leakage power (-97%), retention power (-76%), and energy (-66%) are observed when compared to conventional 6T-SRAM."
 
 
+- title: "Energy efficient self-adaptive Dual Mode Logic address decoder"
+  authors: K. Vicuña, C. Mosquera, A. Musello, S. Benedictis, M. Rendón, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, L. Trojman, R. Taco
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-Electronics-DMLaddDec
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Electronics</b>
+  year: 2021
+  doi: 10.3390/electronics10151756
+  #arxiv: XXXX.13080
+  abstract: "This paper presents a 1024-bit self-adaptive memory address decoder based on Dual Mode Logic (DML) design style to allow working in two modes of operation (i.e., dynamic for high-performance and static for energy-saving). The main novelty of this work relies on the design of a controlling mechanism that mixes both of these modes of operation to simultaneously benefit from their inherent advantages. When performance is the primary target, the mixed operating mode is enabled, and the self-adjustment mechanism identifies at run time the logic gates that have to work in the energy-efficient mode (i.e., static mode), while those belonging to the critical path operate in the faster dynamic mode. Moreover, our address decoder can run in the fully static mode for the lowest energy consumption when speed is not a primary concern. A 65 nm CMOS technology was exploited to simulate and compare our solution with other logically equivalent dynamic and static designs. Operated in the mixed mode, the proposed circuit exhibits negligible speed reduction (8.7%) in comparison with a dynamic logic based design while presenting significantly reduced energy consumption (28%). On the contrary, further energy is saved (29%) with respect to conventional logic styles when our design runs in its energy efficient mode."
+
+
 - title: "Relaxing non-volatility for energy-efficient DMTJ based cryogenic STT-MRAM"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
@@ -303,6 +315,18 @@
   abstract: "This article investigates spin-transfer torque magnetic random access memories (STT-MRAMs) based on double-barrier magnetic tunnel junction (DMTJ) with two reference layers when operating at cryogenic temperatures. Our study is based on architecture-level estimations relying on preliminary bitcell-level electrical simulations, which have been carried out by exploiting a macrospin-based Verilog-A compact model of DMTJ, along with a 65 nm cryogenic-aware CMOS technology. Compared to conventional six-transistor static random access memory (6T-SRAM), DMTJ-based STT-MRAM proves to be faster under read access and less energy-hungry under both read/write accesses for medium to large memory sizes. Quantitatively, compared to its 6T-SRAM counterpart, a 2 MB DMTJ-based STT-MRAM operating at 77 K improves read access time by 28% and energy consumption by 52% and 38% for read and write operations, respectively. This is achieved while providing considerably lower leakage power (-98%) and a smaller on-chip area (by about 3X), at the only cost of worsened write access time."
 
 
+- title: "Ultralow Voltage FinFET- Versus TFET-Based STT-MRAM Cells for IoT Applications"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, R. Taco, S. Strangio
+  #pdf: 2024-SSCL-OCCAM
+  url: 2021-Electronics-TFETvsFinFET-STTMRAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Electronics</b>
+  year: 2021
+  doi: 10.3390/electronics10151756
+  #arxiv: XXXX.13080
+  abstract: "Spin-transfer torque magnetic tunnel junction (STT-MTJ) based on double-barrier magnetic tunnel junction (DMTJ) has shown promising characteristics to define low-power non-volatile memories. This, along with the combination of tunnel FET (TFET) technology, could enable the design of ultralow-power/ultralow-energy STT magnetic RAMs (STT-MRAMs) for future Internet of Things (IoT) applications. This paper presents the comparison between FinFET- and TFET-based STT-MRAM bitcells operating at ultralow voltages. Our study is performed at the bitcell level by considering a DMTJ with two reference layers and exploiting either FinFET or TFET devices as cell selectors. Although ultralow-voltage operation occurs at the expense of reduced reading voltage sensing margins, simulations results show that TFET-based solutions are more resilient to process variations and can operate at ultralow voltages (<0.5 V), while showing energy savings of 50% and faster write switching of 60%."
+
+
 - title: "Field-Free Magnetic Tunnel Junction for Logic Operations Based on Voltage-Controlled Magnetic Anisotropy"
   authors: F. Cutugno, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, G. Finocchio, M. Lanuzza, M. Carpentieri
   #pdf: 2024-SSCL-OCCAM
@@ -325,6 +349,31 @@
   doi: 10.1109/TNANO.2021.3049694
   #arxiv: XXXX.13080
   abstract: "This paper evaluates the potential of spin-transfer torque magnetic random-access memories (STT-MRAMs) operating at cryogenic temperatures. Our study was carried out at both circuit and architecture levels by exploiting experimental magnetic tunnel junction (MTJ) data and a CMOS technology that was fully characterized down to 77K. As a main result of our analysis, we show that for medium to large sized cache architectures, STT-MRAMs outperform their six-transistor static random access memory (6T-SRAM) counterparts at 77K in terms of both dynamic and static (leakage) power as well as read access latency, only underperforming in terms of write latency. For an 8 MB STT-MRAM cache, the read latency is improved by 2× along with a reduction of 45% and 30% in read and write energy, respectively, as compared to an SRAM implementation."
+
+#### 2020
+- title: "Assessment of STT-MRAMs based on double-barrier MTJs for cache applications by means of a device-to-system level simulation framework"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2020-Integ-deviceToSystemSB&DBSTT-MRAMs
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Integration</b>
+  year: 2020
+  doi: 10.1016/j.vlsi.2020.01.002
+  #arxiv: XXXX.13080
+  abstract: "This paper explores non-volatile cache memories implemented by spin-transfer torque magnetic random access memories (STT-MRAMs) based on state-of-the-art perpendicular magnetic tunnel junctions (MTJs) and FinFETs. The use of double-barrier MTJs with two reference layers (DMTJs) is benchmarked against solutions relying on single-barrier MTJs (SMTJs) at different technology nodes (from 28-nm down to 20-nm). Our study is carried out through a cross-layer simulation platform, starting from the device- up to the system-level. Our results point out that, thanks to the reduced switching currents, DMTJ-based STT-MRAMs allow decreasing write access time of about 63% as compared to their SMTJ-based counterparts. This is achieved while assuring reduced energy consumption under both write (−42%) and read (−28%) accesses, lower area occupancy (−40%) and smaller leakage power (−25%), at the only cost of worsened read access time. This makes DMTJ-based STT-MRAM a promising candidate to replace conventional semiconductor-based cache memory for the next-generation of low-power microprocessors with on-chip non-volatility."
+
+
+#### 2019
+- title: "Assessment of STT-MRAM performance at nanoscaled technology nodes using a device-to-memory simulation framework"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2019-MicroEng-scalingSBSTT-MRAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Microelectronic Engineering</b>
+  year: 2019
+  doi: 10.1016/j.mee.2019.111009
+  #arxiv: XXXX.13080
+  abstract: "This paper deals with the technology scalability of spin-transfer torque magnetic RAMs (STT-MRAMs) based on nanoscaled perpendicular magnetic tunnel junctions (MTJs) and FinFET technology. Our study was performed at different levels of abstraction, from device- up to architecture-level passing through a circuit-level analysis for the single memory bitcell. Simulation results obtained for a 512 KB cache memory show that scaling from the 28-nm down to the 20-nm technology node leads to reduced write latency (−20%) and lower energy consumption under both write (−36%) and read (−29%) accesses, while also ensuring an almost doubled integration density. This occurs at the expense of slightly reduced sensing margins and higher read latency (+5%), and of a degradation in the data retention capability owing to the reduced MTJ thermal stability."
 
 
 # - title: Resolvent modeling of turbulent jets
