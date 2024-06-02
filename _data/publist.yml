@@ -158,6 +158,53 @@
   #arxiv: XXXX.13080
   abstract: "Content-addressable memory (CAM) has been part of the memory market for more than five decades. CAM can carry out a single clock cycle lookup based on the content rather than an address. Thanks to this attractive feature, CAM is utilized in memory systems where a high-speed content lookup technique is required. However, typical CAM applications only support exact matching, as opposed to approximate matching, where a certain Hamming distance (several mismatching characters between a query pattern and the dataset stored in CAM) needs to be tolerated. Recent interest in approximate search has led to the development of new CAM-based alternatives, accelerating the processing of large data workloads in the realm of big data, genomics, and other data-intensive applications. In this review, we provide an overview of approximate CAM and describe its current and potential applications that would benefit from approximate search computing."
 
+###### 2022
+- title: "A 0.6V–1.8V Compact Temperature Sensor With 0.24°C Resolution, ±1.4°C Inaccuracy and 1.06nJ per Conversion"
+  authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, G. Iannaccone, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-MICRO-AIDA
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Sensors Journal</b>
+  year: 2022
+  doi: 10.1109/JSEN.2022.3171106
+  #arxiv: XXXX.13080
+  abstract: "This paper presents a fully-integrated CMOS temperature sensor for densely-distributed thermal monitoring in systems on chip supporting dynamic voltage and frequency scaling. The sensor front-end exploits a sub-threshold PMOS-based circuit to convert the local temperature into two biasing currents. These are then used to define two oscillation frequencies, whose ratio is proportional to absolute-temperature. Finally, the sensor back-end translates such frequency ratio into the digital temperature code. Thanks to its low-complexity architecture, the proposed design achieves a very compact footprint along with low-power consumption and high accuracy in a wide temperature range. Moreover, thanks to a simple embedded line regulation mechanism, our sensor supports voltage-scalability. The design was prototyped in a 180nm CMOS technology with a 0°C−100°C temperature detection range, a very wide supply voltage operating range from 0.6V up to 1.8V and very small silicon area occupation of just 0.021mm2 . Experimental measurements performed on 20 test chips have shown very competitive figures of merit, including a resolution of 0.24°C, an inaccuracy of ±1.4°C, a sampling rate of about 1.5kHz and an energy per conversion of 1.06nJ at 30°C."
+
+
+- title: "AIDA: Associative In-Memory Deep Learning Accelerator"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-MICRO-AIDA
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Micro</b>
+  year: 2022
+  doi: 10.1109/MM.2022.3190924
+  #arxiv: XXXX.13080
+  abstract: "This work presents an associative in-memory deep learning processor (AIDA) for edge devices. An associative processor is a massively parallel non-von Neumann accelerator that uses memory cells for computing; the bulk of data is never transferred outside the memory arrays for external processing. AIDA utilizes a dynamic content addressable memory for both data storage and processing, and benefits from sparsity and limited arithmetic precision, typical in modern deep neural networks. The novel in-data processing implementation designed for the AIDA accelerator achieves a speedup of 270X over an advanced central processing unit at more than three orders-of-magnitude better energy efficiency."
+
+
+- title: "Adjusting thermal stability in double-barrier MTJ for energy improvement in cryogenic STT-MRAMs"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-SSE-AdjustingThermalStability
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Solid-State Electronics</b>
+  year: 2022
+  doi: 10.1016/j.sse.2022.108315
+  #arxiv: XXXX.13080
+  abstract: "This paper investigates the impact of thermal stability relaxation in double-barrier magnetic tunnel junctions (DMTJs) for energy-efficient spin-transfer torque magnetic random access memories (STT-MRAMs) operating at the liquid nitrogen boiling point (77 K). Our study is carried out through a macrospin-based Verilog-A compact model of DMTJ, along with a 65 nm commercial process design kit (PDK) calibrated down to 77 K under silicon measurements. Comprehensive bitcell-level electrical characterization is used to estimate the energy/latency per operation and leakage power at the memory architecture-level. As a main result of our analysis, we show that energy-efficient small-to-large embedded memories can be obtained by significantly relaxing the non-volatility requirement of DMTJ devices at room temperature (i.e., by reducing the cross-section area), while maintaining the typical 10-years retention time at cryogenic temperatures. This makes DMTJ-based STT-MRAM operating at 77 K more energy-efficient than six-transistors static random-access memory (6T-SRAM) under both read and write accesses (−56% and −37% on average, respectively). Obtained results thus prove that DMTJ-based STT-MRAM with relaxed retention time is a promising alternative for the realization of reliable and energy-efficient embedded memories operating at cryogenic temperatures."
+
+
+- title: "A 0.05 mm2, 350 mV, 14 nW Fully-Integrated Temperature Sensor in 180-nm CMOS"
+  authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, F. Crupi, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-TCASII-TempSensor180nm
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Transactions on Circuits and Systems II</b>
+  year: 2022
+  doi: 10.1109/TCSII.2021.3112812
+  #arxiv: XXXX.13080
+  abstract: "In this brief, we present a fully-integrated ring-oscillator based CMOS temperature sensor for Internet-of-Things. Our design relies on a low-complexity PMOS-based sensing circuit to convert temperature into two sub-threshold biasing currents. These are then used to define two oscillation frequencies, whose ratio increases linearly with the temperature. Change in the frequency ratio is finally translated into a digital output code. The proposed sensor was fabricated in 180-nm CMOS technology. When powered at 350 mV, it can achieve an energy/conversion of 0.46 nJ in a conversion time of 33 ms. Moreover, it exhibits a measurement resolution of 0.27°C and a resolution figure-of-merit as low as 0.034 nJ°C^2."
 
 
 # - title: Resolvent modeling of turbulent jets
