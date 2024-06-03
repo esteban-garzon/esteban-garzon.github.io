@@ -354,7 +354,7 @@
 - title: "Assessment of STT-MRAMs based on double-barrier MTJs for cache applications by means of a device-to-system level simulation framework"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
-  url: 2020-Integ-deviceToSystemSB&DBSTT-MRAMs
+  url: 2020-Integ-deviceToSystemSBandDBSTT-MRAMs
   #image: 2024-SSCL-OCCAM-image.png
   display: <b>Integration</b>
   year: 2020
