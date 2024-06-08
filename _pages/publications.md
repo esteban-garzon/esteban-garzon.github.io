@@ -12,12 +12,19 @@ permalink: /publications/
   * Conferences: 15
   * Book Chapter: 1
 
+
+
+{% assign year_count = 0 %}
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
-  {% if publi.year %}{% else %}
-   {% assign yeartest = false %}
+  {% if publi.year %}
+    {% assign year_count = year_count | plus: 1 %}
+  {% else %}
+    {% assign yeartest = false %}
   {% endif %}
 {% endfor %}
+
+Number of publications with year: {{ year_count }}
 
 {% if yeartest == false %}
 ## Coming Soon
