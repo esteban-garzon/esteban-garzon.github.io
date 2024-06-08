@@ -7,11 +7,6 @@ permalink: /publications/
 
 # Publications
 
-* Total Number of publications: 47
-  * International Journals: 31
-  * Conferences: 15
-  * Book Chapter: 1
-
 
 
 {% assign year_count = 0 %}
@@ -24,7 +19,10 @@ permalink: /publications/
   {% endif %}
 {% endfor %}
 
-Number of publications with year: {{ year_count }}
+* Total Number of publications: 47
+  * International Journals: {{ year_count }}
+  * Conferences: 15
+  * Book Chapter: 1
 
 {% if yeartest == false %}
 ## Coming Soon

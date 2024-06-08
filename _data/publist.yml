@@ -373,6 +373,7 @@
   year: 2019
   doi: 10.1016/j.mee.2019.111009
   #arxiv: XXXX.13080
+  type: journal
   abstract: "This paper deals with the technology scalability of spin-transfer torque magnetic RAMs (STT-MRAMs) based on nanoscaled perpendicular magnetic tunnel junctions (MTJs) and FinFET technology. Our study was performed at different levels of abstraction, from device- up to architecture-level passing through a circuit-level analysis for the single memory bitcell. Simulation results obtained for a 512 KB cache memory show that scaling from the 28-nm down to the 20-nm technology node leads to reduced write latency (−20%) and lower energy consumption under both write (−36%) and read (−29%) accesses, while also ensuring an almost doubled integration density. This occurs at the expense of slightly reduced sensing margins and higher read latency (+5%), and of a degradation in the data retention capability owing to the reduced MTJ thermal stability."
 
 
