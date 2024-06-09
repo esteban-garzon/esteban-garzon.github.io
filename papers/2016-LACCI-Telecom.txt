@@ -1,4 +1,4 @@
-@inproceedings{garzon2016remote,
+@inproceedings{garzon2016fast,
   author={Garzón, Esteban and Valdiviezo, Santiago and René Játiva E. and Vidal, Josep},
   booktitle={2016 IEEE Latin American Conference on Computational Intelligence (LA-CCI)}, 
   title={{Fast computation of Cramer-Rao Bounds for TOA}}, 
