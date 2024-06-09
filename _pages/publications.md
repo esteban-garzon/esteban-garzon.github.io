@@ -10,6 +10,7 @@ permalink: /publications/
 
 
 {% assign year_count = 0 %}
+{% assign J_count = 0 %}
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
   {% if publi.year %}
@@ -17,12 +18,15 @@ permalink: /publications/
   {% else %}
     {% assign yeartest = false %}
   {% endif %}
+  {% if publi.type_J %}
+    {% assign J_count = J_count | plus: 1 %}
+  {% endif %}
 {% endfor %}
 
 * Total Number of publications: 47
   * International Journals: {{ year_count }}
   * Conferences: 15
-  * Book Chapter: 1
+  * Book Chapter: {{ J_count }}
 
 {% if yeartest == false %}
 ## Coming Soon
