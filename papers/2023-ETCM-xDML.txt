@@ -1,0 +1,9 @@
+@inproceedings{mosquera2023exploiting,
+  title={{Exploiting Dual Mode Logic for Approximate Computing}},
+  author={Mosquera, Cristhopher and Garzón, Esteban and Prócel, Luis Miguel},
+  booktitle={2023 IEEE Seventh Ecuador Technical Chapters Meeting (ETCM)},
+  pages={1--5},
+  year={2023},
+  organization={IEEE},
+  doi={10.1109/ETCM58927.2023.10309002}
+}

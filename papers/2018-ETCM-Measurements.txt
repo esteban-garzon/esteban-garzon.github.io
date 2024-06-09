@@ -1,0 +1,10 @@
+@inproceedings{benalcazar2018capacitance,
+  author={Benalcàzar, Diego R. and Garzón, Esteban and Trojman, Lionel},
+  booktitle={2018 IEEE Third Ecuador Technical Chapters Meeting (ETCM)}, 
+  title={{Capacitance Extraction of 34-nm Metallurgical Channel Length MOSFET for Parasitic Assessment Using the RFCV Technique}}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ETCM.2018.8580289}
+}

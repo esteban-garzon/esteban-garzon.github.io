@@ -7,6 +7,3 @@
   nunber={15},
   doi={10.3390/electronics10151756}
 }
-
-
-

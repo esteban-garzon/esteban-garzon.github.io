@@ -1,0 +1,8 @@
+@inproceedings{jahshan2023dash,
+  author = {Jahshan, Zuher and Merlin, Itay and Garzón, Esteban and Yavits, Leonid},
+  title = {{DASH-CAM: Dynamic Approximate SearcH Content Addressable Memory for genome classification}},
+  year = {2023},
+  booktitle = {Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture},
+  location = {Toronto, ON, Canada},
+  doi = {10.1145/3613424.3614262}
+}

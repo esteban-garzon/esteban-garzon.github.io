@@ -30,7 +30,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Hanhan, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2024-IEEEAccess-FASTA
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2024-IEEEAccess-FASTA-image.png
   display: <b>IEEE Access</b>
   year: 2024
   doi: 10.1109/ACCESS.2024.3355961
@@ -45,7 +45,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-JETCAS-AM4
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-JETCAS-AM4-image.png
   display: <b>IEEE Journal on Emerging and Selected Topics in Circuits and Systems</b>
   year: 2023
   doi: 10.1109/JETCAS.2023.3243222
@@ -58,7 +58,7 @@
   authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza 
   #pdf: 2024-SSCL-OCCAM
   url: 2023-IEEEAccess-SIMPLYplus
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-IEEEAccess-SIMPLYplus.png
   display: <b>IEEE Access</b>
   year: 2023
   doi: 10.1109/ACCESS.2023.3344197
@@ -78,6 +78,20 @@
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "We design a spintronic physical unclonable function (PUF) based on sub-100nm voltage-controlled magnetic anisotropy hybrid magnetic tunnel junctions (VCMA-MTJs). This complementary metal-oxide-semiconductor VCMA-MTJ (CMOS/VCMA-MTJ) PUF architecture was evaluated by combining micromagnetic simulations, Verilog-A modeling, and circuit-level simulations. The PUF architecture, comprising four 16x16 columns arrays, demonstrates effective read and write operations using conventional voltage sensing that are orders of magnitudes lower than previous spintronic-based PUFs. This study proves the potential of the proposed solution in security applications based on hardware authentication."
+
+
+- title: "DASH-CAM: Dynamic Approximate SearcH Content Addressable Memory for genome classification"
+  authors: Z. Jahshan, I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-MICRO-DASHCAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture</b>
+  year: 2023
+  doi: 10.1145/3613424.3614262
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "We propose a novel dynamic storage-based approximate search content addressable memory (DASH-CAM) for computational genomics applications, particularly for identification and classification of viral pathogens of epidemic significance. DASH-CAM provides 5.5 × better density compared to state-of-the-art SRAM-based approximate search CAM. This allows using DASH-CAM as a portable classifier that can be applied to pathogen surveillance in low-quality field settings during pandemics, as well as to pathogen diagnostics at points of care. DASH-CAM approximate search capabilities allow a high level of flexibility when dealing with a variety of industrial sequencers with different error profiles. DASH-CAM achieves up to 30% and 20% higher F1 score when classifying DNA reads with 10% error rate, compared to state-of-the-art DNA classification tools MetaCache-GPU and Kraken2 respectively. Simulated at 1GHz, DASH-CAM provides 1,178× and 1,040× average speedup over MetaCache-GPU and Kraken2 respectively."
+
 
 - title: "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
@@ -103,6 +117,19 @@
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Multi-ported memories are widely used in many applications, such as for high-speed and high-performance parallel computations. While conventional SRAM-based memory macros are limited in both flexibility (e.g., to accommodate a large number of write inputs and read outputs) and performance, standard cell-based memories are much more flexible and can be parameterized. The physical implementation approaches of the existing tools have great difficulty in dealing with these memories due to the multiplicity of wiring and misunderstanding of the regular structure of these arrays, to the point of inability to converge under certain conditions. This paper presents novel methodologies for the logical and physical implementation of many-ported standard cell memories (MPSCMs). Two methodologies are proposed to replace the standard design flow by controlling and guiding the design tools to improve power consumption, area and performance of these arrays. A commercial 65 nm CMOS technology was used to evaluate and benchmark the two design methodologies on MPSCM macros of different sizes as compared to other equivalent macros designed with standard methodologies and state-of-the-art designs. Physical implementation results show that as compared to a standard RTL approach, the implementation of a 3-write, 5-read port (3W5R) register file with the tightly-controlled methodology leads a 2X increase in placement density along with significant reductions in write power (–66%), read power (–37%) and leakage power (–80%), while also improving the access time (–6%). When considering an extreme case of a many-ported memory with 20-write and 20-read ports (20W/20R), the guided methodology leads to improvements in delay (–13%), write power (–62%), and leakage power (–51%). Both methodologies were implemented within an automation utility based on the “Salamandra” open source netlisting tool, enabling fast and easy migration to additional process nodes and standard cell libraries for generating MPSCMs with various sizes and features."
+
+
+- title: "STT-MRAM Technology For Energy-Efficient Cryogenic Memory Applications"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-LASCAS-CryoSTTMRAMs
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE 14th Latin America Symposium on Circuits and Systems (LASCAS)</b>
+  year: 2023
+  doi: 10.1109/LASCAS56464.2023.10108316
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This work explores non-volatile (NV) embedded memories implemented by spin-transfer torque magnetic random access memories (STT-MRAMs). Our designs are based on state-of-the-art perpendicular magnetic tunnel junctions (MTJs) along with a commercial 65 nm planar CMOS Bulk technology node, both operating at the liquid nitrogen temperature, 77 K. We evaluate the impact of cooling down to 77 K of the STT-MRAMs based on single- and double-barrier MTJ (SMTJ and DMTJ), and DMTJ with the relaxed non-volatility. All NV designs were benchmarked against the six-transistor SRAM (6T-SRAM) baseline. Simulation analysis relies on a 512 kB cache memory operating at 77 K. Overall, results show that the implementation of STT-MRAMs with DMTJ devices, and in particular when using the non-volatility approach by reducing the cross-section area, excel in terms of energy consumption, leading to energy savings for write/read access of about 35%/54%. This saving is obtained while also dissipating less leakage power and requiring a smaller bitcell footprint. Moreover, it presents reduced write latency overhead (as much as 1.9× lower), at the expense of increased read latency and reduced sensing margins of about 1.8× and 88%, respectively. The results suggest that STT-MRAM technology can be a solid alternative for energy-efficient cryogenic memory applications."
 
 
 - title: "XNOR-Bitcount Operation Exploiting Computing-In-Memory With STT-MRAMs"
@@ -157,6 +184,19 @@
   abstract: "The need for approximate rather than exact search arises in numerous compare-intensive applications, from networking to computational genomics. This brief presents a novel sensing approach for approximate matching content-addressable memory (CAM) designed to handle large Hamming distances (HDs) between the query pattern and stored data. The proposed matchline sensing scheme (MLSS) employs a replica mechanism and a 12-transistor positive feedback sense amplifier to effectively resolve the approximate match operation. The MLSS was integrated into a 4 kB approximate CAM array and fabricated in a 65 nm CMOS technology. With an overall area footprint of 0.0048 mm2, which includes 512 sense amplifiers and the replica mechanism, the MLSS allows a flexible and dynamic adjustment of the HD tolerance threshold via several design variables. Experimental measurements demonstrate the efficiency of our sensing scheme in tolerating very large HDs with the highest sensitivity."
 
 
+- title: "Exploiting Dual Mode Logic for Approximate Computing"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2023-ETCM-xDML
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Seventh Ecuador Technical Chapters Meeting</b>
+  year: 2023
+  doi: 10.1109/ETCM58927.2023.10309002
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "The unique ability of dual-mode logic (DML) to self-adapt to computational needs by providing high speed and/or low-energy consumption is demonstrated for the first time for exact or approximate operations suitable for both error-resilient and exact applications. At the gate level, the DML design offers the possibility to operate either in the static mode to save energy or in the dynamic mode to increase speed, albeit with higher delay or energy consumption, respectively. In this paper, these two operation modes of the DML gates are optimally managed by a self-adjustment mechanism to increase speed or reduce the energy at run time, while changing the design accuracy. As a test case, a DML Carry Look Ahead adder (CLA) based in Dual Mode Logic (DML) that can operate in exact and approximate mode with the same frequency has been proposed. Through comparisons with CMOS-based alternative at various operating voltages, the advantages of the ADMLCLA are showcased. In static mode, the ADML-CLA presents less energy consumption of about 16% to 21%. In mixed mode, the ADML-CLA achieves delay reduction of 21% to 25%. The effectiveness of the controller in saving energy is demonstrated, with the ADML-CLA consuming less energy than CMOS when static signals are prevalent. Monte Carlo simulations highlight the lower average delay and deviation of the ADML-CLA compared to CMOS. Evaluation at a nominal voltage of 0.4V shows that the ADML (mixed) outperforms CMOS in terms of energy-delay product (EDP) in both exact and approximate modes."
+
+
 - title: "Approximate Content-Addressable Memories: A Review"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
@@ -209,6 +249,32 @@
   abstract: "This paper presents a fully-integrated CMOS temperature sensor for densely-distributed thermal monitoring in systems on chip supporting dynamic voltage and frequency scaling. The sensor front-end exploits a sub-threshold PMOS-based circuit to convert the local temperature into two biasing currents. These are then used to define two oscillation frequencies, whose ratio is proportional to absolute-temperature. Finally, the sensor back-end translates such frequency ratio into the digital temperature code. Thanks to its low-complexity architecture, the proposed design achieves a very compact footprint along with low-power consumption and high accuracy in a wide temperature range. Moreover, thanks to a simple embedded line regulation mechanism, our sensor supports voltage-scalability. The design was prototyped in a 180nm CMOS technology with a 0°C−100°C temperature detection range, a very wide supply voltage operating range from 0.6V up to 1.8V and very small silicon area occupation of just 0.021mm2 . Experimental measurements performed on 20 test chips have shown very competitive figures of merit, including a resolution of 0.24°C, an inaccuracy of ±1.4°C, a sampling rate of about 1.5kHz and an energy per conversion of 1.06nJ at 30°C."
 
 
+- title: "EDAM: Edit distance tolerant approximate matching content addressable memory"
+  authors: R. Hanhan, <b style='color:#FF6666 !important;'>E. Garzón</b>, Z. Jahshan, A. Teman, M. Lanuzza, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-ISCA-EDAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>Proceedings of the 49th Annual International Symposium on Computer Architecture</b>
+  year: 2022
+  doi: 10.1145/3470496.3527424
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "We propose a novel edit distance-tolerant content addressable memory (EDAM) for energy-efficient approximate search applications. Unlike state-of-the-art approximate search solutions that tolerate certain Hamming distance between the query pattern and the stored data, EDAM tolerates edit distance, which makes it especially efficient in applications such as text processing and genome analysis. EDAM was designed using a commercial 65 nm 1.2 V CMOS technology and evaluated through extensive Monte Carlo simulations, while considering different process corners. Simulation results show that EDAM can achieve robust approximate search operation with a wide range of edit distance threshold levels. EDAM is functionally evaluated as a pathogen DNA detection and classification accelerator.  EDAM achieves up to 1.7x higher F1 score for high-quality DNA reads and up to 19.55x higher F1 score for DNA reads with 15% error rate, compared to state-of-the-art DNA classification tool Kraken2. Simulated at 667 MHz, EDAM provides 1, 214× average speedup over Kraken2. This makes EDAM suitable for hardware acceleration of genomic surveillance of outbreaks, such as the ongoing Covid-19 pandemic."
+
+
+- title: "Voltage and technology scaling of DMTJ-based STT-MRAMs for energy-efficient embedded memories"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-LASCAS-VoltageScalingSTT-MRAMs
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE 13th Latin America Symposium on Circuits and System (LASCAS)</b>
+  year: 2022
+  doi: 10.1109/LASCAS53948.2022.9789054
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This work presents energy advantages allowed by the technology and voltage scaling of spin-transfer torque mag-netic random access memories (STT-MRAMs) based on perpen-dicular double-barrier magnetic tunnel junction (DMTJ), with two reference layers. DMTJ is benchmarked against the single-barrier MTJ (SMTJ) -based alternative, and a comprehensive evaluation is carried out through a cross-layer simulation frame-work, considering state-of-the-art Verilog-A based SMTJ and DMTJ compact models, along with a 0.8V FinFET technology. Simulation results show that, thanks to the lower voltage op-erating point, DMTJ-based STT-MRAM allows energy savings for write/read operations of about 38%/45%, as compared to its SMTJ-based counterpart. Moreover, scaling from the 28 nm down to the 20 nm node, the DMTJ-based memory cell improves write/read energy of about 29%/33% at the expense of longer access times."
+
+
 - title: "Performance benchmarking of TFET and FinFET digital circuits from a synthesis-based perspective"
   authors: M. Rendón, C. Cao, K. Landázuri, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, R. Taco
   #pdf: 2024-SSCL-OCCAM
@@ -247,6 +313,20 @@
   type_J: journal
   abstract: "This paper investigates the impact of thermal stability relaxation in double-barrier magnetic tunnel junctions (DMTJs) for energy-efficient spin-transfer torque magnetic random access memories (STT-MRAMs) operating at the liquid nitrogen boiling point (77 K). Our study is carried out through a macrospin-based Verilog-A compact model of DMTJ, along with a 65 nm commercial process design kit (PDK) calibrated down to 77 K under silicon measurements. Comprehensive bitcell-level electrical characterization is used to estimate the energy/latency per operation and leakage power at the memory architecture-level. As a main result of our analysis, we show that energy-efficient small-to-large embedded memories can be obtained by significantly relaxing the non-volatility requirement of DMTJ devices at room temperature (i.e., by reducing the cross-section area), while maintaining the typical 10-years retention time at cryogenic temperatures. This makes DMTJ-based STT-MRAM operating at 77 K more energy-efficient than six-transistors static random-access memory (6T-SRAM) under both read and write accesses (−56% and −37% on average, respectively). Obtained results thus prove that DMTJ-based STT-MRAM with relaxed retention time is a promising alternative for the realization of reliable and energy-efficient embedded memories operating at cryogenic temperatures."
 
+
+- title: "A RISC-V-based research platform for rapid design cycle"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, O. Harel, T. Noy, U. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, M. Lanuzza, A. Teman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2022-ISCAS-LEO1
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
+  year: 2022
+  doi: 10.1109/ISCAS48785.2022.9937866
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This work proposes a novel platform for bringing a project from the concept to the tapeout stage in a short amount of time. An open-source and extendable RISC-V architecture is exploited to build a small area footprint core. This leads the research platform to be flexible in terms of design integration, while also allowing fast design cycles of research chips."
+
+
 - title: "Emerging Memory Structures for VLSI Circuits"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
@@ -257,7 +337,7 @@
   doi: 10.1002/047134608X.W8438
   #arxiv: XXXX.13080
   type_B: book
-  abstract: "We have designed a fully-integrated analog CMOS cognitive image sensor based on a two-layer artificial neural network and targeted to low-resolution image classification. We have used a single poly 180 nm CMOS process technology, which includes process modules for realizing the building blocks of the CMOS image sensor. Our design includes all the analog sub-circuits required to perform the cognitive sensing task, from image sensing to output classification decision. The weights of the network are stored in single-poly floating-gate memory cells, using a single transistor per analog weight. This enables the classifier to be intrinsically reconfigurable, and to be trained for various classification problems, based on low-resolution images. As a case study, the classifier capability is tested using a low-resolution version of the MNIST dataset of handwritten digits. The circuit exhibits a classification accuracy of 87.8%, that is comparable to an equivalent software implementation operating in the digital domain with floating point data precision, with an average energy consumption of 6 nJ per inference, a latency of 22.5 μs and a throughput of up to 133.3 thousand inferences per second."
+  abstract: "Ever since the emergence of the electrical computer and the Von Neumann model, computer architects have adhered to a well-structured hierarchy of memory solutions, clearly trading off performance and capacity with cost. The ubiquitous memory technologies, dominated by SRAM, DRAM, Flash, and magnetic hard disks, are each situated in a well-defined location within this hierarchy. However, as processes have scaled into deep nanometer feature sizes and the demand for larger capacities and bandwidths increases, these traditional options face tough challenges and may be limited in their ability to continue to provide the new requirements. New technologies, such as phase change memory (PCM), magnetic RAM (MRAM), and resistive RAM (RRAM), have been researched and developed over the recent past in an attempt to meet these demands and replace some or all of the traditional technologies. In this article, the primary technologies are overviewed, including those that currently fill the memory hierarchy pyramid, the primary candidates to join or replace them in the near-term, and a number of newer candidates that may arise as legitimate solutions in the farther term. In addition, an overview of the current state of processing within the emerging memory technologies is provided, as an attempt to break free of the traditional Von Neumann paradigm to overcome the energy and performance bottlenecks in modern systems."
 
 - title: "Embedded memories for cryogenic applications"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza
@@ -388,6 +468,7 @@
   type_J: journal
   abstract: "This paper evaluates the potential of spin-transfer torque magnetic random-access memories (STT-MRAMs) operating at cryogenic temperatures. Our study was carried out at both circuit and architecture levels by exploiting experimental magnetic tunnel junction (MTJ) data and a CMOS technology that was fully characterized down to 77K. As a main result of our analysis, we show that for medium to large sized cache architectures, STT-MRAMs outperform their six-transistor static random access memory (6T-SRAM) counterparts at 77K in terms of both dynamic and static (leakage) power as well as read access latency, only underperforming in terms of write latency. For an 8 MB STT-MRAM cache, the read latency is improved by 2× along with a reduction of 45% and 30% in read and write energy, respectively, as compared to an SRAM implementation."
 
+
 #### 2020
 - title: "Assessment of STT-MRAMs based on double-barrier MTJs for cache applications by means of a device-to-system level simulation framework"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
@@ -402,6 +483,20 @@
   abstract: "This paper explores non-volatile cache memories implemented by spin-transfer torque magnetic random access memories (STT-MRAMs) based on state-of-the-art perpendicular magnetic tunnel junctions (MTJs) and FinFETs. The use of double-barrier MTJs with two reference layers (DMTJs) is benchmarked against solutions relying on single-barrier MTJs (SMTJs) at different technology nodes (from 28-nm down to 20-nm). Our study is carried out through a cross-layer simulation platform, starting from the device- up to the system-level. Our results point out that, thanks to the reduced switching currents, DMTJ-based STT-MRAMs allow decreasing write access time of about 63% as compared to their SMTJ-based counterparts. This is achieved while assuring reduced energy consumption under both write (−42%) and read (−28%) accesses, lower area occupancy (−40%) and smaller leakage power (−25%), at the only cost of worsened read access time. This makes DMTJ-based STT-MRAM a promising candidate to replace conventional semiconductor-based cache memory for the next-generation of low-power microprocessors with on-chip non-volatility."
 
 
+- title: "Reconfigurable CMOS/STT-MTJ Non-Volatile Circuit for Logic-in-Memory Applications"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, B. Zambrano, T. Moposita, R. Taco, L.M. Prócel, L. Trojman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2020-LASCAS-ReconfCMOSMTJ
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE 11th Latin American Symposium on Circuits & Systems (LASCAS)</b>
+  year: 2020
+  doi: 10.1109/LASCAS45839.2020.9069027
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "The unique properties of spin-transfer torque magnetic tunnel junctions (STT-MTJs) have led to promising designs for logic and memory applications. Additionally, STT-MTJ based circuits have shown attractive potential to design efficient non-volatile logic-in-memory (NV-LIM) architectures, which assure low power and increased speed. This paper proposes a bit-level reconfigurable NV logic circuit based on hybrid CMOS/STT-MTJ design. Indeed, our circuit can adapt on-demand its structure, thus offering intrinsic flexibility to perform basic logic functions (i.e. AND/OR/XOR) by a single circuit architecture. Post-layout simulation results prove that the proposed circuit leads to increase both delay and energy consumption with respect to state-of-the-art non-reconfigurable designs. However, its reconfigurable operation capability is very attractive to reduce area occupation and to increase design flexibility of NV-LIM systems."
+
+
+
 #### 2019
 - title: "Assessment of STT-MRAM performance at nanoscaled technology nodes using a device-to-memory simulation framework"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, M. Lanuzza
@@ -414,6 +509,113 @@
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "This paper deals with the technology scalability of spin-transfer torque magnetic RAMs (STT-MRAMs) based on nanoscaled perpendicular magnetic tunnel junctions (MTJs) and FinFET technology. Our study was performed at different levels of abstraction, from device- up to architecture-level passing through a circuit-level analysis for the single memory bitcell. Simulation results obtained for a 512 KB cache memory show that scaling from the 28-nm down to the 20-nm technology node leads to reduced write latency (−20%) and lower energy consumption under both write (−36%) and read (−29%) accesses, while also ensuring an almost doubled integration density. This occurs at the expense of slightly reduced sensing margins and higher read latency (+5%), and of a degradation in the data retention capability owing to the reduced MTJ thermal stability."
+
+
+- title: "Exploiting Double-Barrier MTJs for Energy-Efficient Nanoscaled STT-MRAMs"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2019-SMACD-ScalingSTTMRAM
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>16th International Conference on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design (SMACD)</b>
+  year: 2019
+  doi: 10.1109/SMACD.2019.8795223
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper explores performance and technology-scalability of STT-MRAMs exploiting double-barrier MTJs (DMTJs) as comparatively evaluated with respect to conventional solution based on single-barrier MTJs (SMTJs). The comparative study was carried out at different design abstraction levels: (i) a bitcell-Ievel analysis relying on the use of Verilog-A compact models, and (ii) an architecture-level analysis for various memory sizes. Overall, our simulation results point out that, thanks to the reduced switching currents, DMTJ-based STT-MRAMs allow reducing write latency of about 60% than their SMTJ-based counterparts. This is achieved while assuring lower energy consumption under both write (-40%) and read (-27%) accesses, at the cost of reduced sensing margins."
+
+
+- title: "Evaluating the Energy Efficiency of STT-MRAMs Based on Perpendicular MTJs with Double Reference Layers"
+  authors: M. Lanuzza, R. De Rose, <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Crupi 
+  #pdf: 2024-SSCL-OCCAM
+  url: 2019-ASICON-DMTJsttmram
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>13th IEEE International Conference on ASIC (ASICON)</b>
+  year: 2019
+  doi: 10.1109/ASICON47005.2019.8983643
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper evaluates the energy efficiency of STT-MRAMs based on double-barrier MTJs (DMTJs) as compared to conventional single-barrier MTJ (SMTJ) - based solutions. Our comparative study exploits a cross-layer simulation framework, which spreads from device-up to the architecture-level for different cache sizes. Owing to the reduced switching current, DMTJ-based STT-MRAMs prove to be credible candidates for next-generation non-volatile cache memories."
+
+
+- title: "Device-to-System Level Simulation Framework for STT-DMTJ Based Cache Memory"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2019-ICECS-Dev2Syst
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>26th IEEE International Conference on Electronics, Circuits and Systems (ICECS)</b>
+  year: 2019
+  doi: 10.1109/ICECS46596.2019.8965021
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper presents a comparative study on non-volatile cache memories based on nanoscaled spin-transfer torque (STT)-magnetic tunnel junctions (MTJs). In particular, the impact of using double-barrier MTJs (DMTJs) instead of conventional single-barrier MTJs (SMTJs) is evaluated through a device-to-system level simulation framework. Simulation results demonstrate that DMTJ-based STT-MRAMs are promising competitors for the next generation of non-volatile cache memories."
+
+
+- title: "Microprocessor Design with a Direct Bluetooth Connection in 45nm Technology Using Microwind"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Chávez, D. Jaramillo, L. Sánchez, S. Lara, C. Macías, E. Acurio, L.M. Prócel, L. Trojman, E. Sicard
+  #pdf: 2024-SSCL-OCCAM
+  url: 2019-LASCAS-MicroWind
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>10th IEEE Latin American Symposium on Circuits & Systems (LASCAS)</b>
+  year: 2019
+  doi: 10.1109/LASCAS.2019.8667540
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper presents the full-custom design of a 45nm microprocessor using the electronic design automation (EDA) software, Microwind. The design consists of fundamental modules: the arithmetic logic unit (ALU), memory, counter and an integrated Bluetooth (BT) port working at the 2.4 GHz. This design is validated by simulation under a process, voltage, and temperature (PVT) testing. The microprocessor can handle up to 4 bit since its purpose is focused on specific applications such as the internet of things (IoT). In order to communicate to the external world and with other devices, a strong input/output data interface and radio frequency (RF) transmission modules are implemented. Moreover, the RF module also contains a Bluetooth communication, which allows the wireless data transmission from/to the microprocessor."
+
+
+
+#### 2018
+- title: "Capacitance Extraction of 34-nm Metallurgical Channel Length MOSFET for Parasitic Assessment Using the RFCV Technique"
+  authors: D. Benalcàzar, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Trojman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2018-ETCM-Measurements
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>3rd IEEE Ecuador Technical Chapters Meeting (ETCM)</b>
+  year: 2018
+  doi: 10.1109/ETCM.2018.8580289
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper presents the description and the results obtained with a new RFCV system written on python v2.7. which is used to acquire different parameters from MOSFET devices. RFCV is a technique that permits the measurement of capacitances from devices with an oxide thickness up into the nanometric range. Employing this technique, the developed system controls two tools in a synchronized way: a Vector Network Analyzer (VNA) and a Source Measure Unit (SMU) located in a Parameter Analyzer (PA). The obtained results are satisfactory and allow getting an adequate parameter extraction and the corresponding parasitic assessment of devices with channels as short as 34 nm."
+
+
+#### 2016
+- title: "Fast computation of Cramer-Rao Bounds for TOA"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Valdiviezo, R. Játiva, J. Vidal
+  #pdf: 2024-SSCL-OCCAM
+  url: 2016-LACCI-Telecom
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Latin American Conference on Computational Intelligence (LA-CCI)</b>
+  year: 2016
+  doi: 10.1109/LA-CCI.2016.7885716
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "As part of a larger scope work that studies network-based positioning, that employs timing measures, this article proposes a methodology to add Cramer-Rao Bounds (CRBs) information to the propagation model. Moreover, it enables a very quick computation of CRBs for timing, avoiding the growing computational effort resulting from Fisher's matrix formulation and its inversion for each required position at the simulation stage, assuring at the same time the reliability of the required data in the study of positioning using space-time diversity. This methodology considers the variability of the propagation conditions in terms of delay spread (DS) and Signal-to-Noise ratio (SNR) in a realistic scenario. It also coordinates the operation of concurrent models within simulation, and finally performs bi-exponential regression and interpolation procedures on pertinent operational regions for CRBs. Properly validated models provide simple closed expressions that ease the operational region discrimination and its integration to the positioning simulation platform."
+
+
+- title: "Space-time diversity for NLOS mitigation in TDOA-based positioning systems"
+  authors: R. Játiva, <b style='color:#FF6666 !important;'>E. Garzón</b>, J. Vidal
+  #pdf: 2024-SSCL-OCCAM
+  url: 2016-IESummit-PositionSystems
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE International Engineering Summit (IE-Summit)</b>
+  year: 2016
+  doi: 10.1109/IESummit.2016.7459771
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper studies the potential impact of using space-time information in the mitigation of the Non-Line-Of-Sight condition in mobile subscriber's positioning systems. First of all, this work discusses the positioning problem based on measures of Time Differences Of Arrival departing from a more exact characterization of the signal statistics and including some geometrical restrictions to achieve an improved accurate. Furthermore, a novel approach that integrates signal propagation characteristics to information provided by a suitable timing estimation model based on Cramer Rao Bound for a Rayleigh-fading channel, when antenna arrays are used at the receiver and when a set of channel vector estimates are available, has been introduced to study the positive benefits of space-time diversity. These approaches are evaluated within a realistic simulation scenario."
+
+
+- title: "Remote control of VNA and parameter analyzer for RFCV measurements using Python"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Sanchez, L.M. Procel, L. Trojman
+  #pdf: 2024-SSCL-OCCAM
+  url: 2016-ANDESCON-VNA
+  #image: 2024-SSCL-OCCAM-image.png
+  display: <b>IEEE Technical and Scientific Conference of the Andean Council (ANDESCON)</b>
+  year: 2016
+  doi: 10.1109/ANDESCON.2016.7836225
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "This paper presents the development of capacitance measurement with RF signal (RFCV) for MOSFET. Such technic is fundamental to measure and extract capacitances from nanometric range oxide thickness, which are very leaky in low frequency range measurements. This method uses the control and synchronization of a vector network analyzer (VNA) with a Source Measure Unit (SMU) from a parameter analyzer (PA). The control is established by a remote graphical interface developed in Python. It includes the use of standards like IEEE 488.2, SCPI and Ethernet link protocol. For the RFCV measurements, the SMU provides the DC voltage whereas the VNA the RF signal."
 
 
 # - title: Resolvent modeling of turbulent jets

@@ -1,0 +1,9 @@
+@inproceedings{garzon2023stt,
+  title={{STT-MRAM Technology For Energy-Efficient Cryogenic Memory Applications}},
+  author={Garzón, Esteban and Yavits, Leonid and Teman, Adam and Lanuzza, Marco},
+  booktitle={2023 IEEE 14th Latin America Symposium on Circuits and Systems (LASCAS)},
+  pages={1--4},
+  year={2023},
+  organization={IEEE},
+  doi={10.1109/LASCAS56464.2023.10108316}
+}

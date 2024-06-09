@@ -1,0 +1,10 @@
+@inproceedings{garzon2020reconfigurable,
+  author={Garzón, Esteban and Zambrano, Benjamin and Moposita, Tatiana and Taco, Ramiro and Prócel, Luis-Miguel and Trojman, Lionel},
+  booktitle={2020 IEEE 11th Latin American Symposium on Circuits & Systems (LASCAS)}, 
+  title={{Reconfigurable CMOS/STT-MTJ Non-Volatile Circuit for Logic-in-Memory Applications}}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={10.1109/LASCAS45839.2020.9069027}
+}

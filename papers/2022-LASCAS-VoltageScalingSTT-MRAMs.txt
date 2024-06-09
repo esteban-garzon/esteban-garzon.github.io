@@ -1,0 +1,9 @@
+@inproceedings{garzon2022voltage,
+  title={{Voltage and technology scaling of DMTJ-based STT-MRAMs for energy-efficient embedded memories}},
+  author={Garzón, Esteban and Taco, Ramiro and Prócel, Luis Miguel and Trojman, Lionel and Lanuzza, Marco},
+  booktitle={2022 IEEE 13th Latin America Symposium on Circuits and System (LASCAS)},
+  pages={01--04},
+  year={2022},
+  organization={IEEE},
+  doi={10.1109/LASCAS53948.2022.9789054}
+}

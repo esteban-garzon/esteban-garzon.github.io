@@ -9,5 +9,3 @@
   publisher={MDPI},
   doi={10.3390/electronics11040632}
 }
-
-

@@ -1,0 +1,9 @@
+@inproceedings{garzon2022risc,
+  title={{A RISC-V-based research platform for rapid design cycle}},
+  author={Garzón, Esteban and Golman, Roman and Harel, Odem and Noy, Tzachi and Kra, Yehuda and Pollock, Asaf and Yuzhaninov, Slava and Shoshan, Yonatan and Rudin, Yehuda and Weitzman, Yoav and Lanuzza, Marco and Teman, Adam},
+  booktitle={2022 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={2614--2615},
+  year={2022},
+  organization={IEEE},
+  doi={10.1109/ISCAS48785.2022.9937866}
+}

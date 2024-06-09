@@ -1,0 +1,10 @@
+@inproceedings{garzon2019device,
+  author={Garzón, Esteban and De Rose, Raffaele and Crupi, Felice and Lanuzza, Marco},
+  booktitle={2019 26th IEEE International Conference on Electronics, Circuits and Systems (ICECS)}, 
+  title={{Device-to-System Level Simulation Framework for STT-DMTJ Based Cache Memory}}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={123-124},
+  doi={10.1109/ICECS46596.2019.8965021}
+}

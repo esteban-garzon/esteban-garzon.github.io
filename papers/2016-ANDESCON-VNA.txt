@@ -1,0 +1,10 @@
+@inproceedings{garzon2016remote,
+  author={Garzón, Esteban and Sanchez, Fernando and Procel, Luis-Miguel and Trojman, Lionel},
+  booktitle={2016 IEEE Technical and Scientific Conference of the Andean Council (ANDESCON)}, 
+  title={{Remote control of VNA and parameter analyzer for RFCV measurements using Python}}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={10.1109/ANDESCON.2016.7836225}
+}

@@ -1,0 +1,10 @@
+@inproceedings{garzon2019microprocessor,
+  author={Garzón, Esteban and Chávez, Felix and Jaramillo, Diego and Sánchez, Luis and Lara, Sofía and Macías, Carlos and Acurio, Eliana and Procel, Luis-Miguel and Trojman, Lionel and Sicard, Etienne},
+  booktitle={10th IEEE Latin American Symposium on Circuits & Systems (LASCAS)}, 
+  title={{Microprocessor Design with a Direct Bluetooth Connection in 45 nm Technology Using Microwind}}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={105-108},
+  doi={10.1109/LASCAS.2019.8667540}
+}

@@ -1,0 +1,10 @@
+@inproceedings{lanuzza2019evaluating,
+  author={Lanuzza, Marco and Rose, Raffaele De and Garzón, Esteban and Crupi, Felice},
+  booktitle={2019 IEEE 13th International Conference on ASIC (ASICON)}, 
+  title={{Evaluating the Energy Efficiency of STT-MRAMs Based on Perpendicular MTJs with Double Reference Layers}}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={10.1109/ASICON47005.2019.8983643}
+}
