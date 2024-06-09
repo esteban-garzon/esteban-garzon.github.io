@@ -9,14 +9,18 @@ permalink: /publications/
 
 
 
-{% assign year_count = 0 %}
+{% assign tot_count = 0 %}
+{% assign B_count = 0 %}
 {% assign J_count = 0 %}
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
   {% if publi.year %}
-    {% assign year_count = year_count | plus: 1 %}
+    {% assign tot_count = tot_count | plus: 1 %}
   {% else %}
     {% assign yeartest = false %}
+  {% endif %}
+  {% if publi.type_B %}
+    {% assign B_count = B_count | plus: 1 %}
   {% endif %}
   {% if publi.type_J %}
     {% assign J_count = J_count | plus: 1 %}
@@ -24,9 +28,9 @@ permalink: /publications/
 {% endfor %}
 
 * Total Number of publications: 47
-  * International Journals: {{ year_count }}
+  * International Journals: {{ J_count }}
   * Conferences: 15
-  * Book Chapter: {{ J_count }}
+  * Book Chapter: {{ B_count }}
 
 {% if yeartest == false %}
 ## Coming Soon

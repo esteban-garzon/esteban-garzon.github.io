@@ -1,0 +1,9 @@
+@article{garzon2022emerging,
+  title={{Emerging Memory Structures for VLSI Circuits}},
+  author={Garzón, Esteban and Yavits, Leonid and Lanuzza, Marco and Teman, Adam},
+  journal={Wiley Encyclopedia of Electrical and Electronics Engineering},
+  pages={1--28},
+  year={2022},
+  publisher={Wiley Online Library},
+  doi={10.1002/047134608X.W8438}
+}
