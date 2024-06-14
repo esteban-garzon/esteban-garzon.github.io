@@ -71,7 +71,7 @@
   authors: A. Meo, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, G. Finocchio, M. Lanuzza, and M. Carpentieri
   #pdf: 2024-SSCL-OCCAM
   url: 2023-APL-vcmaMTJpuf
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-APL-vcmaMTJpuf-image.png
   display: <b>Applied Physics Letters</b>
   year: 2023
   doi: 10.1063/5.0166164
@@ -84,7 +84,7 @@
   authors: Z. Jahshan, I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-MICRO-DASHCAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-MICRO-DASHCAM-image.png
   display: <b>Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture</b>
   year: 2023
   doi: 10.1145/3613424.3614262
@@ -97,7 +97,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-MLSSHDCAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-TCASII-MLSSHDCAM-image.png
   display: <b>IEEE Transactions on Circuits and Systems II</b>
   year: 2023
   doi: 10.1109/TCSII.2023.3286257
@@ -110,7 +110,7 @@
   authors: H. Marinberg, <b style='color:#FF6666 !important;'>E. Garzón</b>, T. Noy, M. Lanuzza, and A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2023-IEEEAccess-MPSCMs
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-IEEEAccess-MPSCMs-image.png
   display: <b>IEEE Access</b>
   year: 2023
   doi: 10.1109/ACCESS.2023.3310940
