@@ -123,7 +123,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-LASCAS-CryoSTTMRAMs
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-LASCAS-CryoSTTMRAMs-image.png
   display: <b>IEEE 14th Latin America Symposium on Circuits and Systems (LASCAS)</b>
   year: 2023
   doi: 10.1109/LASCAS56464.2023.10108316
@@ -136,7 +136,7 @@
   authors: A. Musello, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, L.M. Prócel, and R. Taco
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-XNORCiMSTT-MRAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-TCASII-XNORCiMSTT-MRAM-image.png
   display: <b>IEEE Transactions on Circuits and Systems II</b>
   year: 2023
   doi: 10.1109/TCSII.2023.3241163
@@ -149,7 +149,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L Yavits, G. Finocchio, M. Carpentieri, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-IEEEAccess-nvTCAMdmtj
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-IEEEAccess-nvTCAMdmtj-image.png
   display: <b>IEEE Access</b>
   year: 2023
   doi: 10.1109/ACCESS.2023.3245981
@@ -162,7 +162,7 @@
   authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-NeuroSimDMTJSTTMRAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-TCASII-NeuroSimDMTJSTTMRAM-image.png
   display: <b>IEEE Transactions on Circuits and Systems II</b>
   year: 2023
   doi: 10.1109/TCSII.2023.3240474
@@ -175,7 +175,7 @@
   authors: I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TC-DIPERRRAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-TC-DIPERRRAM-image.png
   display: <b>IEEE Transactions on Computers</b>
   year: 2023
   doi: 10.1109/TC.2023.3315829
@@ -188,7 +188,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-ETCM-xDML
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-ETCM-xDML-image.png
   display: <b>IEEE Seventh Ecuador Technical Chapters Meeting</b>
   year: 2023
   doi: 10.1109/ETCM58927.2023.10309002
@@ -201,7 +201,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-MDPIChips-AxCAMReview
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2023-MDPIChips-AxCAMReview-image.png
   display: <b>Chips</b>
   year: 2023
   doi: 10.3390/chips2020005
@@ -214,7 +214,7 @@
   authors: B. Zambrano, S. Strangio, T. Rizzo, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, G. Iannaccone
   #pdf: 2024-SSCL-OCCAM
   url: 2022-IEEEAccess-analogNN
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-IEEEAccess-analogNN-image.png
   display: <b>IEEE Access</b>
   year: 2022
   doi: 10.1109/ACCESS.2022.3203394
@@ -227,7 +227,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2022-IEEEAccess-HDCAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-IEEEAccess-HDCAM-image.png
   display: <b>IEEE Access</b>
   year: 2022
   doi: 10.1109/ACCESS.2022.3158305
