@@ -240,7 +240,7 @@
   authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-IEEESensorsJ-TempSensor
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-IEEESensorsJ-TempSensor-image.png
   display: <b>IEEE Sensors Journal</b>
   year: 2022
   doi: 10.1109/JSEN.2022.3171106
@@ -253,7 +253,7 @@
   authors: R. Hanhan, <b style='color:#FF6666 !important;'>E. Garzón</b>, Z. Jahshan, A. Teman, M. Lanuzza, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2022-ISCA-EDAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-ISCA-EDAM-image.png
   display: <b>Proceedings of the 49th Annual International Symposium on Computer Architecture</b>
   year: 2022
   doi: 10.1145/3470496.3527424
@@ -266,7 +266,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-LASCAS-VoltageScalingSTT-MRAMs
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-LASCAS-VoltageScalingSTT-MRAMs-image.png
   display: <b>IEEE 13th Latin America Symposium on Circuits and System (LASCAS)</b>
   year: 2022
   doi: 10.1109/LASCAS53948.2022.9789054
@@ -279,7 +279,7 @@
   authors: M. Rendón, C. Cao, K. Landázuri, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, R. Taco
   #pdf: 2024-SSCL-OCCAM
   url: 2022-Electronics-TFETvsFinFETsynthesis
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-Electronics-TFETvsFinFETsynthesis-image.png
   display: <b>Electronics</b>
   year: 2022
   doi: 10.3390/electronics11040632
@@ -292,7 +292,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2022-MICRO-AIDA
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-MICRO-AIDA-image.png
   display: <b>IEEE Micro</b>
   year: 2022
   doi: 10.1109/MM.2022.3190924
