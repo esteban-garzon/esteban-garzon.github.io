@@ -305,7 +305,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-SSE-AdjustingThermalStability
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-SSE-AdjustingThermalStability-image.png
   display: <b>Solid-State Electronics</b>
   year: 2022
   doi: 10.1016/j.sse.2022.108315
@@ -318,7 +318,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, O. Harel, T. Noy, U. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2022-ISCAS-LEO1
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-ISCAS-LEO1-image.png
   display: <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2022
   doi: 10.1109/ISCAS48785.2022.9937866
@@ -331,7 +331,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2022-WileyEEEE-ReviewMemories
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-WileyEEEE-ReviewMemories-image.png
   display: <b>Wiley Encyclopedia of Electrical and Electronics Engineering</b>
   year: 2022
   doi: 10.1002/047134608X.W8438
@@ -343,7 +343,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-Electronics-CryoMems
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-Electronics-CryoMems-image.png
   display: <b>Electronics</b>
   year: 2022
   doi: 10.3390/electronics11010061
@@ -356,7 +356,7 @@
   authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, F. Crupi, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-TCASII-TempSensor180nm
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2022-TCASII-TempSensor180nm-image.png
   display: <b>IEEE Transactions on Circuits and Systems II</b>
   year: 2022
   doi: 10.1109/TCSII.2021.3112812
@@ -369,7 +369,7 @@
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Greenblatt, O.Harel, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2021-IEEETVLSI-cryoGCeDRAM
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2021-IEEETVLSI-cryoGCeDRAM-image.png
   display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
   year: 2021
   doi: 10.1109/TVLSI.2021.3081043
@@ -382,7 +382,7 @@
   authors: K. Vicuña, C. Mosquera, A. Musello, S. Benedictis, M. Rendón, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, L. Trojman, R. Taco
   #pdf: 2024-SSCL-OCCAM
   url: 2021-Electronics-DMLaddDec
-  #image: 2024-SSCL-OCCAM-image.png
+  image: 2021-Electronics-DMLaddDec-image.png
   display: <b>Electronics</b>
   year: 2021
   doi: 10.3390/electronics10151756
