@@ -85,7 +85,9 @@ and Electronics from USFQ and University of Calabria (UNICAL), Italy, in 2018, a
 in Electronics Engineering from UNICAL, in 2022. The same year, he won a highly competitive research
 fellowship funded by the Italian Ministry for Universities and Research (MUR), under the call “Horizon
 Europe 2021-2027 Programme”. He is currently a research fellow with the Department of Computer
-Engineering, Modeling, Electronics, and Systems Engineering (DIMES), UNICAL.
+Engineering, Modeling, Electronics, and Systems Engineering (DIMES), UNICAL. In July 2024 I received the National Scientific Habilitation (ASN) for Associate Professor of Electronics (Sector 09/E3) in Italian Universities.
+
+
 In 2019-2020 he was a visiting Ph.D. student at EnICS laboratories, BIU, Israel. In Jul-Sep 2022 and
 Jul-Aug 2023, he was a visiting researcher at EnICS labs. In Jan-Feb 2024, he was a visiting researcher at
 the Department of Information Engineering, University of Pisa, Italy.
