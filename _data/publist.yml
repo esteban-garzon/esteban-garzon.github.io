@@ -1,5 +1,27 @@
 # colors: blue, red, lightgreen, 
 
+- title: "Monolithic 3D-Based Non-Volatile Associative Processor For High-Performance Energy-Efficient Computations"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Bedoya, M. Lanuzza, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2024-JxCDC-M3D
+  image: 2024-JxCDC-M3D-image.png
+  display: <b>IEEE Journal on Exploratory Solid-State Computational Devices and Circuits</b>
+  year: 2024
+  doi: 10.1109/JXCDC.2024.3450810
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "This paper presents a monolithic 3D associative in-memory processor (M3D AP) that
+combines emerging non-volatile magnetic tunnel junction (MTJ) technology with massively parallel
+associative in-memory processing and monolithic 3D integration. The proposed architecture features two
+monolithic layers, with CMOS logic in the first layer and an MTJ-based content-addressable memory
+(CAM) array in the second layer. We conduct a thorough analysis of the electrical characteristics of the
+MTJ-based AP and use analysis results to evaluate the performance and power consumption of the M3D
+AP. We build a custom cycle-accurate simulator to implement and evaluate the 3D associative matrix
+multiplication algorithm, highlighting the potential of the M3D AP for accelerating artificial intelligence
+applications. Overall, we demonstrate the efficacy of M3D AP and show that it holds promise for highperformance
+and energy-efficient in-memory computing."
+
+
 - title: "ViRAL: Vision transformer based accelerator for ReAL time lineage assignment of viral pathogens"
   authors: Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL

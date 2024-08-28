@@ -1,0 +1,9 @@
+@article{garzon2024monolithic,
+  author={Garzón, Esteban and Bedoya, Alessandro and Lanuzza, Marco and Yavits, Leonid},
+  journal={\bld{IEEE Journal on Exploratory Solid-State Computational Devices and Circuits (JXCDC)}}, 
+  title={{Monolithic 3D-Based Non-Volatile Associative Processor For High-Performance Energy-Efficient Computations}}, 
+  year={2024},
+  volume={},
+  pages={},
+  doi={10.1109/JXCDC.2024.3450810}
+}
