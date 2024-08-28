@@ -181,7 +181,12 @@
   doi: 10.1109/TC.2023.3315829
   #arxiv: XXXX.13080
   type_J: journal
-  abstract: "The need for approximate rather than exact search arises in numerous compare-intensive applications, from networking to computational genomics. This brief presents a novel sensing approach for approximate matching content-addressable memory (CAM) designed to handle large Hamming distances (HDs) between the query pattern and stored data. The proposed matchline sensing scheme (MLSS) employs a replica mechanism and a 12-transistor positive feedback sense amplifier to effectively resolve the approximate match operation. The MLSS was integrated into a 4 kB approximate CAM array and fabricated in a 65 nm CMOS technology. With an overall area footprint of 0.0048 mm2, which includes 512 sense amplifiers and the replica mechanism, the MLSS allows a flexible and dynamic adjustment of the HD tolerance threshold via several design variables. Experimental measurements demonstrate the efficiency of our sensing scheme in tolerating very large HDs with the highest sensitivity."
+  abstract: "We propose a novel resistive edit distance-tolerant content addressable memory for computational genomics applications,
+particularly for detection and identification of pathogens of pandemic importance. Unlike state-of-the-art approximate search solutions
+that tolerate small number of replacements between the query pattern and the stored data, DIPER tolerates insertions and deletions,
+ubiquitous in genomics. DIPER achieves up to 1.7× higher F1 score for high-quality DNA reads and up to 6.2× higher F1 score for
+DNA reads with 15% error rate, compared to state-of-the-art DNA classification tool Kraken2. Simulated at 500MHz, DIPER provides
+910× average speedup over Kraken2."
 
 
 - title: "Exploiting Dual Mode Logic for Approximate Computing"
