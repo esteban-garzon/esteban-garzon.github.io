@@ -1,7 +1,7 @@
 # colors: blue, red, lightgreen, 
 
 - title: "GCOC: A Genome Classifier-On-Chip based on Similarity Search Content Addressable Memory"
-  authors: Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-TBioCAS-GCOC
   image: 2024-TBioCAS-GCOC-image.png
