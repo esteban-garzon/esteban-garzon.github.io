@@ -241,7 +241,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Exploiting Dual Mode Logic for Approximate Computing"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
+  authors: C. Mosquera, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M. Prócel
   #pdf: 2024-SSCL-OCCAM
   url: 2023-ETCM-xDML
   image: 2023-ETCM-xDML-image.png
