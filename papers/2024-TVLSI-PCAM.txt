@@ -1,0 +1,9 @@
+@article{taco2024designing,
+  author={Taco, Ramiro and Garzón, Esteban and Hanhan, Robert and Teman, Adam and Yavits, Leonid and Lanuzza, Marco},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
+  title={{Designing Precharge-Free Energy-Efficient Content-Addressable Memories}}, 
+  year={2024},
+  volume={},
+  pages={},
+  doi={}
+}

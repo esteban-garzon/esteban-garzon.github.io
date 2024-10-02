@@ -2,9 +2,9 @@
   author={Merlin, Itay and Garzón, Esteban and Fish, Alex and Yavits, Leonid},
   journal={IEEE Transactions on Computers}, 
   title={{DIPER: Detection and Identification of Pathogens using Edit distance-tolerant Resistive CAM}}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-12},
+  year={2024},
+  volume={73},
+  number={10},
+  pages={2463-2473},
   doi={10.1109/TC.2023.3315829}
 }

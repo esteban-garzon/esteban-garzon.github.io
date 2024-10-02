@@ -1,5 +1,25 @@
 # colors: blue, red, lightgreen, 
 
+- title: "Designing Precharge-Free Energy-Efficient Content-Addressable Memories"
+  authors: R. Taco, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Hanhan, A. Teman, L. Yavits, M. Lanuzza
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2024-TVLSI-PCAM
+  image: 2024-TVLSI-PCAM-image.png
+  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
+  year: 2024-accepted
+  doi: 
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "Content-addressable memory (CAM) is a specialized type of memory that facilitates massively parallel comparison of a search pattern against its entire content.
+State-of-the-art CAM solutions are either fast but power-hungry (NOR CAM) or slow while consuming less power (NAND CAM). 
+These limitations stem from the dynamic precharge operation, leading to excessive power consumption in NOR CAMs and charge-sharing issues in NAND CAMs.
+In this work, we propose a precharge-free CAM (PCAM) class for energy-efficient applications. By avoiding precharge operation, PCAM consumes less energy than a NAND CAM, while achieving search speed comparable to a NOR CAM.
+PCAM was designed using a 65\,nm CMOS technology and comprehensively evaluated under extensive Monte Carlo simulations, while taking into account layout parasitics.
+When benchmarked against conventional NAND CAM, PCAM demonstrates improved search run time (reduced by more than 30\%) and 15\% less search energy. 
+Moreover, PCAM can cut energy consumption by more than 75\% as compared to conventional NOR CAM.
+We further extend our analysis to the application level, functionally evaluating the CAM designs as a fully-associative cache using a CPU simulator running various benchmark workloads.
+This analysis confirms that PCAMs represent an optimal energy-performance design choice for associative memories and their broad spectrum of applications."
+
 - title: "GCOC: A Genome Classifier-On-Chip based on Similarity Search Content Addressable Memory"
   authors: Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL

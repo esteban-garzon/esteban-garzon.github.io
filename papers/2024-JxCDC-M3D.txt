@@ -3,7 +3,7 @@
   journal={IEEE Journal on Exploratory Solid-State Computational Devices and Circuits (JXCDC)}, 
   title={{Monolithic 3D-Based Non-Volatile Associative Processor For High-Performance Energy-Efficient Computations}}, 
   year={2024},
-  volume={},
-  pages={},
+  volume={10},
+  pages={40-48},
   doi={10.1109/JXCDC.2024.3450810}
 }
