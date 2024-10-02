@@ -14,9 +14,9 @@
 State-of-the-art CAM solutions are either fast but power-hungry (NOR CAM) or slow while consuming less power (NAND CAM). 
 These limitations stem from the dynamic precharge operation, leading to excessive power consumption in NOR CAMs and charge-sharing issues in NAND CAMs.
 In this work, we propose a precharge-free CAM (PCAM) class for energy-efficient applications. By avoiding precharge operation, PCAM consumes less energy than a NAND CAM, while achieving search speed comparable to a NOR CAM.
-PCAM was designed using a 65\,nm CMOS technology and comprehensively evaluated under extensive Monte Carlo simulations, while taking into account layout parasitics.
-When benchmarked against conventional NAND CAM, PCAM demonstrates improved search run time (reduced by more than 30\%) and 15\% less search energy. 
-Moreover, PCAM can cut energy consumption by more than 75\% as compared to conventional NOR CAM.
+PCAM was designed using a 65nm CMOS technology and comprehensively evaluated under extensive Monte Carlo simulations, while taking into account layout parasitics.
+When benchmarked against conventional NAND CAM, PCAM demonstrates improved search run time (reduced by more than 30%) and 15% less search energy. 
+Moreover, PCAM can cut energy consumption by more than 75% as compared to conventional NOR CAM.
 We further extend our analysis to the application level, functionally evaluating the CAM designs as a fully-associative cache using a CPU simulator running various benchmark workloads.
 This analysis confirms that PCAMs represent an optimal energy-performance design choice for associative memories and their broad spectrum of applications."
 
