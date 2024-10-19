@@ -5,9 +5,9 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-TVLSI-PCAM
   image: 2024-TVLSI-PCAM-image.png
-  display: Accepted to <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
+  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
   year: 2024
-  doi: 
+  doi: 10.1109/TVLSI.2024.3475036
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Content-addressable memory (CAM) is a specialized type of memory that facilitates massively parallel comparison of a search pattern against its entire content.
