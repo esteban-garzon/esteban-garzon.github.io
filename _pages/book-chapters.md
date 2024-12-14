@@ -5,7 +5,7 @@ sitemap: false
 permalink: /book-chapters/
 ---
 
-# Peer-Reviewed Conferences
+# Book Chapters
 
 <ol>
 {% for publi in site.data.publist %}
