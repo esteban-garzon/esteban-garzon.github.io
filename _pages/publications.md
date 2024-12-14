@@ -34,7 +34,7 @@ permalink: /publications/
   * Conferences: {{ C_count }}
   * Book Chapter: {{ B_count }}
 
-<button onclick="window.location.href='{{ site.baseurl }}/international-journals/'">Journals</button> 
+<button onclick="window.location.href='{{ site.baseurl }}/international-journals/'">Journals</button> <button onclick="window.location.href='{{ site.baseurl }}/conferences/'">Conferences</button>  
 
 {% if yeartest == false %}
 ## Coming Soon
