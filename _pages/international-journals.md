@@ -11,10 +11,9 @@ permalink: /international-journals/
 {% for publi in site.data.publist %}
   {% if publi.type_J %}
   <li>
-  **{{ publi.title }}** 
-  by {{ publi.authors }} 
+  {{ publi.title }}<br/>
+  {{ publi.authors }} 
   {{ publi.display }} ({{ publi.year }})
-
   <li class="flex-item2">
     {% if publi.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.pdf }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
     {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI/URL</button></a> {% endif %}
