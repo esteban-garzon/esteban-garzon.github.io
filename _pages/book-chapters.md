@@ -5,7 +5,7 @@ sitemap: false
 permalink: /book-chapters/
 ---
 
-# Book Chapters
+# Book Chapter
 
 <ol>
 {% for publi in site.data.publist %}

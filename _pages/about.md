@@ -77,7 +77,7 @@ permalink: /about/
 
 {% endfor %}
 
-## Brief Biography
+## Biography
 
 Esteban Garzón received the B.Sc. Degree (cum laude) in Electronics Engineering from the Universidad San
 Francisco de Quito (USFQ), Ecuador, in 2016, the dual M.Sc. degree (GPA: 4.0/4.0) in Nanoelectronics
@@ -85,7 +85,7 @@ and Electronics from USFQ and University of Calabria (UNICAL), Italy, in 2018, a
 in Electronics Engineering from UNICAL, in 2022. The same year, he won a highly competitive research
 fellowship funded by the Italian Ministry for Universities and Research (MUR), under the call “Horizon
 Europe 2021-2027 Programme”. He is currently a research fellow with the Department of Computer
-Engineering, Modeling, Electronics, and Systems Engineering (DIMES), UNICAL. In July 2024 I received the National Scientific Habilitation (ASN) for Associate Professor of Electronics (Sector 09/E3) in Italian Universities.
+Engineering, Modeling, Electronics, and Systems Engineering (DIMES), UNICAL. In July 2024, he received the National Scientific Habilitation (ASN) for Associate Professor of Electronics (Sector 09/E3) in Italian Universities. In Sep. 2024, he was awarded the distinction of Adjunct Professor at the USFQ, Quito, Ecuador.
 
 
 In 2019-2020 he was a visiting Ph.D. student at EnICS laboratories, BIU, Israel. In Jul-Sep 2022 and
@@ -100,7 +100,7 @@ and emerging technologies for logic & memory, and low-power applications. He has
 research grants, and funding. E. Garzón has been part of several IEEE conference committees, journal
 boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering, and Guest-Editor
 of a special issue in ”Memories - Materials, Devices, Circuits and Systems” from Elsevier. Moreover, he has
-been an active reviewer of several journals (IEEE and Elsevier) and conferences (only IEEE).
+been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences (only IEEE).
 
 {% if site.data.awards %}
 ## Awards & Honours
