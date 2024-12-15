@@ -10,6 +10,17 @@ permalink: /book-chapters/
 <ol>
 {% for publi in site.data.publist %}
   {% if publi.type_B %}
+
+  {% assign bibtest = false %}
+  {% if publi.url %}
+    {% assign bibfile = "/papers/" | append:  publi.url  | append: ".txt" %}
+    {% for file in site.static_files %}
+      {% if file.path contains bibfile %}
+        {% assign bibtest = true %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   <li>
   {{ publi.title }}<br/>
   {{ publi.authors }}<br/> 
