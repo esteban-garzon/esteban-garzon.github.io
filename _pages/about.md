@@ -97,9 +97,8 @@ IEEE Senior Member in 2024. He has authored/coauthored more than 45 scientific p
 peer-reviewed journals and conferences, and has participated in several IC tapeouts. His research interests
 include domain-specific hardware accelerators, electronics/spintronics, cryogenic memories, and standard
 and emerging technologies for logic & memory, and low-power applications. He has received several awards,
-research grants, and funding. E. Garzón has been part of several IEEE conference committees, journal
-boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering, and Guest-Editor
-of a special issue in ”Memories - Materials, Devices, Circuits and Systems” from Elsevier. Moreover, he has
+research grants, and funding. E. Garzón has been part of several IEEE conference committees, and journal
+boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering. Moreover, he has
 been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences (only IEEE).
 
 {% if site.data.awards %}

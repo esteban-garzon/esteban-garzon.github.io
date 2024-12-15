@@ -3,7 +3,7 @@
   journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
   title={{Designing Precharge-Free Energy-Efficient Content-Addressable Memories}}, 
   year={2024},
-  volume={},
-  pages={},
-  doi={}
+  volume={32},
+  pages={2303-2314},
+  doi={https://doi.org/10.1109/TVLSI.2024.3475036}
 }
