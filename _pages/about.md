@@ -101,6 +101,28 @@ research grants, and funding. E. Garzón has been part of several IEEE conferenc
 boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering. Moreover, he has
 been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences (only IEEE).
 
+## Professional Skills (Not limited to)
+- **Integrated Circuit (IC) Design & System-Level Evaluation**
+  - Transistor-level circuit design (analog blocks for memory architectures)
+  - Register-transfer level design (digital circuits using HDLs)
+  - Synthesis & Timing Analysis
+  - Physical Design
+    - Floorplanning
+    - Place-and-Route
+    - Layout Design
+    - Design Verification & timing closure
+  - Advanced semiconductor devices (FinFETs, SOI)
+  - Emerging non-volatile memory technologies
+    - MRAM (mainly STT-MRAM)
+    - RRAM
+  - Multi-level simulation frameworks and co-simulation techniques that integrate circuit-level, architectural-level, and system-level models
+
+- **CAD/EDA (Not limited to)**
+  * Virtuoso
+  * Genus
+  * Innovus
+  * Xcelium
+
 {% if site.data.awards %}
 ## Awards & Honours
 
