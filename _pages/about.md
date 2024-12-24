@@ -101,8 +101,8 @@ research grants, and funding. E. Garzón has been part of several IEEE conferenc
 boards as review editor of Frontiers in Electronics and Frontiers in Aerospace Engineering. Moreover, he has
 been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences (only IEEE).
 
-## Professional Skills (Not limited to)
-- **Integrated Circuit (IC) Design & System-Level Evaluation**
+## Professional Skills 
+- **Integrated Circuit (IC) Design & System-Level Evaluation Skills (Not limited to)**
   - Transistor-level circuit design (analog blocks for memory architectures)
   - Register-transfer level design (digital circuits using HDLs)
   - Synthesis & Timing Analysis
