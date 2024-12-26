@@ -52,7 +52,7 @@ work in progess...
     <strong>Main related publication/s as main author or co-author:</strong>
     <ul>
       <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, M. Lanuzza, A. Teman, L.Yavits "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory", IEEE Transactions on Circuits and Systems II, 2023. (<a href="http://dx.doi.org/10.1109/TCSII.2023.3286257" target="_blank">link</a>)</li>
-      <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, M. Lanuzza, A. Teman, L.Yavits "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification", IEEE Access, 2022. (<a href="http://dx.doi.org/10.1109/ACCESS.2022.3158305" target="_blank">link</a>)</li>
+      <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits, "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification", IEEE Access, 2022. (<a href="http://dx.doi.org/10.1109/ACCESS.2022.3158305" target="_blank">link</a>)</li>
     </ul>
   </li>
   </ul>

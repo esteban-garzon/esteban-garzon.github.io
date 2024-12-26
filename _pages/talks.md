@@ -13,7 +13,9 @@ permalink: /talks/
 
 <ol>
 {% for publi in site.data.conference_talks %}
-* <strong>{{ publi.title }}</strong> <br/> <i>{{ publi.authors }}</i>, {{ publi.conf }} ({{ publi.year }})
+<li>
+<strong>{{ publi.title }}</strong> <br/> <i>{{ publi.authors }}</i>, {{ publi.conf }} ({{ publi.year }})
+</li>
 {% endfor %}
 {% endif %}
 </ol>
@@ -23,7 +25,9 @@ permalink: /talks/
 
 <ol>
 {% for publi in site.data.invited_talks %}
-* {{ publi.name }}
+<li>
+{{ publi.name }}
+</li>
 {% endfor %}
 {% endif %}
 </ol>
