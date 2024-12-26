@@ -36,7 +36,7 @@ work in progess...
 </div>
 
 <div class="rowl1">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO2_HDCAM.png" class="img-responsive" width="85%" style="float: top; border-radius: 10px;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO2_HDCAM.png" class="center" width="85%" style="float: top; border-radius: 10px;" />
   
   <!-- Apply inline styling for black text -->
   <h4 style="color: black; font-weight: bold;">HD-CAM Memory Macro in 65nm</h4>
@@ -44,7 +44,7 @@ work in progess...
     <li>Full design at <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> Laboratories, Bar-Ilan University, Israel</li>
     <li><strong>Chip Name:</strong> LEO-II</li>
     <li><strong>Macro Name:</strong> HD-CAM</li>
-    <li><strong>Role:</strong> Support in the design and experimental measurements of a Hamming Distance tolerant content-addressable memory (CAM)</li>
+    <li><strong>Role:</strong> Theoretical functional verification by means of simulations, and support in the design and experimental measurements of the memory Macro</li>
     <li>
       <strong>Description:</strong> A novel Hamming distance tolerant CAM (HD-CAM) for energy-efficient in-memory approximate matching applications. The fabricated HD-CAM macro presents high F1-score and AOC values during approximate match operations. 
     </li>
