@@ -59,7 +59,7 @@ permalink: /tapeouts/
 </div>
 
 <div class="rowl1">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/TempSensor.png" class="center" width="35%" style="float: top; border-radius: 10px;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/TempSensor.png" class="center" width="30%" style="float: top; border-radius: 10px;" />
   
   <!-- Apply inline styling for black text -->
   <h4 style="color: black; font-weight: bold;">Fully-Integrated Temperature Sensor in 180nm</h4>

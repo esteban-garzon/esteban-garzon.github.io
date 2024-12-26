@@ -29,11 +29,11 @@ nav_pages:
   - name: publications
   - name: talks
   - name: tapeouts
+  - name: teaching
 #  - name: service
 # - name: research
 # - name: software
 # - name: team
-# - name: teaching
 
 # Do you want to group your publications by year? {true/false}
 group_pub_by_year: true

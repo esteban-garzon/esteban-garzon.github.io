@@ -1,10 +1,11 @@
-@article{moposita2024cryo,
+@article{moposita2025cryo,
   author={Moposita, Tatiana and Garzón, Esteban and Teman, Adam and Lanuzza, Marco},
   journal={Nanomaterials}, 
   title={{Cryo-SIMPLY: A Reliable STT-MRAM Based Smart Material Implication Architecture For In-Memory Computing}}, 
-  year={2024},
-  volume={},
-  pages={},
-  doi={}
+  year={2025},
+  volume={15},
+  number={1},
+  pages={9},
+  doi={10.3390/nano15010009}
 }
 
