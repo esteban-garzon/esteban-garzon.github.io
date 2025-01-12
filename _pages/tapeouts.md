@@ -16,7 +16,7 @@ permalink: /tapeouts/
   <ul>
     <li>Joint design with <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> Laboratories, Bar-Ilan University, Israel</li>
     <li><strong>Chip Name:</strong> LEO-I</li>
-    <li><strong>Technology:</strong> TSMC 65 nm</li>
+    <li><strong>Technology:</strong> TSMC 65nm</li>
     <li><strong>Role:</strong> Backend designer (entire SoC integration)</li>
     <li>
       <strong>Description:</strong> A novel platform for bringing a project from the concept to the tapeout stage in a short
@@ -42,7 +42,7 @@ permalink: /tapeouts/
   <ul>
     <li>Full design at <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> Laboratories, Bar-Ilan University, Israel</li>
     <li><strong>Chip Name:</strong> LEO-II</li>
-    <li><strong>Technology:</strong> TSMC 65 nm</li>
+    <li><strong>Technology:</strong> TSMC 65nm</li>
     <li><strong>Macro Name:</strong> HD-CAM</li>
     <li><strong>Role:</strong> Theoretical functional verification by means of simulations, and support in the design and experimental measurements of the memory Macro</li>
     <li>
@@ -51,7 +51,8 @@ permalink: /tapeouts/
     <li>
     <strong>Main related publication/s as main author or co-author:</strong>
     <ul>
-      <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, M. Lanuzza, A. Teman, L.Yavits "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory", IEEE Transactions on Circuits and Systems II, 2023. (<a href="http://dx.doi.org/10.1109/TCSII.2023.3286257" target="_blank">link</a>)</li>
+      <li><strong style="color: #ff6666;">E. Garzón</strong>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits, "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance", IEEE Journal of Solid-State Circuits, 2025. (<a href="http://dx.doi.org/10.1109/JSSC.2025.3529715" target="_blank">link</a>)</li>
+      <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, M. Lanuzza, A. Teman, L.Yavits, "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory", IEEE Transactions on Circuits and Systems II, 2023. (<a href="http://dx.doi.org/10.1109/TCSII.2023.3286257" target="_blank">link</a>)</li>
       <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits, "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification", IEEE Access, 2022. (<a href="http://dx.doi.org/10.1109/ACCESS.2022.3158305" target="_blank">link</a>)</li>
     </ul>
   </li>
