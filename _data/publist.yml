@@ -1,5 +1,34 @@
 # colors: blue, red, lightgreen, 
 
+- title: "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2025-JSSC-HDCAM
+  image: 2024-JSSC-HDCAM-image.png
+  display: Accepted for publication in <b>IEEE Journal of Solid-State Circuits</b>
+  year: 2025
+  #doi: 10.3390/nano15010009
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "The growing need for approximate matching in
+data-intensive applications, such as data analytics, machine
+learning, deep learning, and computational genomics has driven
+the proposal of our Hamming distance (HD) tolerant Content-
+Addressable Memory (HD-CAM). HD-CAM features a modified
+NOR-type associative memory cell that leverages the discharge
+speed of the matchline to directly measure the HD between
+the stored and the query patterns. This novel approach enables
+efficient in-memory approximate matching. The proposed design
+was fabricated in a 65nm technology, running at 125MHz
+with an operating voltage of 1.2V and consuming approximately
+0.2 fJ/bit/search at room temperature. HD-CAM features a userprogrammable
+HD tolerance threshold, making it particularly
+efficient for compare-intensive applications, such as genome
+analysis, text processing, and database processing. Silicon measurements
+demonstrate that HD-CAM maintains F1 score above
+90% under process, voltage, and temperature (PVT) variations
+across a range of HDs."
+
 - title: "Cryo-SIMPLY: A Reliable STT-MRAM Based Smart Material Implication Architecture For In-Memory Computing"
   authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL

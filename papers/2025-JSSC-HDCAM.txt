@@ -1,0 +1,9 @@
+@article{garzon2025hdcam,
+  author={Garzón, Esteban and Rechef, Eyal and Golman, Roman and Harel, Odem and Harary, Yuval and Snapir, Paz and Lanuzza, Marco and Teman, Adam and Yavits, Leonid},
+  journal={IEEE Journal of Solid-State Circuits}, 
+  title={{A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance}}, 
+  year={2025},
+  volume={},
+  pages={},
+  doi={}
+}
