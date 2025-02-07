@@ -1,54 +1,59 @@
-- authors: E. Garzón, M. Lanuzza
+- authors: R. Taco, <b style='color:#FF6666 !important;'><b style='color:#FF6666 !important;'>E. Garzón</b></b>, A. Teman, L. Yavits, M. Lanuzza
+  title: "Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach"
+  conf: IEEE International Symposium on Circuits and Systems (ISCAS), London, United Kingdom, 25-28 May.
+  year: 2025
+
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
   title: Fully CMOS Ising machine for combinatorial optimization and probabilistic sampling problems
   conf: The International Workshop on Ising Machines (IISM), Messina, Italy, 16-18 April
   year: 2024
 
-- authors: E. Garzón, R. Golman, M. Lanuzza, A. Teman, L. Yavits
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
   title: A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory
   conf: IEEE International Symposium on Integrated Circuits and Systems (ISICAS), Jeju, South Korea, 24-25 Oct.
   year: 2023
 
-- authors: E. Garzón, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
   title: MRAM Based Associative Memory For In-Memory Computing
   conf: IEEE Trends in Magnetism Conference (TMAG), Rome, Italy, 04-08 Sep.
   year: 2023
 
-- authors: E. Garzón, L. Yavits, A. Teman, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
   title: STT-MRAM Technology For Energy-Efficient Cryogenic Memory Applications
   conf: IEEE Latin American Symposium on Circuits and Systems (LASCAS), Quito, Ecuador, 28 Feb.-02 Mar.
   year: 2023
 
-- authors: E. Garzón, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
   title: Content-Addressable Memory for Approximate Matching Applications in Genome Analysis
   conf: 53rd Annual Meeting of the Associazione Società Italiana di Elettronica (SIE), Pizzo (VV), Italy, 09 Sep.
   year: 2022
 
-- authors: E. Garzón, R. Golman, O. Harel, T. Noy, Y. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, et al. 
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, O. Harel, T. Noy, Y. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, et al. 
   title: A RISC-V-based Research Platform for Rapid Design Cycle
   conf: IEEE International Symposium on Circuits and Systems (ISCAS), Austin Texas, USA, 28 May-01 Jun.
   year: 2022
 
-- authors: E. Garzón, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
   title: Voltage and Technology Scaling of DMTJ-based STT-MRAMs for Energy-Efficient Embedded Memories
   conf: IEEE Latin American Symposium on Circuits and Systems (LASCAS), Puerto Varas, Chile, 01-04 Mar.
   year: 2022
 
-- authors: E. Garzón, M. Carpentieri, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Carpentieri, M. Lanuzza
   title: Dual-Barrier MTJ Based Cryogenic STT-MRAMs
   conf: IEEE Trends in Magnetism Conference (TMAG), Cefalù, Italy, 06-10 Sep.
   year: 2021
 
-- authors: E. Garzón, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
   title: Relaxing Non-Volatility for Energy-Efficient DMTJ Based Cryogenic STT-MRAM
   conf: 22nd Conference on Insulating Films on Semiconductors (INFOS), Rende, Italy, 28 Jun.–08 Jul.
   year: 2021
 
-- authors: E. Garzón, R. De Rose, F. Crupi, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Lanuzza
   title: Device-to-System Level Simulation Framework for STT-DMTJ Based Cache Memory
   conf: IEEE International Conference on Electronics Circuits and Systems (ICECS), Genova, Italy, 27-29 Nov.
   year: 2019
 
-- authors: E. Garzón, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
   title: Exploiting Double-Barrier MTJs for Energy-Efficient Nanoscaled STT-MRAMs
   conf: International Conference on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design (SMACD), Lausanne, Switzerland, 15-18 Jul.
   year: 2019
