@@ -1,5 +1,41 @@
 # colors: blue, red, lightgreen, 
 
+- title: "Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach"
+  authors: R. Taco, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits, M. Lanuzza
+  #pdf: 2024-IEEEAccess-ViRAL
+  #url: 2025-JSSC-HDCAM
+  #image: 2025-JSSC-HDCAM-image.png
+  display: It will be presented at <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
+  year: 2025
+  #doi: 10.1109/JSSC.2025.3529715
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "..."
+
+- title: "Low Matchline Voltage Swing Content-Addressable Memory Cell"
+  authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+  #pdf: 2024-IEEEAccess-ViRAL
+  #url: 2025-JSSC-HDCAM
+  #image: 2025-JSSC-HDCAM-image.png
+  display: It will be presented at <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
+  year: 2025
+  #doi: 10.1109/JSSC.2025.3529715
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "..."
+
+- title: "Non-Volatile Content-Addressable Memory for Energy-Efficient & High-Performance Search and Update Operations"
+  authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <b style='color:#FF6666 !important;'>E. Garzón</b>
+  #pdf: 2024-IEEEAccess-ViRAL
+  #url: 2025-JSSC-HDCAM
+  #image: 2025-JSSC-HDCAM-image.png
+  display: It will be presented at <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
+  year: 2025
+  #doi: 10.1109/JSSC.2025.3529715
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "..."
+
 - title: "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL

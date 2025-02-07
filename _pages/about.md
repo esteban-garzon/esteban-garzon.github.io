@@ -124,7 +124,7 @@ been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) a
   * Xcelium
 
 {% if site.data.awards %}
-## Awards & Honours
+## Awards, Honours, and Recognitions
 
 {% for award in site.data.awards %}
 * {{ award.name }}
