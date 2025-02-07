@@ -1,0 +1,9 @@
+@inproceedings{mosquera2025low,
+  title={{Low Matchline Voltage Swing Content-Addressable Memory Cell}},
+  author={Mosquera, Cristhopher and Taco, Ramiro and Zambrano, Benjamin and Prócel, Luis Miguel and Garzón, Esteban, and Lanuzza, Marco},
+  booktitle={2025 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={},
+  year={2025},
+  organization={IEEE},
+  doi={}
+}

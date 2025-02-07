@@ -1,0 +1,9 @@
+@inproceedings{taco2025towards,
+  title={{Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach}},
+  author={Taco, Ramiro and Garzón, Esteban, and Teman, Adam and Yavits, Leonid and Lanuzza, Marco},
+  booktitle={2025 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={},
+  year={2025},
+  organization={IEEE},
+  doi={}
+}

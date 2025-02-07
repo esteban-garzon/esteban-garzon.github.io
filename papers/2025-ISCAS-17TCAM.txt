@@ -1,0 +1,9 @@
+@inproceedings{bedoya2025nonvolatile,
+  title={{Non-Volatile Content-Addressable Memory for Energy-Efficient & High-Performance Search and Update Operations}},
+  author={Bedoya, Alessandro and Zambrano, Benjamin and Taco, Ramiro and Prócel, Luis Miguel and Garzón, Esteban},
+  booktitle={2025 IEEE International Symposium on Circuits and Systems (ISCAS)},
+  pages={},
+  year={2025},
+  organization={IEEE},
+  doi={}
+}
