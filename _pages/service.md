@@ -43,7 +43,7 @@ permalink: /service/
 <ol>
 {% for publi in site.data.conference_committees %}
 <li>
-* {{ publi.name }}
+ {{ publi.name }}
 </li>
 {% endfor %}
 {% endif %}
