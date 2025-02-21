@@ -126,11 +126,14 @@ been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) a
 {% if site.data.awards %}
 ## Awards, Honours, and Recognitions
 
+<ol>
 {% for award in site.data.awards %}
-* {{ award.name }}
+<li>
+ {{ award.name }}
+</li>
 {% endfor %}
-
 {% endif %}
+</ol>
 
 {% if site.data.grants %}
 
