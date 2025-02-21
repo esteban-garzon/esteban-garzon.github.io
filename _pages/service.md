@@ -27,17 +27,25 @@ permalink: /service/
 {% if site.data.journal_boards %}
 # Journal Boards
 
+<ol>
 {% for publi in site.data.journal_boards %}
-* {{ publi.name }}
+<li>
+ {{ publi.name }}
+</li>
 {% endfor %}
 {% endif %}
+</ol>
 
 
 {% if site.data.conference_committees %}
 # Conference Committees
 
+<ol>
 {% for publi in site.data.conference_committees %}
+<li>
 * {{ publi.name }}
+</li>
 {% endfor %}
 {% endif %}
+</ol>
 
