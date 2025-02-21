@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Teaching & Services"
 layout: gridlay
 sitemap: false
 permalink: /teaching/
