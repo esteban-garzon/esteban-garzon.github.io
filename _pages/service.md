@@ -5,35 +5,38 @@ sitemap: false
 permalink: /service/
 ---
 
-
-{% if site.data.teaching %}
 # Teaching
 
-{% for publi in site.data.teaching %}
+* <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
+    * Analog Systems Design Laboratory
+        * Graduate course: Electronics Graduate Degree
+        * Academic years: from spring 2021
+
+* <strong>Lecturer (invited), <a href="https://www.usfq.edu.ec/en" target="_blank">University San Francisco de Quito</a> (USFQ), Quito, Ecuador</strong>
+    * Digital CMOS Technology
+        * Graduate course: Nanoelectronics Graduate Degree
+        * Academic years: 2021, 2022
+
+* <strong>PhD Courses/Seminars</strong>
+    * Spintronic Technology For Energy-Efficient hybrid CMOS/MTJ Memory Applications, University of Calabria, Rende, Italy
+        * Hours: 6
+    * Hybrid CMOS/MTJ Circuit Design, Politecnico di Bari, Bari, Italy
+        * Hours: 10
+
+
+{% if site.data.journal_boards %}
+# Journal Boards
+
+{% for publi in site.data.journal_boards %}
 * {{ publi.name }}
 {% endfor %}
 {% endif %}
 
-{% if site.data.community_service %}
-# Community Service
 
-{% for publi in site.data.community_service %}
-* {{ publi.name }}
-{% endfor %}
-{% endif %}
+{% if site.data.conference_committees %}
+# Conference Committees
 
-{% if site.data.leadership_service %}
-# Leadership Service
-
-{% for publi in site.data.leadership_service %}
-* {{ publi.name }}
-{% endfor %}
-{% endif %}
-
-{% if site.data.academic_service %}
-# Academic Service
-
-{% for publi in site.data.academic_service %}
+{% for publi in site.data.conference_committees %}
 * {{ publi.name }}
 {% endfor %}
 {% endif %}

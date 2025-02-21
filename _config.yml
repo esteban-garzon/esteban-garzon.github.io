@@ -29,8 +29,8 @@ nav_pages:
   - name: publications
   - name: talks
   - name: tapeouts
-  - name: teaching
-#  - name: service
+  - name: service
+# - name: teaching
 # - name: research
 # - name: software
 # - name: team
