@@ -13,3 +13,6 @@ Coming soon... :)
 # Funded Projects
 
 Coming soon... :)
+
+<button onclick="window.location.href='{{ site.baseurl }}/proj-pimat/'">PIMAT</button>
+
