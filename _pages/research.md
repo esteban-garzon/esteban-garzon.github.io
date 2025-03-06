@@ -5,12 +5,12 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research
+## Research
 
 Coming soon... :)
 
 
-# Funded Projects
+## Funded Projects
 
 <button onclick="window.location.href='{{ site.baseurl }}/proj-pimat/'">PIMAT</button>
 

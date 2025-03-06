@@ -18,7 +18,7 @@ permalink: /proj-pimat/
 
 <button onclick="window.location.href='{{ site.baseurl }}/proj-pimat-about/'">Explore the project</button>
 
-<button onclick="window.location.href='{{ site.baseurl }}/proj-pimat-publ/'">Publications/Resources</button>
+<button onclick="window.location.href='{{ site.baseurl }}/proj-pimat-publ/'">Publications/Resources/Results</button>
 
 <button onclick="window.location.href='{{ site.baseurl }}/proj-pimat-event/'">Events/Talks</button>
 

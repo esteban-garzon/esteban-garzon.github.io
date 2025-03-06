@@ -11,6 +11,7 @@
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "TBD"
+  project: "PIMAT"
 
 - title: "Low Matchline Voltage Swing Content-Addressable Memory Cell"
   authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
@@ -23,6 +24,7 @@
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "TBD"
+  project: "PIMAT"
 
 - title: "Non-Volatile Content-Addressable Memory for Energy-Efficient & High-Performance Search and Update Operations"
   authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <b style='color:#FF6666 !important;'>E. Garzón</b>

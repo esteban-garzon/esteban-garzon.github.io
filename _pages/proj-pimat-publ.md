@@ -5,13 +5,14 @@ sitemap: false
 permalink: /proj-pimat-publ/
 ---
 
-# Table of Contents
+## Table of Contents
 - [Publications](#publications)
 - [Deliverables](#resources-deliverables)
 - [Tapeouts](#tapeouts)
+- [Other Resources](#resources)
 
 
-# Publications
+## Publications
 <a id="publications"></a>
 
 {% assign tot_count = 0 %}
@@ -43,7 +44,7 @@ permalink: /proj-pimat-publ/
 ... working on it... :)
 
 
-# Resources (Deliverables)
+# Deliverables
 <a id="resources-deliverables"></a>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
@@ -66,7 +67,12 @@ permalink: /proj-pimat-publ/
 </table>
 
 
-# Resources (Tapeouts)
+## Tapeouts
 <a id="tapeouts"></a>
+
+... working on it... :)
+
+## Other Resources
+<a id="resources"></a>
 
 ... working on it... :)

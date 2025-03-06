@@ -5,8 +5,15 @@ sitemap: false
 permalink: /about/
 ---
 
-## About 
+## Table of Contents
+- [About](#about)
+- [Biography](#biography)
+- [Professional Skills](#skills)
+- [Awards, Honours, and Recognitions](#awards)
 
+
+## About 
+<a id="about"></a>
 
 {% for member in site.data.pi %}
 
@@ -78,6 +85,7 @@ permalink: /about/
 {% endfor %}
 
 ## Biography
+<a id="biography"></a>
 
 Esteban Garzón received the B.Sc. Degree (cum laude) in Electronics Engineering from the Universidad San
 Francisco de Quito (USFQ), Ecuador, in 2016, the dual M.Sc. degree (GPA: 4.0/4.0) in Nanoelectronics
@@ -102,6 +110,7 @@ boards as review editor of Frontiers in Electronics and Frontiers in Aerospace E
 been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences (only IEEE).
 
 ## Professional Skills 
+<a id="skills"></a>
 - **Integrated Circuit (IC) Design & System-Level Evaluation Skills (Not limited to)**
   - Transistor-level circuit design (analog blocks for memory architectures)
   - Register-transfer level design (digital circuits using HDLs)
@@ -125,6 +134,7 @@ been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) a
 
 {% if site.data.awards %}
 ## Awards, Honours, and Recognitions
+<a id="awards"></a>
 
 <ol>
 {% for award in site.data.awards %}
