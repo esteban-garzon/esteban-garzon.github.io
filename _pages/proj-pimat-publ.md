@@ -40,11 +40,12 @@ permalink: /proj-pimat-publ/
 * Total Number of peer-reviewed publications: {{ tot_count }}
   * Journals: {{ J_count }}
   * Conferences: {{ C_count }}
+* A complete list of the PI's publications: <a href="{{ site.baseurl }}/publications/" target="_blank">link</a>
 
 ... working on it... :)
 
 
-# Deliverables
+## Deliverables
 <a id="resources-deliverables"></a>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">

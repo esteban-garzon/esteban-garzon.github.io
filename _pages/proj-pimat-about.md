@@ -4,8 +4,7 @@ title: "Explore the project"
 sitemap: false
 permalink: /proj-pimat-about/
 ---
-
-# Project PIMAT 
+ 
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
 	<tr>
@@ -20,7 +19,7 @@ permalink: /proj-pimat-about/
     </tr>
 </table>
 
-## Project Motivation 
+## Motivation and Overview
 
 The European Union (EU) emphasizes the importance of advancing **hardware innovation** to strengthen its technological leadership, as highlighted by the "European Chips Act" and substantial financial investments in the semiconductor supply chain. These efforts are aimed at advancing fields such as **artificial intelligence (AI)**, edge computing, and other data-intensive applications. **Neural network (NN) architectures**, particularly transformer kernels, are central to AI development, from processing sequential data for natural language tasks to computer vision tasks. However, the quadratic self-attention mechanism (closely related to **matrix-vector multiplications**) of transformers places high demands on both computation and memory, as seen in large language models (LLMs) like GPT-3, which requires trillions of operations and vast datasets, leading to **considerable carbon emissions**. This **enormous volume of data** is processed during **training and inference** overwhelming current data center infrastructures. Moreover, the cost of training and inference for AI-based technology is expected to escalate, with model parameters doubling at a rapid pace. The **"memory wall"** problem—related to memory bandwidth and access speed—highlights the limitations of traditional von Neumann architectures in handling such tasks. Adopting the **processing-in-memory (PIM)** approach could address these challenges, enabling more energy-efficient and **sustainable AI computing**.
 
