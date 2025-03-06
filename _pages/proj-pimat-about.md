@@ -9,19 +9,23 @@ permalink: /proj-pimat-about/
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
 	<tr>
         <th style="border: 1px solid black; padding: 8px;">Project Name</th>
-        <th style="border: 1px solid black; padding: 8px;">Processing-in-Memory Accelerators for Transformers</th>
+        <td style="border: 1px solid black; padding: 8px;">Processing-in-Memory Accelerators for Transformers</td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">Project Acronym</td>
+        <th style="border: 1px solid black; padding: 8px;">Project Acronym</th>
         <td style="border: 1px solid black; padding: 8px;">PIMAT</td>
     </tr>
     <tr>
         <th style="border: 1px solid black; padding: 8px;">Project Coordinator </th>
-        <th style="border: 1px solid black; padding: 8px;">Dr. Esteban Garzón</th>
+        <td style="border: 1px solid black; padding: 8px;">Dr. Esteban Garzón</td>
     </tr>
     <tr>
         <th style="border: 1px solid black; padding: 8px;">Project Start Date</th>
-        <th style="border: 1px solid black; padding: 8px;">01/03/2025</th>
+        <td style="border: 1px solid black; padding: 8px;">01/03/2025</td>
+    </tr>
+    <tr>
+        <th style="border: 1px solid black; padding: 8px;">Budget</th>
+        <td style="border: 1px solid black; padding: 8px;">€ 249.625,00 </td>
     </tr>
 </table>
 
