@@ -157,7 +157,17 @@ been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) a
 {% endif %}
 -->
 
+
+
 <!-- 
+
+## Current and Past Collaborators
+
+### National
+* Prof. Marco Lanuzza (Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy)</a>
+
+### International
+
 ## Collaborators
 
 * <a href="http://colonius.caltech.edu/" target="_blank">Professor Tim Colonius (Department of Mechanical and Civil Engineering, Caltech)</a>

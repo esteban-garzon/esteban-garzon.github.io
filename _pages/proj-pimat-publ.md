@@ -21,7 +21,7 @@ permalink: /proj-pimat-publ/
 {% assign C_count = 0 %}
 {% assign yeartest = true %}
 {% for publi in site.data.publist %}
-  {% if publi.project == "PIMAT" %}  {# Only count when project is PIMAT #}
+  {% if publi.project == "PIMAT" %} 
     {% if publi.year %}
       {% assign tot_count = tot_count | plus: 1 %}
     {% else %}
@@ -44,7 +44,7 @@ permalink: /proj-pimat-publ/
   * Conferences: {{ C_count }}
 * A complete list of the PI's publications: <a href="{{ site.baseurl }}/publications/" target="_blank">link</a>
 
-<ol>
+<!--<ol>
 {% for publi in site.data.publist %}
   {% if publi.project == "PIMAT" %}
 
@@ -85,6 +85,7 @@ permalink: /proj-pimat-publ/
   {% endif %}
 {% endfor %}
 </ol>
+-->
 
 
 ## Deliverables
