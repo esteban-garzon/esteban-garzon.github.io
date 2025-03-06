@@ -13,5 +13,5 @@ Funded by the Italian Ministry of University and Research (MUR) via the "Piano N
     <img src="/images/logopic/logo_MUR.png" style="width: 100%;">
     <img src="/images/logopic/logo_EU.png" style="width: 100%;">
     <img src="/images/logopic/logo_itdomani.png" style="width: 100%;">
-    <img src="/images/logopic/logo?unical.png" style="width: 100%;">
+    <img src="/images/logopic/logo_unical.png" style="width: 100%;">
 </div>
