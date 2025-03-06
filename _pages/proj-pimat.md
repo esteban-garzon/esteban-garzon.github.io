@@ -5,10 +5,9 @@ sitemap: false
 permalink: /proj-pimat/
 ---
 
-# Coming soon... :)
+# Homepage of Project PIMAT
 
-
-<img src="/images/logopic/PIMAT_logo.png" alt="Project Logo" style="width: 100%; height: auto;"/>
+<img src="/images/logopic/PIMAT_logo.png" alt="Project Logo" style="width: 90%; height: auto;"/>
 
 
 *Funded by the Italian Ministry of University and Research (**MUR**) via the "Piano Nazionale di Ripresa e Resilienza (**PNRR**)" - Mission 4, “Education and Research” - Component 2, “From Research to Business” - Investment line 1.2, “Funding projects presented by young researchers”, funded by the **European Union – NextGenerationEU***
