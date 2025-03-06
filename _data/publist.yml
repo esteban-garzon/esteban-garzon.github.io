@@ -35,6 +35,7 @@
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "TBD"
+  project: "PIMAT"
 
 - title: "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits
