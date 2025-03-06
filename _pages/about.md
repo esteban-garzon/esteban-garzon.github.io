@@ -10,7 +10,7 @@ permalink: /about/
 - [Biography](#biography)
 - [Professional Skills](#skills)
 - [Awards, Honours, and Recognitions](#awards)
-
+- [Collaborators](#colaborations)
 
 ## About 
 <a id="about"></a>
@@ -158,28 +158,30 @@ been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) a
 -->
 
 
-
-<!-- 
-
 ## Current and Past Collaborators
+<a id="colaborations"></a>
 
-### National
-* Prof. Marco Lanuzza (Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy)</a>
+### National  
+* **Prof. Marco Lanuzza**, Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy  
+* **Prof. Felice Crupi**, Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy  
+* **Prof. Raffaele De Rose**, Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy  
+* **Dr. Ramiro Taco**, Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy  
+* **Prof. Giuseppe Iannaccone**, Department of Information Engineering, University of Pisa, Pisa, Italy  
+* **Prof. Sebastiano Strangio**, Department of Information Engineering, University of Pisa, Pisa, Italy  
+* **Prof. Mario Carpentieri**, Department of Electrical and Information Engineering, Politecnico di Bari, Bari, Italy  
+* **Dr. Andrea Meo**, Department of Electrical and Information Engineering, Politecnico di Bari, Bari, Italy  
+* **Prof. Giovanni Finocchio**, Department of Mathematical and Computer Sciences, Physical Sciences and Earth Sciences, University of Messina, Messina, Italy  
 
-### International
-
-## Collaborators
-
-* <a href="http://colonius.caltech.edu/" target="_blank">Professor Tim Colonius (Department of Mechanical and Civil Engineering, Caltech)</a>
-* <a href="https://www.imperial.ac.uk/people/g.rigas" target="_blank">Professor Georgios Rigas (Department of Aeronautics, Imperial College London)</a>
-* <a href="http://flowphysics.ucsd.edu/" target="_blank">Professor Oliver Schmidt (Department of Mechanical and Aerospace Engineering, UC San Diego)</a>
-* <a href="http://atowne.com/" target="_blank">Professor Aaron Towne (Department of Mechanical Engineering, University of Michigan)</a>
-* <a href="https://scholar.google.fr/citations?user=X7P6FUEAAAAJ&hl=fr" target="_blank"> Dr. Peter Jordan (Institut Pprime, CNRS, Universit ́e de Poitiers )</a>
-* <a href="http://denissipp.free.fr/" target="_blank"> Dr. Denis Sipp (Research Director at ONERA)</a>
-* <a href="http://www.ita.br/~cavalieri" target="_blank"> Professor Andre Cavalieri (Engenharia Aeronáutica, Instituto Tecnológico de Aeronáutica)</a>
-* <a href="https://www.cascadetechnologies.com/" target="_blank"> Dr. Guillaume Brès (Director of Operations and Senior Research Scientist, CASCADE Technologies)</a>
--->
-
+### International  
+* **Prof. Pedram Khalili**, McCormick School of Engineering and Applied Science, Northwestern University, Illinois, USA  
+* **Prof. Adam Teman**, EnICS Labs, Faculty of Engineering, Bar-Ilan University, Ramat-Gan, Israel  
+* **Dr. Leonid Yavits**, EnICS Labs, Faculty of Engineering, Bar-Ilan University, Ramat-Gan, Israel  
+* **Prof. Alexander Fish**, EnICS Labs, Faculty of Engineering, Bar-Ilan University, Ramat-Gan, Israel  
+* **Prof. Lionel Trojman**, Institut supérieur d’électronique de Paris, Paris, France  
+* **Prof. Etienne Sicard**, L’Institut National des Sciences Appliquées, Toulouse, France  
+* **Prof. Andrei Vladimirescu**, University of California, Berkeley, California, USA  
+* **Prof. Luis-Miguel Procel**, Institute of Micro and Nano Electronics, Faculty of Engineering, Quito, Ecuador
+* **Prof. Eduardo Javier Holguin Weber**, Institute of Micro and Nano Electronics, Faculty of Engineering, Quito, Ecuador  
 
 
 

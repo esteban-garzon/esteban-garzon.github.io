@@ -44,6 +44,8 @@ permalink: /proj-pimat-publ/
   * Conferences: {{ C_count }}
 * A complete list of the PI's publications: <a href="{{ site.baseurl }}/publications/" target="_blank">link</a>
 
+… working on it… :)
+
 <!--<ol>
 {% for publi in site.data.publist %}
   {% if publi.project == "PIMAT" %}
