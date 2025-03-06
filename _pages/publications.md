@@ -29,8 +29,8 @@ permalink: /publications/
   {% endif %}
 {% endfor %}
 
-* Total Number of publications: {{ tot_count }}
-  * International Journals: {{ J_count }}
+* Total Number of peer-reviewed publications: {{ tot_count }}
+  * Journals: {{ J_count }}
   * Conferences: {{ C_count }}
   * Book Chapter: {{ B_count }}
 

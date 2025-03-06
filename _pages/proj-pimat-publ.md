@@ -5,12 +5,46 @@ sitemap: false
 permalink: /proj-pimat-publ/
 ---
 
-# Publications
+# Table of Contents
+- [Publications](#publications)
+- [Deliverables](#resources-deliverables)
+- [Tapeouts](#tapeouts)
 
-... Coming soon... :)
+
+# Publications
+<a id="publications"></a>
+
+{% assign tot_count = 0 %}
+{% assign B_count = 0 %}
+{% assign J_count = 0 %}
+{% assign C_count = 0 %}
+{% assign yeartest = true %}
+{% for publi in site.data.publist_pimat %}
+  {% if publi.year %}
+    {% assign tot_count = tot_count | plus: 1 %}
+  {% else %}
+    {% assign yeartest = false %}
+  {% endif %}
+  {% if publi.type_B %}
+    {% assign B_count = B_count | plus: 1 %}
+  {% endif %}
+  {% if publi.type_J %}
+    {% assign J_count = J_count | plus: 1 %}
+  {% endif %}
+  {% if publi.type_C %}
+    {% assign C_count = C_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+* Total Number of peer-reviewed publications: {{ tot_count }}
+  * Journals: {{ J_count }}
+  * Conferences: {{ C_count }}
+
+... working on it... :)
 
 
 # Resources (Deliverables)
+<a id="resources-deliverables"></a>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
 	<tr>
@@ -31,3 +65,8 @@ permalink: /proj-pimat-publ/
     </tr>
 </table>
 
+
+# Resources (Tapeouts)
+<a id="tapeouts"></a>
+
+... working on it... :)

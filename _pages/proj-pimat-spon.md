@@ -11,4 +11,4 @@ permalink: /proj-pimat-spon/
 
 | <img src="/images/logopic/logo_MUR.png" width="50%"> | <img src="/images/logopic/logo_EU.png" width="85%"> |
 |-----------------------------------------------------|-----------------------------------------------------|
-| <img src="/images/logopic/logo_itdomani.png" width="70%"> | <img src="/images/logopic/logo_unical.png" width="75%"> |
+| <img src="/images/logopic/logo_itdomani.png" width="75%"> | <img src="/images/logopic/logo_unical.png" width="75%"> |
