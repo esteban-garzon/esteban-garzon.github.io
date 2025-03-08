@@ -103,9 +103,9 @@ permalink: /proj-pimat-publ/
         <th style="border: 1px solid black; padding: 8px;">Link</th>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">✔</td>
-        <td style="border: 1px solid black; padding: 8px;">Item 1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP1</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered at M1</td>
+        <td style="border: 1px solid black; padding: 8px;">D5.1</td>
+        <td style="border: 1px solid black; padding: 8px;">WP5</td>
         <td style="border: 1px solid black; padding: 8px;">Short description</td>
         <td style="border: 1px solid black; padding: 8px;">Type A</td>
         <td style="border: 1px solid black; padding: 8px;"><a href="#">Link 1</a></td>
