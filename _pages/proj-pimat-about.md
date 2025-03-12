@@ -21,7 +21,7 @@ permalink: /proj-pimat-about/
     </tr>
     <tr>
         <th style="border: 1px solid black; padding: 8px;">Project Start Date</th>
-        <td style="border: 1px solid black; padding: 8px;">01/03/2025</td>
+        <td style="border: 1px solid black; padding: 8px;">TBD</td>
     </tr>
     <tr>
         <th style="border: 1px solid black; padding: 8px;">Budget</th>
