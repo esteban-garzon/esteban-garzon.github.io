@@ -6,7 +6,7 @@ permalink: /tapeouts/
 ---
 
 
-# Research Tapeouts (Fabricated Test Chips & Prototypes)
+## Research Tapeouts (Fabricated Test Chips & Prototypes)
 
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO1_SoC.png" class="img-responsive" width="95%" style="float: top; border-radius: 10px;" />

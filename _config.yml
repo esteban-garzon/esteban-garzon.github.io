@@ -12,7 +12,7 @@ affiliation: I'm with the <a href="https://dimes.unical.it" target="_blank">Depa
 # Location info. (shown in footer)
 location: >
   Address: <br/>
-  Building 42C <br/>
+  Building 42C 2nd-Floor <br/>
   University of Calabria <br/>
   Via P. Bucci <br/>
   Rende (CS) 87036<br/>
@@ -26,11 +26,12 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
+  - name: research
   - name: publications
   - name: talks
   - name: tapeouts
+  - name: teaching
   - name: service
-  - name: research
 # - name: software
 # - name: team
 

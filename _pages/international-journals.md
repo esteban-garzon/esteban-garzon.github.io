@@ -5,7 +5,7 @@ sitemap: false
 permalink: /international-journals/
 ---
 
-# International Journals
+## International Journals
 
 <ol>
 {% for publi in site.data.publist %}

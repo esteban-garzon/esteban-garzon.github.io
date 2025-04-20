@@ -5,7 +5,7 @@ sitemap: false
 permalink: /conferences/
 ---
 
-# Peer-Reviewed Conferences
+## Peer-Reviewed Conferences
 
 <ol>
 {% for publi in site.data.publist %}

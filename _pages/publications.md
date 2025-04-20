@@ -5,7 +5,7 @@ sitemap: false
 permalink: /publications/
 ---
 
-# Publications
+## Publications
 
 {% assign tot_count = 0 %}
 {% assign B_count = 0 %}

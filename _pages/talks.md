@@ -6,8 +6,6 @@ permalink: /talks/
 ---
 
 
-# Talks
-
 ## Table of Contents
 - [Personal Talks in Conferences](#personal)
 - [Invited Talks/Seminars](#invited)
