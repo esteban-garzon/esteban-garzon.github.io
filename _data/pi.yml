@@ -1,22 +1,24 @@
 - name: Dr. Esteban Garzón | IEEE Senior Member
   photo: EG.jpg
-  info: Postdoctoral Researcher | VLSI Design Engineer
+  info: Assistant Professor | VLSI Design Engineer
   email: esteban.garzon@unical.it
   github: https://github.com/EstebanJGC
   researchgate: https://www.researchgate.net/profile/Esteban-Garzon
   scholar: https://scholar.google.com/citations?user=79YaVDsAAAAJ&hl=en
   #cv: https://github.com/esteban-garzon/esteban-garzon.github.io/tree/main/cv/CV_ESTEBAN_GARZON_%2025_05_2024.pdf
   cv: https://drive.google.com/file/d/1JaIEZDDd82R1S6C6kmBlnIR9DD8nLZK0/view?usp=sharing
-  number_educ: 6
-  education1: (2024-    ) Adjunct Professor, Universidad San Francisco de Quito, Quito, Ecuador
-  education2: (2022-    ) Postdoctoral Researcher in Electronics Engineering, University of Calabria, Rende, Italy
-  education3: (2018-2022) Ph.D. Electronics Engineering, University of Calabria, Rende, Italy
-  education4: (2016-2018) M.Sc. in Electronics Engineering (2/2), University of Calabria, Rende, Italy 
-  education5: (2016-2018) M.Sc. in Nanoelectronics (1/2), Universidad San Francisco de Quito, Quito, Ecuador 
-  education6: (2011-2016) B.Sc. in Electronics Engineering, Universidad San Francisco de Quito, Quito, Ecuador 
-  education1short: (2024-    ) Adjunct Prof. (USFQ)
-  education2short: (2022-    ) Postdoc Electron. Eng.
-  education3short: (2018-2022) Ph.D. Electron. Eng.
-  education4short: (2016-2018) M.Sc. Electron. Eng. (2/2)
-  education5short: (2016-2018) M.Sc. Nanoelectron. (1/2)
-  education6short: (2011-2016) B.Sc. Electron. Eng.
+  number_educ: 7
+  education1: (2025-    ) Assistant Professor, University of Calabria, Rende, Italy
+  education2: (2024-    ) Adjunct Professor, Universidad San Francisco de Quito, Quito, Ecuador
+  education3: (2022-2025) Postdoctoral Researcher in Electronics Engineering, University of Calabria, Rende, Italy
+  education4: (2018-2022) Ph.D. Electronics Engineering, University of Calabria, Rende, Italy
+  education5: (2016-2018) M.Sc. in Electronics Engineering (2/2), University of Calabria, Rende, Italy 
+  education6: (2016-2018) M.Sc. in Nanoelectronics (1/2), Universidad San Francisco de Quito, Quito, Ecuador 
+  education7: (2011-2016) B.Sc. in Electronics Engineering, Universidad San Francisco de Quito, Quito, Ecuador 
+  education1short: (2025-    ) Assistant Prof.
+  education2short: (2024-    ) Adjunct Prof. (USFQ)
+  education3short: (2022-2025) Postdoc Electron. Eng. 
+  education4short: (2018-2022) Ph.D. Electron. Eng.
+  education5short: (2016-2018) M.Sc. Electron. Eng. (2/2)
+  education6short: (2016-2018) M.Sc. Nanoelectron. (1/2)
+  education7short: (2011-2016) B.Sc. Electron. Eng.
