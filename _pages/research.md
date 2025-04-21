@@ -9,7 +9,7 @@ permalink: /research/
 - [Research](#reserach)
 - [Funding](#funding)
 
-## Research
+<h2 style="background-color: #e3e3e1; padding: 0.2em;"> Research </h2>
 <a id="reserach"></a>
 ### Memory-Centric Hardware Accelerators for Data-Intensive Applications
 The design of hardware accelerators that use memory technologies and computing paradigms to address the limitations of conventional processor-centric architectures in data-intensive workloads. The memory technologies include static RAM (SRAM), dynamic RAM (DRAM), and emerging non-volatile memories (e.g., MRAM, RRAM) with a particular focus on enhancing energy efficiency, computational throughput, and memory access locality. The computational paradigms include in-memory computing and near-memory computing, where data-intensive operations are performed within or close to the memory arrays to alleviate the data movement bottleneck. These paradigms are especially relevant for workloads in machine learning, graph processing, similarity search, and real-time analytics.
