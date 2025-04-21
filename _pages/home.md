@@ -11,7 +11,7 @@ code {padding: 6px 8px; font-size: 90%;}
 
 # Welcome!
 
-I am an Assistant Professor at the <a href="https://www.unical.it/" target="_blank">Universitiy of Calabria</a>. My research interests include domain-specific hardware accelerators, electronics/spintronics, and standard and emerging technologies for logic & memory, and low-power applications. 
+I am an Assistant Professor (RTD-A; non-tenured track) at the <a href="https://www.unical.it/" target="_blank">Universitiy of Calabria</a>. My research interests include domain-specific hardware accelerators, electronics/spintronics, and standard and emerging technologies for logic & memory, and low-power applications. 
 
 I received my Ph.D. degree (Hons.) in Electronics Engineering from <a href="https://www.unical.it/" target="_blank">Universitiy of Calabria</a>, in 2022, under the supervision of <a href="https://people.dimes.unical.it/marcolanuzza/" target="_blank">Prof. Marco Lanuzza</a> and <a href="https://www.eng.biu.ac.il/temanad/" target="_blank">Prof. Adam Teman</a>. In July 2024, I received the National Scientific Habilitation (ASN) for Associate Professor of Electronics (Sector 09/E3) in Italian Universities. In 2025, I
 

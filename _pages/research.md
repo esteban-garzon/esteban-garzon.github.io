@@ -9,8 +9,9 @@ permalink: /research/
 - [Research](#reserach)
 - [Funding](#funding)
 
-<h2 style="background-color: #e3e3e1; padding: 0.2em;"> Research </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Research </h2>
 <a id="reserach"></a>
+
 ### Memory-Centric Hardware Accelerators for Data-Intensive Applications
 The design of hardware accelerators that use memory technologies and computing paradigms to address the limitations of conventional processor-centric architectures in data-intensive workloads. The memory technologies include static RAM (SRAM), dynamic RAM (DRAM), and emerging non-volatile memories (e.g., MRAM, RRAM) with a particular focus on enhancing energy efficiency, computational throughput, and memory access locality. The computational paradigms include in-memory computing and near-memory computing, where data-intensive operations are performed within or close to the memory arrays to alleviate the data movement bottleneck. These paradigms are especially relevant for workloads in machine learning, graph processing, similarity search, and real-time analytics.
 
@@ -22,12 +23,12 @@ Non-volatile spintronic memories represent a promising knob to deal with the inc
 My research activity is focused on, but not limited to, non-volatile cache memories implemented by STT-MRAMs.
 
 The main research topics cover (not limited to):
-	- Technology and voltage scaling by considering STT-MRAMs based on single-barrier MTJs (SMTJs) and double-barrier MTJs (DMTJs)
-	- SMTJ-based and DMTJ-based STT-MRAMs operating at the liquid nitrogen temperature, which is considered an interesting alternative to deal with the power/ memory wall of classical room-temperature computing.
-	- In-memory computing
-	- Non-von Neumann architectures
+- Technology and voltage scaling by considering STT-MRAMs based on single-barrier MTJs (SMTJs) and double-barrier MTJs (DMTJs)
+- SMTJ-based and DMTJ-based STT-MRAMs operating at the liquid nitrogen temperature, which is considered an interesting alternative to deal with the power/ memory wall of classical room-temperature computing.
+- In-memory computing
+- Non-von Neumann architectures
 
-## Funded Projects
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Funded Projects </h2>
 <a id="funding"></a>
 
 ### Funding as Principal Investigator

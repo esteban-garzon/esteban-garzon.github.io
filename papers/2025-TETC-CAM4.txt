@@ -1,0 +1,11 @@
+@article{jahshan2025cam4,
+  author={Jahshan, Zuher and Merlin, Itay and Garzón, Esteban and Yavits, Leonid},
+  journal={Transactions on Emerging Topics in Computing}, 
+  title={{CAM4: In-Memory Viral Pathogen Genome Classification using Similarity Search Dynamic Content-Addressable Memory}}, 
+  year={2025},
+  volume={},
+  pages={},
+  impact_factor={5.1},
+  quartile={Q1},
+  doi={10.1109/TETC.2025.3563201}
+}

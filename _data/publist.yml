@@ -1,10 +1,37 @@
 # colors: blue, red, lightgreen, 
 
+- title: "CAM4: In-Memory Viral Pathogen Genome Classification using Similarity Search Dynamic Content-Addressable Memory"
+  authors: Z. Jahshan, I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2025-TETC-CAM4
+  image: 2025-TETC-CAM4-image.png
+  display: <b>Transactions on Emerging Topics in Computing</b>
+  year: 2025
+  doi: 10.1109/TETC.2025.3563201
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "We present CAM4, a novel embedded dynamic
+storage-based similarity search content addressable memory.
+CAM4 is designated for in-memory computational genomics
+applications, particularly the identification and classification of
+pathogen DNA. CAM4 employs a novel gain cell design and onehot encoding of DNA bases to address retention time variations,
+and mitigate potential data loss from pulldown leakage and
+soft errors in embedded DRAM. CAM4 features performance
+overhead-free refresh and data upload, allowing simultaneous
+search and refresh without performance degradation. CAM4
+offers approximate search versatility in scenarios with a variety
+of industrial sequencers with different error profiles. When
+classifying DNA reads with a 10% error rate, it achieves, on
+average, a 25% higher F1 score compared to MetaCache-GPU
+and Kraken2 DNA classification tools. Simulated at 1GHz, CAM4
+provides 1, 412× and 1, 040× average speedup over MetaCacheGPU and Kraken2 respectively."
+  #project: "PIMAT"
+
 - title: "Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach"
   authors: R. Taco, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ISCAS-PCAM
-  #image: 2025-JSSC-HDCAM-image.png
+  image: 2025-ISCAS-PCAM-image.png
   display: It will be presented at <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2025
   #doi: 10.1109/JSSC.2025.3529715
@@ -17,7 +44,7 @@
   authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ISCAS-low
-  #image: 2025-JSSC-HDCAM-image.png
+  image: 2025-ISCAS-low-image.png
   display: It will be presented at <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2025
   #doi: 10.1109/JSSC.2025.3529715
@@ -30,13 +57,13 @@
   authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <b style='color:#FF6666 !important;'>E. Garzón</b>
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ISCAS-17TCAM
-  #image: 2025-JSSC-HDCAM-image.png
+  image: 2025-ISCAS-17TCAM-image.png
   display: It will be presented at <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2025
   #doi: 10.1109/JSSC.2025.3529715
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: "TBD"
+  abstract: ""
   project: "PIMAT"
 
 - title: "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance"
