@@ -27,6 +27,7 @@ My recent research activity at UNICAL ....
 -->
 
 
+<!--
 <br/>
 <div class="well-md">
 <h4>Sponsors</h4>
@@ -34,5 +35,23 @@ My recent research activity at UNICAL ....
  {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='max-height: 70px; max-width: 170px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='max-height: 70px; max-width: 170px;'/>{% endif %}   {% endfor %}
 </div>
 </div>
+-->
+
+
+<div class="well-md">
+  <h4>Sponsors</h4>
+  <div style="display:block; text-align:center; margin:0 auto;">
+    {% for funder in site.data.funders %}
+      <a href="{{ funder.url }}" target="_blank">
+        <img
+          src="/images/logopic/{{ funder.image }}"
+          style="background-color: #ffffff; max-height: 70px; max-width: 170px;"
+          alt="{{ funder.name }} logo"
+        />
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
 
 
