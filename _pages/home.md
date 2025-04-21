@@ -32,12 +32,23 @@ My recent research activity at UNICAL ....
 <div class="well-md">
 <h4>Sponsors</h4>
 <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
- {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='max-height: 70px; max-width: 170px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='max-height: 70px; max-width: 170px;'/>{% endif %}   {% endfor %}
+ {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='max-height: 70px; max-width: 170px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='background-color: #ffffff; max-height: 70px; max-width: 170px;'/>{% endif %}   {% endfor %}
 </div>
 </div>
 
-
+ 
 <!--
+
+
+style='max-height: 70px; max-width: 170px;'
+style='background-color: #ffffff; max-height: 70px; max-width: 170px;'
+
+
+| <img src="/images/logopic/logo_MUR.png" style="width: 50%; height: auto; display: block; margin: auto; margin-bottom: 20px;"> | <img src="/images/logopic/logo_EU.png" style="width: 85%; height: auto; display: block; margin: auto; margin-bottom: 20px;"> |
+|-----------------------------------------------------|-----------------------------------------------------|
+| <img src="/images/logopic/logo_itdomani.png" style="width: 75%; display: block; margin: auto;"> | <img src="/images/logopic/logo_unical.png" style="width: 75%; height: auto; display: block; margin: auto;">
+
+
 <br/>
 <div class="well-md">
   <h4>Sponsors</h4>
