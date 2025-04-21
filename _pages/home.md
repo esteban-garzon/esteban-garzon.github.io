@@ -32,7 +32,7 @@ My recent research activity at UNICAL ....
 <div class="well-md">
 <h4>Sponsors</h4>
 <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
- {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='max-height: 70px; max-width: 170px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='background-color: #ffffff; max-height: 70px; max-width: 170px;'/>{% endif %}   {% endfor %}
+ {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='background-color: #ffffff; max-height: 70px; max-width: 170px; margin: 0 10px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='background-color: #ffffff; max-height: 70px; max-width: 170px; margin: 0 10px;'/>{% endif %}   {% endfor %}
 </div>
 </div>
 
