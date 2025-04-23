@@ -9,7 +9,7 @@ permalink: /research/
 - [Research](#reserach)
 - [Funding](#funding)
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Research </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Research </h2>
 <a id="reserach"></a>
 
 ### Memory-Centric Hardware Accelerators for Data-Intensive Applications
@@ -28,7 +28,7 @@ The main research topics cover (not limited to):
 - In-memory computing
 - Non-von Neumann architectures
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Funded Projects </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Funded Projects </h2>
 <a id="funding"></a>
 
 ### Funding as Principal Investigator
