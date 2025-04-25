@@ -12,7 +12,7 @@ permalink: /proj-pimat-publ/
 - [Other Resources](#resources)
 
 
-## Publications
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Publications </h2>
 <a id="publications"></a>
 
 {% assign tot_count = 0 %}
@@ -90,7 +90,7 @@ permalink: /proj-pimat-publ/
 -->
 
 
-## Deliverables
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Deliverables </h2>
 <a id="resources-deliverables"></a>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
@@ -113,12 +113,12 @@ permalink: /proj-pimat-publ/
 </table>
 
 
-## Tapeouts
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Tapeouts </h2>
 <a id="tapeouts"></a>
 
 ... working on it... :)
 
-## Other Resources
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Other Resources </h2>
 <a id="resources"></a>
 
 ... working on it... :)

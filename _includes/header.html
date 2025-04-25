@@ -1,3 +1,4 @@
+<!--
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
@@ -18,5 +19,66 @@
         {% endfor %}
 	  </ul>
 	</div>
+  </div>
+</div>
+-->
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#navbar-collapse-1"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
+        {{ site.title | escape }}
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+        {% for page in site.nav_pages %}
+          {% if page.children %}
+            <li class="dropdown">
+              <a
+                href="{{ site.url }}{{ site.baseurl }}/{{ page.name }}"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                {{ page.title | default: page.name | capitalize }}
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                {% for child in page.children %}
+                  <li>
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ child.url }}">
+                      {{ child.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li>
+              <a href="{{ site.url }}{{ site.baseurl }}/{{ page.name }}">
+                {{ page.title | default: page.name | capitalize }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>
