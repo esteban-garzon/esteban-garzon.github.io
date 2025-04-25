@@ -47,8 +47,6 @@ permalink: /proj-pimat-publ/
   * Conferences: {{ C_count }}
 * A complete list of the PI's publications: <a href="{{ site.baseurl }}/publications/" target="_blank">link</a>
 
-… working on it… :)
-
 <ol>
 {% for publi in site.data.publist %}
   {% if publi.project == "PIMAT" %}
@@ -100,20 +98,20 @@ permalink: /proj-pimat-publ/
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
 	<tr>
-        <th style="border: 1px solid black; padding: 8px;">Status</th>
         <th style="border: 1px solid black; padding: 8px;">Item</th>
         <th style="border: 1px solid black; padding: 8px;">WP</th>
         <th style="border: 1px solid black; padding: 8px;">Description</th>
+        <th style="border: 1px solid black; padding: 8px;">Status</th>
         <th style="border: 1px solid black; padding: 8px;">Type</th>
-        <th style="border: 1px solid black; padding: 8px;">Link</th>
+        <th style="border: 1px solid black; padding: 8px;">File</th>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered at M1</td>
-        <td style="border: 1px solid black; padding: 8px;">D5.1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP5</td>
-        <td style="border: 1px solid black; padding: 8px;">Short description</td>
-        <td style="border: 1px solid black; padding: 8px;">Type A</td>
-        <td style="border: 1px solid black; padding: 8px;"><a href="#">Link 1</a></td>
+        <td style="border: 1px solid black; padding: 8px;">D4.1</td>
+        <td style="border: 1px solid black; padding: 8px;">WP4</td>
+        <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered in M1</td>
+        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
+        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1QFKnev0xmn38rEbUN2pkwfdEWrPrmk9C/view?usp=sharing">Link</a>)</td>
     </tr>
 </table>
 
@@ -134,3 +132,4 @@ permalink: /proj-pimat-publ/
 <a id="resources"></a>
 
 ... working on it... :)
+<!-- files datasets, public data -->
