@@ -103,7 +103,7 @@ include domain-specific hardware accelerators, electronics/spintronics, embedded
 and emerging technologies for logic & memory, and low-power applications. He has received several awards,
 research grants, and funding (as Principal Investigator). E. Garzón has been part of several IEEE conference committees, and journal boards. Moreover, he has been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences.
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Professional Skills  </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Professional Skills  </h2>
 <a id="skills"></a>
 - **Integrated Circuit (IC) Design & System-Level Evaluation Skills (Not limited to)**
   - Transistor-level circuit design (analog blocks for memory architectures)
@@ -127,7 +127,7 @@ research grants, and funding (as Principal Investigator). E. Garzón has been pa
   * Xcelium
 
 {% if site.data.awards %}
-<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Awards, Honours, and Recognitions  </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Awards, Honours, and Recognitions  </h2>
 <a id="awards"></a>
 
 <ol>
@@ -152,7 +152,7 @@ research grants, and funding (as Principal Investigator). E. Garzón has been pa
 -->
 
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Current and Past Collaborators  </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Current and Past Collaborators  </h2>
 <a id="colaborations"></a>
 
 ### National  

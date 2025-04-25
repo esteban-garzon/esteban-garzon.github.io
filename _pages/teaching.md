@@ -9,7 +9,7 @@ permalink: /teaching/
 - [Teaching](#teaching)
 - [Supervision](#supervision)
 
-## Teaching
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Teaching </h2>
 <a id="teaching"></a>
 
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
@@ -23,25 +23,18 @@ permalink: /teaching/
         * Academic years: 2021, 2022
 
 * <strong>PhD Courses/Seminars</strong>
-    * Spintronic Technology For Energy-Efficient hybrid CMOS/MTJ Memory Applications, University of Calabria, Rende, Italy
+    * Spintronic Technology For Energy-Efficient hybrid CMOS/MTJ Memory Applications, <a href="https://dimes.unical.it/" target="_blank">DIMES, University of Calabria</a>, Rende, Italy
         * Hours: 6
-    * Hybrid CMOS/MTJ Circuit Design, Politecnico di Bari, Bari, Italy
+    * Hybrid CMOS/MTJ Circuit Design, <a href="https://orientami.poliba.it/" target="_blank">Politecnico di Bari</a>, Bari, Italy
         * Hours: 10
 
-## Supervision
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Supervision </h2>
 <a id="supervision"></a>
 
 * <strong>M.Sc. Students</strong>
     * As Main Tutor/Supervisor: 2
-    * As Co-Tutor/Co-Supervisor: 4
+    * As Co-Tutor/Co-Supervisor: 5
 
-<!--
-### Research
-Mattia
-Francesco
+* <strong>Ph.D Students</strong>
+    * As Co-Tutor/Co-Supervisor: 2
 
-Cristhopher
-Alessandro Bedoya
-Felix
-Diego Criollo
--->

@@ -10,7 +10,7 @@ permalink: /service/
 - [Conference Committees](#committees)
 
 {% if site.data.journal_boards %}
-## Journal Boards
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Journal Boards </h2>
 <a id="boards"></a>
 
 <ol>
@@ -24,7 +24,7 @@ permalink: /service/
 
 
 {% if site.data.conference_committees %}
-## Conference Committees
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Conference Committees </h2>
 <a id="committees"></a>
 
 <ol>

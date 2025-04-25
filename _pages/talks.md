@@ -12,7 +12,7 @@ permalink: /talks/
 
 
 {% if site.data.conference_talks %}
-<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Personal Talks in Conferences  </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Personal Talks in Conferences  </h2>
 <a id="personal"></a>
 
 <ol>
@@ -25,7 +25,7 @@ permalink: /talks/
 </ol>
 
 {% if site.data.invited_talks %}
-<h2 style="background-color: #f2f2f2; padding: 0.2em; font-weight: bold;"> Invited Talks/Seminars  </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Invited Talks/Seminars  </h2>
 <a id="invited"></a>
 
 <ol>
