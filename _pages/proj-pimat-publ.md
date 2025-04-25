@@ -12,6 +12,9 @@ permalink: /proj-pimat-publ/
 - [Other Resources](#resources)
 
 
+<!-- ###################################################################### 
+                              PUBLICATIONS
+######################################################################   -->
 <h2 style="background-color: #f2f2f2; padding: 0.2em;"> Publications </h2>
 <a id="publications"></a>
 
@@ -46,7 +49,7 @@ permalink: /proj-pimat-publ/
 
 … working on it… :)
 
-<!--<ol>
+<ol>
 {% for publi in site.data.publist %}
   {% if publi.project == "PIMAT" %}
 
@@ -87,9 +90,11 @@ permalink: /proj-pimat-publ/
   {% endif %}
 {% endfor %}
 </ol>
--->
 
 
+<!-- ###################################################################### 
+                                DELIVERABLES
+######################################################################   -->
 <h2 style="background-color: #f2f2f2; padding: 0.2em;"> Deliverables </h2>
 <a id="resources-deliverables"></a>
 
@@ -113,11 +118,18 @@ permalink: /proj-pimat-publ/
 </table>
 
 
+<!-- ###################################################################### 
+                              TAPEOUTS
+######################################################################   -->
 <h2 style="background-color: #f2f2f2; padding: 0.2em;"> Tapeouts </h2>
 <a id="tapeouts"></a>
 
 ... working on it... :)
 
+
+<!-- ###################################################################### 
+                              OTHER RESOURCES
+######################################################################   -->
 <h2 style="background-color: #f2f2f2; padding: 0.2em;"> Other Resources </h2>
 <a id="resources"></a>
 
