@@ -113,6 +113,14 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1QFKnev0xmn38rEbUN2pkwfdEWrPrmk9C/view?usp=sharing">Link</a>)</td>
     </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">D5.1</td>
+        <td style="border: 1px solid black; padding: 8px;">WP5</td>
+        <td style="border: 1px solid black; padding: 8px;">Data management plan</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered in M1</td>
+        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
+        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1QIlapWXzmmWcHCFds40FBiCbF-DpieNJ/view?usp=sharing">Link</a>)</td>
+    </tr>
 </table>
 
 
