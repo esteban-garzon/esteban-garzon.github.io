@@ -91,13 +91,13 @@ permalink: /proj-pimat-publ/
 
 
 <!-- ###################################################################### 
-                                DELIVERABLES
+                                DELIVERABLES & MILESTONES
 ######################################################################   -->
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Deliverables </h2>
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Deliverables & Milestones </h2>
 <a id="resources-deliverables"></a>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left;">
-	<tr>
+    <tr>
         <th style="border: 1px solid black; padding: 8px;">Item</th>
         <th style="border: 1px solid black; padding: 8px;">WP</th>
         <th style="border: 1px solid black; padding: 8px;">Description</th>
@@ -106,10 +106,18 @@ permalink: /proj-pimat-publ/
         <th style="border: 1px solid black; padding: 8px;">File</th>
     </tr>
     <tr>
+        <td style="border: 1px solid black; padding: 8px;">MS4</td>
+        <td style="border: 1px solid black; padding: 8px;">WP4</td>
+        <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Milestone Achieved at M1</td>
+        <td style="border: 1px solid black; padding: 8px;">Public</td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="{{ site.baseurl }}/proj-pimat-ms4/" target="_blank">link</a></td>
+    </tr> 
+    <tr>
         <td style="border: 1px solid black; padding: 8px;">D4.1</td>
         <td style="border: 1px solid black; padding: 8px;">WP4</td>
         <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered in M1</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered at M1</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1QFKnev0xmn38rEbUN2pkwfdEWrPrmk9C/view?usp=sharing">Link</a>)</td>
     </tr>
@@ -117,7 +125,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">D5.1</td>
         <td style="border: 1px solid black; padding: 8px;">WP5</td>
         <td style="border: 1px solid black; padding: 8px;">Data management plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered in M1</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered at M1</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1QIlapWXzmmWcHCFds40FBiCbF-DpieNJ/view?usp=sharing">Link</a>)</td>
     </tr>

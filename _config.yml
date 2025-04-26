@@ -47,6 +47,7 @@ group_pub_by_year: true
 include:
   - .htaccess
   - _pages
+  - _pagesProj
 
 sass:
   sass_dir: _sass

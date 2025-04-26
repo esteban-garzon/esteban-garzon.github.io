@@ -24,6 +24,8 @@ I am IEEE Senior Member. I have authored/coauthored more than 55 scientific pape
 ### Research
 
 My recent research activity at UNICAL .... 
+
+margin: A B C D; apply A to the top, B to the right, C to the bottom, and D to the left.
 -->
 
 
@@ -32,6 +34,7 @@ My recent research activity at UNICAL ....
 <div class="well-md">
 <h4>Sponsors</h4>
 <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
- {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='background-color: #ffffff; max-height: 110px; max-width: 210px; margin: 10 15px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='background-color: #ffffff; max-height: 110px; max-width: 210px; margin: 10 15px;'/>{% endif %}   {% endfor %}
+ {% for funder in site.data.funders %}{% if funder.url %}<a href="{{funder.url}}" target="_blank"><img src='/images/logopic/{{ funder.image }}' style='background-color: #ffffff; max-height: 110px; max-width: 210px; margin: 25 15 10 15px;'/></a>{% else %}<img src='/images/logopic/{{ funder.image }}' class='mycenter' style='background-color: #ffffff; max-height: 110px; max-width: 210px; margin: 25 15 10 15px;'/>{% endif %}   {% endfor %}
 </div>
 </div>
+
