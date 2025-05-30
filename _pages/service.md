@@ -7,6 +7,7 @@ permalink: /service/
 
 ## Table of Contents
 - [Journal Boards](#boards)
+- [Memberships and Committees](#memberships)
 - [Conference Committees](#committees)
 
 {% if site.data.journal_boards %}
@@ -21,6 +22,19 @@ permalink: /service/
 {% endfor %}
 {% endif %}
 </ol>
+
+{% if site.data.conference_committees %}
+<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Memberships And Committees </h2>
+<a id="memberships"></a>
+
+<ol>
+{% for publi in site.data.memberships %}
+<li>
+ {{ publi.name }}
+</li>
+{% endfor %}
+{% endif %}
+
 
 
 {% if site.data.conference_committees %}
