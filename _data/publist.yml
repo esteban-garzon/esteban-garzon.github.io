@@ -11,8 +11,8 @@
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Dynamic comparators play an important role in electronic systems, requiring high accuracy, low power consumption, and minimal offset voltage. This work proposes an accurate and low-complexity offset calibration design based on a capacitive load approach. It was designed using a 65nm CMOS technology and comprehensively evaluated under Monte Carlo simulations and PVT variations. The proposed scheme was built using MIM capacitors and transistor-based capacitors, and includes Verilog-based calibration algorithms. The proposed offset calibration is benchmarked, in terms of precision, calibration time, energy consumption, delay, and area, against prior calibration techniques: current injection via gate biasing by a charge pump circuit, and current injection via parallel transistors. The evaluation of the offset calibration schemes relies on Analog/Mixed-Signal (AMS) simulations, ensuring accurate evaluation of digital and analog domains. The charge pump method achieved the best Energy-Delay Product (EDP) at the cost of lower long-term accuracy, mainly because of its capacitor leakage. The proposed scheme demonstrated superior performance in offset reduction, achieving a 1-sigma offset of 0.223mV, while maintaining precise calibration. Among the calibration algorithms, the window algorithm performs better than the accelerated calibration.
-This is mainly because the window algorithm considers noise-induced output oscillations, ensuring consistent calibration across all designs. 
-This work provides insights into the trade-offs between energy, precision, and area in dynamic comparator designs, offering strategies to enhance offset calibration."
+  This is mainly because the window algorithm considers noise-induced output oscillations, ensuring consistent calibration across all designs. 
+  This work provides insights into the trade-offs between energy, precision, and area in dynamic comparator designs, offering strategies to enhance offset calibration."
   project: "PIMAT"
 
 - title: "CAM4: In-Memory Viral Pathogen Genome Classification using Similarity Search Dynamic Content-Addressable Memory"
@@ -26,20 +26,20 @@ This work provides insights into the trade-offs between energy, precision, and a
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "We present CAM4, a novel embedded dynamic
-storage-based similarity search content addressable memory.
-CAM4 is designated for in-memory computational genomics
-applications, particularly the identification and classification of
-pathogen DNA. CAM4 employs a novel gain cell design and onehot encoding of DNA bases to address retention time variations,
-and mitigate potential data loss from pulldown leakage and
-soft errors in embedded DRAM. CAM4 features performance
-overhead-free refresh and data upload, allowing simultaneous
-search and refresh without performance degradation. CAM4
-offers approximate search versatility in scenarios with a variety
-of industrial sequencers with different error profiles. When
-classifying DNA reads with a 10% error rate, it achieves, on
-average, a 25% higher F1 score compared to MetaCache-GPU
-and Kraken2 DNA classification tools. Simulated at 1GHz, CAM4
-provides 1, 412× and 1, 040× average speedup over MetaCacheGPU and Kraken2 respectively."
+  storage-based similarity search content addressable memory.
+  CAM4 is designated for in-memory computational genomics
+  applications, particularly the identification and classification of
+  pathogen DNA. CAM4 employs a novel gain cell design and onehot encoding of DNA bases to address retention time variations,
+  and mitigate potential data loss from pulldown leakage and
+  soft errors in embedded DRAM. CAM4 features performance
+  overhead-free refresh and data upload, allowing simultaneous
+  search and refresh without performance degradation. CAM4
+  offers approximate search versatility in scenarios with a variety
+  of industrial sequencers with different error profiles. When
+  classifying DNA reads with a 10% error rate, it achieves, on
+  average, a 25% higher F1 score compared to MetaCache-GPU
+  and Kraken2 DNA classification tools. Simulated at 1GHz, CAM4
+  provides 1, 412× and 1, 040× average speedup over MetaCacheGPU and Kraken2 respectively."
   #project: "PIMAT"
 
 - title: "Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach"
@@ -52,7 +52,20 @@ provides 1, 412× and 1, 040× average speedup over MetaCacheGPU and Kraken2 res
   #doi: 10.1109/JSSC.2025.3529715
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: "TBD"
+  abstract: "Low-power high-performance content-addressable
+  memories (CAMs) are important components in modern computing
+  systems. In this work, we present a robust CAM that
+  overcomes the power and performance limitations of conventional
+  precharge-based CAMs. The proposed static transmission gatebased
+  (STAT-TG) CAM design achieves low-power operation
+  comparable to NAND CAMs while maintaining search speeds
+  rivaling those of NOR CAMs. The STAT-TG CAM was designed
+  using a 65nm CMOS technology and comprehensively evaluated
+  under extensive Monte Carlo simulations. Compared to conventional
+  CAMs, the STAT-TG CAM is 14% faster than NAND
+  CAM, while consuming only 25% of the energy per operation
+  relative to NOR CAM. This makes STAT-TG CAM a promising
+  solution for high-performance yet energy-efficient applications."
   project: "PIMAT"
 
 - title: "Low Matchline Voltage Swing Content-Addressable Memory Cell"
@@ -65,7 +78,23 @@ provides 1, 412× and 1, 040× average speedup over MetaCacheGPU and Kraken2 res
   #doi: 10.1109/JSSC.2025.3529715
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: "TBD"
+  abstract: "Content-addressable memory (CAM) is a specialized
+  memory architecture designed for fast data searches, allowing a
+  one-clock-cycle comparison between the search input and the
+  entire memory content. In this work, a low matchline voltage
+  swing CAM is proposed to reduce the search power consumption
+  while maintaining high-speed search operations. Low voltage
+  swing in the matchline is enabled by introducing extra circuitry
+  in the conventional CAM cell. By means of comprehensive
+  Monte Carlo and post-layout simulations using a commercial
+  65 nm node, we show that the proposed CAM cell design allows
+  for robustness against process, voltage, and temperature variations
+  without the need for dedicated matchline sense schemes.
+  Compared to conventional precharge high NOR-type CAM, the
+  proposed design achieves 42% higher speed and 29.1% less energy
+  consumption. Post-layout results demonstrate that the proposed
+  CAM operates reliably at 0.6V, maintaining performant and
+  reliable search operations across a wide temperature range."
   project: "PIMAT"
 
 - title: "Non-Volatile Content-Addressable Memory for Energy-Efficient & High-Performance Search and Update Operations"
@@ -78,7 +107,22 @@ provides 1, 412× and 1, 040× average speedup over MetaCacheGPU and Kraken2 res
   #doi: 10.1109/JSSC.2025.3529715
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: ""
+  abstract: "This work presents a non-volatile contentaddressable
+  memory (NV-CAM) based on double-barrier
+  magnetic tunnel junction technology (DMTJ). Unlike state-ofthe-
+  art NV-CAM designs that present low-performance updates,
+  our NV-CAM allows energy-efficient, high-performance search
+  and update operations. This makes it well-suited for applications
+  requiring a high frequency of searches/updates, such as
+  associative processors. The NV-CAM hybrid CMOS/DMTJ was
+  designed using a commercial 65nm CMOS technology and a
+  Verilog-A-based DMTJ compact model. The NV-CAM evaluation
+  was carried out by employing Monte Carlo simulations while
+  accounting for process variations. Simulation results show that
+  our NV-CAM presents competitive figures of merit compared to
+  state-of-the-art design. Our NV-CAM presents energy-efficient
+  operations and reduces the update and search delay by about
+  71% and 75%, respectively, compared to other NV-CAMs."
   project: "PIMAT"
 
 - title: "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance"
