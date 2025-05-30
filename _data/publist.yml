@@ -10,7 +10,7 @@
   #doi: 10.1109/TETC.2025.3563201
   #arxiv: XXXX.13080
   type_J: journal
-  abstract: "Dynamic comparators play an important role in electronic systems, requiring high accuracy, low power consumption, and minimal offset voltage."
+  abstract: "Dynamic comparators play an important role in electronic systems, requiring high accuracy, low power consumption, and minimal offset voltage. This work proposes an accurate and low-complexity offset calibration design based on a capacitive load approach. It was designed using a 65nm CMOS technology and comprehensively evaluated under Monte Carlo simulations and PVT variations."
   project: "PIMAT"
 
 - title: "CAM4: In-Memory Viral Pathogen Genome Classification using Similarity Search Dynamic Content-Addressable Memory"

@@ -34,7 +34,7 @@ permalink: /service/
 </li>
 {% endfor %}
 {% endif %}
-
+</ol>
 
 
 {% if site.data.conference_committees %}
