@@ -1,0 +1,9 @@
+@article{cuenca2025offset,
+  author={Cuenca, Juan and Zambrano, Benjamin and Garzón, Esteban and Luis-Miguel, Procel and Lanuzza, Marco},
+  journal={Journal of Low Power Electronics and Applications}, 
+  title={{An Accurate And Low Complexity Offset Calibration Methodology for Dynamic Comparators}}, 
+  year={2025},
+  volume={},
+  pages={},
+  doi={}
+}
