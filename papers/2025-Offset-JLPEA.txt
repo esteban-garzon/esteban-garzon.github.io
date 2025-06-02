@@ -4,7 +4,7 @@
   title={{An Accurate And Low Complexity Offset Calibration Methodology for Dynamic Comparators}}, 
   year={2025},
   volume={15},
-	number={2},
+  number={2},
   pages={35},
   doi={10.3390/jlpea15020035}
 }
