@@ -7,7 +7,7 @@
   image: 2025-Offset-JLPEA-image.png
   display: <b>Journal of Low Power Electronics and Applications</b>
   year: 2025
-  #doi: 10.1109/TETC.2025.3563201
+  doi: 10.3390/jlpea15020035
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Dynamic comparators play an important role in electronic systems, requiring high accuracy, low power consumption, and minimal offset voltage. This work proposes an accurate and low-complexity offset calibration design based on a capacitive load approach. It was designed using a 65nm CMOS technology and comprehensively evaluated under Monte Carlo simulations and PVT variations. The proposed scheme was built using MIM capacitors and transistor-based capacitors, and includes Verilog-based calibration algorithms. The proposed offset calibration is benchmarked, in terms of precision, calibration time, energy consumption, delay, and area, against prior calibration techniques: current injection via gate biasing by a charge pump circuit, and current injection via parallel transistors. The evaluation of the offset calibration schemes relies on Analog/Mixed-Signal (AMS) simulations, ensuring accurate evaluation of digital and analog domains. The charge pump method achieved the best Energy-Delay Product (EDP) at the cost of lower long-term accuracy, mainly because of its capacitor leakage. The proposed scheme demonstrated superior performance in offset reduction, achieving a 1-sigma offset of 0.223mV, while maintaining precise calibration. Among the calibration algorithms, the window algorithm performs better than the accelerated calibration.
