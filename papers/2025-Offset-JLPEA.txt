@@ -3,7 +3,8 @@
   journal={Journal of Low Power Electronics and Applications}, 
   title={{An Accurate And Low Complexity Offset Calibration Methodology for Dynamic Comparators}}, 
   year={2025},
-  volume={},
-  pages={},
-  doi={}
+  volume={15},
+	number={2},
+  pages={35},
+  doi={10.3390/jlpea15020035}
 }
