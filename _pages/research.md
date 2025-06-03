@@ -32,26 +32,29 @@ The main research topics cover (not limited to):
 <a id="funding"></a>
 
 ### Funding as Principal Investigator
-- Project PIMAT
+- **Project PIMAT**
 	- Duration: 36 months
 	- Funded by: Italian Ministry of University and Research (MUR) – European Union (NextGenerationEU)
 	- Role: Principal Investigator - Project Manager
 	- Budget: € 249.625,00 
 	- Project Website: <button onclick="window.location.href='{{ site.baseurl }}/proj-pimat/'">PIMAT</button>
+	- Status: Open
 	
 ### Research Grants & Participation in Other Research Projects
-1. Project SPINAM
+1. **Project SPINAM**
 	- Funded by: Italian Space Agency (ASI)
 	- Role: Project Engineer - Technical Manager
 	- Budget: ...
+	- Status: Open
 	
-1. Project IT-SPIN
+1. **Project IT-SPIN**
 	- Funded by: Italian Ministry of University and Research (MUR)
 	- Role: Researcher (Main Workforce)
 	- Budget: € 796.000,00 (€ 160.000,00 net amount of the local unit or department)
 	- Project Website: <button onclick="window.location.href='https://www.petaspin.com/it-spin/';">IT-SPIN</button>
+	- Status: Open
 
-1. Research Grant
+1. **Research Grant**
 	- Description: Develop scientific ideas and competitive project proposals within the Horizon Europe program
 	- Duration: 24 months
 	- Funded by: Italian Ministry of University and Research (MUR)
@@ -59,7 +62,7 @@ The main research topics cover (not limited to):
 	- Budget: € 77.000,00
 	- Status: Closed
 
-1. Research Grant
+1. **Research Grant**
 	- Description: Training programs for the presentation of research projects within the context of the calls of the European Research Council (ERC)
 	- Duration: 24 months
 	- Funded by: Italian Ministry of University and Research (MUR)
