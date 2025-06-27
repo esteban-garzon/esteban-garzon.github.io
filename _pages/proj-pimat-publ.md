@@ -140,10 +140,18 @@ permalink: /proj-pimat-publ/
     <tr>
         <td style="border: 1px solid black; padding: 8px;">D5.3</td>
         <td style="border: 1px solid black; padding: 8px;">WP5</td>
-        <td style="border: 1px solid black; padding: 8px;">Risk management plan</td>
+        <td style="border: 1px solid black; padding: 8px;">Partners Agreement</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1wmhZjJ1IfAa91GOTFz_exIIwbvLn5kEE/view?usp=sharing">Link</a>)</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">D1.1</td>
+        <td style="border: 1px solid black; padding: 8px;">WP1</td>
+        <td style="border: 1px solid black; padding: 8px;">Desk research: SOTA analysis</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
+        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
+        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1mSq_VaSi_2aKH_GyETjtYS14risdtLMv/view?usp=sharing">Link</a>)</td>
     </tr>
 </table>
 
