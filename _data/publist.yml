@@ -49,7 +49,7 @@
   image: 2025-ISCAS-PCAM-image.png
   display: <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2025
-  #doi: 10.1109/JSSC.2025.3529715
+  doi: 10.1109/ISCAS56072.2025.11043920
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "Low-power high-performance content-addressable
@@ -75,7 +75,7 @@
   image: 2025-ISCAS-low-image.png
   display: <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2025
-  #doi: 10.1109/JSSC.2025.3529715
+  doi: 10.1109/ISCAS56072.2025.11043632
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "Content-addressable memory (CAM) is a specialized
@@ -104,7 +104,7 @@
   image: 2025-ISCAS-17TCAM-image.png
   display: <b>IEEE International Symposium on Circuits and Systems (ISCAS)</b>
   year: 2025
-  #doi: 10.1109/JSSC.2025.3529715
+  doi: 10.1109/ISCAS56072.2025.11044106
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "This work presents a non-volatile contentaddressable
