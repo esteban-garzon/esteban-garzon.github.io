@@ -77,6 +77,7 @@
   year: 2025
   doi: 10.1109/ISCAS56072.2025.11043632
   #arxiv: XXXX.13080
+  techrxiv: 10.36227/techrxiv.175295808.88824425/v1
   type_C: conference
   abstract: "Content-addressable memory (CAM) is a specialized
   memory architecture designed for fast data searches, allowing a
