@@ -51,6 +51,7 @@
   year: 2025
   doi: 10.1109/ISCAS56072.2025.11043920
   #arxiv: XXXX.13080
+  #techrxiv: 
   type_C: conference
   abstract: "Low-power high-performance content-addressable
   memories (CAMs) are important components in modern computing
@@ -107,6 +108,7 @@
   year: 2025
   doi: 10.1109/ISCAS56072.2025.11044106
   #arxiv: XXXX.13080
+  techrxiv: 10.36227/techrxiv.175295808.83065333/v1
   type_C: conference
   abstract: "This work presents a non-volatile contentaddressable
   memory (NV-CAM) based on double-barrier
