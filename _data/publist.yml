@@ -51,7 +51,7 @@
   year: 2025
   doi: 10.1109/ISCAS56072.2025.11043920
   #arxiv: XXXX.13080
-  #techrxiv: 
+  techrxiv: 10.36227/techrxiv.175355476.61078156/v1
   type_C: conference
   abstract: "Low-power high-performance content-addressable
   memories (CAMs) are important components in modern computing

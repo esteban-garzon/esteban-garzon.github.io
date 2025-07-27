@@ -3,7 +3,8 @@
   journal={IEEE Journal of Solid-State Circuits}, 
   title={{A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance}}, 
   year={2025},
-  volume={},
-  pages={},
+  volume={60},
+  number={8},
+  pages={3009-3019},
   doi={10.1109/JSSC.2025.3529715}
 }
