@@ -15,25 +15,25 @@ permalink: /teaching/
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
     * Sensors 
         * Graduate course: Electronics Graduate Degree
-        * Academic years: Spring 2025 - Present
+        * Academic years: 2025/2026 - Present
         * Hours: 16
 
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
     * Analog Systems Design 
         * Graduate course: Electronics Graduate Degree
-        * Academic years: Spring 2025
+        * Academic years: 2024/2025
         * Hours: 10
 
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
     * Analog Systems Design Laboratory
         * Graduate course: Electronics Graduate Degree
-        * Academic years: Spring 2021 - Present
+        * Academic years: 2021/2022 - Present
         * Hours: 16
 
 * <strong>Lecturer (invited), <a href="https://www.usfq.edu.ec/en" target="_blank">University San Francisco de Quito</a> (USFQ), Quito, Ecuador</strong>
     * Digital CMOS Technology
         * Graduate course: Nanoelectronics Graduate Degree
-        * Academic years: 2021, 2022
+        * Academic years: 2021/2022, 2022/2023
 
 * <strong>PhD Courses/Seminars</strong>
     * Spintronic Technology For Energy-Efficient hybrid CMOS/MTJ Memory Applications, <a href="https://dimes.unical.it/" target="_blank">DIMES, University of Calabria</a>, Rende, Italy
