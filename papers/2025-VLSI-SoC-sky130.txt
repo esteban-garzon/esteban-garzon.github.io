@@ -1,0 +1,9 @@
+@inproceedings{astudillo2025low,
+  title={{A Low-Power 4-bit Tracking-Type Analog-to-Digital Converter in SKY130 Process}},
+  author={Astudillo, Esteban and Holguín, Eduardo and Garzón, Esteban and Luis Miguel, Prócel},
+  booktitle={2025 IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC)},
+  pages={},
+  year={2025},
+  organization={IEEE},
+  doi={}
+}

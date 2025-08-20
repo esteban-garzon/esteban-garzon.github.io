@@ -1,5 +1,20 @@
 # colors: blue, red, lightgreen, 
 
+- title: "A Low-Power 4-bit Tracking-Type Analog-to-Digital Converter in SKY130 Process"
+  authors: E. Astudillo, E. Holguín, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M. Prócel 
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2025-VLSI-SoC-sky130
+  #image: 2025-VLSI-SoC-sky130-image.png
+  display: <b>to be presented at the IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC)</b>
+  year: 2025
+  #doi: 10.1109/ISCAS56072.2025.11043920
+  #arxiv: XXXX.13080
+  #techrxiv: 10.36227/techrxiv.175355476.61078156/v1
+  type_C: conference
+  abstract: "forthcoming..."
+  project: "PIMAT"
+  # 
+
 - title: "PiC-BNN: A 128-kbit 65nm Processing-in-CAM-Based End-to-End Binary Neural Network Accelerator"
   authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits 
   #pdf: 2024-IEEEAccess-ViRAL
