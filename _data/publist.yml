@@ -1,5 +1,35 @@
 # colors: blue, red, lightgreen, 
 
+- title: "High-performance and reliable probabilistic Ising machine based on simulated quantum annealing"
+  authors: E. Raimondo, <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Shao, A. Grimaldi, S. Chiappini, R. Tomasello, N. Davila-Melendez, J.A. Katine, M. Carpentieri, M. Chiappini, M. Lanuzza, P. Khalili Amiri, G. Finocchio
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2025-PRX-ising
+  image: 2025-PRX-ising-image.png
+  display: <b>Physical Review X</b>
+  year: 2025
+  doi: 10.1103/pcmz-w776
+  arxiv: 10.48550/arXiv.2503.13015
+  #techrxiv: 10.36227/techrxiv.175355476.61078156/v1
+  type_J: journal
+  abstract: "Probabilistic computing with p-bits is emerging as a computational paradigm for machine learning
+and for facing combinatorial optimization problems (COPs) with the so-called probabilistic Ising
+machines (PIMs). From a hardware point of view, the key elements that characterize a PIM are the
+random number generation, the nonlinearity, the network of coupled p-bits, and the energy
+minimization algorithm. Regarding the latter, in this work we show that PIMs using the simulated
+quantum annealing (SQA) schedule exhibit better performance as compared to simulated annealing
+and parallel tempering in solving a number of COPs, such as maximum satisfiability problems,
+planted Ising problem, and travelling salesman problem. Additionally, we design and simulate the
+architecture of a fully connected CMOS-based PIM able to run the SQA algorithm having a spin-
+update time of 8 ns with a power consumption of 0.22 mW. Our results also show that SQA
+increases the reliability and the scalability of PIMs by compensating for device variability at an
+algorithmic level enabling the development of their implementation combining CMOS with
+different technologies such as spintronics. This work shows that the characteristics of the SQA are
+hardware-agnostic and can be applied in the co-design of any hybrid analog-digital Ising machine
+implementation. Our results open a promising direction for the implementation of a new generation
+of reliable and scalable PIMs."
+  # project: "PIMAT"
+  # 
+
 - title: "A Low-Power 4-bit Tracking-Type Analog-to-Digital Converter in SKY130 Process"
   authors: E. Astudillo, E. Holguín, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M. Prócel 
   #pdf: 2024-IEEEAccess-ViRAL

@@ -1,0 +1,9 @@
+@article{raimondo2025high,
+  author={Raimondo, Eleonora and Garzón, Esteban and Shao, Yixin and Grimaldi, Andrea and Chiappini, Stefano and Tomasello, Riccardo and Davila-Melendez, Noraica and Katine, Jordan A. and Carpentieri, Mario and Chiappini, Massimo and Lanuzza, Marco and Khalili Amiri, Pedram and Finocchio, Giovanni},
+  journal={Physical Review X}, 
+  title={{High-performance and reliable probabilistic Ising machine based on simulated quantum annealing}}, 
+  year={2025},
+  volume={},
+  pages={},
+  doi={10.1103/pcmz-w776}
+}
