@@ -8,7 +8,7 @@
   display: <b>Physical Review X</b>
   year: 2025
   doi: 10.1103/pcmz-w776
-  arxiv: 10.48550/arXiv.2503.13015
+  arxiv: arXiv:2503.13015
   #techrxiv: 10.36227/techrxiv.175355476.61078156/v1
   type_J: journal
   abstract: "Probabilistic computing with p-bits is emerging as a computational paradigm for machine learning
