@@ -1,0 +1,10 @@
+@article{zambrano2025physical,
+  author={Zambrano, Benjamin and Strangio, Sebastiano and Garzón, Esteban and Catania, Alessandro and Iannaccone, Giuseppe and Lanuzza, Marco},
+  journal={Journal of Low Power Electronics and Applications}, 
+  title={{A Physical Unclonable Function based on Differential Subthreshold PMOS Array with 9.73x10-4 Stabilized BER and 1.3pJ/bit in 65nm}}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={},
+  doi={}
+}

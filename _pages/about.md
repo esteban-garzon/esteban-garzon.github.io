@@ -97,7 +97,7 @@ Jul-Aug 2023, he was a visiting researcher at EnICS labs. In Jan-Feb 2024, he wa
 the Department of Information Engineering, University of Pisa, Italy.
 
 E. Garzón was an IEEE graduate student member from 2016, became an IEEE member in 2022, and
-IEEE Senior Member in 2024. He has authored/coauthored more than 55 scientific papers in international
+IEEE Senior Member in 2024. He has authored/coauthored more than 60 scientific papers in international
 peer-reviewed journals and conferences, and has participated in several IC tapeouts. His research interests
 include domain-specific hardware accelerators, electronics/spintronics, embedded memories, and standard
 and emerging technologies for logic & memory, and low-power applications. He has received several awards,
@@ -162,6 +162,7 @@ research grants, and funding (as Principal Investigator). E. Garzón has been pa
 * **Dr. Ramiro Taco**, Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy  
 * **Prof. Giuseppe Iannaccone**, Department of Information Engineering, University of Pisa, Pisa, Italy  
 * **Prof. Sebastiano Strangio**, Department of Information Engineering, University of Pisa, Pisa, Italy  
+* **Dr. Alessandro Catania**, Department of Information Engineering, University of Pisa, Pisa, Italy  
 * **Prof. Mario Carpentieri**, Department of Electrical and Information Engineering, Politecnico di Bari, Bari, Italy  
 * **Dr. Andrea Meo**, Department of Electrical and Information Engineering, Politecnico di Bari, Bari, Italy  
 * **Prof. Giovanni Finocchio**, Department of Mathematical and Computer Sciences, Physical Sciences and Earth Sciences, University of Messina, Messina, Italy  

@@ -1,5 +1,19 @@
 # colors: blue, red, lightgreen, 
 
+- title: "A Physical Unclonable Function based on Differential Subthreshold PMOS Array with 9.73x10-4 Stabilized BER and 1.3pJ/bit in 65nm"
+  authors: B. Zambrano, S. Strangio, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, G. Iannaccone, M. Lanuzza
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2025-JLPEA-PUF
+  image: 2025-JLPEA-PUF-image.png
+  display: <b>Journal of Low Power Electronics and Applications</b>
+  year: 2025
+  #doi: 10.3390/jlpea15020035
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "..."
+  project: "PIMAT"
+  # corresponding author journal
+
 - title: "High-performance and reliable probabilistic Ising machine based on simulated quantum annealing"
   authors: E. Raimondo, <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Shao, A. Grimaldi, S. Chiappini, R. Tomasello, N. Davila-Melendez, J.A. Katine, M. Carpentieri, M. Chiappini, M. Lanuzza, P. Khalili Amiri, G. Finocchio
   #pdf: 2024-IEEEAccess-ViRAL
