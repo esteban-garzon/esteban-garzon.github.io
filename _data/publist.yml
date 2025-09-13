@@ -10,9 +10,14 @@
   #doi: 10.3390/jlpea15020035
   #arxiv: XXXX.13080
   type_J: journal
-  abstract: "..."
-  project: "PIMAT"
-  # corresponding author journal
+  abstract: " This paper introduces a physical unclonable function (PUF) based on a differential array of
+minimum-sized PMOS devices. Each response bit is obtained by comparing the two analog outputs of
+the differential array through a dynamic comparator with a trimmable offset. This latter is effectively
+used to mask potentially unstable response bits. To further improve PUF reliability, spatial majority
+voting is also implemented, resulting in near zero (< 3.12x10-9) bit error rate (BER) at 1.2V and 25°C. 
+Under variations of supply voltage (0.8V-1.3V) and temperature (0°C-75°C), the native bit error rate 
+of 3.5% is reduced to 9.73x10-4 after stabilization, consuming only 1.37 pJ per output bit"
+  #project: "PIMAT"
 
 - title: "High-performance and reliable probabilistic Ising machine based on simulated quantum annealing"
   authors: E. Raimondo, <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Shao, A. Grimaldi, S. Chiappini, R. Tomasello, N. Davila-Melendez, J.A. Katine, M. Carpentieri, M. Chiappini, M. Lanuzza, P. Khalili Amiri, G. Finocchio
