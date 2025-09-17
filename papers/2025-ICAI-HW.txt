@@ -1,0 +1,9 @@
+@inproceedings{garzon2025hardware,
+  title={{Hardware Accelerators For A Sustainable AI Future}},
+  author={Garzón, Esteban},
+  booktitle={2025 IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE},
+  doi={}
+}
