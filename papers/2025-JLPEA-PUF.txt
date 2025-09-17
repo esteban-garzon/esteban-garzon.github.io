@@ -3,8 +3,8 @@
   journal={Journal of Low Power Electronics and Applications}, 
   title={{A Physical Unclonable Function based on Differential Subthreshold PMOS Array with 9.73x10-4 Stabilized BER and 1.3pJ/bit in 65nm}}, 
   year={2025},
-  volume={},
-  number={},
-  pages={},
-  doi={}
+  volume={15},
+  number={3},
+  pages={53},
+  doi={10.3390/jlpea15030053}
 }
