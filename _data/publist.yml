@@ -7,7 +7,7 @@
   image: 2025-JLPEA-PUF-image.png
   display: <b>Journal of Low Power Electronics and Applications</b>
   year: 2025
-  #doi: 10.3390/jlpea15020035
+  doi: 10.3390/jlpea15030053
   #arxiv: XXXX.13080
   type_J: journal
   abstract: " This paper introduces a physical unclonable function (PUF) based on a differential array of
