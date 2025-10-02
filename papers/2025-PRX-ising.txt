@@ -3,7 +3,10 @@
   journal={Physical Review X}, 
   title={{High-performance and reliable probabilistic Ising machine based on simulated quantum annealing}}, 
   year={2025},
-  volume={},
-  pages={},
+  volume = {15},
+  issue = {4},
+  pages = {041001},
+  numpages = {12},
+  month = {Oct},
   doi={10.1103/pcmz-w776}
 }
