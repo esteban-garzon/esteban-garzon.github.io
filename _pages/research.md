@@ -52,7 +52,7 @@ The main research topics cover (not limited to):
 	- Role: Researcher (Main Workforce)
 	- Budget: € 796.000,00 (€ 160.000,00 net amount of the local unit or department)
 	- Project Website: <button onclick="window.location.href='https://www.petaspin.com/it-spin/';">IT-SPIN</button>
-	- Status: Open
+	- Status: Closed
 
 1. **Research Grant**
 	- Description: Develop scientific ideas and competitive project proposals within the Horizon Europe program
