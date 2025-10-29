@@ -13,9 +13,9 @@ permalink: /teaching/
 <a id="teaching"></a>
 
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
-    * Sensors 
+    * Sensors Laboratory
         * Graduate course: Electronics Graduate Degree
-        * Academic years: 2025/2026 - Present
+        * Academic years: 2025/2026
         * Hours: 16
 
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
@@ -50,4 +50,3 @@ permalink: /teaching/
 
 * <strong>Ph.D Students</strong>
     * As Co-Tutor/Co-Supervisor: 2
-
