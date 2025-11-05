@@ -1,0 +1,9 @@
+@article{caisaluisa2025nvpcam,
+  author={Caisaluisa, Oliver and Garzón, Esteban and Holguín, Eduardo and Lanuzza, Marco and Luis Miguel, Prócel},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems}, 
+  title={{NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory}}, 
+  year={2025},
+  volume={},
+  pages={},
+  doi={}
+}

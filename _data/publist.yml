@@ -1,5 +1,19 @@
 # colors: blue, red, lightgreen, 
 
+
+- title: "NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory"
+  authors: O. Caisaluisa, <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Holguín, M. Lanuzza, L.M. Prócel
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2025-TCASI-NVPCAM
+  image: 2025-TCASI-NVPCAM-image.png
+  display: <b>accepted at the IEEE Transactions on Circuits and Systems I - TCAS-I</b>
+  year: 2025
+  #doi: 10.3390/jlpea15030053
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "..."
+  project: "PIMAT"
+
 - title: "Hardware Accelerators For A Sustainable AI Future"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
   #pdf: 2024-IEEEAccess-ViRAL
@@ -450,7 +464,7 @@ and energy-efficient in-memory computing."
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-MLSSHDCAM
   image: 2023-TCASII-MLSSHDCAM-image.png
-  display: <b>IEEE Transactions on Circuits and Systems II</b>
+  display: <b>IEEE Transactions on Circuits and Systems II - TCAS-II</b>
   year: 2023
   doi: 10.1109/TCSII.2023.3286257
   #arxiv: XXXX.13080
@@ -491,7 +505,7 @@ and energy-efficient in-memory computing."
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-XNORCiMSTT-MRAM
   image: 2023-TCASII-XNORCiMSTT-MRAM-image.png
-  display: <b>IEEE Transactions on Circuits and Systems II</b>
+  display: <b>IEEE Transactions on Circuits and Systems II - TCAS-II</b>
   year: 2023
   doi: 10.1109/TCSII.2023.3241163
   #arxiv: XXXX.13080
@@ -518,7 +532,7 @@ and energy-efficient in-memory computing."
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-NeuroSimDMTJSTTMRAM
   image: 2023-TCASII-NeuroSimDMTJSTTMRAM-image.png
-  display: <b>IEEE Transactions on Circuits and Systems II</b>
+  display: <b>IEEE Transactions on Circuits and Systems II - TCAS-II</b>
   year: 2023
   doi: 10.1109/TCSII.2023.3240474
   #arxiv: XXXX.13080
@@ -728,7 +742,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2022-TCASII-TempSensor180nm
   image: 2022-TCASII-TempSensor180nm-image.png
-  display: <b>IEEE Transactions on Circuits and Systems II</b>
+  display: <b>IEEE Transactions on Circuits and Systems II - TCAS-II</b>
   year: 2022
   doi: 10.1109/TCSII.2021.3112812
   #arxiv: XXXX.13080
