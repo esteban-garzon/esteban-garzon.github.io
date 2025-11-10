@@ -131,7 +131,7 @@ permalink: /publications/
 <li class="flex-item2">
   <strong> {{ publi.title }}</strong> <br />
   <em>{{ publi.authors }} </em><br />
-  {{ publi.display }} {% if publi.year %}({{publi.year}}){% endif %}<br/>
+  {{ publi.display }} {% if publi.year %}, {{publi.year}}{% endif %}<br/>
   {% if publi.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.pdf }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
   {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI/URL</button></a> {% endif %}
   {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
