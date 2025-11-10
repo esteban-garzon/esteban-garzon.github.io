@@ -1,5 +1,16 @@
 # colors: blue, red, lightgreen, 
-
+- title: "PatBiNN: A 65nm Processing-in-CAM Based BNN Implementation for Pathogen Genome Classification"
+  authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2026-DATE-PatBiNN
+  image: 2026-DATE-PatBiNN-image.png
+  display: "<b>To be presented at: 2026 Design, Automation & Test in Europe Conference (DATE)</b>"
+  year: 2026
+  #doi: 
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "..."
+  project: "PIMAT"
 
 - title: "NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory"
   authors: O. Caisaluisa, <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Holguín, M. Lanuzza, L.M. Prócel
@@ -19,7 +30,7 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ICAI-HW
   image: 2025-ICAI-HW-image.png
-  display: <b>to be presented at the IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)</b>
+  display: <b>To be presented at the IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)</b>
   year: 2025
   #doi: 10.3390/jlpea15030053
   #arxiv: XXXX.13080
@@ -686,7 +697,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2022-SSE-AdjustingThermalStability
   image: 2022-SSE-AdjustingThermalStability-image.png
-  display: <b>Solid-State Electronics</b>
+  display: <b>Solid-State Electronics (SSE)</b>
   year: 2022
   doi: 10.1016/j.sse.2022.108315
   #arxiv: XXXX.13080
@@ -714,7 +725,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2022-WileyEEEE-ReviewMemories
   image: 2022-WileyEEEE-ReviewMemories-image.png
-  display: <b>Wiley Encyclopedia of Electrical and Electronics Engineering</b>
+  display: <b>Wiley Encyclopedia of Electrical and Electronics Engineering (EEEE)</b>
   year: 2022
   doi: 10.1002/047134608X.W8438
   #arxiv: XXXX.13080
@@ -742,7 +753,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2022-TCASII-TempSensor180nm
   image: 2022-TCASII-TempSensor180nm-image.png
-  display: <b>IEEE Transactions on Circuits and Systems II - TCAS-II</b>
+  display: "<b>IEEE Transactions on Circuits and Systems II: Express Brief (TCAS-II)</b>"
   year: 2022
   doi: 10.1109/TCSII.2021.3112812
   #arxiv: XXXX.13080
@@ -756,7 +767,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2021-IEEETVLSI-cryoGCeDRAM
   image: 2021-IEEETVLSI-cryoGCeDRAM-image.png
-  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
+  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems (TVLSI)</b>
   year: 2021
   doi: 10.1109/TVLSI.2021.3081043
   #arxiv: XXXX.13080
@@ -783,7 +794,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2021-SSE-RelaxingNVcryo
   image: 2021-SSE-RelaxingNVcryo-image.png
-  display: <b>Solid-State Electronics</b>
+  display: <b>Solid-State Electronics (SSE)</b>
   year: 2021
   doi: 10.1016/j.sse.2021.108090
   #arxiv: XXXX.13080
@@ -797,7 +808,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2021-SSE-QuantumCapGNRFET
   image: 2021-SSE-QuantumCapGNRFET-image.png
-  display: <b>Solid-State Electronics</b>
+  display: <b>Solid-State Electronics (SSE)</b>
   year: 2021
   doi: 10.1016/j.sse.2021.108060
   #arxiv: XXXX.13080
@@ -810,7 +821,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2021-TMAG-DMTJcryoSTTMRAM
   image: 2021-TMAG-DMTJcryoSTTMRAM-image.png
-  display: <b>IEEE Transactions on Magnetics</b>
+  display: <b>IEEE Transactions on Magnetics (TMAG)</b>
   year: 2021
   doi: 10.1109/TMAG.2021.3073861
   #arxiv: XXXX.13080
@@ -837,7 +848,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2021-IEEEMagLetters-VCMAlogic
   image: 2021-IEEEMagLetters-VCMAlogic-image.png
-  display: <b>IEEE Magnetics Letters</b>
+  display: <b>IEEE Magnetics Letters (IML)</b>
   year: 2021
   doi: 10.1109/LMAG.2021.3118562
   #arxiv: XXXX.13080
@@ -849,7 +860,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   #pdf: 2024-SSCL-OCCAM
   url: 2021-TNANO-SMTJcryoSTT-MRAMs
   image: 2021-TNANO-SMTJcryoSTT-MRAMs-image.png
-  display: <b>IEEE Transactions on Nanotechnology</b>
+  display: <b>IEEE Transactions on Nanotechnology (TNANO)</b>
   year: 2021
   doi: 10.1109/TNANO.2021.3049694
   #arxiv: XXXX.13080

@@ -1,0 +1,9 @@
+@inproceedings{harary2026patbinn,
+  title={{PatBiNN: A 65nm Processing-in-CAM Based BNN Implementation for Pathogen Genome Classification}},
+  author={Harary, Yuval and Sharoni, Almog and Garzón, Esteban and Yavits, Leonid},
+  booktitle={2025 Design, Automation \& Test in Europe Conference (DATE)},
+  pages={1--7},
+  year={2026},
+  organization={IEEE},
+  doi={}
+}
