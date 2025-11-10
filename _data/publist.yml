@@ -6,7 +6,7 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-TCASI-NVPCAM
   image: 2025-TCASI-NVPCAM-image.png
-  display: "<b>accepted at the IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)</b>"
+  display: "<b>Accepted at IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)</b>"
   year: 2025
   doi: 10.1109/TCSI.2025.3631753
   #arxiv: XXXX.13080
@@ -32,7 +32,7 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-JLPEA-PUF
   image: 2025-JLPEA-PUF-image.png
-  display: <b>Journal of Low Power Electronics and Applications</b>
+  display: <b>Journal of Low Power Electronics and Applications (JLPEA)</b>
   year: 2025
   doi: 10.3390/jlpea15030053
   #arxiv: XXXX.13080
@@ -51,7 +51,7 @@ of 3.5% is reduced to 9.73x10-4 after stabilization, consuming only 1.37 pJ per 
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-PRX-ising
   image: 2025-PRX-ising-image.png
-  display: <b>Physical Review X</b>
+  display: <b>Physical Review X (PRX)</b>
   year: 2025
   doi: 10.1103/pcmz-w776
   arxiv: arXiv:2503.13015
@@ -111,7 +111,7 @@ of reliable and scalable PIMs."
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-Offset-JLPEA
   image: 2025-Offset-JLPEA-image.png
-  display: <b>Journal of Low Power Electronics and Applications</b>
+  display: <b>Journal of Low Power Electronics and Applications (JLPEA)</b>
   year: 2025
   doi: 10.3390/jlpea15020035
   #arxiv: XXXX.13080
@@ -127,7 +127,7 @@ of reliable and scalable PIMs."
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-TETC-CAM4
   image: 2025-TETC-CAM4-image.png
-  display: <b>IEEE Transactions on Emerging Topics in Computing</b>
+  display: <b>IEEE Transactions on Emerging Topics in Computing (TETC)</b>
   year: 2025
   doi: 10.1109/TETC.2025.3563201
   #arxiv: XXXX.13080
@@ -242,7 +242,7 @@ of reliable and scalable PIMs."
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-JSSC-HDCAM
   image: 2025-JSSC-HDCAM-image.png
-  display: <b>IEEE Journal of Solid-State Circuits</b>
+  display: <b>IEEE Journal of Solid-State Circuits (JSSC)</b>
   year: 2025
   doi: 10.1109/JSSC.2025.3529715
   #arxiv: XXXX.13080
@@ -292,7 +292,7 @@ Overall, our results prove that the SIMPLY scheme at cryogenic conditions is a p
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-TVLSI-PCAM
   image: 2024-TVLSI-PCAM-image.png
-  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems</b>
+  display: <b>IEEE Transactions on Very Large Scale Integration (VLSI) Systems (TVLSI)</b>
   year: 2024
   doi: 10.1109/TVLSI.2024.3475036
   #arxiv: XXXX.13080
