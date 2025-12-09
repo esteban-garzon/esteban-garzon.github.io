@@ -3,7 +3,8 @@
   journal={Transactions on Emerging Topics in Computing}, 
   title={{CAM4: In-Memory Viral Pathogen Genome Classification using Similarity Search Dynamic Content-Addressable Memory}}, 
   year={2025},
-  volume={},
-  pages={},
+  volume={13},
+  number={4},
+  pages={1341-1355},
   doi={10.1109/TETC.2025.3563201}
 }
