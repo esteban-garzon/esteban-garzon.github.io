@@ -9,7 +9,7 @@
   #doi: 
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: "..."
+  abstract: "forthcoming..."
   project: "PIMAT"
 
 - title: "NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory"
@@ -17,12 +17,12 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-TCASI-NVPCAM
   image: 2025-TCASI-NVPCAM-image.png
-  display: "<b>Accepted at IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)</b>"
+  display: "<b>IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)</b>"
   year: 2025
   doi: 10.1109/TCSI.2025.3631753
   #arxiv: XXXX.13080
   type_J: journal
-  abstract: "..."
+  abstract: "Content-addressable memories (CAMs) are a class of associative memories known for their capability to perform massively parallel comparisons between an input query pattern and the entire memory content. In the past decade, the increasing demand for high-performance and energy-efficient computing systems has generated significant interest in non-volatile CAMs (NV-CAMs) based on emerging non-volatile memory devices. In this work, we propose a novel non-volatile, precharge-free CAM (NV-PCAM) scheme based on double-barrier magnetic tunnel junctions (DMTJs). When compared to its counterparts, NV-PCAM presents competitive figures of merit in terms of area, speed, and energy efficiency, while also ensuring low search error rates. We also provide a complete class of voltage-divider-based NV-CAM cells for benchmark comparison. All schemes are designed and laid out using a 65 nm process and evaluated under Monte Carlo and process-voltage-temperature (PVT) simulations. Through Monte Carlo simulations, the proposed NV-PCAM demonstrates up to 81% and 85% lower search energy than NV-NOR and NV-NAND, respectively, as well as a 61% and 16% improvement in terms of search delay with a compact cell area footprint."
   project: "PIMAT"
 
 - title: "Hardware Accelerators For A Sustainable AI Future"
