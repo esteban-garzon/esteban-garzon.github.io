@@ -84,7 +84,7 @@ permalink: /about/
 
 {% endfor %}
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Biography  </h2>
+## Biography
 <a id="biography"></a>
 
 Esteban Garzón received the B.Sc. Degree (cum laude) in Electronics Engineering from the Universidad San
@@ -141,6 +141,15 @@ research grants, and funding (as Principal Investigator). E. Garzón has been pa
 
 {% if site.data.grants %}
 
+<!-- 
+## Grants
+
+{% for grant in site.data.grants %}
+* {{ grant.name }}
+{% endfor %}
+
+{% endif %}
+-->
 
 
 <h2 style="background-color: #f2f2f2; padding: 0.2em;"> Current and Past Collaborators  </h2>
