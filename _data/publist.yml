@@ -1,4 +1,24 @@
 # colors: blue, red, lightgreen, 
+
+- title: "GenMClass: Design and comparative analysis of genome classifier-on-chip platform"
+  authors: D. Bromot, Y. Kra, Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2026-JSA-GenMClass
+  image: 2026-JSA-GenMClass-image.png
+  display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
+  year: 2026
+  #doi: 
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "We propose GenMClass, a genome classification system-on-chip (SoC) implementing two different classification approaches and comprising two separate classification engines: a DNN accelerator GenDNN, that classifies DNA reads converted to images using a classification neural network, and a similarity search-capable Error Tolerant Content Addressable Memory ETCAM, that classifies
+genomes by k-mer matching. Classification operations are controlled by an embedded RISCV processor. GenMClass classification
+platform was designed and manufactured in a commercial 65nm process. We conduct a comparative analysis of ETCAM and
+GenDNN classification efficiency as well as their performance, silicon area and power consumption using silicon measurements.
+The size of GenMClass SoC is 3.4mm2 and its total power consumption (assuming both GenDNN and ETCAM perform classification
+at the same time) is 144mW. This allows using GenMClass as a portable classifier for pathogen surveillance during pandemics,
+food safety and environmental monitoring, agriculture pathogen and antimicrobial resistance control, in the field or at points of care."
+  #project: "PIMAT"
+
 - title: "PatBiNN: A 65nm Processing-in-CAM Based BNN Implementation for Pathogen Genome Classification"
   authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
