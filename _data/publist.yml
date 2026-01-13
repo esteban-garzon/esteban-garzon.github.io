@@ -1,5 +1,32 @@
 # colors: blue, red, lightgreen, 
 
+- title: "Integrated BSI Bacteria Identifier-On-Chip Using Approximate k-mer Matching"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, V. Galindo, Y. Harary, A. Teman, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2026-SciRep-BSI
+  image: 2026-SciRep-BSI-image.png
+  display: "<b>Accepted at: Scientific Reports</b>"
+  year: 2026
+  #doi: 
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "Acute graft-versus-host (GVHD) is a deadly disease that can be treated through
+fecal microbiota transplantation. However, such treatment is often followed by
+life-threatening bloodstream infections (BSI). Rapid detection of BSI-causing
+bacteria is critical in preventing BSI-related deaths. PC-CAM is a pathogen identification
+system-on-chip designed to assist in avoiding BSI by real-time detection
+of pathogen bacterial genomes using k-mer matching. The core of PC-CAM is an
+Approximate search-capable (Hamming distance tolerant) Content Addressable
+Memory (ACAM). PC-CAM was designed and manufactured in a commercial
+65nm process. We use PC-CAM for real-time detection of bacteria in blood and
+stool samples of GVHD patients and evaluate PC-CAM bacteria identification
+efficiency, performance, silicon area, and power consumption based on silicon
+measurements. PC-CAM is capable of classifying 960K short DNA reads/sec
+within a silicon area of 2.38mm2 consuming about 1.27mW. We envision PCCAM
+as a platform deployed at points of care to provide real-time, accurate,
+privacy-preserving, easy-to-operate, and energy-efficient pathogen classification."
+  project: "PIMAT"
+
 - title: "GenMClass: Design and comparative analysis of genome classifier-on-chip platform"
   authors: D. Bromot, Y. Kra, Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL

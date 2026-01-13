@@ -17,7 +17,7 @@ I received my Ph.D. degree (Hons.) in Electronics Engineering from <a href="http
 
 In 2019-2020 I was a visiting Ph.D. student at <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> laboratories, Bar-Ilan University, Israel. In Jul-Sep 2022 and Jul-Aug 2023, I was a visiting researcher at EnICS labs. In Jan-Feb 2024, I was a visiting researcher at the Department of Information Engineering, University of Pisa, Italy. 
 
-I am IEEE Senior Member. I have authored/coauthored more than 60 scientific papers in international peer-reviewed journals and conferences, and have participated in several IC tapeouts. I have received several awards, research grants, and funding (as Principal Investigator). I have been part of several IEEE conference committees, and journal boards. Moreover, I have been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences.
+I am IEEE Senior Member. I have authored/coauthored more than 65 scientific papers in international peer-reviewed journals and conferences, and have participated in several IC tapeouts. I have received several awards, research grants, and funding (as Principal Investigator). I have been part of several IEEE conference committees, and journal boards. Moreover, I have been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences.
 
 
 <!--
