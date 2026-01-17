@@ -7,7 +7,7 @@
   image: 2026-SciRep-BSI-image.png
   display: "<b>Accepted at: Scientific Reports</b>"
   year: 2026
-  #doi: 
+  doi: 10.1038/s41598-026-36497-z 
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Acute graft-versus-host (GVHD) is a deadly disease that can be treated through
@@ -34,7 +34,7 @@ privacy-preserving, easy-to-operate, and energy-efficient pathogen classificatio
   image: 2026-JSA-GenMClass-image.png
   display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
   year: 2026
-  #doi: 
+  doi: 10.1016/j.sysarc.2026.103702
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "We propose GenMClass, a genome classification system-on-chip (SoC) implementing two different classification approaches and comprising two separate classification engines: a DNN accelerator GenDNN, that classifies DNA reads converted to images using a classification neural network, and a similarity search-capable Error Tolerant Content Addressable Memory ETCAM, that classifies
