@@ -3,8 +3,7 @@
   author={Bromot, Daria and Kra, Yehuda and Jahshan, Zuher and Garzón, Esteban and Teman, Adam and Yavits, Leonid},
   journal={Journal of Systems Architecture}, 
   year={2026},
-  volume={},
-  number={},
-  pages={1-13},
+  volume={173},
+  pages={103702},
   doi={10.1016/j.sysarc.2026.103702}
 }

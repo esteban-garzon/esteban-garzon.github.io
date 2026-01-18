@@ -5,7 +5,7 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-SciRep-BSI
   image: 2026-SciRep-BSI-image.png
-  display: "<b>Accepted at: Scientific Reports</b>"
+  display: "<b>Scientific Reports</b>"
   year: 2026
   doi: 10.1038/s41598-026-36497-z 
   #arxiv: XXXX.13080
@@ -32,7 +32,7 @@ privacy-preserving, easy-to-operate, and energy-efficient pathogen classificatio
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-GenMClass
   image: 2026-JSA-GenMClass-image.png
-  display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
+  display: "<b>Journal of Systems Architecture (JSA)</b>"
   year: 2026
   doi: 10.1016/j.sysarc.2026.103702
   #arxiv: XXXX.13080
