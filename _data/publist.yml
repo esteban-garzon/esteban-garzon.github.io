@@ -1,5 +1,27 @@
 # colors: blue, red, lightgreen, 
 
+- title: "CADM: Content Addressable Commodity Off-the-Shelf DRAM-Based Genome Classifier"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2026-JSA-CADM
+  image: 2026-JSA-CADM-image.png
+  display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
+  year: 2026
+  #doi: 10.1038/s41598-026-36497-z 
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "Processing using memory (PuM) leverages analog properties of memory infrastructure to implement logic and arithmetic operations.
+Commodity Off-The-Shelf (COTS) DRAM is particularly attractive for PuM because it requires no device modification,
+thereby preserving the ubiquity, availability, and cost advantages of modern DRAM while enabling massive column-level parallelism.
+We propose CADM (Content-Addressable DRAM), that enables exact and approximate (similarity) search in- and usingunmodified
+COTS DRAM. CADM targets genome classification, which is one of the most important applications in bioinformatics.
+Specifically, rapid and accurate detection of bacterial pathogens is critical for effective clinical decision-making, particularly in
+life-threatening conditions such as sepsis, where early identification of the causative agent significantly improves patient outcomes.
+We implement CADM in commercial DDR4 and show that it can achieve up to 185× higher throughput and 73× energy savings
+compared to CPU-run state-of-the-art classifier Kraken2. Using approximate search, CADM can achieve 9× higher F1 score when
+matching relatively short (<32 DNA bases) ambiguous and erroneous k-mers."
+  project: "PIMAT"
+
 - title: "Integrated BSI Bacteria Identifier-On-Chip Using Approximate k-mer Matching"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, V. Galindo, Y. Harary, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL

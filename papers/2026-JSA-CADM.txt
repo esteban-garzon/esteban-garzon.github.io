@@ -1,0 +1,9 @@
+@inproceedings{garzon2026cadm,
+  title={{CADM: Content Addressable Commodity Off-the-Shelf DRAM-Based Genome Classifier}},
+  author={Garzón, Esteban and Fish, Alexander and Yavits, Leonid},
+  journal={Journal of Systems Architecture}, 
+  year={2026},
+  volume={},
+  pages={},
+  doi={}
+}
