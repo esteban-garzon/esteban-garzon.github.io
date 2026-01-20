@@ -486,7 +486,7 @@ and energy-efficient in-memory computing."
 ###### 2023
 
 - title: "AM4: MRAM Crossbar Based CAM/TCAM/ACAM/AP for In-Memory Computing"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-JETCAS-AM4
   image: 2023-JETCAS-AM4-image.png
