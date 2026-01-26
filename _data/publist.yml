@@ -1,4 +1,25 @@
 # colors: blue, red, lightgreen, 
+- title: "SPARCAM: Sparse Matrix Multiplication Accelerator Using Multi-Port Dynamic CAM"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, B. Zambrano, D. Sheinenzon, M. Lanuzza, A. Teman, L. Yavits  L. Yavits
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2026-JSA-SPARCAM
+  image: 2026-JSA-SPARCAM-image.png
+  display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
+  year: 2026
+  #doi: 10.1038/s41598-026-36497-z 
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "Sparse General matrix multiplication (SpGEMM) is a fundamental kernel in many scientific and engineering fields, including Generative AI.
+However,  its intrinsic computation complexity presents substantial challenges, making efficient hardware implementation particularly difficult.
+This paper proposes SPARCAM, a novel SpGEMM accelerator, developed and optimized for very energy-efficient Generative AI edge applications. 
+SPARCAM is designed using low-power dense Gain Cell embedded DRAM (GC-eDRAM) technology, a processing near memory paradigm, and a modified outer product matrix multiplication algorithm.
+Despite its quite limited peak theoretical performance, SPARCAM achieves very high energy efficiency due to its low-power architecture and almost 100% utilization of its computing resources. 
+Designed in a commercial 28nm FDSOI technology, SPARCAM achieves 13.9× speedup over a high-performance embedded CPU when processing large-scale sparse matrices.
+When multiplying limited-size sparse matrices, SPARCAM obtains 193× speedup over high-performance GPU.
+SPARCAM reaches about 4.3 orders-of-magnitude, on average, higher energy benefits, and 1892×, 181×, 2×, and 3471×,
+higher energy efficiency (over CPU) compared with state-of-the-art SpGEMM accelerators SpArch, OuterSPACE, MatRaptor, and high-performance GPU, respectively."
+  project: "PIMAT"
+
 
 - title: "CADM: Content Addressable Commodity Off-the-Shelf DRAM-Based Genome Classifier"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, L. Yavits
