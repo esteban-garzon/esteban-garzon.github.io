@@ -1,6 +1,21 @@
 # colors: blue, red, lightgreen, 
+- title: "IMAP: In-MRAM Associative Processor with reliable bit-serial massively-parallel arithmetic operations"
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, C. Mosquera, M. Lanuzza
+  #pdf: 2024-IEEEAccess-ViRAL
+  url: 2026-SPIE-IMAP
+  image: 2026-SPIE-IMAP-image.png
+  display: "<b>To be presented at: Spintronics and Nanomagnetism Conference - SPIE Photonics Europe (INVITED)</b>"
+  year: 2026
+  #doi: 10.1038/s41598-026-36497-z 
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "forthcoming..."
+  project: "PIMAT"
+
+
+# colors: blue, red, lightgreen, 
 - title: "SPARCAM: Sparse Matrix Multiplication Accelerator Using Multi-Port Dynamic CAM"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, B. Zambrano, D. Sheinenzon, M. Lanuzza, A. Teman, L. Yavits  L. Yavits
+  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, B. Zambrano, D. Sheinenzon, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-SPARCAM
   image: 2026-JSA-SPARCAM-image.png

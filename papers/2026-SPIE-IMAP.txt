@@ -1,0 +1,9 @@
+@inproceedings{garzon2026imap,
+  title={{IMAP: In-MRAM Associative Processor with reliable bit-serial massively-parallel arithmetic operations}},
+  author={Garzón, Esteban and Mosquera, Cristhopher and Lanuzza, Marco},
+  booktitle={Spintronics and Nanomagnetism},
+  volume={},
+  pages={},
+  year={2026},
+  organization={SPIE}
+}
