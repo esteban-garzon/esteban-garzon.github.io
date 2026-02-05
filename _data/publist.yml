@@ -19,9 +19,9 @@
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-SPARCAM
   image: 2026-JSA-SPARCAM-image.png
-  display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
+  display: "<b>Journal of Systems Architecture (JSA)</b>"
   year: 2026
-  #doi: 10.1038/s41598-026-36497-z 
+  doi: 10.1016/j.sysarc.2026.103726 
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Sparse General matrix multiplication (SpGEMM) is a fundamental kernel in many scientific and engineering fields, including Generative AI.
@@ -41,9 +41,9 @@ higher energy efficiency (over CPU) compared with state-of-the-art SpGEMM accele
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-CADM
   image: 2026-JSA-CADM-image.png
-  display: "<b>Accepted at: Journal of Systems Architecture (JSA)</b>"
+  display: "<b>Journal of Systems Architecture (JSA)</b>"
   year: 2026
-  #doi: 10.1038/s41598-026-36497-z 
+  doi: 10.1016/j.sysarc.2026.103710 
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "Processing using memory (PuM) leverages analog properties of memory infrastructure to implement logic and arithmetic operations.
@@ -112,7 +112,7 @@ food safety and environmental monitoring, agriculture pathogen and antimicrobial
   display: "<b>To be presented at: 2026 Design, Automation & Test in Europe Conference (DATE)</b>"
   year: 2026
   #doi: 
-  #arxiv: XXXX.13080
+  #arxiv: 
   type_C: conference
   abstract: "forthcoming..."
   project: "PIMAT"
@@ -215,10 +215,10 @@ of reliable and scalable PIMs."
   display: <b>IEEE Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC)</b>
   year: 2025
   #doi: 10.1109/ISCAS56072.2025.11043920
-  #arxiv: XXXX.13080
+  arxiv: 10.48550/arXiv.2601.19920
   #techrxiv: 10.36227/techrxiv.175355476.61078156/v1
   type_C: conference
-  abstract: "forthcoming..."
+  abstract: "Binary Neural Networks (BNNs), where weights and activations are constrained to binary values (+1, -1), are a highly efficient alternative to traditional neural networks. Unfortunately, typical BNNs, while binarizing linear layers (matrix-vector multiplication), still implement other network layers (batch normalization, softmax, output layer, and sometimes the input layer of a convolutional neural network) in full precision. This limits the area and energy benefits and requires architectural support for full precision operations. We propose PiC-BNN, a true end-to-end binary in-approximate search (Hamming distance tolerant) Content Addressable Memory based BNN accelerator. PiC-BNN is designed and manufactured in a commercial 65nm process. PiC-BNN uses Hamming distance tolerance to apply the law of large numbers to enable accurate classification without implementing full precision operations. PiC-BNN achieves baseline software accuracy (95.2%) on the MNIST dataset and 93.5% on the Hand Gesture (HG) dataset, a throughput of 560K inferences/s, and presents a power efficiency of 703M inferences/s/W when implementing a binary MLP model for MNIST/HG dataset classification."
   project: "PIMAT"
   # 
 
