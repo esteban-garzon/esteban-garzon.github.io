@@ -1,9 +1,9 @@
 @inproceedings{harary2025picbnn,
   title={{PiC-BNN: A 128-kbit 65nm Processing-in-CAM-Based End-to-End Binary Neural Network Accelerator}},
   author={Harary, Yuval and Sharoni, Almog and Garzón, Esteban and Lanuzza, Marco and Teman, Adam, and Yavits, Leonid},
-  booktitle={2025 IEEE Cross-Disciplinary Conference on Memory-Centric Systems (CCMCC)},
-  pages={},
+  booktitle={2025 Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC)},
+  pages={1--7},
   year={2025},
   organization={IEEE},
-  doi={}
+  doi={10.1109/CCMCC67628.2025.11380456}
 }

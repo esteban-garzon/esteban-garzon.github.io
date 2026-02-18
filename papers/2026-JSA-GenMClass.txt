@@ -1,4 +1,4 @@
-@inproceedings{bromot2026genmclass,
+@article{bromot2026genmclass,
   title={{GenMClass: Design and comparative analysis of genome classifier-on-chip platform}},
   author={Bromot, Daria and Kra, Yehuda and Jahshan, Zuher and Garzón, Esteban and Teman, Adam and Yavits, Leonid},
   journal={Journal of Systems Architecture}, 

@@ -1,4 +1,4 @@
-@inproceedings{garzon2026integrated,
+@article{garzon2026integrated,
   title={{Integrated BSI Bacteria Identifier-On-Chip Using Approximate k-mer Matching}},
   author={Garzón, Esteban and Galindo, Victor and Harary, Yuval and Teman, Adam and Yavits, Leonid},
   journal={Scientific Reports}, 
