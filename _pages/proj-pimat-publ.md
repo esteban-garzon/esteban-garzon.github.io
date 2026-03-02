@@ -120,7 +120,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M1</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
-        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1PHQISA59X2wwJcD--rMRuXrSYD0Uamf0/view?usp=sharing">Link</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 8px;">D5.1</td>
@@ -128,7 +128,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Data management plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M1</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
-        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1kgQ1Yxy9zssJDBChgj7J76uqAZc-2FMn/view?usp=sharing">Link</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 8px;">D5.2</td>
@@ -136,7 +136,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Risk management plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M2</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
-        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1zqNvQpjMph5CG9Jw6Ul4eBZfRK1dgg6h/view?usp=sharing">Link</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 8px;">D5.3</td>
@@ -144,7 +144,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Partners Agreement</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
-        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1wmhZjJ1IfAa91GOTFz_exIIwbvLn5kEE/view?usp=sharing">Link</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 8px;">D1.1</td>
@@ -152,7 +152,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Desk research: SOTA analysis</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
-        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1mSq_VaSi_2aKH_GyETjtYS14risdtLMv/view?usp=sharing">Link</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 8px;">D1.2</td>
@@ -160,7 +160,15 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">Algorithm-hardware co-design and optimization</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M7</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
-        <td style="border: 1px solid black; padding: 8px;">Limited (<a href="https://drive.google.com/file/d/1MC6FdCQYqJrzEx5zRaqt2yYk3Qhwu-KN/view?usp=sharing">Link</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">D4.2</td>
+        <td style="border: 1px solid black; padding: 8px;">WP4</td>
+        <td style="border: 1px solid black; padding: 8px;">Hardware for Transformer Networks</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M11</td>
+        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
 </table>
 
