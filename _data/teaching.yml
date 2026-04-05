@@ -1,3 +1,64 @@
-- type: graduate
-  academic-year: 2021-2022
-  erogation: spring 2022
+lecturer:
+  - role: "Lecturer"
+    institution: "University of Calabria"
+    institution_abbr: "UNICAL"
+    institution_url: "https://www.unical.it/"
+    location: "Rende, Italy"
+    course: "Sensors Laboratory"
+    degree: "Electronics Graduate Degree"
+    level: "Graduate"
+    years: "2025/2026"
+    hours: 14
+
+  - role: "Lecturer"
+    institution: "University of Calabria"
+    institution_abbr: "UNICAL"
+    institution_url: "https://www.unical.it/"
+    location: "Rende, Italy"
+    course: "Analog Systems Design"
+    degree: "Electronics Graduate Degree"
+    level: "Graduate"
+    years: "2024/2025"
+    hours: 10
+
+  - role: "Lecturer"
+    institution: "University of Calabria"
+    institution_abbr: "UNICAL"
+    institution_url: "https://www.unical.it/"
+    location: "Rende, Italy"
+    course: "Analog Systems Design Laboratory"
+    degree: "Electronics Graduate Degree"
+    level: "Graduate"
+    years: "2021/2022 - Present"
+    hours: 16
+
+  - role: "Lecturer (invited)"
+    institution: "University San Francisco de Quito"
+    institution_abbr: "USFQ"
+    institution_url: "https://www.usfq.edu.ec/en"
+    location: "Quito, Ecuador"
+    course: "Digital CMOS Technology"
+    degree: "Nanoelectronics Graduate Degree"
+    level: "Graduate"
+    years: "2021/2022, 2022/2023"
+
+phd_seminars:
+  - title: "Spintronic Technology For Energy-Efficient hybrid CMOS/MTJ Memory Applications"
+    institution: "DIMES, University of Calabria"
+    institution_url: "https://dimes.unical.it/"
+    location: "Rende, Italy"
+    hours: 6
+
+  - title: "Hybrid CMOS/MTJ Circuit Design"
+    institution: "Politecnico di Bari"
+    institution_url: "https://orientami.poliba.it/"
+    location: "Bari, Italy"
+    hours: 10
+
+supervision:
+  - type: "M.Sc. Students"
+    main_tutor: 2
+    co_tutor: 5
+
+  - type: "Ph.D Students"
+    co_tutor: 2
