@@ -137,10 +137,10 @@ food safety and environmental monitoring, agriculture pathogen and antimicrobial
   image: 2025-ICAI-HW-image.png
   display: <b>IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)</b>
   year: 2025
-  #doi: 10.3390/jlpea15030053
+  doi: 10.1109/ICAI-TEMS64510.2025.11467631
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: "..."
+  abstract: "The exponential growth of the use of artificial intelligence (AI) in all sectors of our society is driving unprecedented energy consumption and carbon dioxide emissions, threatening both the environment and the scalability of future AI technologies. This growing concern is especially pronounced in the context of transformer-based generative AI models, whose computational and energy demands continue to escalate rapidly. Addressing this challenge necessitates a shift from contemporary computing through the integration of novel computing paradigms and specialized hardware accelerators that significantly improve performance-per-watt efficiency. This work discusses the power-intensive nature of generative AI technologies, reviews current trends in AI hardware, and provides a forward-looking perspective on hardware accelerators, with a particular emphasis on memory-centric computing, specifically optimized for AI applications. By reviewing algorithmic and architectural advances, this work shows the central role of hardware innovation in enabling energy-efficient and scalable generative AI systems."
   project: "PIMAT"
 
 - title: "A Physical Unclonable Function based on Differential Subthreshold PMOS Array with 9.73x10-4 Stabilized BER and 1.3pJ/bit in 65nm"

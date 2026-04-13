@@ -5,5 +5,5 @@
   pages={1--6},
   year={2025},
   organization={IEEE},
-  doi={}
+  doi={10.1109/ICAI-TEMS64510.2025.11467631}
 }
