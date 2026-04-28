@@ -98,7 +98,7 @@ Jul-Aug 2023, he was a visiting researcher at EnICS labs. In Jan-Feb 2024, he wa
 the Department of Information Engineering, University of Pisa, Italy.
 
 E. Garzón was an IEEE graduate student member from 2016, became an IEEE member in 2022, and
-IEEE Senior Member in 2024. He has authored/coauthored more than 60 scientific papers in international
+IEEE Senior Member in 2024. He has authored/coauthored more than 65 scientific papers in international
 peer-reviewed journals and conferences, and has participated in several IC tapeouts. His research interests
 include domain-specific hardware accelerators, electronics/spintronics, embedded memories, and standard
 and emerging technologies for logic & memory, and low-power applications. He has received several awards,

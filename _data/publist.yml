@@ -1,3 +1,40 @@
+- title: "AM5: Bulk Logic-in-Memory Using MRAM NAND Crossbar"
+  authors: C. Mosquera, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2026-JETCAS-AM5
+  image: 2026-JETCAS-AM5-image.png
+  display: <b>IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)</b>
+  year: 2026
+  # doi: 
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "Application domains, such as machine learning and
+big data analytics, impose significant computational challenges
+to contemporary Von Neumann architectures. To address this
+issue, logic-in-memory (LiM) has been raised as a promising
+alternative that targets computing within memory arrays, aimed
+at alleviating the memory wall, optimizing data transfer, and enabling
+massive parallelism. Spin-transfer torque magnetic tunnel
+junction (STT-MTJ) based memory is an emerging memory technology
+that enables efficient processing using memory. This paper
+proposes AM5, a novel LiM architecture leveraging MRAM
+NAND crossbar technology to support in-memory arithmetic
+operations efficiently. The proposed LiM scheme is designed
+using a commercial 28nm process node and a Verilog-A-based
+double-barrier MTJ compact model. Evaluation results show that
+AM5 consumes about 98 fJ/40.7 fJ/DMTJ per evaluation/write
+cycle (4.2-4.4 ns/1.9 ns). Additionally, the proposed architecture
+proposes an in-situ error correction mechanism to mitigate
+variability, yielding reliable arithmetic operations. These findings
+show better energy (∼ 6× lower, on average) and competitive
+latency (∼ 1.3× faster, on average) figures of AM5 compared to
+other LiM designs based on MTJ-based technology. When used
+as a LiM unit to perform inference in adder attention Vision
+Transformer networks, AM5 consumes about one-tenth of the
+energy required by a processor-centric unit."
+project: "PIMAT"
+  # corresponding author  journal
+
 # colors: blue, red, lightgreen, 
 - title: "IMAP: In-MRAM Associative Processor with reliable bit-serial massively-parallel arithmetic operations"
   authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, C. Mosquera, M. Lanuzza
@@ -9,7 +46,24 @@
   #doi: 10.1038/s41598-026-36497-z 
   #arxiv: XXXX.13080
   type_C: conference
-  abstract: "forthcoming..."
+  abstract: "The ever-growing demand for data-intensive applications has driven the adoption of in-memory computing (IMC)
+as a promising paradigm to overcome the von Neumann bottleneck of conventional computing architectures.
+Among the emerging memory technologies explored for IMC-based architectures, magnetic random-access memory
+(MRAM) stands out due to its non-volatility, high endurance, and compatibility with standard CMOS
+fabrication process. This work presents IMAP, an in-MRAM associative processor based on perpendicular
+anisotropy double-barrier magnetic tunnel junctions (DMTJs) with two reference layers. IMAP presents processing
+units built with NAND-type content-addressable memory (CAM) architecture, allowing bit-serial massivelyparallel
+arithmetic operations. Reliable and energy-efficient in-memory computing operations are achieved by
+properly carrying out a data allocation technique to mitigate variability-induced errors arising from the limited
+ratio between high-resistance and low-resistance states. IMAP is designed using a commercial 28 nm process and
+a Verilog-A-based compact DMTJ model calibrated with experimental physical parameters. Circuit-level Monte
+Carlo simulations demonstrate correct operation under worst-case conditions and show that the proposed data
+allocation increases the probability of correct 8-bit full-adder operations for the most significant bits from about
+63% to approximately 95%. At the application level, IMAP is evaluated as an accumulator in a fixed-point twodimensional
+convolution workload, where the proposed approach improves the output peak signal-to-noise ratio
+from 6.21 dB to 24.26 dB. The obtained results indicate that IMAP can efficiently accelerate arithmetic kernels
+associated with contemporary data-centric applications, thereby suggesting MRAM-based associative processing
+as a potential IMC architecture for future memory-centric computing systems."
   project: "PIMAT"
 
 

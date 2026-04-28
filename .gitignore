@@ -6,3 +6,4 @@ images/.DS_Store
 _site/
 .sass-cache/
 notes.md
+.claude

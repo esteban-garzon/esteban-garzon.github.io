@@ -1,0 +1,9 @@
+@article{mosquera2026am5,
+  title={{AM5: Bulk Logic-in-Memory Using MRAM NAND Crossbar}},
+  author={Mosquera, Cristhopher and Garzón, Esteban and Lanuzza, Marco and Teman, Adam and Yavits, Leonid},
+  journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
+  year={2026},
+  volume={},
+  pages={},
+  doi={}
+}
