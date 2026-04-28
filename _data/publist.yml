@@ -1,4 +1,3 @@
-# colors: blue, red, lightgreen, 
 - title: "AM5: Bulk Logic-in-Memory Using MRAM NAND Crossbar"
   authors: C. Mosquera, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
@@ -9,30 +8,7 @@
   # doi: 
   #arxiv: XXXX.13080
   type_J: journal
-  abstract: "Application domains, such as machine learning and
-big data analytics, impose significant computational challenges
-to contemporary Von Neumann architectures. To address this
-issue, logic-in-memory (LiM) has been raised as a promising
-alternative that targets computing within memory arrays, aimed
-at alleviating the memory wall, optimizing data transfer, and enabling
-massive parallelism. Spin-transfer torque magnetic tunnel
-junction (STT-MTJ) based memory is an emerging memory technology
-that enables efficient processing using memory. This paper
-proposes AM5, a novel LiM architecture leveraging MRAM
-NAND crossbar technology to support in-memory arithmetic
-operations efficiently. The proposed LiM scheme is designed
-using a commercial 28nm process node and a Verilog-A-based
-double-barrier MTJ compact model. Evaluation results show that
-AM5 consumes about 98 fJ/40.7 fJ/DMTJ per evaluation/write
-cycle (4.2-4.4 ns/1.9 ns). Additionally, the proposed architecture
-proposes an in-situ error correction mechanism to mitigate
-variability, yielding reliable arithmetic operations. These findings
-show better energy (about 6x lower, on average) and competitive
-latency (about 1.3x faster, on average) figures of AM5 compared to
-other LiM designs based on MTJ-based technology. When used
-as a LiM unit to perform inference in adder attention Vision
-Transformer networks, AM5 consumes about one-tenth of the
-energy required by a processor-centric unit."
+  abstract: "..."
 project: "PIMAT"
   # corresponding author  journal
 
