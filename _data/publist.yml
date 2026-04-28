@@ -27,8 +27,8 @@ AM5 consumes about 98 fJ/40.7 fJ/DMTJ per evaluation/write
 cycle (4.2-4.4 ns/1.9 ns). Additionally, the proposed architecture
 proposes an in-situ error correction mechanism to mitigate
 variability, yielding reliable arithmetic operations. These findings
-show better energy (about 6× lower, on average) and competitive
-latency (about 1.3× faster, on average) figures of AM5 compared to
+show better energy (about 6x lower, on average) and competitive
+latency (about 1.3x faster, on average) figures of AM5 compared to
 other LiM designs based on MTJ-based technology. When used
 as a LiM unit to perform inference in adder attention Vision
 Transformer networks, AM5 consumes about one-tenth of the
