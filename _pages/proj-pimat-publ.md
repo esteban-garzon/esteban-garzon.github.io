@@ -174,7 +174,7 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">D2.1</td>
         <td style="border: 1px solid black; padding: 8px;">WP2</td>
         <td style="border: 1px solid black; padding: 8px;">IC design report</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M12</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M13</td>
         <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
