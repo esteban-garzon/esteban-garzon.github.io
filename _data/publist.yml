@@ -43,7 +43,7 @@ energy required by a processor-centric unit."
   image: 2026-SPIE-IMAP-image.png
   display: "<b>To be presented at: Spintronics and Nanomagnetism Conference - SPIE Photonics Europe (INVITED)</b>"
   year: 2026
-  #doi: 10.1038/s41598-026-36497-z 
+  doi: 10.1117/12.3096945
   #arxiv: XXXX.13080
   type_C: conference
   abstract: "The ever-growing demand for data-intensive applications has driven the adoption of in-memory computing (IMC)
@@ -165,10 +165,23 @@ food safety and environmental monitoring, agriculture pathogen and antimicrobial
   image: 2026-DATE-PatBiNN-image.png
   display: "<b>To be presented at: 2026 Design, Automation & Test in Europe Conference (DATE)</b>"
   year: 2026
-  #doi: 
+  doi: 10.23919/DATE69613.2026.11539439
   #arxiv: 
   type_C: conference
-  abstract: "forthcoming..."
+  abstract: "Binary Neural Networks (BNNs) are a cost-effective
+and highly efficient alternative to traditional neural networks.
+Genome classification is a frequent component of genome analysis
+pipelines, with a variety of applications spanning pandemic
+preparedness, AMR resistance control, drinking water and food
+safety. PatBiNN is a BNN based pathogen genome classifier
+optimized for edge and field use. It employs a binary multilayer
+perceptron (MLP) implemented using in-Hamming distance tol-
+erant (similarity search) content addressable memory processing.
+PatBiNN was designed and manufactured in a commercial 65nm
+process. It achieves F1 score of 88%, ROC AUC of 0.986,
+throughput of 0.8M inferences/s, power consumption of 4.8 mW
+and energy efficiency of 237TOPs/s/W with silicon area of
+0.87mm2."
   project: "PIMAT"
 
 - title: "NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory"
