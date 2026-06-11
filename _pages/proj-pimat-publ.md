@@ -103,7 +103,6 @@ permalink: /proj-pimat-publ/
         <th style="border: 1px solid black; padding: 8px;">WP</th>
         <th style="border: 1px solid black; padding: 8px;">Description</th>
         <th style="border: 1px solid black; padding: 8px;">Status</th>
-        <th style="border: 1px solid black; padding: 8px;">Type</th>
         <th style="border: 1px solid black; padding: 8px;">File</th>
     </tr>
     <tr>
@@ -111,7 +110,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP4</td>
         <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Milestone Achieved at M1</td>
-        <td style="border: 1px solid black; padding: 8px;">Public</td>
         <td style="border: 1px solid black; padding: 8px;"><a href="{{ site.baseurl }}/proj-pimat-ms4/" target="_blank">link</a></td>
     </tr> 
     <tr>
@@ -119,7 +117,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP4</td>
         <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M1</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -127,7 +124,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP5</td>
         <td style="border: 1px solid black; padding: 8px;">Data management plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M1</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -135,7 +131,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP5</td>
         <td style="border: 1px solid black; padding: 8px;">Risk management plan</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M2</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -143,7 +138,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP5</td>
         <td style="border: 1px solid black; padding: 8px;">Partners Agreement</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -151,7 +145,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP1</td>
         <td style="border: 1px solid black; padding: 8px;">Desk research: SOTA analysis</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -159,7 +152,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP1</td>
         <td style="border: 1px solid black; padding: 8px;">Algorithm-hardware co-design and optimization</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M7</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -167,7 +159,6 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP4</td>
         <td style="border: 1px solid black; padding: 8px;">Hardware for Transformer Networks</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M11</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
     <tr>
@@ -175,7 +166,13 @@ permalink: /proj-pimat-publ/
         <td style="border: 1px solid black; padding: 8px;">WP2</td>
         <td style="border: 1px solid black; padding: 8px;">IC design report</td>
         <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M13</td>
-        <td style="border: 1px solid black; padding: 8px;">Confidential</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">MS1</td>
+        <td style="border: 1px solid black; padding: 8px;">WP1</td>
+        <td style="border: 1px solid black; padding: 8px;">HW-oriented algorithm defined</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M14</td>
         <td style="border: 1px solid black; padding: 8px;"> -- </td>
     </tr>
 </table>
