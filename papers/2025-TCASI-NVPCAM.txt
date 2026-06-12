@@ -1,9 +1,10 @@
-@article{caisaluisa2025nvpcam,
+@article{caisaluisa2026nvpcam,
   author={Caisaluisa, Oliver and Garzón, Esteban and Holguín, Eduardo and Lanuzza, Marco and Luis Miguel, Prócel},
   journal={IEEE Transactions on Circuits and Systems I: Regular Papers}, 
   title={{NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory}}, 
-  year={2025},
-  volume={},
-  pages={},
+  year={2026},
+  volume={73},
+  number={3},
+  pages={1539-1552},
   doi={10.1109/TCSI.2025.3631753}
 }

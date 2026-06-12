@@ -2,9 +2,8 @@
   title={{SPARCAM: Sparse Matrix Multiplication Accelerator Using Multi-Port Dynamic CAM}},
   author={Garzón, Esteban and Zambrano, Benjamin and Sheinenzon, David and Lanuzza, Marco and Teman, Adam and Yavits, Leonid},
   journal={Journal of Systems Architecture}, 
+  volume={174},
+  pages={103726},
   year={2026},
-  volume={},
-  number={},
-  pages={1-14},
-  doi={}
+  doi={10.1016/j.sysarc.2026.103726}
 }

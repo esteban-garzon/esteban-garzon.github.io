@@ -4,10 +4,21 @@ lecturer:
     institution_abbr: "UNICAL"
     institution_url: "https://www.unical.it/"
     location: "Rende, Italy"
+    course: "Fundamentals of Electronic Circuits"
+    degree: "Biomedical Engineering Undergraduate Degree"
+    level: "Undergraduate"
+    years: "2026/2027 - Present"
+    hours: 29
+
+  - role: "Lecturer"
+    institution: "University of Calabria"
+    institution_abbr: "UNICAL"
+    institution_url: "https://www.unical.it/"
+    location: "Rende, Italy"
     course: "Sensors Laboratory"
     degree: "Electronics Graduate Degree"
     level: "Graduate"
-    years: "2025/2026"
+    years: "2025/2026 - Present"
     hours: 14
 
   - role: "Lecturer"

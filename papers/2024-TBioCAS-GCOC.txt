@@ -1,4 +1,4 @@
-@article{harary2024gcoc,
+@article{harary2025gcoc,
   author={Harary, Yuval and Snapir, Paz and Siman-Tov, Shir and Kruphman, Chen and Rechef, Eyal and Jahshan, Zuher and Garzón, Esteban and Yavits, Leonid},
   journal={IEEE Transactions on Biomedical Circuits and Systems}, 
   title={{GCOC: A Genome Classifier-On-Chip based on Similarity Search Content Addressable Memory}}, 

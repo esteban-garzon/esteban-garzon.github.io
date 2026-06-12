@@ -1,4 +1,19 @@
 - authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
+  title: "STT-MRAM-based Content-Addressable Memory for In-Memory and Neuromorphic Computing"
+  conf: "To be Presented at: IEEE Trends in Magnetism Conference (TMAG), Milan, Italy, 07-11 Sep."
+  year: 2026
+
+- authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  title: "PatBiNN: A 65nm Processing-in-CAM Based BNN Implementation for Pathogen Genome Classification"
+  conf: 2026 Design, Automation & Test in Europe Conference (DATE), Verona, Italy, 20-22 April
+  year: 2026
+
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, C. Mosquera, M. Lanuzza
+  title: "IMAP: In-MRAM Associative Processor with reliable bit-serial massively-parallel arithmetic operations (INVITED)"
+  conf: Spintronics and Nanomagnetism Conference - SPIE Photonics Europe, Strasbourg, France, 12-16 April
+  year: 2026
+
+- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
   title: "Hardware Accelerators For A Sustainable AI Future"
   conf: IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS), Rende, Italy, 11-14 Nov.
   year: 2025
