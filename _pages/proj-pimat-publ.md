@@ -106,6 +106,20 @@ permalink: /proj-pimat-publ/
         <th style="border: 1px solid black; padding: 8px;">File</th>
     </tr>
     <tr>
+        <td style="border: 1px solid black; padding: 8px;">D3.1</td>
+        <td style="border: 1px solid black; padding: 8px;">WP3</td>
+        <td style="border: 1px solid black; padding: 8px;">Benchmarking and Assessment</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M16</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+    </tr> 
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">D4.5</td>
+        <td style="border: 1px solid black; padding: 8px;">WP4</td>
+        <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
+        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M16</td>
+        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+    </tr> 
+    <tr>
         <td style="border: 1px solid black; padding: 8px;">MS4</td>
         <td style="border: 1px solid black; padding: 8px;">WP4</td>
         <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
