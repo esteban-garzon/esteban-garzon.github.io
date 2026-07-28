@@ -3,7 +3,8 @@
   author={Mosquera, Cristhopher and Garzón, Esteban and Lanuzza, Marco and Teman, Adam and Yavits, Leonid},
   journal={IEEE Journal on Emerging and Selected Topics in Circuits and Systems}, 
   year={2026},
-  volume={},
-  pages={},
-  doi={}
+  volume={16},
+  number={2},
+  pages={203-217},
+  doi={10.1109/JETCAS.2026.3689530}
 }
