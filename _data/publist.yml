@@ -1,3 +1,42 @@
+- title: "Reliability and Assessment of an MRAM-based Non-Volatile Precharge-Free Ternary CAM for Real-Time Edge Inference"
+  authors: O. Caisaluisa, F. Seiler, L.M. Procel, M. Lanuzza, A. Quotb, N. TaheriNejad, <b style='color:#FF6666 !important;'>E. Garzón</b>
+  #pdf: 2024-SSCL-OCCAM
+  url: 2026-CCMCC-edge
+  image: 2026-CCMCC-edge.png
+  display: <b>to be presented at IEEE Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC)</b>
+  year: 2026
+  #doi: 10.1109/JETCAS.2026.3689530
+  #arxiv: XXXX.13080
+  type_C: conference
+  abstract: "Non-volatile content-addressable memories (NVCAMs)
+based on magnetic tunnel junctions (MTJs) are emerging
+as a compelling processing-using-memory (PuM) scheme
+for energy-efficient, massively-parallel pattern matching in AI
+inference and edge-computing workloads. This paper presents a
+comprehensive reliability and application-level study of a hybrid
+MTJ-CMOS NV precharge-free ternary CAM (NV-PTCAM)
+designed in a commercial 65 nm CMOS process. At the circuit
+level, we evaluate the impact of the number of ternary ‘don’tcare’
+(X) states stored within the NV-TPCAM, and the impact
+of row segmentation. NV-PTCAM achieves a search delay below
+0.25 ns, a search energy consumption of 1.82 fJ/cell, and a search
+error rate of about 0.02%, outperforming conventional NV-NOR
+and NV-NAND counterparts by up to 82% in search energy and
+up to 11.5× in search delay, on average. We apply an endurance
+model to the NV-PTCAM search workload and demonstrate
+that the number of cycles to failure exceeds 1013 for pulse
+amplitudes as high as 0.656V and pulse widths in the range 100-
+500 ps, establishing the practical reliability of the NV-PTCAM
+for explainable artificial intelligence (xAI) models useful in
+wearable or edge devices. At the application level, we demonstrate
+the NV-PTCAM as the PuM inference engine of a real-time
+photoplethysmography (PPG)-based tachycardia classifier. The
+NV-PTCAM-based Random-Forest-based PuM system achieves
+a mean accuracy of 94.8% and an F1-score of 86.7% on the
+BIDMC clinical dataset, while the low SER of the NV-PTCAM
+has a negligible impact on classification performance."
+  project: "PIMAT"
+
 - title: "AM5: Bulk Logic-in-Memory Using MRAM NAND Crossbar"
   authors: C. Mosquera, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM

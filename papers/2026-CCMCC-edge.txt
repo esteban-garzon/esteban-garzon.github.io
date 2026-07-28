@@ -1,0 +1,10 @@
+@inproceedings{caisaluisa2026reliability,
+  title={{Reliability and Assessment of an MRAM-based Non-Volatile Precharge-Free Ternary CAM for Real-Time Edge Inference}},
+  author={Caisaluisa, Oliver and Seiler, Fabian and Procel, Luis-Miguel and Lanuzza, Marco and Quotb, Adam, and TaheriNejad, Nima and Garzón, Esteban},
+  booktitle={2026 Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC)},
+  pages={1--7},
+  year={2026},
+  organization={IEEE},
+  doi={}
+}
+
