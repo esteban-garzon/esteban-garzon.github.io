@@ -1,3 +1,26 @@
+- title: "A Compact 65nm CMOS Nanoampere Current Reference with 188.8ppm/°C [-40°C, 85°C] Temperature Coefficient and  1.43%/V [0.7V, 1.2V] Line Sensitivity"
+  authors: S. Caputo, B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
+  #pdf: 2024-SSCL-OCCAM
+  url: 2026-OJCAS-currentref
+  image: 2026-OJCAS-currentref-image.png
+  display: <b> IEEE Open Journal of Circuits and Systems (OJCAS)</b>
+  year: 2026
+  #doi: 10.1109/JETCAS.2026.3689530
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "This paper presents a nanoampere current reference designed for ultra-low-power and area-
+constrained applications. The design combines a Self-Cascode MOSFET (SCM) stage, a weak-inversion
+β-multiplier, and two body-bias generators (BBGs). This architecture ensures effective temperature
+compensation without requiring area-hungry passive components, post-fabrication trimming, or specialized
+devices. When fabricated in a standard 65 nm bulk CMOS process, the circuit exhibits a very compact
+silicon footprint of just 0.0038 mm2. Silicon measurements across 12 fabricated dice demonstrate an
+average reference current of 1.1 nA with an ultra-low power consumption of 8.2 nW at 1 V. Furthermore,
+the design proves highly resilient to environmental variations, achieving an average line sensitivity (LS) of
+1.43%/V (from 0.7 V to 1.2 V) and a mean temperature coefficient (TC) of 188.8 ppm/◦C (from -40 ◦C
+to +85 ◦C), with a best-case TC of 89.4 ppm/◦C. These results establish the proposed design as one of
+the most compact and energy-efficient silicon-proven nanoampere references reported to date."
+# project: "PIMAT"
+
 - title: "Reliability and Assessment of an MRAM-based Non-Volatile Precharge-Free Ternary CAM for Real-Time Edge Inference"
   authors: O. Caisaluisa, F. Seiler, L.M. Procel, M. Lanuzza, A. Quotb, N. TaheriNejad, <b style='color:#FF6666 !important;'>E. Garzón</b>
   #pdf: 2024-SSCL-OCCAM

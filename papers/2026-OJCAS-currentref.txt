@@ -1,0 +1,10 @@
+@article{mosquera2026am5,
+  title={{A Compact 65nm CMOS Nanoampere Current Reference with 188.8ppm/°C [-40°C, 85°C] Temperature Coefficient and  1.43%/V [0.7V, 1.2V] Line Sensitivity}},
+  author={Caputo, Salvatore and Zambrano, Benjmain and Garzón, Esteban and Catania, Alessandro and Strangio, Sebastiano and Iannaccone, Giuseppe and Lanuzza, Marco},
+  journal={IEEE Open Journal of Circuits and Systems}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={},
+  doi={}
+}
