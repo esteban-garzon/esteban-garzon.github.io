@@ -1,0 +1,135 @@
+// =============================================================
+// Design tokens
+// Every colour in the site resolves through these custom
+// properties, so dark mode is a single attribute flip on <html>.
+// =============================================================
+
+:root {
+  color-scheme: light;
+
+  // Surfaces
+  --bg:            #ffffff;
+  --surface:       #f4f6f8;
+  --surface-2:     #ffffff;
+  --surface-sunk:  #eef1f5;
+
+  // Text
+  --text:          #1f2933;
+  --text-muted:    #52606d;
+  --text-invert:   #ffffff;
+
+  // Lines
+  --border:        #dde3ea;
+  --border-strong: #c3ccd6;
+
+  // Brand
+  //
+  // Four amber roles, because one amber cannot clear WCAG AA everywhere:
+  //   --accent          decorative — borders, rules, dots, glows, large numerals
+  //   --accent-text     accent-coloured *text* on a page surface   (>= 4.5:1)
+  //   --accent-strong   solid fill that carries --on-accent text   (>= 4.5:1)
+  //   --accent-on-dark  accent-coloured text on the navy chrome    (>= 4.5:1)
+  --navy:            #1b2a41;
+  --navy-2:          #24374f;
+  --accent:          #c8791a;
+  --accent-text:     #9a5c0f;  // 5.37:1 on white
+  --accent-strong:   #9a5c0f;
+  --accent-on-dark:  #e8a13a;  // 6.92:1 on --navy
+  --accent-hover:    #7d4a0b;
+  --accent-soft:     #fdf3e6;
+  --on-accent:       #ffffff;  // 5.37:1 on --accent-strong
+
+  // Links
+  --link:          #1b4f8a;
+  --link-hover:    #123963;
+
+  // Effects
+  --shadow-sm:     0 1px 2px rgba(27, 42, 65, .06);
+  --shadow:        0 2px 8px rgba(27, 42, 65, .08);
+  --shadow-lg:     0 10px 24px rgba(27, 42, 65, .14);
+  --ring:          0 0 0 3px rgba(200, 121, 26, .35);
+
+  // Publication badge colours (light)
+  --badge-pdf:     #964103;
+  --badge-doi:     #870b02;
+  --badge-arxiv:   #104358;
+  --badge-techrxiv:#5c6b12;
+  --badge-bib:     #1a701c;
+  --badge-abstract:#03707a;
+  --badge-project: #4a5568;
+
+  // Geometry
+  --radius-sm:  4px;
+  --radius:     8px;
+  --radius-lg:  14px;
+  --radius-pill: 999px;
+
+  // Spacing scale
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 72px;
+
+  // Type scale.
+  // The root is 17px (see `html` in _base.scss), so 1rem = 17px and every
+  // size below scales with it. Nothing resolves below 13px.
+  --fs-xs:  0.7647rem;  // 13px
+  --fs-sm:  0.8824rem;  // 15px
+  --fs-md:  1rem;       // 17px
+  --fs-lg:  1.1765rem;  // 20px
+  --fs-h4:  1.2941rem;  // 22px
+  --fs-h3:  1.5294rem;  // 26px
+  --fs-h2:  1.7647rem;  // 30px
+  --fs-h1:  2.3529rem;  // 40px
+  --fs-hero: 2.8824rem; // 49px
+
+  // Layout
+  --content-max: 1140px;
+  --navbar-h: 60px;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg:            #0f1620;
+  --surface:       #18222f;
+  --surface-2:     #1e2937;
+  --surface-sunk:  #131c27;
+
+  --text:          #e5eaf0;
+  --text-muted:    #9aa8b8;
+  --text-invert:   #0f1620;
+
+  --border:        #2c3a4b;
+  --border-strong: #3d4d61;
+
+  --navy:            #0b111a;
+  --navy-2:          #16202d;
+  --accent:          #e0932f;
+  --accent-text:     #e0932f;  // 7.26:1 on --bg
+  --accent-strong:   #e0932f;
+  --accent-on-dark:  #e8a13a;
+  --accent-hover:    #f2a747;
+  --accent-soft:     #2a2114;
+  --on-accent:       #16202d;  // 6.56:1 on --accent-strong
+
+  --link:          #7db3e8;
+  --link-hover:    #a3cbf2;
+
+  --shadow-sm:     0 1px 2px rgba(0, 0, 0, .4);
+  --shadow:        0 2px 10px rgba(0, 0, 0, .45);
+  --shadow-lg:     0 12px 28px rgba(0, 0, 0, .55);
+  --ring:          0 0 0 3px rgba(224, 147, 47, .4);
+
+  // Lifted for visibility on dark cards, but each still clears 4.5:1 with white.
+  --badge-pdf:     #b5551a;
+  --badge-doi:     #b02418;
+  --badge-arxiv:   #1c6d8f;
+  --badge-techrxiv:#6b7d10;
+  --badge-bib:     #22872a;
+  --badge-abstract:#087a84;
+  --badge-project: #5d6b80;
+}

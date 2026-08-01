@@ -1,0 +1,17 @@
+{%- comment -%}
+  Social / profile icon links.
+  Params: member (required), variant ("onDark" | nil), size ("lg" | nil)
+  Output is deliberately un-indented: this include is used inside Markdown
+  pages, where four leading spaces would become a code block.
+{%- endcomment -%}
+{%- assign m = include.member -%}
+<div class="social-links{% if include.size == 'lg' %} social-links--lg{% endif %}{% if include.variant == 'onDark' %} social-links--onDark{% endif %}">
+{%- if m.website %}<a href="{{ m.website }}" target="_blank" rel="noopener" title="Website" aria-label="Website"><i class="fa fa-home" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.email %}<a href="mailto:{{ m.email }}" title="Email" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.scholar %}<a href="{{ m.scholar }}" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.cv %}<a href="{{ m.cv }}" target="_blank" rel="noopener" title="Curriculum Vitae" aria-label="Curriculum Vitae"><i class="ai ai-cv" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.github %}<a href="{{ m.github }}" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.researchgate %}<a href="{{ m.researchgate }}" target="_blank" rel="noopener" title="ResearchGate" aria-label="ResearchGate"><i class="ai ai-researchgate" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.orcid %}<a href="{{ m.orcid }}" target="_blank" rel="noopener" title="ORCID" aria-label="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>{% endif -%}
+{%- if m.linkedin %}<a href="{{ m.linkedin }}" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>{% endif -%}
+</div>

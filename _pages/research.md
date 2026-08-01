@@ -3,14 +3,17 @@ title: "Research"
 layout: gridlay
 sitemap: false
 permalink: /research/
+toc:
+  - title: Research Areas
+    id: reserach
+  - title: Funded Projects
+    id: funding
 ---
 
-## Table of Contents
-- [Research](#reserach)
-- [Funding](#funding)
+<h1>Research &amp; Funding</h1>
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Research </h2>
-<a id="reserach"></a>
+{% include toc.html %}
+<h2 class="section-heading" id="reserach">Research Areas</h2>
 
 ### Memory-Centric Hardware Accelerators for Data-Intensive Applications
 The design of hardware accelerators that use memory technologies and computing paradigms to address the limitations of conventional processor-centric architectures in data-intensive workloads. The memory technologies include static RAM (SRAM), dynamic RAM (DRAM), and emerging non-volatile memories (e.g., MRAM, RRAM) with a particular focus on enhancing energy efficiency, computational throughput, and memory access locality. The computational paradigms include in-memory computing and near-memory computing, where data-intensive operations are performed within or close to the memory arrays to alleviate the data movement bottleneck. These paradigms are especially relevant for workloads in machine learning, graph processing, similarity search, and real-time analytics.
@@ -28,8 +31,7 @@ The main research topics cover (not limited to):
 - In-memory computing
 - Non-von Neumann architectures
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Funded Projects </h2>
-<a id="funding"></a>
+<h2 class="section-heading" id="funding">Funded Projects</h2>
 
 ### Funding as Principal Investigator
 - **Project PIMAT**
@@ -37,7 +39,7 @@ The main research topics cover (not limited to):
 	- Funded by: Italian Ministry of University and Research (MUR) – European Union (NextGenerationEU)
 	- Role: Principal Investigator - Project Manager
 	- Budget: € 249.625,00 
-	- Project Website: <button onclick="window.location.href='{{ site.baseurl }}/proj-pimat/'">PIMAT</button>
+	- Project Website: <a class="btn-outline" href="{{ site.baseurl }}/proj-pimat/">PIMAT</a>
 	- Status: Open
 	
 ### Research Grants & Participation in Other Research Projects
@@ -51,7 +53,7 @@ The main research topics cover (not limited to):
 	- Funded by: Italian Ministry of University and Research (MUR)
 	- Role: Researcher (Main Workforce)
 	- Budget: € 796.000,00 (€ 160.000,00 net amount of the local unit or department)
-	- Project Website: <button onclick="window.location.href='https://www.petaspin.com/it-spin/';">IT-SPIN</button>
+	- Project Website: <a class="btn-outline" href="https://www.petaspin.com/it-spin/" target="_blank" rel="noopener">IT-SPIN</a>
 	- Status: Closed
 
 1. **Research Grant**

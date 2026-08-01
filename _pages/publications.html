@@ -1,0 +1,74 @@
+---
+title: "Publications"
+layout: gridlay
+sitemap: false
+permalink: /publications/
+publications: true
+---
+
+{% assign tot_count = 0 %}{% assign J_count = 0 %}{% assign C_count = 0 %}{% assign B_count = 0 %}
+{% for publi in site.data.publist %}
+  {% if publi.year %}{% assign tot_count = tot_count | plus: 1 %}{% endif %}
+  {% if publi.type_J %}{% assign J_count = J_count | plus: 1 %}{% endif %}
+  {% if publi.type_C %}{% assign C_count = C_count | plus: 1 %}{% endif %}
+  {% if publi.type_B %}{% assign B_count = B_count | plus: 1 %}{% endif %}
+{% endfor %}
+
+<h1>Publications</h1>
+
+<p class="lead">
+  {{ tot_count }} peer-reviewed publications &mdash;
+  {{ J_count }} journal articles, {{ C_count }} conference papers and
+  {{ B_count }} book chapter{% if B_count != 1 %}s{% endif %}.
+  Full lists are also available for
+  <a href="{{ site.baseurl }}/international-journals/">journals</a>,
+  <a href="{{ site.baseurl }}/conferences/">conferences</a> and
+  <a href="{{ site.baseurl }}/book-chapters/">book chapters</a>.
+</p>
+
+<div class="pub-toolbar">
+  <div class="pub-filters" role="group" aria-label="Filter publications by type">
+    <button type="button" class="pub-filter is-active" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" class="pub-filter" data-filter="journal" aria-pressed="false">Journals</button>
+    <button type="button" class="pub-filter" data-filter="conference" aria-pressed="false">Conferences</button>
+    <button type="button" class="pub-filter" data-filter="book" aria-pressed="false">Book Chapters</button>
+  </div>
+  <label class="sr-only" for="pub-search">Search publications</label>
+  <input type="search" id="pub-search" class="pub-search" placeholder="Search title, author or venue&hellip;" autocomplete="off">
+  <span class="pub-count" aria-live="polite"></span>
+</div>
+
+<div class="pub-empty">No publications match your search.</div>
+
+{% comment %} Entries with no year yet — "in press" / accepted. {% endcomment %}
+{% assign upcoming = false %}
+{% for publi in site.data.publist %}{% unless publi.year %}{% assign upcoming = true %}{% endunless %}{% endfor %}
+
+{% if upcoming %}
+  <h2 class="pub-year" id="in-press">In Press</h2>
+  <ul class="pub-list">
+    {% for publi in site.data.publist %}
+      {% unless publi.year %}
+        {% include publication-card.html publi=publi %}
+      {% endunless %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% for myyear in site.data.years %}
+  {% assign yeartest = false %}
+  {% for publi in site.data.publist %}
+    {% if publi.year == myyear.year %}{% assign yeartest = true %}{% endif %}
+  {% endfor %}
+
+  {% if yeartest %}
+    <h2 class="pub-year" id="year-{{ myyear.year }}">{{ myyear.year }}</h2>
+    <ul class="pub-list">
+      {% for publi in site.data.publist %}
+        {% if publi.year == myyear.year %}
+          {% include publication-card.html publi=publi %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}

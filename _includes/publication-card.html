@@ -1,0 +1,54 @@
+{%- comment -%}
+  A single publication entry.
+  Params: publi (required) — an item from _data/publist.yml
+  Output is deliberately un-indented: this include is used inside Markdown
+  pages, where four leading spaces would become a code block.
+{%- endcomment -%}
+{%- assign publi = include.publi -%}
+
+{%- assign bibtest = false -%}
+{%- if publi.url -%}
+{%- assign bibfile = "/papers/" | append: publi.url | append: ".txt" -%}
+{%- for file in site.static_files -%}
+{%- if file.path contains bibfile %}{% assign bibtest = true %}{% endif -%}
+{%- endfor -%}
+{%- endif -%}
+
+{%- if publi.type_J -%}{%- assign pubtype = "journal" -%}
+{%- elsif publi.type_C -%}{%- assign pubtype = "conference" -%}
+{%- elsif publi.type_B -%}{%- assign pubtype = "book" -%}
+{%- else -%}{%- assign pubtype = "other" -%}{%- endif -%}
+
+{%- capture searchtext %}{{ publi.title }} {{ publi.authors | strip_html }} {{ publi.display | strip_html }} {{ publi.year }}{% endcapture -%}
+<li class="pub{% unless publi.image %} pub--no-thumb{% endunless %}" data-type="{{ pubtype }}" data-year="{{ publi.year }}" data-search="{{ searchtext | strip_newlines | downcase | escape }}">
+{%- if publi.image %}
+<img class="pub__thumb" src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" alt="Figure from &quot;{{ publi.title | escape }}&quot;" loading="lazy" />
+{%- endif %}
+<div class="pub__body">
+<span class="pub__title">{{ publi.title }}</span>
+<span class="pub__authors">{{ publi.authors }}</span>
+<span class="pub__venue">{{ publi.display }}{% if publi.year %}, {{ publi.year }}{% endif %}</span>
+<div class="pub__actions">
+{%- if publi.pdf %}<a class="btn-pdf" href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.pdf }}.pdf" target="_blank" rel="noopener">PDF</a>{% endif -%}
+{%- if publi.doi %}<a class="btn-doi" href="https://doi.org/{{ publi.doi }}" target="_blank" rel="noopener">DOI</a>{% endif -%}
+{%- if publi.arxiv %}<a class="btn-arxiv" href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif -%}
+{%- if publi.techrxiv %}<a class="btn-techrxiv" href="https://doi.org/{{ publi.techrxiv }}" target="_blank" rel="noopener">TechRxiv</a>{% endif -%}
+{%- if bibtest %}<a class="btn-bib" data-toggle="collapse" href="#bib-{{ publi.url }}" role="button" aria-expanded="false" aria-controls="bib-{{ publi.url }}" data-bib="{{ site.baseurl }}/papers/{{ publi.url }}.txt">BibTeX</a>{% endif -%}
+{%- if publi.abstract %}<a class="btn-abstract" data-toggle="collapse" href="#abs-{{ publi.url }}" role="button" aria-expanded="false" aria-controls="abs-{{ publi.url }}">Abstract</a>{% endif -%}
+{%- if publi.project %}<a class="btn-project" href="{{ site.baseurl }}/proj-{{ publi.project | downcase }}/">Project {{ publi.project }}</a>{% endif -%}
+</div>
+{%- if publi.abstract %}
+<div class="collapse pub__panel" id="abs-{{ publi.url }}">
+<div class="pub__abstract">{{ publi.abstract }}</div>
+</div>
+{%- endif %}
+{%- if bibtest %}
+<div class="collapse pub__panel" id="bib-{{ publi.url }}">
+<div class="pub__bib">
+<button type="button" class="bib-copy">Copy</button>
+<pre><code>Loading&hellip;</code></pre>
+</div>
+</div>
+{%- endif %}
+</div>
+</li>

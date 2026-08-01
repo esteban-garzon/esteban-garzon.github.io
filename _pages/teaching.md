@@ -3,14 +3,17 @@ title: "Teaching"
 layout: gridlay
 sitemap: false
 permalink: /teaching/
+toc:
+  - title: Courses
+    id: teaching
+  - title: Supervision
+    id: supervision
 ---
 
-## Table of Contents
-- [Teaching](#teaching)
-- [Supervision](#supervision)
+<h1>Teaching</h1>
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Teaching </h2>
-<a id="teaching"></a>
+{% include toc.html %}
+<h2 class="section-heading" id="teaching">Courses</h2>
 
 {% if site.data.teaching.lecturer %}
 {% for item in site.data.teaching.lecturer %}
@@ -30,8 +33,7 @@ permalink: /teaching/
 {% endfor %}
 {% endif %}
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Supervision </h2>
-<a id="supervision"></a>
+<h2 class="section-heading" id="supervision">Supervision</h2>
 
 {% if site.data.teaching.supervision %}
 {% for item in site.data.teaching.supervision %}
@@ -47,8 +49,7 @@ permalink: /teaching/
 - [Teaching](#teaching)
 - [Supervision](#supervision)
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Teaching </h2>
-<a id="teaching"></a>
+<h2 class="section-heading" id="teaching">Teaching</h2>
 
 * <strong>Lecturer, <a href="https://www.unical.it/" target="_blank">University of Calabria</a> (UNICAL), Rende, Italy</strong>
     * Sensors Laboratory
@@ -79,8 +80,7 @@ permalink: /teaching/
     * Hybrid CMOS/MTJ Circuit Design, <a href="https://orientami.poliba.it/" target="_blank">Politecnico di Bari</a>, Bari, Italy
         * Hours: 10
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Supervision </h2>
-<a id="supervision"></a>
+<h2 class="section-heading" id="supervision">Supervision</h2>
 
 * <strong>M.Sc. Students</strong>
     * As Main Tutor/Supervisor: 2

@@ -1,0 +1,173 @@
+---
+layout: homelay
+sitemap: false
+permalink: /
+full_width: true
+---
+
+{% assign pi = site.data.pi | first %}
+
+{% assign tot_count = 0 %}{% assign J_count = 0 %}{% assign C_count = 0 %}{% assign B_count = 0 %}
+{% for publi in site.data.publist %}
+  {% if publi.year %}{% assign tot_count = tot_count | plus: 1 %}{% endif %}
+  {% if publi.type_J %}{% assign J_count = J_count | plus: 1 %}{% endif %}
+  {% if publi.type_C %}{% assign C_count = C_count | plus: 1 %}{% endif %}
+  {% if publi.type_B %}{% assign B_count = B_count | plus: 1 %}{% endif %}
+{% endfor %}
+{% assign award_count = site.data.awards | size %}
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="hero__inner">
+    <img class="hero__portrait"
+         src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ pi.photo }}"
+         alt="Portrait of Esteban Garzón" />
+    <div>
+      <p class="hero__eyebrow"><i class="fa fa-microchip" aria-hidden="true"></i> IEEE Senior Member</p>
+      <h1 class="hero__name">Esteban Garzón, Ph.D.</h1>
+      <p class="hero__role">Assistant Professor &middot; VLSI Design Engineer</p>
+      <p class="hero__affil">
+        Department of Computer Engineering, Modeling, Electronics and Systems (DIMES),
+        <a href="https://www.unical.it/" target="_blank" rel="noopener">University of Calabria</a>, Italy
+      </p>
+      <p class="hero__statement">
+        I design domain-specific hardware accelerators and emerging memory technologies &mdash;
+        from STT-MRAM and content-addressable memory to in-memory computing architectures &mdash;
+        for energy-efficient, data-intensive applications.
+      </p>
+      <div class="hero__actions">
+        <a class="btn-solid" href="{{ site.baseurl }}/publications/">
+          <i class="fa fa-file-text-o" aria-hidden="true"></i> Publications
+        </a>
+        <a class="btn-outline" href="{{ pi.cv }}" target="_blank" rel="noopener">
+          <i class="ai ai-cv" aria-hidden="true"></i> Curriculum Vitae
+        </a>
+        <a class="btn-outline" href="mailto:{{ pi.email }}">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i> Get in touch
+        </a>
+      </div>
+      {% include social-links.html member=pi variant="onDark" %}
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STATS ============================ -->
+<div class="container-fluid">
+  <ul class="stat-strip">
+    <li class="stat-tile">
+      <span class="stat-tile__value">{{ tot_count }}</span>
+      <span class="stat-tile__label">Publications</span>
+    </li>
+    <li class="stat-tile">
+      <span class="stat-tile__value">{{ J_count }}</span>
+      <span class="stat-tile__label">Journal Articles</span>
+    </li>
+    <li class="stat-tile">
+      <span class="stat-tile__value">{{ C_count }}</span>
+      <span class="stat-tile__label">Conference Papers</span>
+    </li>
+    <li class="stat-tile">
+      <span class="stat-tile__value">3</span>
+      <span class="stat-tile__label">Silicon Tapeouts</span>
+    </li>
+    <li class="stat-tile">
+      <span class="stat-tile__value">{{ award_count }}</span>
+      <span class="stat-tile__label">Awards &amp; Honours</span>
+    </li>
+  </ul>
+</div>
+
+<!-- ============================ ABOUT ============================ -->
+<div class="container-fluid">
+  <section class="section">
+    <h2 class="section__title">Welcome</h2>
+
+    <p>I am an Assistant Professor (RTD-A; non-tenured track) at the <a href="https://www.unical.it/" target="_blank" rel="noopener">University of Calabria</a>. My research interests include domain-specific hardware accelerators, electronics/spintronics, and standard and emerging technologies for logic &amp; memory, and low-power applications.</p>
+
+    <p>I received my Ph.D. degree (Hons.) in Electronics Engineering from the University of Calabria in 2022, under the supervision of <a href="https://people.dimes.unical.it/marcolanuzza/" target="_blank" rel="noopener">Prof. Marco Lanuzza</a> and <a href="https://www.eng.biu.ac.il/temanad/" target="_blank" rel="noopener">Prof. Adam Teman</a>. In July 2024, I received the National Scientific Habilitation (ASN) for Associate Professor of Electronics (Sector 09/E3) in Italian Universities.</p>
+
+    <p>In 2019&ndash;2020 I was a visiting Ph.D. student at <a href="https://enicslabs.com/" target="_blank" rel="noopener">Emerging Nanoscaled Circuits and Systems (EnICS)</a> laboratories, Bar-Ilan University, Israel. In Jul&ndash;Sep 2022 and Jul&ndash;Aug 2023, I was a visiting researcher at EnICS labs. In Jan&ndash;Feb 2024, I was a visiting researcher at the Department of Information Engineering, University of Pisa, Italy.</p>
+
+    <p>I am an IEEE Senior Member. I have authored/coauthored more than 65 scientific papers in international peer-reviewed journals and conferences, and have participated in several IC tapeouts. I have received several awards, research grants, and funding (as Principal Investigator). I have been part of several IEEE conference committees and journal boards, and I am an active reviewer for journals (IEEE, Elsevier, Frontiers, Wiley) and conferences.</p>
+
+    <div class="btn-row">
+      <a class="btn-outline" href="{{ site.baseurl }}/about/">Full biography &rarr;</a>
+    </div>
+  </section>
+</div>
+
+<!-- ======================= RESEARCH AREAS ======================= -->
+<section class="section--surface">
+  <div class="container-fluid">
+    <h2 class="section__title">Research Areas</h2>
+    <div class="card-grid">
+      {% for area in site.data.research_areas %}
+        <a class="card card--link" href="{{ site.baseurl }}{{ area.url }}">
+          <span class="card__icon"><i class="fa {{ area.icon }}" aria-hidden="true"></i></span>
+          <h3>{{ area.title }}</h3>
+          <p>{{ area.description }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ======================== NEWS & EVENTS ======================= -->
+<div class="container-fluid">
+  <section class="section">
+    <div class="split">
+      <div>
+        <h2 class="section__title">Latest News</h2>
+        <ul class="timeline">
+          {% for article in site.data.news limit:5 %}
+            <li class="timeline__item">
+              <span class="timeline__date">{{ article.date }}</span>
+              <p class="timeline__body">{{ article.headline }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+        <div class="btn-row">
+          <a class="btn-outline" href="{{ site.baseurl }}/allnews.html">All news &rarr;</a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="section__title">Upcoming Events</h2>
+        {% assign event_count = site.data.events | size %}
+        {% if event_count > 0 %}
+          <ul class="timeline">
+            {% for article in site.data.events limit:5 %}
+              <li class="timeline__item">
+                <span class="timeline__date">{{ article.date }}</span>
+                <p class="timeline__body">
+                  {{ article.headline }}
+                  {% if article.location %}<span class="timeline__meta">{{ article.location }}</span>{% endif %}
+                </p>
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="text-muted">No upcoming events scheduled.</p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ========================== SPONSORS ========================== -->
+<section class="section--surface">
+  <div class="container-fluid">
+    <h2 class="section__title">Funding &amp; Sponsors</h2>
+    <div class="logo-strip">
+      {% for funder in site.data.funders %}
+        {% if funder.url %}
+          <a href="{{ funder.url }}" target="_blank" rel="noopener">
+            <img src="{{ site.baseurl }}/images/logopic/{{ funder.image }}" alt="{{ funder.name | default: 'Funding partner' }}" loading="lazy" />
+          </a>
+        {% else %}
+          <img src="{{ site.baseurl }}/images/logopic/{{ funder.image }}" alt="{{ funder.name | default: 'Funding partner' }}" loading="lazy" />
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

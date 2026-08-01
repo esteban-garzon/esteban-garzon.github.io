@@ -6,13 +6,14 @@ permalink: /tapeouts/
 ---
 
 
-## Research Tapeouts (Fabricated Test Chips & Prototypes)
+<h1>Tapeouts</h1>
 
-<div class="rowl1">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO1_SoC.png" class="img-responsive" width="95%" style="float: top; border-radius: 10px;" />
+<p class="lead">Fabricated test chips and prototypes I have contributed to.</p>
+
+<div class="chip-card">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO1_SoC.png" class="chip-shot" alt="Die micrograph / layout of the fabricated chip" loading="lazy" />
   
-  <!-- Apply inline styling for black text -->
-  <h4 style="color: black; font-weight: bold;">RISC-V-based Research Platform in 65nm</h4>
+  <h4 class="chip-title">RISC-V-based Research Platform in 65nm</h4>
   <ul>
     <li>Joint design with <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> Laboratories, Bar-Ilan University, Israel</li>
     <li><strong>Chip Name:</strong> LEO-I</li>
@@ -28,17 +29,16 @@ permalink: /tapeouts/
     <li>
 	  <strong>Main related publication/s as main author or co-author:</strong>
 	  <ul>
-	    <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, O. Harel, T. Noy, Y. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, et al., "A RISC-V-based research platform for rapid design cycle", IEEE International Symposium on Circuits and Systems (ISCAS), Austin Texas, USA, 28 May-01 Jun., 2022. (<a href="http://dx.doi.org/10.1109/ISCAS48785.2022.9937866" target="_blank">link</a>)</li>
+	    <li><span class="author-me">E. Garzón</span>, R. Golman, O. Harel, T. Noy, Y. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, et al., "A RISC-V-based research platform for rapid design cycle", IEEE International Symposium on Circuits and Systems (ISCAS), Austin Texas, USA, 28 May-01 Jun., 2022. (<a href="http://dx.doi.org/10.1109/ISCAS48785.2022.9937866" target="_blank">link</a>)</li>
 	  </ul>
 	</li>
   </ul>
 </div>
 
-<div class="rowl1">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO2_HDCAM.png" class="center" width="85%" style="float: top; border-radius: 10px;" />
+<div class="chip-card">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/LEO2_HDCAM.png" class="chip-shot" alt="Die micrograph / layout of the fabricated chip" loading="lazy" />
   
-  <!-- Apply inline styling for black text -->
-  <h4 style="color: black; font-weight: bold;">HD-CAM Memory Macro in 65nm</h4>
+  <h4 class="chip-title">HD-CAM Memory Macro in 65nm</h4>
   <ul>
     <li>Full design at <a href="https://enicslabs.com/" target="_blank">Emerging Nanoscaled Circuits and Systems (EnICS)</a> Laboratories, Bar-Ilan University, Israel</li>
     <li><strong>Chip Name:</strong> LEO-II</li>
@@ -51,21 +51,20 @@ permalink: /tapeouts/
     <li>
     <strong>Main related publication/s as main author or co-author:</strong>
     <ul>
-      <li><strong style="color: #ff6666;">E. Garzón</strong>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits, "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance", IEEE Journal of Solid-State Circuits, 2025. (<a href="http://dx.doi.org/10.1109/JSSC.2025.3529715" target="_blank">link</a>)</li>
-      <li>Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan, <strong style="color: #ff6666;">E. Garzón</strong>, L. Yavits, "GCOC: A Genome Classifier-On-Chip based on Similarity Search Content Addressable Memory", IEEE Transactions on Biomedical Circuits and Systems, 2024. (<a href="http://dx.doi.org/10.1109/TBCAS.2024.3449788" target="_blank">link</a>)</li>
-      <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, M. Lanuzza, A. Teman, L. Yavits, "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory", IEEE Transactions on Circuits and Systems II, 2023. (<a href="http://dx.doi.org/10.1109/TCSII.2023.3286257" target="_blank">link</a>)</li>
-      <li><strong style="color: #ff6666;">E. Garzón</strong>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits, "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification", IEEE Access, 2022. (<a href="http://dx.doi.org/10.1109/ACCESS.2022.3158305" target="_blank">link</a>)</li>
-      <li>Y. Harary, P. Snapir, E. Rechef, <strong style="color: #ff6666;">E. Garzón</strong>, L. Yavits, "OCCAM: An Error Oblivious CAM", IEEE Solid-State Circuits Letters, 2024. (<a href="http://dx.doi.org/10.1109/LSSC.2024.3362891" target="_blank">link</a>)</li>
+      <li><span class="author-me">E. Garzón</span>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits, "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance", IEEE Journal of Solid-State Circuits, 2025. (<a href="http://dx.doi.org/10.1109/JSSC.2025.3529715" target="_blank">link</a>)</li>
+      <li>Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan, <span class="author-me">E. Garzón</span>, L. Yavits, "GCOC: A Genome Classifier-On-Chip based on Similarity Search Content Addressable Memory", IEEE Transactions on Biomedical Circuits and Systems, 2024. (<a href="http://dx.doi.org/10.1109/TBCAS.2024.3449788" target="_blank">link</a>)</li>
+      <li><span class="author-me">E. Garzón</span>, R. Golman, M. Lanuzza, A. Teman, L. Yavits, "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory", IEEE Transactions on Circuits and Systems II, 2023. (<a href="http://dx.doi.org/10.1109/TCSII.2023.3286257" target="_blank">link</a>)</li>
+      <li><span class="author-me">E. Garzón</span>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits, "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification", IEEE Access, 2022. (<a href="http://dx.doi.org/10.1109/ACCESS.2022.3158305" target="_blank">link</a>)</li>
+      <li>Y. Harary, P. Snapir, E. Rechef, <span class="author-me">E. Garzón</span>, L. Yavits, "OCCAM: An Error Oblivious CAM", IEEE Solid-State Circuits Letters, 2024. (<a href="http://dx.doi.org/10.1109/LSSC.2024.3362891" target="_blank">link</a>)</li>
     </ul>
   </li>
   </ul>
 </div>
 
-<div class="rowl1">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/TempSensor.png" class="center" width="30%" style="float: top; border-radius: 10px;" />
+<div class="chip-card">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/chipspic/TempSensor.png" class="chip-shot" alt="Die micrograph / layout of the fabricated chip" loading="lazy" />
   
-  <!-- Apply inline styling for black text -->
-  <h4 style="color: black; font-weight: bold;">Fully-Integrated Temperature Sensor in 180nm</h4>
+  <h4 class="chip-title">Fully-Integrated Temperature Sensor in 180nm</h4>
   <ul>
     <li>Full design at Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy</li>
     <li><strong>Technology:</strong> TSMC 180nm</li>
@@ -76,7 +75,7 @@ permalink: /tapeouts/
     <li>
     <strong>Main related publication/s as main author or co-author:</strong>
     <ul>
-      <li> B. Zambrano, <strong style="color: #ff6666;">E. Garzón</strong>, S. Strangio, F. Crupi, M. Lanuzza, "A 0.05 mm2, 350 mV, 14 nW Fully-Integrated Temperature Sensor in 180-nm CMOS", IEEE Transactions on Circuits and Systems II, 2022. (<a href="http://dx.doi.org/10.1109/TCSII.2021.3112812" target="_blank">link</a>)</li>
+      <li> B. Zambrano, <span class="author-me">E. Garzón</span>, S. Strangio, F. Crupi, M. Lanuzza, "A 0.05 mm2, 350 mV, 14 nW Fully-Integrated Temperature Sensor in 180-nm CMOS", IEEE Transactions on Circuits and Systems II, 2022. (<a href="http://dx.doi.org/10.1109/TCSII.2021.3112812" target="_blank">link</a>)</li>
     </ul>
   </li>
   </ul>

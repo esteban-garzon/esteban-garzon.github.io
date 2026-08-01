@@ -1,36 +1,40 @@
 ---
 layout: gridlay
-title: "PIMAT events"
+title: "PIMAT milestone MS4"
 sitemap: false
 permalink: /proj-pimat-ms4/
 ---
 
-<table style="width: 100%; border-collapse: collapse; text-align: left;">
+<h1>Milestone MS4</h1>
+
+<div class="table-wrap">
+<table>
 	<tr>
-        <th style="border: 1px solid black; padding: 8px;">Work package</th>
-        <td style="border: 1px solid black; padding: 8px;">WP4</td>
+        <th>Work package</th>
+        <td>WP4</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Work package name</th>
-        <td style="border: 1px solid black; padding: 8px;">Dissemination, Communication, and Exploitation</td>
+        <th>Work package name</th>
+        <td>Dissemination, Communication, and Exploitation</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Milestone </th>
-        <td style="border: 1px solid black; padding: 8px;">MS4</td>
+        <th>Milestone </th>
+        <td>MS4</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Milestone name</th>
-        <td style="border: 1px solid black; padding: 8px;">Website, social media, and logo</td>
+        <th>Milestone name</th>
+        <td>Website, social media, and logo</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Means of verification & Quantifiable Criteria</th>
-        <td style="border: 1px solid black; padding: 8px;">Functional website/platforms </td>
+        <th>Means of verification & Quantifiable Criteria</th>
+        <td>Functional website/platforms </td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Status</th>
-        <td style="border: 1px solid black; padding: 8px;">Achieved at M1</td>
+        <th>Status</th>
+        <td>Achieved at M1</td>
     </tr>
 </table>
+</div>
 
 
 ### Social Media Platforms

@@ -1,0 +1,48 @@
+---
+layout: gridlay
+title: Conferences
+sitemap: false
+permalink: /conferences/
+publications: true
+---
+
+{% assign count = 0 %}
+{% for publi in site.data.publist %}{% if publi.type_C %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
+
+<h1>Conferences</h1>
+
+<p class="lead">Peer-reviewed papers in international conference proceedings. <a href="{{ site.baseurl }}/publications/">See all publications &rarr;</a></p>
+
+<p class="pub-count">{{ count }} entries</p>
+
+{% for myyear in site.data.years %}
+  {% assign yeartest = false %}
+  {% for publi in site.data.publist %}
+    {% if publi.year == myyear.year and publi.type_C %}{% assign yeartest = true %}{% endif %}
+  {% endfor %}
+
+  {% if yeartest %}
+    <h2 class="pub-year" id="year-{{ myyear.year }}">{{ myyear.year }}</h2>
+    <ul class="pub-list">
+      {% for publi in site.data.publist %}
+        {% if publi.year == myyear.year and publi.type_C %}
+          {% include publication-card.html publi=publi %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
+
+{% comment %} Entries not yet assigned a year. {% endcomment %}
+{% assign upcoming = false %}
+{% for publi in site.data.publist %}{% if publi.type_C and publi.year == nil %}{% assign upcoming = true %}{% endif %}{% endfor %}
+{% if upcoming %}
+  <h2 class="pub-year" id="in-press">In Press</h2>
+  <ul class="pub-list">
+    {% for publi in site.data.publist %}
+      {% if publi.type_C and publi.year == nil %}
+        {% include publication-card.html publi=publi %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}

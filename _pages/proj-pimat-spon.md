@@ -5,16 +5,13 @@ sitemap: false
 permalink: /proj-pimat-spon/
 ---
 
-# Sponsors & Support
+<h1>Sponsors &amp; Support</h1>
 
-*Funded by the Italian Ministry of University and Research (**MUR**) via the "Piano Nazionale di Ripresa e Resilienza (**PNRR**)" - Mission 4, “Education and Research” - Component 2, “From Research to Business” - Investment line 1.2, “Funding projects presented by young researchers”, funded by the **European Union – NextGenerationEU***
+<p class="lead">Funded by the Italian Ministry of University and Research (<strong>MUR</strong>) via the "Piano Nazionale di Ripresa e Resilienza (<strong>PNRR</strong>)" &mdash; Mission 4, "Education and Research" &mdash; Component 2, "From Research to Business" &mdash; Investment line 1.2, "Funding projects presented by young researchers", funded by the <strong>European Union &ndash; NextGenerationEU</strong>.</p>
 
-<!--| <img src="/images/logopic/logo_MUR.png" style="width: 50%; height: auto; display: block; margin: auto;"> | <img src="/images/logopic/logo_EU.png" style="width: 85%; height: auto; display: block; margin: auto;"> |
-|-----------------------------------------------------|-----------------------------------------------------|
-| <img src="/images/logopic/logo_itdomani.png" style="width: 75%; display: block; margin: auto;"> | <img src="/images/logopic/logo_unical.png" style="width: 75%; height: auto; display: block; margin: auto;"> |
--->
-
-| <img src="/images/logopic/logo_MUR.png" style="width: 50%; height: auto; display: block; margin: auto; margin-bottom: 20px;"> | <img src="/images/logopic/logo_EU.png" style="width: 85%; height: auto; display: block; margin: auto; margin-bottom: 20px;"> |
-|-----------------------------------------------------|-----------------------------------------------------|
-| <img src="/images/logopic/logo_itdomani.png" style="width: 75%; display: block; margin: auto;"> | <img src="/images/logopic/logo_unical.png" style="width: 75%; height: auto; display: block; margin: auto;">
-
+<div class="logo-strip">
+<img src="{{ site.baseurl }}/images/logopic/logo_MUR.png" alt="Ministero dell'Università e della Ricerca (MUR)" loading="lazy" />
+<img src="{{ site.baseurl }}/images/logopic/logo_EU.png" alt="European Union – NextGenerationEU" loading="lazy" />
+<img src="{{ site.baseurl }}/images/logopic/logo_itdomani.png" alt="Italia Domani – Piano Nazionale di Ripresa e Resilienza" loading="lazy" />
+<img src="{{ site.baseurl }}/images/logopic/logo_unical.png" alt="University of Calabria" loading="lazy" />
+</div>

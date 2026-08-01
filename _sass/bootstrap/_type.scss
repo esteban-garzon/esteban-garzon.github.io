@@ -12,7 +12,6 @@ h1, h2, h3, h4, h5, h6,
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
   //color: $headings-color;
-  color: #ffffff; // EG
 
   small,
   .small {
@@ -65,11 +64,9 @@ p {
   font-size: floor(($font-size-base * 1.15));
   font-weight: 300;
   line-height: 1.4;
-  color: #ffffff; // EG
 
   @media (min-width: $screen-sm-min) {
     font-size: ($font-size-base * 1.5);
-    color: #ffffff; // EG
   }
 }
 
@@ -81,14 +78,12 @@ p {
 small,
 .small {
   font-size: floor((100% * $font-size-small / $font-size-base));
-  color: #ffffff; // EG
 }
 
 mark,
 .mark {
   background-color: $state-warning-bg;
   padding: .2em;
-  color: #ffffff; // EG
 }
 
 // Alignment
@@ -106,7 +101,6 @@ mark,
 // Contextual colors
 .text-muted {
   //color: $text-muted;
-  color: #ffffff; // EG
 }
 
 @include text-emphasis-variant('.text-primary', $brand-primary);
@@ -145,7 +139,6 @@ mark,
   padding-bottom: (($line-height-computed / 2) - 1);
   margin: ($line-height-computed * 2) 0 $line-height-computed;
   border-bottom: 1px solid $page-header-border-color;
-  color: #ffffff; // EG
 }
 
 
@@ -220,7 +213,6 @@ dd {
       width: ($dl-horizontal-offset - 20);
       clear: left;
       text-align: right;
-      color: #ffffff; // EG
       @include text-overflow;
     }
     dd {
@@ -250,7 +242,6 @@ blockquote {
   padding: ($line-height-computed / 2) $line-height-computed;
   margin: 0 0 $line-height-computed;
   font-size: $blockquote-font-size;
-  color: #ffffff; // EG
   border-left: 5px solid $blockquote-border-color;
 
   p,
@@ -270,7 +261,6 @@ blockquote {
     font-size: 80%; // back to default font-size
     line-height: $line-height-base;
     //color: $blockquote-small-color;
-    color: #ffffff; // EG
 
     &:before {
       content: '\2014 \00A0'; // em dash, nbsp
@@ -287,7 +277,6 @@ blockquote.pull-right {
   padding-left: 0;
   border-right: 5px solid $blockquote-border-color;
   border-left: 0;
-  color: #ffffff; // EG
   text-align: right;
 
   // Account for citation
@@ -306,5 +295,4 @@ address {
   margin-bottom: $line-height-computed;
   font-style: normal;
   line-height: $line-height-base;
-  color: #ffffff; // EG
 }

@@ -2,26 +2,92 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title> -->
-  <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="shortcut icon" type ="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/site_logo.ico">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <meta name="color-scheme" content="light dark">
 
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
+  {% if page.title %}
+    {% assign full_title = page.title | escape | append: " · " | append: site.title | escape %}
+  {% else %}
+    {% assign full_title = site.title | escape %}
+  {% endif %}
+  {% if page.excerpt %}
+    {% assign page_desc = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+  {% else %}
+    {% assign page_desc = site.description %}
+  {% endif %}
+  {% assign canonical = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6MB8FWPMM4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
+  <meta name="author" content="Esteban Garzón">
+  <link rel="canonical" href="{{ canonical }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/site_logo.ico">
 
-  gtag('config', 'G-6MB8FWPMM4');
-</script>
+  <!-- Social cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images/teampic/EG.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ full_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/images/teampic/EG.jpg">
 
+  <!-- Resolve the theme before first paint so there is no flash of the wrong theme -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    })();
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url }}">
+
+  {% for member in site.data.pi limit:1 %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Esteban Garzón",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "image": "{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}",
+    "jobTitle": "Assistant Professor",
+    "email": "mailto:{{ member.email }}",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Calabria",
+      "url": "https://www.unical.it/"
+    },
+    "sameAs": [
+      "{{ member.scholar }}",
+      "{{ member.github }}",
+      "{{ member.researchgate }}"
+    ]
+  }
+  </script>
+  {% endfor %}
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MB8FWPMM4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6MB8FWPMM4');
+  </script>
 </head>

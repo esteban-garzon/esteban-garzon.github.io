@@ -1,84 +1,77 @@
-<!--
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title | escape }}</a>
+<a class="skip-link" href="#main">Skip to content</a>
 
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-        {% for page in site.nav_pages %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a></li>
-        {% endfor %}
-	  </ul>
-	</div>
-  </div>
-</div>
--->
-
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
+      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title | escape }}</a>
       <button
         type="button"
         class="navbar-toggle collapsed"
         data-toggle="collapse"
         data-target="#navbar-collapse-1"
         aria-expanded="false"
+        aria-controls="navbar-collapse-1"
       >
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-        {{ site.title | escape }}
-      </a>
     </div>
 
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-        {% for page in site.nav_pages %}
-          {% if page.children %}
-            <li class="dropdown">
+        <li{% if page.url == "/" %} class="active"{% endif %}>
+          <a href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+        </li>
+
+        {% for nav in site.nav_pages %}
+          {% assign nav_url = "/" | append: nav.name | append: "/" %}
+          {% if nav.children %}
+            {% assign is_active = false %}
+            {% for child in nav.children %}
+              {% if page.url == child.url %}{% assign is_active = true %}{% endif %}
+            {% endfor %}
+            {% if page.url contains "/proj-pimat" %}{% assign is_active = true %}{% endif %}
+            <li class="dropdown{% if is_active %} active{% endif %}">
               <a
-                href="{{ site.url }}{{ site.baseurl }}/{{ page.name }}"
+                href="{{ site.url }}{{ site.baseurl }}{{ nav_url }}"
                 class="dropdown-toggle"
                 data-toggle="dropdown"
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                {{ page.title | default: page.name | capitalize }}
-                <span class="caret"></span>
+                {{ nav.title | default: nav.name | capitalize }} <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                {% for child in page.children %}
-                  <li>
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ child.url }}">
-                      {{ child.title }}
-                    </a>
-                  </li>
+                {% for child in nav.children %}
+                  <li><a href="{{ site.url }}{{ site.baseurl }}{{ child.url }}">{{ child.title }}</a></li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
-            <li>
-              <a href="{{ site.url }}{{ site.baseurl }}/{{ page.name }}">
-                {{ page.title | default: page.name | capitalize }}
+            <li{% if page.url == nav_url %} class="active"{% endif %}>
+              <a href="{{ site.url }}{{ site.baseurl }}{{ nav_url }}">
+                {{ nav.title | default: nav.name | capitalize }}
               </a>
             </li>
           {% endif %}
         {% endfor %}
+
+        <li class="nav-theme">
+          <button
+            type="button"
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Switch between light and dark theme"
+            title="Switch theme"
+          >
+            <i class="fa fa-moon-o theme-toggle__sun" aria-hidden="true"></i>
+            <i class="fa fa-sun-o theme-toggle__moon" aria-hidden="true"></i>
+          </button>
+        </li>
       </ul>
     </div>
   </div>
-</div>
+</nav>

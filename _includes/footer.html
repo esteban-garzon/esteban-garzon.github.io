@@ -1,31 +1,33 @@
-<br/>
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
-			
-            <p>&copy 2024-2025 {{site.title | escape }} </p>
+<footer class="site-footer">
+  <div class="site-footer__grid">
+    <div>
+      <p class="site-footer__name">{{ site.title | escape }}</p>
+      <p>{{ site.affiliation }}</p>
+    </div>
 
-              <p>{{ site.affiliation }}</p>
+    <div>
+      <p class="site-footer__title">Contact</p>
+      <p>{{ site.contact }}</p>
+      {% for member in site.data.pi limit:1 %}
+        {% include social-links.html member=member variant="onDark" %}
+      {% endfor %}
+    </div>
 
-		   <p>  </p><p>
-            		  
-		</div>
-
-		<div class="col-sm-4">
-            <p>{{ site.contact }}</p>
-		</div>
-
-
-		<div class="col-sm-4">
-            <p>{{ site.location }}</p>
-		</div>
-
-	  </div>
-	</div>
+    <div>
+      <p class="site-footer__title">Location</p>
+      <p>{{ site.location }}</p>
+    </div>
   </div>
-</div>
+
+  <div class="site-footer__bottom">
+    <p>&copy; 2024&ndash;{{ site.time | date: "%Y" }} {{ site.title | escape }}. All rights reserved.</p>
+    <p>Last updated {{ site.time | date: "%d %B %Y" }}</p>
+  </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/theme.js"></script>
+{% if page.publications %}
+<script src="{{ site.url }}{{ site.baseurl }}/js/publications.js"></script>
+{% endif %}

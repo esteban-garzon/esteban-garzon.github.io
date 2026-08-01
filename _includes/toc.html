@@ -1,0 +1,19 @@
+{%- comment -%}
+  "On this page" rail. Built from a `toc:` list in the page front matter:
+
+    toc:
+      - title: Biography
+        id: biography
+
+  Output is deliberately un-indented for use inside Markdown pages.
+{%- endcomment -%}
+{%- if page.toc %}
+<nav class="toc" aria-label="On this page">
+<p class="toc__title">On this page</p>
+<ul>
+{%- for item in page.toc %}
+<li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+{%- endfor %}
+</ul>
+</nav>
+{%- endif -%}

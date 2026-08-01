@@ -1,99 +1,99 @@
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
+- authors: <span class="author-me">E. Garzón</span>
   title: "STT-MRAM-based Content-Addressable Memory for In-Memory and Neuromorphic Computing"
   conf: "To be Presented at: IEEE Trends in Magnetism Conference (TMAG), Milan, Italy, 07-11 Sep."
   year: 2026
 
-- authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+- authors: Y. Harary, A. Sharoni, <span class="author-me">E. Garzón</span>, L. Yavits
   title: "PatBiNN: A 65nm Processing-in-CAM Based BNN Implementation for Pathogen Genome Classification"
   conf: 2026 Design, Automation & Test in Europe Conference (DATE), Verona, Italy, 20-22 April
   year: 2026
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, C. Mosquera, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, C. Mosquera, M. Lanuzza
   title: "IMAP: In-MRAM Associative Processor with reliable bit-serial massively-parallel arithmetic operations (INVITED)"
   conf: Spintronics and Nanomagnetism Conference - SPIE Photonics Europe, Strasbourg, France, 12-16 April
   year: 2026
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
+- authors: <span class="author-me">E. Garzón</span>
   title: "Hardware Accelerators For A Sustainable AI Future"
   conf: IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS), Rende, Italy, 11-14 Nov.
   year: 2025
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
+- authors: <span class="author-me">E. Garzón</span>
   title: "ISPA: In-Situ Processing within Associative Processor for Energy-Efficient Computations"
   conf: IEEE Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC), Dresden, Germany, 08-10 Oct.
   year: 2025
 
-- authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <b style='color:#FF6666 !important;'>E. Garzón</b>
+- authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <span class="author-me">E. Garzón</span>
   title: "Non-Volatile Content-Addressable Memory for Energy-Efficient & High-Performance Search and Update Operations"
   conf: IEEE International Symposium on Circuits and Systems (ISCAS), London, United Kingdom, 25-28 May.
   year: 2025
 
-- authors: R. Taco, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits, M. Lanuzza
+- authors: R. Taco, <span class="author-me">E. Garzón</span>, A. Teman, L. Yavits, M. Lanuzza
   title: "Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach"
   conf: IEEE International Symposium on Circuits and Systems (ISCAS), London, United Kingdom, 25-28 May.
   year: 2025
 
-- authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+- authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <span class="author-me">E. Garzón</span>, M. Lanuzza
   title: "Low Matchline Voltage Swing Content-Addressable Memory Cell"
   conf: IEEE International Symposium on Circuits and Systems (ISCAS), London, United Kingdom, 25-28 May.
   year: 2025
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, M. Lanuzza
   title: STT-MRAM technology for energy-efficient 2-D and 3-D associative in-data processing architectures
   conf: IEEE Conference on Advances in Magnetics (AIM), Bressanone, Italy, 09-13 Feb.
   year: 2025
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, M. Lanuzza
   title: Fully CMOS Ising machine for combinatorial optimization and probabilistic sampling problems
   conf: The International Workshop on Ising Machines (IISM), Messina, Italy, 16-18 April
   year: 2024
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
+- authors: <span class="author-me">E. Garzón</span>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
   title: A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory
   conf: IEEE International Symposium on Integrated Circuits and Systems (ISICAS), Jeju, South Korea, 24-25 Oct.
   year: 2023
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, M. Lanuzza
   title: MRAM Based Associative Memory For In-Memory Computing
   conf: IEEE Trends in Magnetism Conference (TMAG), Rome, Italy, 04-08 Sep.
   year: 2023
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, L. Yavits, A. Teman, M. Lanuzza
   title: STT-MRAM Technology For Energy-Efficient Cryogenic Memory Applications
   conf: IEEE Latin American Symposium on Circuits and Systems (LASCAS), Quito, Ecuador, 28 Feb.-02 Mar.
   year: 2023
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, M. Lanuzza
   title: Content-Addressable Memory for Approximate Matching Applications in Genome Analysis
   conf: 53rd Annual Meeting of the Associazione Società Italiana di Elettronica (SIE), Pizzo (VV), Italy, 09 Sep.
   year: 2022
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, O. Harel, T. Noy, Y. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, et al. 
+- authors: <span class="author-me">E. Garzón</span>, R. Golman, O. Harel, T. Noy, Y. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, et al. 
   title: A RISC-V-based Research Platform for Rapid Design Cycle
   conf: IEEE International Symposium on Circuits and Systems (ISCAS), Austin Texas, USA, 28 May-01 Jun.
   year: 2022
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
   title: Voltage and Technology Scaling of DMTJ-based STT-MRAMs for Energy-Efficient Embedded Memories
   conf: IEEE Latin American Symposium on Circuits and Systems (LASCAS), Puerto Varas, Chile, 01-04 Mar.
   year: 2022
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Carpentieri, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, M. Carpentieri, M. Lanuzza
   title: Dual-Barrier MTJ Based Cryogenic STT-MRAMs
   conf: IEEE Trends in Magnetism Conference (TMAG), Cefalù, Italy, 06-10 Sep.
   year: 2021
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
   title: Relaxing Non-Volatility for Energy-Efficient DMTJ Based Cryogenic STT-MRAM
   conf: 22nd Conference on Insulating Films on Semiconductors (INFOS), Rende, Italy, 28 Jun.–08 Jul.
   year: 2021
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, M. Lanuzza
   title: Device-to-System Level Simulation Framework for STT-DMTJ Based Cache Memory
   conf: IEEE International Conference on Electronics Circuits and Systems (ICECS), Genova, Italy, 27-29 Nov.
   year: 2019
 
-- authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
+- authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
   title: Exploiting Double-Barrier MTJs for Energy-Efficient Nanoscaled STT-MRAMs
   conf: International Conference on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design (SMACD), Lausanne, Switzerland, 15-18 Jul.
   year: 2019

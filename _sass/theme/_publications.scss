@@ -1,0 +1,296 @@
+// =============================================================
+// Publication list: cards, badges, filter bar
+// =============================================================
+
+// --- Badge buttons --------------------------------------------------------
+// One definition replaces the seven near-identical .btn-* blocks that used
+// to live in _sass/bootstrap/_buttons.scss.
+
+$pub-badges: (
+  "pdf":      var(--badge-pdf),
+  "doi":      var(--badge-doi),
+  "arxiv":    var(--badge-arxiv),
+  "techrxiv": var(--badge-techrxiv),
+  "bib":      var(--badge-bib),
+  "abstract": var(--badge-abstract),
+  "project":  var(--badge-project)
+);
+
+.btn-pdf, .btn-doi, .btn-arxiv, .btn-techrxiv,
+.btn-bib, .btn-abstract, .btn-project {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 11px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  color: #fff;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: filter .15s ease, transform .15s ease, box-shadow .15s ease;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    text-decoration: none;
+    filter: brightness(1.12);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+  }
+}
+
+@each $name, $color in $pub-badges {
+  .btn-#{$name} { background-color: #{$color}; }
+}
+
+// --- Publication card -----------------------------------------------------
+
+.pub-list {
+  list-style: none;
+  margin: 0 0 var(--space-5);
+  padding: 0;
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  gap: var(--space-4);
+  align-items: start;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-3);
+  box-shadow: var(--shadow-sm);
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+
+  &:hover {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow);
+  }
+
+  &.is-hidden { display: none; }
+}
+
+.pub__thumb {
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  object-fit: contain;
+}
+
+// Entries without a thumbnail keep the text column aligned.
+.pub--no-thumb { grid-template-columns: 1fr; }
+
+.pub__body { min-width: 0; }
+
+.pub__title {
+  display: block;
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.pub__authors {
+  display: block;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  margin-bottom: 2px;
+}
+
+.pub__venue {
+  display: block;
+  font-size: var(--fs-sm);
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: var(--space-2);
+}
+
+// Highlight the site owner's name — replaces inline styles in _data/*.yml
+.author-me {
+  color: var(--accent-text);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pub__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+// --- Collapsible abstract / BibTeX ---------------------------------------
+
+.pub__panel {
+  margin-top: var(--space-3);
+}
+
+.pub__abstract {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--badge-abstract);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: var(--space-3);
+  font-size: var(--fs-sm);
+  color: var(--text);
+  text-align: justify;
+}
+
+.pub__bib {
+  position: relative;
+  background: var(--surface-sunk);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--badge-bib);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: var(--space-3);
+
+  pre {
+    margin: 0;
+    padding: 0;
+    max-height: 260px;
+    overflow: auto;
+    background: transparent;
+    border: 0;
+    font-size: var(--fs-xs);
+    line-height: 1.5;
+    white-space: pre;
+    color: var(--text);
+  }
+}
+
+.bib-copy {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  padding: 3px 10px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+  color: var(--text-muted);
+  cursor: pointer;
+
+  &:hover,
+  &:focus { border-color: var(--accent-text); color: var(--accent-text); }
+
+  &.is-copied { border-color: var(--badge-bib); color: var(--badge-bib); }
+}
+
+// --- Filter bar -----------------------------------------------------------
+
+.pub-toolbar {
+  position: sticky;
+  top: var(--navbar-h);
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding-block: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.pub-filter {
+  padding: 5px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s ease;
+
+  &:hover { border-color: var(--accent-text); color: var(--accent-text); }
+
+  &.is-active {
+    background: var(--accent-strong);
+    border-color: var(--accent-strong);
+    color: var(--on-accent);
+  }
+}
+
+.pub-search {
+  flex: 1 1 200px;
+  min-width: 160px;
+  padding: 6px var(--space-3);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: var(--fs-sm);
+
+  &::placeholder { color: var(--text-muted); }
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-text);
+    box-shadow: var(--ring);
+  }
+}
+
+.pub-count {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.pub-empty {
+  display: none;
+  padding: var(--space-5);
+  text-align: center;
+  color: var(--text-muted);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius);
+
+  &.is-visible { display: block; }
+}
+
+// Year headings inside the list.
+.pub-year {
+  scroll-margin-top: calc(var(--navbar-h) + 60px);
+
+  &.is-hidden { display: none; }
+}
+
+// --- Responsive -----------------------------------------------------------
+
+@media (max-width: 767px) {
+  .pub {
+    grid-template-columns: 1fr;
+    gap: var(--space-2);
+  }
+
+  .pub__thumb {
+    max-width: 220px;
+    margin-inline: auto;
+  }
+
+  .pub-toolbar {
+    position: static;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .pub-search { width: 100%; }
+}

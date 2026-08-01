@@ -1,0 +1,45 @@
+// =============================================================
+// Legacy markup compatibility + responsive corrections
+//
+// Bootstrap 3 still supplies the grid and the collapse/dropdown
+// plugins. These rules stop its leftovers from fighting the
+// design system, and catch content-authored markup that predates it.
+// =============================================================
+
+// The old template painted every grid column white with !important,
+// which broke dark mode. Columns are now transparent.
+[class^="col-sm-"],
+[class*=" col-sm-"] {
+  background-color: transparent;
+  color: inherit;
+}
+
+// Bootstrap's collapse plugin still drives the abstract/BibTeX panels.
+.collapse:not(.in) { display: none; }
+
+// Markdown (kramdown) tables have no .table-wrap around them, so they
+// scroll themselves. Tables already inside a wrapper must not become
+// blocks, or they lose their full width.
+:not(.table-wrap) > table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+// Content-authored images with inline widths must still fit the column.
+img[style*="width"],
+img[width] {
+  max-width: 100%;
+  height: auto;
+}
+
+// A page's first section heading sits right under the h1, so it does
+// not need the full inter-section gap.
+#gridid, #textid, #picid, #homeid {
+  > h2:first-of-type,
+  > .section-heading:first-of-type { margin-top: var(--space-4); }
+}
+
+// Long DOIs and URLs must not force the page to scroll sideways.
+.page-body a { overflow-wrap: anywhere; }

@@ -1,0 +1,147 @@
+// =============================================================
+// Homepage hero
+// =============================================================
+
+.hero {
+  position: relative;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+  color: #fff;
+  overflow: hidden;
+  border-bottom: 3px solid var(--accent);
+  padding-block: var(--space-7);
+
+  // Subtle circuit-grid texture.
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, .05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, .05) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 100%);
+    pointer-events: none;
+  }
+
+  // Warm glow behind the portrait.
+  &::after {
+    content: "";
+    position: absolute;
+    right: -120px;
+    top: -80px;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(200, 121, 26, .28), transparent 65%);
+    pointer-events: none;
+  }
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.hero__portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 4px solid var(--accent);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, .38);
+  margin: 0;
+}
+
+.hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--accent-on-dark);
+  margin-bottom: var(--space-2);
+}
+
+.hero__name {
+  font-size: var(--fs-hero);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: #fff;
+  margin: 0 0 var(--space-2);
+  padding: 0;
+  border: 0;
+}
+
+.hero__role {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: var(--space-1);
+}
+
+.hero__affil {
+  color: rgba(255, 255, 255, .78);
+  margin-bottom: var(--space-3);
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: rgba(255, 255, 255, .45);
+
+    &:hover { color: var(--accent-on-dark); text-decoration-color: var(--accent-on-dark); }
+  }
+}
+
+.hero__statement {
+  max-width: 62ch;
+  color: rgba(255, 255, 255, .86);
+  margin-bottom: var(--space-4);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+
+  .btn-outline {
+    border-color: rgba(255, 255, 255, .4);
+    color: #fff;
+
+    &:hover,
+    &:focus { border-color: var(--accent-on-dark); color: var(--accent-on-dark); }
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-block: var(--space-5);
+    text-align: center;
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+    justify-items: center;
+  }
+
+  .hero__portrait { width: 150px; height: 150px; }
+  .hero__name { font-size: 2rem; }
+  .hero__statement { max-width: none; }
+  .hero__actions,
+  .hero .social-links { justify-content: center; }
+}

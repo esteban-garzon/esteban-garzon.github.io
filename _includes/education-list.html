@@ -1,0 +1,19 @@
+{%- comment -%}
+  Renders the member's positions/education entries.
+  Replaces the hand-written `number_educ == 1..7` if-ladder.
+  Params: member (required), short (true -> use the *short variants)
+  Output is deliberately un-indented for use inside Markdown pages.
+{%- endcomment -%}
+<ul class="education-list">
+{%- for i in (1..include.member.number_educ) -%}
+{%- if include.short -%}
+{%- capture key %}education{{ i }}short{% endcapture -%}
+{%- else -%}
+{%- capture key %}education{{ i }}{% endcapture -%}
+{%- endif -%}
+{%- assign entry = include.member[key] -%}
+{%- if entry and entry != "" %}
+<li>{{ entry }}</li>
+{%- endif -%}
+{%- endfor %}
+</ul>

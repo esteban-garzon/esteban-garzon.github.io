@@ -3,36 +3,33 @@ title: "Talks"
 layout: gridlay
 sitemap: false
 permalink: /talks/
+toc:
+  - title: Personal Talks in Conferences
+    id: personal
+  - title: Invited Talks / Seminars
+    id: invited
 ---
 
+<h1>Talks</h1>
 
-## Table of Contents
-- [Personal Talks in Conferences](#personal)
-- [Invited Talks/Seminars](#invited)
-
+{% include toc.html %}
 
 {% if site.data.conference_talks %}
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Personal Talks in Conferences  </h2>
-<a id="personal"></a>
+<h2 class="section-heading" id="personal">Personal Talks in Conferences</h2>
 
-<ol>
-{% for publi in site.data.conference_talks %}
-<li>
-<strong>{{ publi.title }}</strong> <br/> <i>{{ publi.authors }}</i>, {{ publi.conf }} ({{ publi.year }})
-</li>
+<ul class="stack-list">
+{% for talk in site.data.conference_talks %}
+<li><strong>{{ talk.title }}</strong><br/><em>{{ talk.authors }}</em><br/>{{ talk.conf }} ({{ talk.year }})</li>
 {% endfor %}
+</ul>
 {% endif %}
-</ol>
 
 {% if site.data.invited_talks %}
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Invited Talks/Seminars  </h2>
-<a id="invited"></a>
+<h2 class="section-heading" id="invited">Invited Talks &amp; Seminars</h2>
 
-<ol>
-{% for publi in site.data.invited_talks %}
-<li>
-{{ publi.name }}
-</li>
+<ul class="stack-list">
+{% for talk in site.data.invited_talks %}
+<li>{{ talk.name }}</li>
 {% endfor %}
+</ul>
 {% endif %}
-</ol>

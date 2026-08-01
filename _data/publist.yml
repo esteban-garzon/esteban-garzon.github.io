@@ -1,5 +1,5 @@
 - title: "SRAM-Based Processing-in-Memory Cell Enabling Binary Neural Networks Through XNOR Multiplication and Charge-Domain Accumulation"
-  authors: C. Mosquera, R. Taco, B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
+  authors: C. Mosquera, R. Taco, B. Zambrano, <span class="author-me">E. Garzón</span>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2026-ICECS-SRAMPIM
   url: 2026-ICECS-SRAMPIM
   image: 2026-ICECS-SRAMPIM-image.png
@@ -12,7 +12,7 @@
   project: "PIMAT"
 
 - title: "A Compact 65nm CMOS Nanoampere Current Reference with 188.8ppm/°C [-40°C, 85°C] Temperature Coefficient and  1.43%/V [0.7V, 1.2V] Line Sensitivity"
-  authors: S. Caputo, B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
+  authors: S. Caputo, B. Zambrano, <span class="author-me">E. Garzón</span>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2026-OJCAS-currentref
   image: 2026-OJCAS-currentref-image.png
@@ -35,7 +35,7 @@ the most compact and energy-efficient silicon-proven nanoampere references repor
 # project: "PIMAT"
 
 - title: "Reliability and Assessment of an MRAM-based Non-Volatile Precharge-Free Ternary CAM for Real-Time Edge Inference"
-  authors: O. Caisaluisa, F. Seiler, L.M. Procel, M. Lanuzza, A. Quotb, N. TaheriNejad, <b style='color:#FF6666 !important;'>E. Garzón</b>
+  authors: O. Caisaluisa, F. Seiler, L.M. Procel, M. Lanuzza, A. Quotb, N. TaheriNejad, <span class="author-me">E. Garzón</span>
   #pdf: 2024-SSCL-OCCAM
   url: 2026-CCMCC-edge
   image: 2026-CCMCC-edge-image.png
@@ -74,7 +74,7 @@ has a negligible impact on classification performance."
   project: "PIMAT"
 
 - title: "AM5: Bulk Logic-in-Memory Using MRAM NAND Crossbar"
-  authors: C. Mosquera, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits
+  authors: C. Mosquera, <span class="author-me">E. Garzón</span>, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2026-JETCAS-AM5
   image: 2026-JETCAS-AM5-image.png
@@ -112,7 +112,7 @@ energy required by a processor-centric unit."
 
 # colors: blue, red, lightgreen, 
 - title: "IMAP: In-MRAM Associative Processor with reliable bit-serial massively-parallel arithmetic operations"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, C. Mosquera, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, C. Mosquera, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-SPIE-IMAP
   image: 2026-SPIE-IMAP-image.png
@@ -144,7 +144,7 @@ as a potential IMC architecture for future memory-centric computing systems."
 
 # colors: blue, red, lightgreen, 
 - title: "SPARCAM: Sparse Matrix Multiplication Accelerator Using Multi-Port Dynamic CAM"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, B. Zambrano, D. Sheinenzon, M. Lanuzza, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, B. Zambrano, D. Sheinenzon, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-SPARCAM
   image: 2026-JSA-SPARCAM-image.png
@@ -166,7 +166,7 @@ higher energy efficiency (over CPU) compared with state-of-the-art SpGEMM accele
 
 
 - title: "CADM: Content Addressable Commodity Off-the-Shelf DRAM-Based Genome Classifier"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, A. Fish, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-CADM
   image: 2026-JSA-CADM-image.png
@@ -188,7 +188,7 @@ matching relatively short (<32 DNA bases) ambiguous and erroneous k-mers."
   project: "PIMAT"
 
 - title: "Integrated BSI Bacteria Identifier-On-Chip Using Approximate k-mer Matching"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, V. Galindo, Y. Harary, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, V. Galindo, Y. Harary, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-SciRep-BSI
   image: 2026-SciRep-BSI-image.png
@@ -215,7 +215,7 @@ privacy-preserving, easy-to-operate, and energy-efficient pathogen classificatio
   project: "PIMAT"
 
 - title: "GenMClass: Design and comparative analysis of genome classifier-on-chip platform"
-  authors: D. Bromot, Y. Kra, Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits
+  authors: D. Bromot, Y. Kra, Z. Jahshan, <span class="author-me">E. Garzón</span>, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-JSA-GenMClass
   image: 2026-JSA-GenMClass-image.png
@@ -234,7 +234,7 @@ food safety and environmental monitoring, agriculture pathogen and antimicrobial
   project: "PIMAT"
 
 - title: "PatBiNN: A 65nm Processing-in-CAM Based BNN Implementation for Pathogen Genome Classification"
-  authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Y. Harary, A. Sharoni, <span class="author-me">E. Garzón</span>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2026-DATE-PatBiNN
   image: 2026-DATE-PatBiNN-image.png
@@ -260,7 +260,7 @@ and energy efficiency of 237TOPs/s/W with silicon area of
   project: "PIMAT"
 
 - title: "NV-PCAM: Non-Volatile Precharge-Free Content-Addressable Memory"
-  authors: O. Caisaluisa, <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Holguín, M. Lanuzza, L.M. Prócel
+  authors: O. Caisaluisa, <span class="author-me">E. Garzón</span>, E. Holguín, M. Lanuzza, L.M. Prócel
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-TCASI-NVPCAM
   image: 2025-TCASI-NVPCAM-image.png
@@ -273,7 +273,7 @@ and energy efficiency of 237TOPs/s/W with silicon area of
   project: "PIMAT"
 
 - title: "Hardware Accelerators For A Sustainable AI Future"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>
+  authors: <span class="author-me">E. Garzón</span>
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ICAI-HW
   image: 2025-ICAI-HW-image.png
@@ -286,7 +286,7 @@ and energy efficiency of 237TOPs/s/W with silicon area of
   project: "PIMAT"
 
 - title: "A Physical Unclonable Function based on Differential Subthreshold PMOS Array with 9.73x10-4 Stabilized BER and 1.3pJ/bit in 65nm"
-  authors: B. Zambrano, S. Strangio, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, G. Iannaccone, M. Lanuzza
+  authors: B. Zambrano, S. Strangio, <span class="author-me">E. Garzón</span>, A. Catania, G. Iannaccone, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-JLPEA-PUF
   image: 2025-JLPEA-PUF-image.png
@@ -305,7 +305,7 @@ of 3.5% is reduced to 9.73x10-4 after stabilization, consuming only 1.37 pJ per 
   #project: "PIMAT"
 
 - title: "High-performance and reliable probabilistic Ising machine based on simulated quantum annealing"
-  authors: E. Raimondo, <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Shao, A. Grimaldi, S. Chiappini, R. Tomasello, N. Davila-Melendez, J.A. Katine, M. Carpentieri, M. Chiappini, M. Lanuzza, P. Khalili Amiri, G. Finocchio
+  authors: E. Raimondo, <span class="author-me">E. Garzón</span>, Y. Shao, A. Grimaldi, S. Chiappini, R. Tomasello, N. Davila-Melendez, J.A. Katine, M. Carpentieri, M. Chiappini, M. Lanuzza, P. Khalili Amiri, G. Finocchio
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-PRX-ising
   image: 2025-PRX-ising-image.png
@@ -335,7 +335,7 @@ of reliable and scalable PIMs."
   # 
 
 - title: "A Low-Power 4-bit Tracking-Type Analog-to-Digital Converter in SKY130 Process"
-  authors: E. Astudillo, E. Holguín, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M. Prócel 
+  authors: E. Astudillo, E. Holguín, <span class="author-me">E. Garzón</span>, L.M. Prócel 
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-VLSI-SoC-sky130
   image: 2025-VLSI-SoC-sky130-image.png
@@ -350,7 +350,7 @@ of reliable and scalable PIMs."
   # 
 
 - title: "PiC-BNN: A 128-kbit 65nm Processing-in-CAM-Based End-to-End Binary Neural Network Accelerator"
-  authors: Y. Harary, A. Sharoni, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits 
+  authors: Y. Harary, A. Sharoni, <span class="author-me">E. Garzón</span>, M. Lanuzza, A. Teman, L. Yavits 
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-CCMCC-PiCBNN
   image: 2025-CCMCC-PiCBNN-image.png
@@ -365,7 +365,7 @@ of reliable and scalable PIMs."
   # 
 
 - title: "An Accurate And Low Complexity Offset Calibration Methodology for Dynamic Comparators"
-  authors: J. Cuenca, B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M. Prócel, M. Lanuzza
+  authors: J. Cuenca, B. Zambrano, <span class="author-me">E. Garzón</span>, L.M. Prócel, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-Offset-JLPEA
   image: 2025-Offset-JLPEA-image.png
@@ -381,7 +381,7 @@ of reliable and scalable PIMs."
   # corresponding author journal
 
 - title: "CAM4: In-Memory Viral Pathogen Genome Classification using Similarity Search Dynamic Content-Addressable Memory"
-  authors: Z. Jahshan, I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Z. Jahshan, I. Merlin, <span class="author-me">E. Garzón</span>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-TETC-CAM4
   image: 2025-TETC-CAM4-image.png
@@ -408,7 +408,7 @@ of reliable and scalable PIMs."
   #project: "PIMAT"
 
 - title: "Towards Low-Power High-Performance Content-Addressable Memory: a Robust Precharge-Free Approach"
-  authors: R. Taco, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, L. Yavits, M. Lanuzza
+  authors: R. Taco, <span class="author-me">E. Garzón</span>, A. Teman, L. Yavits, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ISCAS-PCAM
   image: 2025-ISCAS-PCAM-image.png
@@ -435,7 +435,7 @@ of reliable and scalable PIMs."
   project: "PIMAT"
 
 - title: "Low Matchline Voltage Swing Content-Addressable Memory Cell"
-  authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza
+  authors: C. Mosquera, R. Taco, B. Zambrano, LM. Prócel, <span class="author-me">E. Garzón</span>, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ISCAS-low
   image: 2025-ISCAS-low-image.png
@@ -466,7 +466,7 @@ of reliable and scalable PIMs."
   
 
 - title: "Non-Volatile Content-Addressable Memory for Energy-Efficient & High-Performance Search and Update Operations"
-  authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <b style='color:#FF6666 !important;'>E. Garzón</b>
+  authors: A. Bedoya, B. Zambrano, R. Taco, LM. Prócel, M. Lanuzza, <span class="author-me">E. Garzón</span>
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-ISCAS-17TCAM
   image: 2025-ISCAS-17TCAM-image.png
@@ -496,7 +496,7 @@ of reliable and scalable PIMs."
   # corresponding author
 
 - title: "A 128-kbit Approximate Search-Capable Content-Addressable Memory (CAM) With Tunable Hamming Distance"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, E. Rechef, R. Golman, O. Harel, Y. Harary, P. Snapir, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-JSSC-HDCAM
   image: 2025-JSSC-HDCAM-image.png
@@ -527,7 +527,7 @@ across a range of HDs."
   # corresponding author journal
 
 - title: "Cryo-SIMPLY: A Reliable STT-MRAM Based Smart Material Implication Architecture For In-Memory Computing"
-  authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza
+  authors: T. Moposita, <span class="author-me">E. Garzón</span>, A. Teman, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2025-Nanomaterials-CryoSIMPLY
   image: 2024-Nanomaterials-CryoSIMPLY-image.png
@@ -546,7 +546,7 @@ Overall, our results prove that the SIMPLY scheme at cryogenic conditions is a p
 
 
 - title: "Designing Precharge-Free Energy-Efficient Content-Addressable Memories"
-  authors: R. Taco, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Hanhan, A. Teman, L. Yavits, M. Lanuzza
+  authors: R. Taco, <span class="author-me">E. Garzón</span>, R. Hanhan, A. Teman, L. Yavits, M. Lanuzza
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-TVLSI-PCAM
   image: 2024-TVLSI-PCAM-image.png
@@ -566,7 +566,7 @@ We further extend our analysis to the application level, functionally evaluating
 This analysis confirms that PCAMs represent an optimal energy-performance design choice for associative memories and their broad spectrum of applications."
 
 - title: "GCOC: A Genome Classifier-On-Chip based on Similarity Search Content Addressable Memory"
-  authors: Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Y. Harary, P. Snapir, S. Siman Tov, C. Kruphman, E. Rechef, Z. Jahshan, <span class="author-me">E. Garzón</span>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-TBioCAS-GCOC
   image: 2024-TBioCAS-GCOC-image.png
@@ -595,7 +595,7 @@ classifier where the classification is required to be real-time, easy
 to operate and energy efficient."
 
 - title: "Monolithic 3D-Based Non-Volatile Associative Processor For High-Performance Energy-Efficient Computations"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Bedoya, M. Lanuzza, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, A. Bedoya, M. Lanuzza, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-JxCDC-M3D
   image: 2024-JxCDC-M3D-image.png
@@ -619,7 +619,7 @@ and energy-efficient in-memory computing."
 
 
 - title: "ViRAL: Vision transformer based accelerator for ReAL time lineage assignment of viral pathogens"
-  authors: Z. Jahshan, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Z. Jahshan, <span class="author-me">E. Garzón</span>, L. Yavits
   #pdf: 2024-IEEEAccess-ViRAL
   url: 2024-IEEEAccess-ViRAL
   image: 2024-IEEEAccess-ViRAL-image.png
@@ -634,7 +634,7 @@ and energy-efficient in-memory computing."
   # corresponding author journal
 
 - title: "OCCAM: An Error Oblivious CAM"
-  authors: Y. Harary, P. Snapir, E. Rechef, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Y. Harary, P. Snapir, E. Rechef, <span class="author-me">E. Garzón</span>, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2024-SSCL-OCCAM
   image: 2024-SSCL-OCCAM-image.png
@@ -647,7 +647,7 @@ and energy-efficient in-memory computing."
   # corresponding author journal
 
 - title: "FASTA: Revisiting Fully Associative Memories in Computer Microarchitecture"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Hanhan, M. Lanuzza, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, R. Hanhan, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2024-IEEEAccess-FASTA
   image: 2024-IEEEAccess-FASTA-image.png
@@ -664,7 +664,7 @@ and energy-efficient in-memory computing."
 ###### 2023
 
 - title: "AM4: MRAM Crossbar Based CAM/TCAM/ACAM/AP for In-Memory Computing"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-JETCAS-AM4
   image: 2023-JETCAS-AM4-image.png
@@ -679,7 +679,7 @@ and energy-efficient in-memory computing."
 
 
 - title: "SIMPLY+: A Reliable STT-MRAM-Based Smart Material Implication Architecture for In-Memory Computing"
-  authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza 
+  authors: T. Moposita, <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza 
   #pdf: 2024-SSCL-OCCAM
   url: 2023-IEEEAccess-SIMPLYplus
   image: 2023-IEEEAccess-SIMPLYplus.png
@@ -692,7 +692,7 @@ and energy-efficient in-memory computing."
 
 
 - title: "Voltage-controlled magnetic anisotropy based physical unclonable function"
-  authors: A. Meo, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, G. Finocchio, M. Lanuzza, and M. Carpentieri
+  authors: A. Meo, <span class="author-me">E. Garzón</span>, R. De Rose, G. Finocchio, M. Lanuzza, and M. Carpentieri
   #pdf: 2024-SSCL-OCCAM
   url: 2023-APL-vcmaMTJpuf
   image: 2023-APL-vcmaMTJpuf-image.png
@@ -705,7 +705,7 @@ and energy-efficient in-memory computing."
 
 
 - title: "DASH-CAM: Dynamic Approximate SearcH Content Addressable Memory for genome classification"
-  authors: Z. Jahshan, I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits
+  authors: Z. Jahshan, I. Merlin, <span class="author-me">E. Garzón</span>, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-MICRO-DASHCAM
   image: 2023-MICRO-DASHCAM-image.png
@@ -718,7 +718,7 @@ and energy-efficient in-memory computing."
 
 
 - title: "A Low-Complexity Sensing Scheme for Approximate Matching Content-Addressable Memory"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, R. Golman, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-MLSSHDCAM
   image: 2023-TCASII-MLSSHDCAM-image.png
@@ -732,7 +732,7 @@ and energy-efficient in-memory computing."
   # corresponding author journal
 
 - title: "Efficient Implementation of Many-Ported Memories by Using Standard-Cell Memory Approach"
-  authors: H. Marinberg, <b style='color:#FF6666 !important;'>E. Garzón</b>, T. Noy, M. Lanuzza, and A. Teman
+  authors: H. Marinberg, <span class="author-me">E. Garzón</span>, T. Noy, M. Lanuzza, and A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2023-IEEEAccess-MPSCMs
   image: 2023-IEEEAccess-MPSCMs-image.png
@@ -745,7 +745,7 @@ and energy-efficient in-memory computing."
   # corresponding author journal
 
 - title: "STT-MRAM Technology For Energy-Efficient Cryogenic Memory Applications"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-LASCAS-CryoSTTMRAMs
   image: 2023-LASCAS-CryoSTTMRAMs-image.png
@@ -759,7 +759,7 @@ and energy-efficient in-memory computing."
   # corresponding author
 
 - title: "XNOR-Bitcount Operation Exploiting Computing-In-Memory With STT-MRAMs"
-  authors: A. Musello, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, L.M. Prócel, and R. Taco
+  authors: A. Musello, <span class="author-me">E. Garzón</span>, M. Lanuzza, L.M. Prócel, and R. Taco
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-XNORCiMSTT-MRAM
   image: 2023-TCASII-XNORCiMSTT-MRAM-image.png
@@ -772,7 +772,7 @@ and energy-efficient in-memory computing."
   # corresponding author journal
 
 - title: "A Low-Energy DMTJ-Based Ternary Content- Addressable Memory With Reliable Sub-Nanosecond Search Operation"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, G. Finocchio, M. Carpentieri, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, L. Yavits, G. Finocchio, M. Carpentieri, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-IEEEAccess-nvTCAMdmtj
   image: 2023-IEEEAccess-nvTCAMdmtj-image.png
@@ -786,7 +786,7 @@ and energy-efficient in-memory computing."
   # corresponding author journal
 
 - title: "Efficiency of Double-Barrier Magnetic Tunnel Junction-Based Digital eNVM Array for Neuro-Inspired Computing"
-  authors: T. Moposita, <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza
+  authors: T. Moposita, <span class="author-me">E. Garzón</span>, F. Crupi, L. Trojman, A. Vladimirescu, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TCASII-NeuroSimDMTJSTTMRAM
   image: 2023-TCASII-NeuroSimDMTJSTTMRAM-image.png
@@ -799,7 +799,7 @@ and energy-efficient in-memory computing."
 
 
 - title: "DIPER: Detection and Identification of Pathogens using Edit distance-tolerant Resistive CAM"
-  authors: I. Merlin, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Fish, L. Yavits
+  authors: I. Merlin, <span class="author-me">E. Garzón</span>, A. Fish, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2023-TC-DIPERRRAM
   image: 2023-TC-DIPERRRAM-image.png
@@ -818,7 +818,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Exploiting Dual Mode Logic for Approximate Computing"
-  authors: C. Mosquera, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M. Prócel
+  authors: C. Mosquera, <span class="author-me">E. Garzón</span>, L.M. Prócel
   #pdf: 2024-SSCL-OCCAM
   url: 2023-ETCM-xDML
   image: 2023-ETCM-xDML-image.png
@@ -831,7 +831,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Approximate Content-Addressable Memories: A Review"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, L. Yavits, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2023-MDPIChips-AxCAMReview
   image: 2023-MDPIChips-AxCAMReview-image.png
@@ -846,7 +846,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 ###### 2022
 - title: "All-Analog Silicon Integration of Image Sensor and Neural Computing Engine for Image Classification"
-  authors: B. Zambrano, S. Strangio, T. Rizzo, <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, G. Iannaccone
+  authors: B. Zambrano, S. Strangio, T. Rizzo, <span class="author-me">E. Garzón</span>, M. Lanuzza, G. Iannaccone
   #pdf: 2024-SSCL-OCCAM
   url: 2022-IEEEAccess-analogNN
   image: 2022-IEEEAccess-analogNN-image.png
@@ -859,7 +859,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Hamming Distance Tolerant Content-Addressable Memory (HD-CAM) for DNA Classification"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, R. Golman, Z. Jahshan, R. Hanhan, N. Vinshtok-Melnik, M. Lanuzza, A. Teman, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2022-IEEEAccess-HDCAM
   image: 2022-IEEEAccess-HDCAM-image.png
@@ -873,7 +873,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "A 0.6V–1.8V Compact Temperature Sensor With 0.24°C Resolution, ±1.4°C Inaccuracy and 1.06nJ per Conversion"
-  authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, G. Iannaccone, M. Lanuzza
+  authors: B. Zambrano, <span class="author-me">E. Garzón</span>, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-IEEESensorsJ-TempSensor
   image: 2022-IEEESensorsJ-TempSensor-image.png
@@ -886,7 +886,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "EDAM: Edit distance tolerant approximate matching content addressable memory"
-  authors: R. Hanhan, <b style='color:#FF6666 !important;'>E. Garzón</b>, Z. Jahshan, A. Teman, M. Lanuzza, L. Yavits
+  authors: R. Hanhan, <span class="author-me">E. Garzón</span>, Z. Jahshan, A. Teman, M. Lanuzza, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2022-ISCA-EDAM
   image: 2022-ISCA-EDAM-image.png
@@ -899,7 +899,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Voltage and technology scaling of DMTJ-based STT-MRAMs for energy-efficient embedded memories"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. Taco, L.M. Prócel, L. Trojman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-LASCAS-VoltageScalingSTT-MRAMs
   image: 2022-LASCAS-VoltageScalingSTT-MRAMs-image.png
@@ -913,7 +913,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author
 
 - title: "Performance benchmarking of TFET and FinFET digital circuits from a synthesis-based perspective"
-  authors: M. Rendón, C. Cao, K. Landázuri, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, R. Taco
+  authors: M. Rendón, C. Cao, K. Landázuri, <span class="author-me">E. Garzón</span>, L.M Prócel, R. Taco
   #pdf: 2024-SSCL-OCCAM
   url: 2022-Electronics-TFETvsFinFETsynthesis
   image: 2022-Electronics-TFETvsFinFETsynthesis-image.png
@@ -926,7 +926,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "AIDA: Associative In-Memory Deep Learning Accelerator"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza, L. Yavits
+  authors: <span class="author-me">E. Garzón</span>, A. Teman, M. Lanuzza, L. Yavits
   #pdf: 2024-SSCL-OCCAM
   url: 2022-MICRO-AIDA
   image: 2022-MICRO-AIDA-image.png
@@ -940,7 +940,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "Adjusting thermal stability in double-barrier MTJ for energy improvement in cryogenic STT-MRAMs"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-SSE-AdjustingThermalStability
   image: 2022-SSE-AdjustingThermalStability-image.png
@@ -954,7 +954,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "A RISC-V-based research platform for rapid design cycle"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. Golman, O. Harel, T. Noy, U. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, M. Lanuzza, A. Teman
+  authors: <span class="author-me">E. Garzón</span>, R. Golman, O. Harel, T. Noy, U. Kra, A. Pollock, S. Yuzhaninov, Y. Shoshan, Y. Rudin, Y. Weitzman, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2022-ISCAS-LEO1
   image: 2022-ISCAS-LEO1-image.png
@@ -968,7 +968,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author
 
 - title: "Emerging Memory Structures for VLSI Circuits"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Yavits, M. Lanuzza, A. Teman
+  authors: <span class="author-me">E. Garzón</span>, L. Yavits, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2022-WileyEEEE-ReviewMemories
   image: 2022-WileyEEEE-ReviewMemories-image.png
@@ -982,7 +982,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Embedded memories for cryogenic applications"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-Electronics-CryoMems
   image: 2022-Electronics-CryoMems-image.png
@@ -996,7 +996,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "A 0.05 mm2, 350 mV, 14 nW Fully-Integrated Temperature Sensor in 180-nm CMOS"
-  authors: B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Strangio, F. Crupi, M. Lanuzza
+  authors: B. Zambrano, <span class="author-me">E. Garzón</span>, S. Strangio, F. Crupi, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2022-TCASII-TempSensor180nm
   image: 2022-TCASII-TempSensor180nm-image.png
@@ -1010,7 +1010,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 ###### 2021
 - title: "Gain-Cell Embedded DRAM Under Cryogenic Operation—A First Study"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, Y. Greenblatt, O.Harel, M. Lanuzza, A. Teman
+  authors: <span class="author-me">E. Garzón</span>, Y. Greenblatt, O.Harel, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2021-IEEETVLSI-cryoGCeDRAM
   image: 2021-IEEETVLSI-cryoGCeDRAM-image.png
@@ -1024,7 +1024,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "Energy efficient self-adaptive Dual Mode Logic address decoder"
-  authors: K. Vicuña, C. Mosquera, A. Musello, S. Benedictis, M. Rendón, <b style='color:#FF6666 !important;'>E. Garzón</b>, L.M Prócel, L. Trojman, R. Taco
+  authors: K. Vicuña, C. Mosquera, A. Musello, S. Benedictis, M. Rendón, <span class="author-me">E. Garzón</span>, L.M Prócel, L. Trojman, R. Taco
   #pdf: 2024-SSCL-OCCAM
   url: 2021-Electronics-DMLaddDec
   image: 2021-Electronics-DMLaddDec-image.png
@@ -1037,7 +1037,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Relaxing non-volatility for energy-efficient DMTJ based cryogenic STT-MRAM"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2021-SSE-RelaxingNVcryo
   image: 2021-SSE-RelaxingNVcryo-image.png
@@ -1051,7 +1051,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "Quantum capacitance transient phenomena in high-k dielectric armchair graphene nanoribbon field-effect transistor model"
-  authors: A. Avnon, R. Golman, <b style='color:#FF6666 !important;'>E. Garzón</b>, H.D Ngo, M. Lanuzza, A. Teman
+  authors: A. Avnon, R. Golman, <span class="author-me">E. Garzón</span>, H.D Ngo, M. Lanuzza, A. Teman
   #pdf: 2024-SSCL-OCCAM
   url: 2021-SSE-QuantumCapGNRFET
   image: 2021-SSE-QuantumCapGNRFET-image.png
@@ -1064,7 +1064,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Simulation Analysis of DMTJ-Based STT-MRAM Operating at Cryogenic Temperatures"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Carpentieri, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, M. Carpentieri, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2021-TMAG-DMTJcryoSTTMRAM
   image: 2021-TMAG-DMTJcryoSTTMRAM-image.png
@@ -1078,7 +1078,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "Ultralow Voltage FinFET- Versus TFET-Based STT-MRAM Cells for IoT Applications"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, M. Lanuzza, R. Taco, S. Strangio
+  authors: <span class="author-me">E. Garzón</span>, M. Lanuzza, R. Taco, S. Strangio
   #pdf: 2024-SSCL-OCCAM
   url: 2021-Electronics-TFETvsFinFET-STTMRAM
   image: 2021-Electronics-TFETvsFinFET-STTMRAM-image.png
@@ -1091,7 +1091,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # first author
 
 - title: "Field-Free Magnetic Tunnel Junction for Logic Operations Based on Voltage-Controlled Magnetic Anisotropy"
-  authors: F. Cutugno, <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, G. Finocchio, M. Lanuzza, M. Carpentieri
+  authors: F. Cutugno, <span class="author-me">E. Garzón</span>, R. De Rose, G. Finocchio, M. Lanuzza, M. Carpentieri
   #pdf: 2024-SSCL-OCCAM
   url: 2021-IEEEMagLetters-VCMAlogic
   image: 2021-IEEEMagLetters-VCMAlogic-image.png
@@ -1103,7 +1103,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   abstract: "This letter demonstrates how to perform logic operations on the data stored in magnetic tunnel junction (MTJ) devices within a memory array, without any intermediate electronic circuitry. The basic structure consists of one MTJ, exhibiting voltage-controlled magnetic anisotropy, in series connection with a MOSFET access device. The material implication and not logic operations can be performed without any external magnetic field by supplying a proper bias voltage to the circuit structure. This innovative solution enables higher energy-delay efficiency and better integration density than conventional CMOS-based computational architectures."
 
 - title: "Exploiting STT-MRAMs for Cryogenic Non-Volatile Cache Applications"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, A. Teman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, A. Teman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2021-TNANO-SMTJcryoSTT-MRAMs
   image: 2021-TNANO-SMTJcryoSTT-MRAMs-image.png
@@ -1118,7 +1118,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 #### 2020
 - title: "Assessment of STT-MRAMs based on double-barrier MTJs for cache applications by means of a device-to-system level simulation framework"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2020-Integ-deviceToSystemSBandDBSTT-MRAMs
   image: 2020-Integ-deviceToSystemSBandDBSTT-MRAMs-image.png
@@ -1131,7 +1131,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # first author
 
 - title: "Reconfigurable CMOS/STT-MTJ Non-Volatile Circuit for Logic-in-Memory Applications"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, B. Zambrano, T. Moposita, R. Taco, L.M. Prócel, L. Trojman
+  authors: <span class="author-me">E. Garzón</span>, B. Zambrano, T. Moposita, R. Taco, L.M. Prócel, L. Trojman
   #pdf: 2024-SSCL-OCCAM
   url: 2020-LASCAS-ReconfCMOSMTJ
   image: 2020-LASCAS-ReconfCMOSMTJ-image.png
@@ -1147,7 +1147,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 #### 2019
 - title: "Assessment of STT-MRAM performance at nanoscaled technology nodes using a device-to-memory simulation framework"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2019-MicroEng-scalingSBSTT-MRAM
   image: 2019-MicroEng-scalingSBSTT-MRAM-image.png
@@ -1161,7 +1161,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author journal
 
 - title: "Exploiting Double-Barrier MTJs for Energy-Efficient Nanoscaled STT-MRAMs"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, L. Trojman, G. Finocchio, M. Carpentieri, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2019-SMACD-ScalingSTTMRAM
   image: 2019-SMACD-ScalingSTTMRAM-image.png
@@ -1175,7 +1175,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author
 
 - title: "Evaluating the Energy Efficiency of STT-MRAMs Based on Perpendicular MTJs with Double Reference Layers"
-  authors: M. Lanuzza, R. De Rose, <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Crupi 
+  authors: M. Lanuzza, R. De Rose, <span class="author-me">E. Garzón</span>, F. Crupi 
   #pdf: 2024-SSCL-OCCAM
   url: 2019-ASICON-DMTJsttmram
   image: 2019-ASICON-DMTJsttmram-image.png
@@ -1188,7 +1188,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Device-to-System Level Simulation Framework for STT-DMTJ Based Cache Memory"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, R. De Rose, F. Crupi, M. Lanuzza
+  authors: <span class="author-me">E. Garzón</span>, R. De Rose, F. Crupi, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
   url: 2019-ICECS-Dev2Syst
   image: 2019-ICECS-Dev2Syst-image.png
@@ -1202,7 +1202,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # corresponding author
 
 - title: "Microprocessor Design with a Direct Bluetooth Connection in 45nm Technology Using Microwind"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Chávez, D. Jaramillo, L. Sánchez, S. Lara, C. Macías, E. Acurio, L.M. Prócel, L. Trojman, E. Sicard
+  authors: <span class="author-me">E. Garzón</span>, F. Chávez, D. Jaramillo, L. Sánchez, S. Lara, C. Macías, E. Acurio, L.M. Prócel, L. Trojman, E. Sicard
   #pdf: 2024-SSCL-OCCAM
   url: 2019-LASCAS-MicroWind
   image: 2019-LASCAS-MicroWind-image.png
@@ -1218,7 +1218,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 #### 2018
 - title: "Capacitance Extraction of 34-nm Metallurgical Channel Length MOSFET for Parasitic Assessment Using the RFCV Technique"
-  authors: D. Benalcàzar, <b style='color:#FF6666 !important;'>E. Garzón</b>, L. Trojman
+  authors: D. Benalcàzar, <span class="author-me">E. Garzón</span>, L. Trojman
   #pdf: 2024-SSCL-OCCAM
   url: 2018-ETCM-Measurements
   image: 2018-ETCM-Measurements-image.png
@@ -1232,7 +1232,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 #### 2016
 - title: "Fast computation of Cramer-Rao Bounds for TOA"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, S. Valdiviezo, R. Játiva, J. Vidal
+  authors: <span class="author-me">E. Garzón</span>, S. Valdiviezo, R. Játiva, J. Vidal
   #pdf: 2024-SSCL-OCCAM
   url: 2016-LACCI-Telecom
   image: 2016-LACCI-Telecom-image.png
@@ -1245,7 +1245,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
   # first author
 
 - title: "Space-time diversity for NLOS mitigation in TDOA-based positioning systems"
-  authors: R. Játiva, <b style='color:#FF6666 !important;'>E. Garzón</b>, J. Vidal
+  authors: R. Játiva, <span class="author-me">E. Garzón</span>, J. Vidal
   #pdf: 2024-SSCL-OCCAM
   url: 2016-IESummit-PositionSystems
   image: 2016-IESummit-PositionSystems-image.png
@@ -1258,7 +1258,7 @@ DNA reads with 15% error rate, compared to state-of-the-art DNA classification t
 
 
 - title: "Remote control of VNA and parameter analyzer for RFCV measurements using Python"
-  authors: <b style='color:#FF6666 !important;'>E. Garzón</b>, F. Sanchez, L.M. Procel, L. Trojman
+  authors: <span class="author-me">E. Garzón</span>, F. Sanchez, L.M. Procel, L. Trojman
   #pdf: 2024-SSCL-OCCAM
   url: 2016-ANDESCON-VNA
   image: 2016-ANDESCON-VNA-image.png

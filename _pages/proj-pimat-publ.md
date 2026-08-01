@@ -3,20 +3,25 @@ layout: gridlay
 title: "PIMAT publications"
 sitemap: false
 permalink: /proj-pimat-publ/
+publications: true
+toc:
+  - title: Publications
+    id: publications
+  - title: Deliverables & Milestones
+    id: resources-deliverables
+  - title: Tapeouts
+    id: tapeouts
+  - title: Other Resources
+    id: resources
 ---
 
-## Table of Contents
-- [Publications](#publications)
-- [Deliverables](#resources-deliverables)
-- [Tapeouts](#tapeouts)
-- [Other Resources](#resources)
+<h1>PIMAT publications</h1>
 
-
+{% include toc.html %}
 <!-- ###################################################################### 
                               PUBLICATIONS
 ######################################################################   -->
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Publications </h2>
-<a id="publications"></a>
+<h2 class="section-heading" id="publications">Publications</h2>
 
 {% assign tot_count = 0 %}
 {% assign B_count = 0 %}
@@ -47,149 +52,115 @@ permalink: /proj-pimat-publ/
   * Conferences: {{ C_count }}
 * A complete list of the PI's publications: <a href="{{ site.baseurl }}/publications/" target="_blank">link</a>
 
-<ol>
+<ul class="pub-list">
 {% for publi in site.data.publist %}
   {% if publi.project == "PIMAT" %}
-
-  {% assign bibtest = false %}
-  {% if publi.url %}
-    {% assign bibfile = "/papers/" | append:  publi.url  | append: ".txt" %}
-    {% for file in site.static_files %}
-      {% if file.path contains bibfile %}
-        {% assign bibtest = true %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-
-  <li>
-  {{ publi.title }}<br/>
-  {{ publi.authors }}<br/> 
-  {{ publi.display }} ({{ publi.year }})<br/>
-  <div class="flex-item2">
-    {% if publi.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ publi.pdf }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
-    {% if publi.doi %}<a href="http://dx.doi.org/{{ publi.doi }}" target="_blank"><button class="btn-doi">DOI/URL</button></a> {% endif %}
-    {% if publi.arxiv %}<a href="https://arxiv.org/abs/{{ publi.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
-    {% if publi.techrxiv %}<a href="http://dx.doi.org/{{ publi.techrxiv }}" target="_blank"><button class="btn-techrxiv">TechRxiv</button></a> {% endif %}
-    {% if bibtest == true %} <a data-toggle="collapse" href="#{{publi.url}}2"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}2">BIB</a> {% endif %}
-    {% if publi.abstract %} <a data-toggle="collapse" href="#{{publi.url}}"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false" aria-controls="{{publi.url}}">ABSTRACT</a> {% endif %}
-  </div>
-
-  {% if publi.abstract %}
-  <div class="collapse" id="{{publi.url}}"><div class="well-abstract">
-   {{publi.abstract}}
-  </div></div>
-  {% endif %}
-
-  {% if bibtest == true %}
-  <div class="collapse" id="{{publi.url}}2"><div class="well-bib">
-   <iframe src='{{site.url}}{{site.baseurl}}/papers/{{publi.url}}.txt' scrolling='yes' width="100%" height="210" frameborder='0'></iframe>
-  </div></div>
-  {% endif %}
-</li>
+    {% include publication-card.html publi=publi %}
   {% endif %}
 {% endfor %}
-</ol>
+</ul>
 
 
 <!-- ###################################################################### 
                                 DELIVERABLES & MILESTONES
 ######################################################################   -->
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Deliverables & Milestones </h2>
-<a id="resources-deliverables"></a>
+<h2 class="section-heading" id="resources-deliverables">Deliverables & Milestones</h2>
 
-<table style="width: 100%; border-collapse: collapse; text-align: left;">
+<div class="table-wrap">
+<table>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Item</th>
-        <th style="border: 1px solid black; padding: 8px;">WP</th>
-        <th style="border: 1px solid black; padding: 8px;">Description</th>
-        <th style="border: 1px solid black; padding: 8px;">Status</th>
-        <th style="border: 1px solid black; padding: 8px;">File</th>
+        <th>Item</th>
+        <th>WP</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>File</th>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D3.1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP3</td>
-        <td style="border: 1px solid black; padding: 8px;">Benchmarking and Assessment</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M16</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D3.1</td>
+        <td>WP3</td>
+        <td>Benchmarking and Assessment</td>
+        <td>✔ Delivered/ready at M16</td>
+        <td> -- </td>
     </tr> 
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D4.5</td>
-        <td style="border: 1px solid black; padding: 8px;">WP4</td>
-        <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M16</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D4.5</td>
+        <td>WP4</td>
+        <td>Dissemination, communication, and exploitation plan</td>
+        <td>✔ Delivered/ready at M16</td>
+        <td> -- </td>
     </tr> 
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">MS4</td>
-        <td style="border: 1px solid black; padding: 8px;">WP4</td>
-        <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Milestone Achieved at M1</td>
-        <td style="border: 1px solid black; padding: 8px;"><a href="{{ site.baseurl }}/proj-pimat-ms4/" target="_blank">link</a></td>
+        <td>MS4</td>
+        <td>WP4</td>
+        <td>Dissemination, communication, and exploitation plan</td>
+        <td>✔ Milestone Achieved at M1</td>
+        <td><a href="{{ site.baseurl }}/proj-pimat-ms4/" target="_blank">link</a></td>
     </tr> 
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D4.1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP4</td>
-        <td style="border: 1px solid black; padding: 8px;">Dissemination, communication, and exploitation plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M1</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D4.1</td>
+        <td>WP4</td>
+        <td>Dissemination, communication, and exploitation plan</td>
+        <td>✔ Delivered/ready at M1</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D5.1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP5</td>
-        <td style="border: 1px solid black; padding: 8px;">Data management plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M1</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D5.1</td>
+        <td>WP5</td>
+        <td>Data management plan</td>
+        <td>✔ Delivered/ready at M1</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D5.2</td>
-        <td style="border: 1px solid black; padding: 8px;">WP5</td>
-        <td style="border: 1px solid black; padding: 8px;">Risk management plan</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M2</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D5.2</td>
+        <td>WP5</td>
+        <td>Risk management plan</td>
+        <td>✔ Delivered/ready at M2</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D5.3</td>
-        <td style="border: 1px solid black; padding: 8px;">WP5</td>
-        <td style="border: 1px solid black; padding: 8px;">Partners Agreement</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D5.3</td>
+        <td>WP5</td>
+        <td>Partners Agreement</td>
+        <td>✔ Delivered/ready at M3</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D1.1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP1</td>
-        <td style="border: 1px solid black; padding: 8px;">Desk research: SOTA analysis</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M3</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D1.1</td>
+        <td>WP1</td>
+        <td>Desk research: SOTA analysis</td>
+        <td>✔ Delivered/ready at M3</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D1.2</td>
-        <td style="border: 1px solid black; padding: 8px;">WP1</td>
-        <td style="border: 1px solid black; padding: 8px;">Algorithm-hardware co-design and optimization</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M7</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D1.2</td>
+        <td>WP1</td>
+        <td>Algorithm-hardware co-design and optimization</td>
+        <td>✔ Delivered/ready at M7</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D4.2</td>
-        <td style="border: 1px solid black; padding: 8px;">WP4</td>
-        <td style="border: 1px solid black; padding: 8px;">Hardware for Transformer Networks</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M11</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D4.2</td>
+        <td>WP4</td>
+        <td>Hardware for Transformer Networks</td>
+        <td>✔ Delivered/ready at M11</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">D2.1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP2</td>
-        <td style="border: 1px solid black; padding: 8px;">IC design report</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M13</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>D2.1</td>
+        <td>WP2</td>
+        <td>IC design report</td>
+        <td>✔ Delivered/ready at M13</td>
+        <td> -- </td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;">MS1</td>
-        <td style="border: 1px solid black; padding: 8px;">WP1</td>
-        <td style="border: 1px solid black; padding: 8px;">HW-oriented algorithm defined</td>
-        <td style="border: 1px solid black; padding: 8px;">✔ Delivered/ready at M14</td>
-        <td style="border: 1px solid black; padding: 8px;"> -- </td>
+        <td>MS1</td>
+        <td>WP1</td>
+        <td>HW-oriented algorithm defined</td>
+        <td>✔ Delivered/ready at M14</td>
+        <td> -- </td>
     </tr>
 </table>
+</div>
 
 
 
@@ -197,8 +168,7 @@ permalink: /proj-pimat-publ/
 <!-- ###################################################################### 
                               TAPEOUTS
 ######################################################################   -->
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Tapeouts </h2>
-<a id="tapeouts"></a>
+<h2 class="section-heading" id="tapeouts">Tapeouts</h2>
 
 ... working on it... :)
 
@@ -206,8 +176,7 @@ permalink: /proj-pimat-publ/
 <!-- ###################################################################### 
                               OTHER RESOURCES
 ######################################################################   -->
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Other Resources </h2>
-<a id="resources"></a>
+<h2 class="section-heading" id="resources">Other Resources</h2>
 
 ... working on it... :)
 <!-- files datasets, public data -->

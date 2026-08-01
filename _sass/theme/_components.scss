@@ -1,0 +1,496 @@
+// =============================================================
+// Reusable components: cards, stats, timeline, pills, wells, TOC
+// =============================================================
+
+// --- Cards ----------------------------------------------------------------
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+  margin-block: var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-sm);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+
+  h3, h4 {
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+    font-size: var(--fs-h4);
+
+    &::after { display: none; }
+  }
+
+  p { color: var(--text-muted); margin-bottom: var(--space-2); }
+  p:last-child { margin-bottom: 0; }
+
+  .card__icon {
+    font-size: 26px;
+    color: var(--accent-text);
+    margin-bottom: var(--space-2);
+  }
+}
+
+a.card,
+.card--link {
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--accent);
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+// --- Stat tiles -----------------------------------------------------------
+
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-3);
+  margin-block: var(--space-5);
+  padding: 0;
+  list-style: none;
+}
+
+.stat-tile {
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4) var(--space-2);
+
+  .stat-tile__value {
+    display: block;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--accent-text);
+    letter-spacing: -0.03em;
+  }
+
+  .stat-tile__label {
+    display: block;
+    margin-top: var(--space-1);
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+}
+
+// --- News timeline --------------------------------------------------------
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 var(--space-4);
+  border-left: 2px solid var(--border);
+}
+
+.timeline__item {
+  position: relative;
+  padding: 0 0 var(--space-4) var(--space-4);
+  margin: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--space-4) * -1 - 5px);
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--bg);
+  }
+
+  &:last-child { padding-bottom: 0; }
+}
+
+.timeline__date {
+  display: block;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--accent-text);
+  margin-bottom: 2px;
+}
+
+.timeline__body {
+  margin: 0;
+  color: var(--text);
+}
+
+.timeline__meta {
+  display: block;
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+// --- Section blocks -------------------------------------------------------
+
+.section {
+  margin-block: var(--space-6);
+}
+
+.section--surface {
+  background: var(--surface);
+  border-block: 1px solid var(--border);
+  padding-block: var(--space-6);
+}
+
+.section__title {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4);
+
+  &::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    background: var(--border);
+  }
+}
+
+// --- Two-column band ------------------------------------------------------
+
+.split {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+@media (max-width: 767px) {
+  .split { grid-template-columns: 1fr; gap: var(--space-5); }
+}
+
+// --- Buttons (site-level, not Bootstrap's) --------------------------------
+
+.btn-solid,
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 9px var(--space-4);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  letter-spacing: .01em;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease,
+              border-color .15s ease, transform .15s ease;
+
+  &:hover,
+  &:focus { text-decoration: none; transform: translateY(-1px); }
+}
+
+.btn-solid {
+  background: var(--accent-strong);
+  border: 1px solid var(--accent-strong);
+  color: var(--on-accent);
+
+  &:hover,
+  &:focus {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+    color: var(--on-accent);
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-text);
+    color: var(--accent-text);
+  }
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-block: var(--space-4);
+}
+
+// --- Social icon links ----------------------------------------------------
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  align-items: center;
+  margin-block: var(--space-3);
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--border-strong);
+    color: var(--text-muted);
+    font-size: 18px;
+    transition: all .15s ease;
+
+    &:hover,
+    &:focus {
+      background: var(--accent-strong);
+      border-color: var(--accent-strong);
+      color: var(--on-accent);
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+  }
+
+  &--lg a { width: 46px; height: 46px; font-size: 21px; }
+
+  &--onDark a {
+    border-color: rgba(255, 255, 255, .3);
+    color: rgba(255, 255, 255, .9);
+
+    &:hover,
+    &:focus {
+      background: var(--accent-on-dark);
+      border-color: var(--accent-on-dark);
+      color: var(--navy);
+    }
+  }
+}
+
+// --- Table of contents rail ----------------------------------------------
+
+.toc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-5);
+
+  .toc__title {
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin: 0 0 var(--space-2);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: var(--space-4);
+  }
+
+  li { margin-bottom: var(--space-1); }
+
+  a { font-size: var(--fs-sm); font-weight: 500; }
+}
+
+@media (max-width: 575px) {
+  .toc ul { columns: 1; }
+}
+
+// --- Logo strip -----------------------------------------------------------
+
+.logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-5);
+  padding: var(--space-4) 0;
+
+  img {
+    max-height: 74px;
+    max-width: 180px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(1);
+    opacity: .75;
+    transition: filter .2s ease, opacity .2s ease, transform .2s ease;
+    margin: 0;
+  }
+
+  a:hover img,
+  img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+// Dark mode: most funder logos are dark-on-transparent, so give them a plate.
+[data-theme="dark"] .logo-strip img {
+  background: #fff;
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+}
+
+// --- Project logo ---------------------------------------------------------
+
+.project-logo {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto var(--space-5);
+}
+
+[data-theme="dark"] .project-logo {
+  background: #fff;
+  padding: var(--space-3);
+  border-radius: var(--radius);
+}
+
+// --- Tapeout / chip cards -------------------------------------------------
+
+.chip-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  margin-bottom: var(--space-5);
+
+  ul { margin-bottom: 0; }
+}
+
+.chip-shot {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.chip-title {
+  font-size: var(--fs-h3);
+  text-align: center;
+  margin-bottom: var(--space-3);
+  color: var(--text);
+}
+
+// --- Profile block (about page) -------------------------------------------
+
+.profile {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: var(--space-5);
+  align-items: start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.profile__photo {
+  width: 100%;
+  margin: 0;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.profile__body {
+  min-width: 0;
+
+  h3 { margin-top: 0; }
+
+  h4 {
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-2);
+    font-size: var(--fs-sm);
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: var(--text-muted);
+  }
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    padding-left: var(--space-4);
+    margin-bottom: var(--space-1);
+    font-size: var(--fs-sm);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .65em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .profile {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .profile__photo { max-width: 220px; }
+  .profile .social-links { justify-content: center; }
+  .education-list li { text-align: left; }
+}
+
+// --- Award / list rows ----------------------------------------------------
+
+.stack-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: var(--space-3) var(--space-4);
+    margin-bottom: var(--space-2);
+    transition: transform .15s ease, box-shadow .15s ease;
+
+    &:hover {
+      transform: translateX(3px);
+      box-shadow: var(--shadow-sm);
+    }
+  }
+}

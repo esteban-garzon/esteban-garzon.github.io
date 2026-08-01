@@ -1,0 +1,236 @@
+// =============================================================
+// Navigation bar
+// =============================================================
+
+.navbar.navbar-default {
+  background: var(--navy);
+  border: 0;
+  border-bottom: 3px solid var(--accent);
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: var(--navbar-h);
+  box-shadow: var(--shadow-sm);
+
+  .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline: var(--space-4);
+  }
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  float: none;
+}
+
+.navbar-default .navbar-brand {
+  display: flex;
+  align-items: center;
+  height: var(--navbar-h);
+  padding: 0;
+  color: #fff;
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-on-dark);
+    text-decoration: none;
+  }
+}
+
+.navbar-default .navbar-nav {
+  margin: 0;
+
+  > li > a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: var(--navbar-h);
+    padding: 0 var(--space-3);
+    color: rgba(255, 255, 255, .85);
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+    background: transparent;
+    transition: color .15s ease;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: var(--space-3);
+      right: var(--space-3);
+      bottom: 8px;
+      height: 2px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .18s ease;
+    }
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      background: transparent;
+      text-decoration: none;
+
+      &::after { transform: scaleX(1); }
+    }
+  }
+
+  > li.active > a {
+    color: var(--accent-on-dark);
+    background: transparent;
+
+    &::after { transform: scaleX(1); }
+
+    &:hover,
+    &:focus { color: var(--accent-on-dark); background: transparent; }
+  }
+
+  > .open > a {
+    background: var(--navy-2);
+    color: #fff;
+
+    &:hover, &:focus { background: var(--navy-2); color: #fff; }
+  }
+}
+
+// The navbar is a flex row on desktop, so the collapse has to grow and the
+// nav has to stop floating for `navbar-right` to actually sit on the right.
+// Bootstrap forces `display: block !important` here, hence the !important.
+@media (min-width: 768px) {
+  .navbar-default .navbar-collapse.collapse {
+    display: flex !important;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  .navbar-default .navbar-nav {
+    display: flex;
+    align-items: center;
+    float: none;
+
+    > li { float: none; }
+  }
+}
+
+// --- Dropdown -------------------------------------------------------------
+
+.navbar-default .dropdown-menu {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-1) 0;
+  margin-top: 0;
+
+  > li > a {
+    color: var(--text);
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+
+    &:hover,
+    &:focus {
+      background: var(--accent-soft);
+      color: var(--accent-text);
+    }
+  }
+}
+
+// --- Theme toggle ---------------------------------------------------------
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  margin-left: var(--space-2);
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: rgba(255, 255, 255, .85);
+  font-size: 15px;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+
+  &:hover,
+  &:focus {
+    background: rgba(255, 255, 255, .12);
+    color: var(--accent-on-dark);
+    border-color: var(--accent-on-dark);
+  }
+
+  .theme-toggle__moon { display: none; }
+}
+
+[data-theme="dark"] .theme-toggle {
+  .theme-toggle__sun  { display: none; }
+  .theme-toggle__moon { display: inline; }
+}
+
+// The toggle sits in the navbar on desktop, inside the collapse on mobile.
+.navbar-nav > li.nav-theme > a { padding-inline: var(--space-2); }
+
+// --- Mobile hamburger -----------------------------------------------------
+
+.navbar-default .navbar-toggle {
+  margin: 0;
+  padding: 8px 10px;
+  border-color: rgba(255, 255, 255, .3);
+  border-radius: var(--radius-sm);
+
+  .icon-bar { background-color: #fff; }
+
+  &:hover,
+  &:focus { background-color: rgba(255, 255, 255, .12); }
+}
+
+@media (max-width: 767px) {
+  .navbar.navbar-default .container-fluid { display: block; }
+
+  .navbar-header {
+    display: flex;
+    min-height: var(--navbar-h);
+  }
+
+  .navbar-default .navbar-collapse {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    background: var(--navy);
+    max-height: calc(100vh - var(--navbar-h));
+    padding-bottom: var(--space-2);
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    height: auto;
+    padding: var(--space-2) 0;
+
+    &::after { display: none; }
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    background: var(--navy-2);
+    border: 0;
+    box-shadow: none;
+
+    > li > a {
+      color: rgba(255, 255, 255, .85);
+      padding-left: var(--space-4);
+
+      &:hover, &:focus { background: transparent; color: var(--accent-on-dark); }
+    }
+  }
+
+  .navbar-nav > li.nav-theme { padding-block: var(--space-2); }
+  .theme-toggle { margin-left: 0; }
+}

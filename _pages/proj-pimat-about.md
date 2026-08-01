@@ -4,30 +4,33 @@ title: "Explore the project"
 sitemap: false
 permalink: /proj-pimat-about/
 ---
- 
 
-<table style="width: 100%; border-collapse: collapse; text-align: left;">
+<h1>About the PIMAT Project</h1>
+
+<div class="table-wrap">
+<table>
 	<tr>
-        <th style="border: 1px solid black; padding: 8px;">Project Name</th>
-        <td style="border: 1px solid black; padding: 8px;">Processing-in-Memory Accelerators for Transformers</td>
+        <th>Project Name</th>
+        <td>Processing-in-Memory Accelerators for Transformers</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Project Acronym</th>
-        <td style="border: 1px solid black; padding: 8px;">PIMAT</td>
+        <th>Project Acronym</th>
+        <td>PIMAT</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Project Coordinator </th>
-        <td style="border: 1px solid black; padding: 8px;">Dr. Esteban Garzón</td>
+        <th>Project Coordinator </th>
+        <td>Dr. Esteban Garzón</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Project Start Date</th>
-        <td style="border: 1px solid black; padding: 8px;">15/04/2025</td>
+        <th>Project Start Date</th>
+        <td>15/04/2025</td>
     </tr>
     <tr>
-        <th style="border: 1px solid black; padding: 8px;">Budget</th>
-        <td style="border: 1px solid black; padding: 8px;">€ 249.625,00 </td>
+        <th>Budget</th>
+        <td>€ 249.625,00 </td>
     </tr>
 </table>
+</div>
 
 ## Motivation and Overview
 

@@ -1,0 +1,30 @@
+# Research areas shown as cards on the homepage.
+# icon: any Font Awesome 4.7 class name.
+- title: Memory-Centric Accelerators
+  icon: fa-microchip
+  description: >
+    Domain-specific hardware that computes inside or beside the memory array,
+    removing the data-movement bottleneck in machine learning, graph processing
+    and similarity search.
+  url: /research/#reserach
+
+- title: MRAM &amp; Spintronics
+  icon: fa-magnet
+  description: >
+    STT-MRAM built on single- and double-barrier magnetic tunnel junctions for
+    non-volatile, energy-efficient embedded memory — including cryogenic operation.
+  url: /research/#reserach
+
+- title: Content-Addressable Memory
+  icon: fa-search
+  description: >
+    Approximate-match CAM architectures with tunable Hamming distance, applied to
+    DNA classification and on-chip genome analysis.
+  url: /publications/
+
+- title: Low-Power VLSI Design
+  icon: fa-bolt
+  description: >
+    Transistor-level design and silicon validation of SRAM, sensing circuits and
+    analog blocks in advanced CMOS, FinFET and SOI technologies.
+  url: /tapeouts/

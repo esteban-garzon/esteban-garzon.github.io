@@ -3,90 +3,35 @@ title: "About"
 layout: gridlay
 sitemap: false
 permalink: /about/
+toc:
+  - title: Biography
+    id: biography
+  - title: Professional Skills
+    id: skills
+  - title: Awards & Honours
+    id: awards
+  - title: Collaborators
+    id: colaborations
 ---
 
-## Table of Contents
-- [About](#about)
-- [Biography](#biography)
-- [Professional Skills](#skills)
-- [Awards, Honours, and Recognitions](#awards)
-- [Collaborators](#colaborations)
+<h1>About</h1>
 
-## About 
-<a id="about"></a>
+{% include toc.html %}
 
-{% for member in site.data.pi %}
+{% assign pi = site.data.pi | first %}
 
-<div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <h3>{{ member.name }}</h3>
-  <i style="font-size:20px">{{ member.info }}</i><br>
-
-  {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-3x"></i></a> {% endif %}
-  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
-  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 6 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  <li> {{ member.education6 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 7 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  <li> {{ member.education6 }} </li>
-  <li> {{ member.education7 }} </li>
-  {% endif %}
-
-  </ul>
+<div class="profile" markdown="0">
+<img class="profile__photo" src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ pi.photo }}" alt="Portrait of Esteban Garzón" />
+<div class="profile__body">
+<h3>{{ pi.name }}</h3>
+<p class="lead">{{ pi.info }}</p>
+{% include social-links.html member=pi size="lg" %}
+<h4>Positions &amp; Education</h4>
+{% include education-list.html member=pi %}
+</div>
 </div>
 
-{% endfor %}
-
-
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Biography  </h2>
-<a id="biography"></a>
+<h2 class="section-heading" id="biography">Biography</h2>
 
 Esteban Garzón received the B.Sc. Degree (cum laude) in Electronics Engineering from the Universidad San
 Francisco de Quito (USFQ), Ecuador, in 2016, the dual M.Sc. degree (GPA: 4.0/4.0) in Nanoelectronics
@@ -104,8 +49,8 @@ include domain-specific hardware accelerators, electronics/spintronics, embedded
 and emerging technologies for logic & memory, and low-power applications. He has received several awards,
 research grants, and funding (as Principal Investigator). E. Garzón has been part of several IEEE conference committees, and journal boards. Moreover, he has been an active reviewer of several journals (IEEE, Elsevier, Frontiers, Wiley) and conferences.
 
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Professional Skills  </h2>
-<a id="skills"></a>
+<h2 class="section-heading" id="skills">Professional Skills</h2>
+
 - **Integrated Circuit (IC) Design & System-Level Evaluation Skills (Not limited to)**
   - Transistor-level circuit design (analog blocks for memory architectures)
   - Register-transfer level design (digital circuits using HDLs)
@@ -128,30 +73,16 @@ research grants, and funding (as Principal Investigator). E. Garzón has been pa
   * Xcelium
 
 {% if site.data.awards %}
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Awards, Honours, and Recognitions  </h2>
-<a id="awards"></a>
+<h2 class="section-heading" id="awards">Awards, Honours, and Recognitions</h2>
 
-<ol>
+<ul class="stack-list">
 {% for award in site.data.awards %}
-<li>
- {{ award.name }}
-</li>
+  <li>{{ award.name }}</li>
 {% endfor %}
-{% endif %}
-</ol>
-
-{% if site.data.grants %}
-<!-- 
-## Grants
-{% for grant in site.data.grants %}
-* {{ grant.name }}
-{% endfor %}
--->
+</ul>
 {% endif %}
 
-
-<h2 style="background-color: #f2f2f2; padding: 0.2em;"> Current and Past Collaborators  </h2>
-<a id="colaborations"></a>
+<h2 class="section-heading" id="colaborations">Current and Past Collaborators</h2>
 
 ### National  
 * **Prof. Marco Lanuzza**, Department of Computer Engineering, Modeling, Electronics and Systems, University of Calabria, Rende, Italy  
