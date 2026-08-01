@@ -1,0 +1,7 @@
+@inproceedings{mosquera2026srampim,
+  title={{SRAM-Based Processing-in-Memory Cell Enabling Binary Neural Networks Through XNOR Multiplication and Charge-Domain Accumulation}},
+  author={Mosquera, Cristhopher and Taco, Ramiro and Zambrano, Benjamin and Garzón, Esteban and Catania, Alessandro and Strangio, Sebastiano and Iannaccone, Giuseppe and Lanuzza, Marco},
+  booktitle={2026 IEEE International Conference on Electronics, Circuits and Systems (ICECS)},
+  year={2026},
+  organization={IEEE}
+}

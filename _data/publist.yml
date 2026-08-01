@@ -1,3 +1,16 @@
+- title: "SRAM-Based Processing-in-Memory Cell Enabling Binary Neural Networks Through XNOR Multiplication and Charge-Domain Accumulation"
+  authors: C. Mosquera, R. Taco, B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
+  #pdf: 2026-ICECS-SRAMPIM
+  url: 2026-ICECS-SRAMPIM
+  image: 2026-ICECS-SRAMPIM-image.png
+  display: "<b>to be presented at IEEE International Conference on Electronics, Circuits and Systems (ICECS)</b>"
+  year: 2026
+  #doi:
+  #arxiv:
+  type_C: conference
+  abstract: "..."
+  project: "PIMAT"
+
 - title: "A Compact 65nm CMOS Nanoampere Current Reference with 188.8ppm/°C [-40°C, 85°C] Temperature Coefficient and  1.43%/V [0.7V, 1.2V] Line Sensitivity"
   authors: S. Caputo, B. Zambrano, <b style='color:#FF6666 !important;'>E. Garzón</b>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2024-SSCL-OCCAM
