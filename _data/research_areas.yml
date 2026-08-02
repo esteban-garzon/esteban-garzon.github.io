@@ -4,27 +4,25 @@
   icon: fa-microchip
   description: >
     Domain-specific hardware that computes inside or beside the memory array,
-    removing the data-movement bottleneck in machine learning, graph processing
-    and similarity search.
+    removing the data-movement bottleneck in data-intensive applications.
   url: /research/#reserach
 
 - title: MRAM &amp; Spintronics
   icon: fa-magnet
   description: >
-    STT-MRAM built on single- and double-barrier magnetic tunnel junctions for
-    non-volatile, energy-efficient embedded memory — including cryogenic operation.
+    MRAMs based on different magnetic tunnel junction devices for
+    non-volatile, energy-efficient embedded memories, and unconventional computing.
   url: /research/#reserach
 
-- title: Content-Addressable Memory
-  icon: fa-search
-  description: >
-    Approximate-match CAM architectures with tunable Hamming distance, applied to
-    DNA classification and on-chip genome analysis.
-  url: /publications/
+# - title: Content-Addressable Memory
+#   icon: fa-search
+#   description: >
+#     CAM architectures applied to data-intensive applications.
+#   url: /publications/
 
 - title: Low-Power VLSI Design
   icon: fa-bolt
   description: >
-    Transistor-level design and silicon validation of SRAM, sensing circuits and
+    Transistor-level design and silicon validation of embedded memories, sensing circuits and
     analog blocks in advanced CMOS, FinFET and SOI technologies.
   url: /tapeouts/

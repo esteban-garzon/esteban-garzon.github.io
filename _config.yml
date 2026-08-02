@@ -4,7 +4,7 @@ email: esteban.garzon@unical.it
 description: Personal Website of Esteban Garzón
 baseurl: ""
 url: ""
-affiliation: I'm with the <a href="https://dimes.unical.it" target="_blank">Department of Computer Engineering, Modeling, Electronics and Systems</a> at the University of Calabria
+affiliation: I'm with the <a href="https://dimes.unical.it" target="_blank">Department of Computer Engineering, Modeling, Electronics and Systems</a> at the University of Calabria, Italy
 
 # Google analytics ID
 #google_analytics: UA-176412042-1
@@ -15,7 +15,7 @@ location: >
   Building 42C 2nd-Floor <br/>
   University of Calabria <br/>
   Via P. Bucci <br/>
-  Rende (CS) 87036<br/>
+  Rende (CS) 87036, Italy<br/>
 
 # Contact info. (shown in footer)
 contact: >
