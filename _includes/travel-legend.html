@@ -1,0 +1,38 @@
+{%- comment -%}
+  Legend for the maps on /travel-map/. Rendered under each map so the key is
+  always next to the thing it explains. The swatches are inline SVG so they pick
+  up exactly the same CSS custom properties as the maps themselves.
+{%- endcomment -%}
+<ul class="map-legend">
+  <li class="map-legend__item">
+    <svg class="map-legend__swatch" viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+      <rect class="map-legend__fill" x="0.5" y="0.5" width="23" height="15" rx="2"/>
+    </svg>
+    Country visited
+  </li>
+  <li class="map-legend__item">
+    <svg class="map-legend__swatch" viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+      <rect class="map-legend__fill" x="0.5" y="0.5" width="23" height="15" rx="2"/>
+      <rect class="map-legend__fill map-legend__fill--stay" x="0.5" y="0.5" width="23" height="15" rx="2"/>
+    </svg>
+    Visiting researcher
+  </li>
+  <li class="map-legend__item">
+    <svg class="map-legend__swatch" viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+      <circle class="map-legend__dot" cx="12" cy="8" r="4.5"/>
+    </svg>
+    Talk or seminar
+  </li>
+  <li class="map-legend__item">
+    <svg class="map-legend__swatch" viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+      <rect class="map-legend__dot map-legend__dot--stay" x="8.4" y="4.4" width="7.2" height="7.2" transform="rotate(45 12 8)"/>
+    </svg>
+    Research stay
+  </li>
+  <li class="map-legend__item">
+    <svg class="map-legend__swatch" viewBox="0 0 24 16" aria-hidden="true" focusable="false">
+      <circle class="map-legend__dot map-legend__dot--upcoming" cx="12" cy="8" r="4.5"/>
+    </svg>
+    Upcoming
+  </li>
+</ul>

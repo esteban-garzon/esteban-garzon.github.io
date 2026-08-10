@@ -1,0 +1,346 @@
+// =============================================================
+// Travel map (/travel-map/)
+//
+// The maps are inline SVG whose every colour resolves through the
+// custom properties below, so dark mode is the same single
+// attribute flip on <html> that the rest of the site uses.
+// =============================================================
+
+:root {
+  --map-ocean:        #eef2f6;
+  --map-land:         #dbe2ea;
+  --map-land-border:  #ffffff;
+  --map-visited:      #e9b26a;
+  --map-visited-edge: #9a5c0f;
+  --map-hatch:        #1b2a41;
+  --map-dot:          #9a5c0f;
+  --map-dot-edge:     #ffffff;
+  --map-stay:         #1b2a41;
+  --map-label:        #1f2933;
+  --map-label-halo:   #ffffff;
+}
+
+[data-theme="dark"] {
+  --map-ocean:        #101a25;
+  --map-land:         #223142;
+  --map-land-border:  #0f1620;
+  --map-visited:      #b9762a;
+  --map-visited-edge: #e8a13a;
+  --map-hatch:        #f0d9b5;
+  --map-dot:          #f0a840;
+  --map-dot-edge:     #101a25;
+  --map-stay:         #f0d9b5;
+  --map-label:        #e5eaf0;
+  --map-label-halo:   #101a25;
+}
+
+// The sprite only exists to hold <defs>; it must never take up space.
+.map-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+// --- Figure shell ---------------------------------------------------------
+
+.map-figure {
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3);
+  background: var(--map-ocean);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow-x: auto;
+}
+
+.map-figure__caption {
+  margin-top: var(--space-2);
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+// Below this the world map is unreadably small, so let it scroll instead of
+// shrinking further. The Europe inset stays fluid at every width.
+.map--world { min-width: 560px; }
+
+// --- Country shapes -------------------------------------------------------
+
+.map__land path {
+  fill: var(--map-land);
+  stroke: var(--map-land-border);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.map__country {
+  fill: var(--map-visited);
+  stroke: var(--map-visited-edge);
+  stroke-width: 1.25;
+  vector-effect: non-scaling-stroke;
+}
+
+// Hatch layer painted on top of the amber fill, so a country can read as both
+// "visited" and "visiting researcher" at once.
+.map__country--stay {
+  fill: url(#map-hatch);
+  stroke: var(--map-visited-edge);
+  stroke-width: 2;
+}
+
+.map-hatch__line { stroke: var(--map-hatch); opacity: .55; }
+
+// --- City markers ---------------------------------------------------------
+
+.map__markers { pointer-events: none; }
+
+.map__marker {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+// Invisible, generously sized pointer target: the visible dot is far too small
+// to hit comfortably, especially on the world map.
+.map__hit { fill: transparent; }
+
+// Deliberately no transform on hover: scaling an SVG geometry element resolves
+// its origin against the outer user space, not the marker, so the dot slides
+// away from its city instead of growing in place. Emphasis is colour only.
+.map__dot {
+  fill: var(--map-dot);
+  stroke: var(--map-dot-edge);
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+  transition: fill .15s ease, stroke .15s ease;
+}
+
+.map__marker--stay .map__dot { fill: var(--map-stay); }
+
+.map__marker--upcoming .map__dot {
+  fill: var(--map-ocean);
+  stroke: var(--map-dot);
+  stroke-width: 2.5;
+}
+
+// Hover, keyboard focus, and the class the JS adds when the matching city in
+// the list below is hovered all resolve to the same emphasis.
+.map__marker:hover .map__dot,
+.map__marker:focus .map__dot,
+.map__marker.is-active .map__dot {
+  fill: var(--map-visited-edge);
+  stroke: var(--map-dot-edge);
+  stroke-width: 4;
+}
+
+.map__marker--upcoming:hover .map__dot,
+.map__marker--upcoming:focus .map__dot,
+.map__marker--upcoming.is-active .map__dot {
+  fill: var(--map-ocean);
+  stroke: var(--map-visited-edge);
+}
+
+.map__marker:focus { outline: none; }
+
+.map__marker:focus-visible .map__dot {
+  stroke: var(--map-visited-edge);
+  stroke-width: 5;
+}
+
+// --- Labels ---------------------------------------------------------------
+
+.map__label {
+  fill: var(--map-label);
+  paint-order: stroke fill;
+  stroke: var(--map-label-halo);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  font-weight: 600;
+  font-size: 21px;
+  pointer-events: none;
+}
+
+// --- Legend ---------------------------------------------------------------
+
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-5);
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+.map-legend__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.map-legend__swatch {
+  width: 26px;
+  height: 18px;
+  flex: none;
+}
+
+.map-legend__fill {
+  fill: var(--map-visited);
+  stroke: var(--map-visited-edge);
+  stroke-width: 1;
+}
+
+.map-legend__fill--stay { fill: url(#map-hatch-fine); }
+
+.map-legend__dot {
+  fill: var(--map-dot);
+  stroke: var(--map-dot-edge);
+  stroke-width: 1.5;
+}
+
+.map-legend__dot--stay { fill: var(--map-stay); }
+
+.map-legend__dot--upcoming {
+  fill: var(--bg);
+  stroke: var(--map-dot);
+  stroke-width: 2;
+}
+
+// --- Country / city breakdown ---------------------------------------------
+
+.travel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-4);
+  margin-block: var(--space-4);
+}
+
+// Italy carries eleven cities; letting it span two tracks keeps the grid from
+// growing a very tall, very narrow column.
+.travel-country:first-child { grid-column: span 2; }
+
+.travel-country {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: var(--space-4);
+}
+
+.travel-country--stay { border-top-color: var(--navy); }
+
+[data-theme="dark"] .travel-country--stay { border-top-color: var(--map-stay); }
+
+.travel-country__name {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-top: 0;
+  font-size: var(--fs-h4);
+}
+
+.travel-country__count {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.travel-country__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin: 0 0 var(--space-3);
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.travel-city-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-2) var(--space-4);
+}
+
+.travel-city {
+  padding: var(--space-2) 0 var(--space-2) var(--space-3);
+  border-left: 2px solid var(--border);
+  transition: border-color .15s ease, background-color .15s ease;
+  scroll-margin-top: calc(var(--navbar-h) + var(--space-5));
+}
+
+.travel-city.is-active,
+.travel-city:hover {
+  border-left-color: var(--accent);
+  background: var(--surface-sunk);
+}
+
+.travel-city__name {
+  margin: 0 0 var(--space-1);
+  font-weight: 700;
+}
+
+.travel-visits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+.travel-visit {
+  margin-bottom: var(--space-1);
+  line-height: 1.4;
+}
+
+.travel-visit__when {
+  display: inline-block;
+  min-width: 5.5em;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.travel-visit--visiting .travel-visit__when { color: var(--accent-text); }
+
+.travel-visit__tag {
+  display: inline-block;
+  margin-left: var(--space-1);
+  padding: 0 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.travel-visit__tag--upcoming {
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.travel-visit--virtual { opacity: .75; }
+
+@media (max-width: 767px) {
+  .travel-country:first-child { grid-column: span 1; }
+  .map-figure { padding: var(--space-2); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map__dot,
+  .travel-city { transition: none; }
+}

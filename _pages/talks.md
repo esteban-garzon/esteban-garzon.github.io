@@ -12,6 +12,8 @@ toc:
 
 <h1>Talks</h1>
 
+<p class="lead">See where these talks took me on the <a href="{{ site.baseurl }}/travel-map/">travel map</a>.</p>
+
 {% include toc.html %}
 
 {% if site.data.conference_talks %}

@@ -26,6 +26,12 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
+    title: About
+    children:
+      - title: "Biography & Profile"
+        url: "/about/"
+      - title: "Travel Map"
+        url: "/travel-map/"
   - name: research
     title: Research
     children:

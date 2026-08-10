@@ -40,7 +40,8 @@ in Electronics Engineering from UNICAL, in 2022. He is currently an Assistant Pr
 
 In 2019-2020 he was a visiting Ph.D. student at EnICS laboratories, BIU, Israel. In Jul-Sep 2022 and
 Jul-Aug 2023, he was a visiting researcher at EnICS labs. In Jan-Feb 2024, he was a visiting researcher at
-the Department of Information Engineering, University of Pisa, Italy.
+the Department of Information Engineering, University of Pisa, Italy. These stays, together with every
+conference city, are plotted on the [travel map]({{ site.baseurl }}/travel-map/).
 
 E. Garzón was an IEEE graduate student member from 2016, became an IEEE member in 2022, and
 IEEE Senior Member in 2024. He has authored/coauthored more than 70 scientific papers in international

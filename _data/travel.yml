@@ -1,0 +1,299 @@
+# =============================================================================
+# Travel map data -- the single source of geographic truth for /travel-map/.
+#
+# Cities are grouped by country and listed in the order they should appear in
+# the breakdown below the map. Coordinates are decimal degrees (WGS84); the page
+# projects them with the same equirectangular formula used by
+# scripts/build_world_map.py, so nothing needs to be recomputed by hand.
+#
+#   kind:   conference | invited | visiting
+#   status: in-person | virtual | upcoming
+#
+# Only `in-person` and `upcoming` visits are plotted. A city whose visits are
+# all `virtual` disappears from the map but is still listed, marked as remote.
+#
+# At world scale the Italian cities overlap, so only cities outside Europe carry
+# a printed label; the rest are named by their tooltip and by the breakdown list
+# rendered under the map.
+#
+# =============================================================================
+
+# ---------------------------------------------------------------- Italy ------
+- city: Milan
+  country: Italy
+  iso: ITA
+  lat: 45.4642
+  lon: 9.1900
+  visits:
+    - year: 2026
+      kind: conference
+      event: IEEE Trends in Magnetism Conference (TMAG)
+      when: Sep 2026
+      status: upcoming
+
+- city: Verona
+  country: Italy
+  iso: ITA
+  lat: 45.4384
+  lon: 10.9916
+  visits:
+    - year: 2026
+      kind: conference
+      event: Design, Automation & Test in Europe (DATE)
+      when: Apr 2026
+      status: in-person
+
+- city: Bressanone
+  country: Italy
+  iso: ITA
+  lat: 46.7156
+  lon: 11.6560
+  visits:
+    - year: 2025
+      kind: conference
+      event: IEEE Conference on Advances in Magnetics (AIM)
+      when: Feb 2025
+      status: in-person
+
+- city: Genova
+  country: Italy
+  iso: ITA
+  lat: 44.4056
+  lon: 8.9463
+  visits:
+    - year: 2019
+      kind: conference
+      event: IEEE International Conference on Electronics, Circuits and Systems (ICECS)
+      when: Nov 2019
+      status: in-person
+
+- city: Pisa
+  country: Italy
+  iso: ITA
+  lat: 43.7228
+  lon: 10.4017
+  visits:
+    - year: 2024
+      kind: visiting
+      event: Visiting researcher, Dept. of Information Engineering, University of Pisa
+      when: Jan-Feb 2024
+      status: in-person
+
+- city: Rome
+  country: Italy
+  iso: ITA
+  lat: 41.9028
+  lon: 12.4964
+  visits:
+    - year: 2023
+      kind: conference
+      event: IEEE Trends in Magnetism Conference (TMAG)
+      when: Sep 2023
+      status: in-person
+
+- city: Bari
+  country: Italy
+  iso: ITA
+  lat: 41.1171
+  lon: 16.8719
+  visits:
+    - year: 2023
+      kind: invited
+      event: "Seminar: Hybrid CMOS/MTJ Circuit Design, Politecnico di Bari"
+      when: May 2023
+      status: in-person
+
+- city: Rende
+  country: Italy
+  iso: ITA
+  lat: 39.3290
+  lon: 16.1830
+  visits:
+    - year: 2025
+      kind: conference
+      event: IEEE Int. Conf. on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)
+      when: Nov 2025
+      status: in-person
+    - year: 2023
+      kind: invited
+      event: "Seminar: Spintronic Technology for Energy-Efficient Hybrid CMOS/MTJ Memory Applications, University of Calabria"
+      when: Jun 2023
+      status: in-person
+    - year: 2021
+      kind: conference
+      event: Conference on Insulating Films on Semiconductors (INFOS)
+      when: Jun-Jul 2021
+      status: in-person
+
+- city: Pizzo (VV)
+  country: Italy
+  iso: ITA
+  lat: 38.7333
+  lon: 16.1583
+  visits:
+    - year: 2022
+      kind: conference
+      event: 53rd Annual Meeting of the Societa Italiana di Elettronica (SIE)
+      when: Sep 2022
+      status: in-person
+
+- city: Messina
+  country: Italy
+  iso: ITA
+  lat: 38.1938
+  lon: 15.5540
+  visits:
+    - year: 2024
+      kind: conference
+      event: International Workshop on Ising Machines (IISM)
+      when: Apr 2024
+      status: in-person
+
+- city: Cefalu
+  country: Italy
+  iso: ITA
+  lat: 38.0397
+  lon: 14.0222
+  visits:
+    - year: 2021
+      kind: conference
+      event: IEEE Trends in Magnetism Conference (TMAG)
+      when: Sep 2021
+      status: in-person
+
+# ---------------------------------------------------------------- Chile ------
+- city: Puerto Varas
+  country: Chile
+  iso: CHL
+  lat: -41.3167
+  lon: -72.9833
+  visits:
+    - year: 2022
+      kind: conference
+      event: IEEE Latin American Symposium on Circuits and Systems (LASCAS)
+      when: Mar 2022
+      status: virtual
+
+# -------------------------------------------------------------- Ecuador ------
+- city: Quito
+  country: Ecuador
+  iso: ECU
+  lat: -0.1807
+  lon: -78.4678
+  visits:
+    - year: 2023
+      kind: conference
+      event: IEEE Latin American Symposium on Circuits and Systems (LASCAS)
+      when: Feb-Mar 2023
+      status: in-person
+    - year: 2022
+      kind: invited
+      event: "Seminar: Spin-Transfer Torque Magnetic RAM for Embedded Memory Applications, IEEE CAS Ecuador Chapter"
+      when: Jun 2022
+      status: virtual
+    - year: 2021
+      kind: invited
+      event: "Seminar: STT-MRAMs for Cryogenic Non-Volatile Cache Applications, Microelectronic Week, IEEE EDS-CAS Ecuador Joint Chapter"
+      when: Oct 2021
+      status: virtual
+
+# --------------------------------------------------------------- France ------
+- city: Strasbourg
+  country: France
+  iso: FRA
+  lat: 48.5734
+  lon: 7.7521
+  visits:
+    - year: 2026
+      kind: conference
+      event: Spintronics and Nanomagnetism Conference, SPIE Photonics Europe (invited talk)
+      when: Apr 2026
+      status: in-person
+
+# -------------------------------------------------------------- Germany ------
+- city: Dresden
+  country: Germany
+  iso: DEU
+  lat: 51.0504
+  lon: 13.7373
+  visits:
+    - year: 2025
+      kind: conference
+      event: IEEE Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC)
+      when: Oct 2025
+      status: in-person
+
+# --------------------------------------------------------------- Israel ------
+- city: Tel-Aviv
+  country: Israel
+  iso: ISR
+  lat: 32.0684
+  lon: 34.8248
+  visits:
+    - year: 2023
+      kind: visiting
+      event: Visiting researcher, EnICS Labs, Bar-Ilan University
+      when: Jul-Aug 2023
+      status: in-person
+    - year: 2022
+      kind: visiting
+      event: Visiting researcher, EnICS Labs, Bar-Ilan University
+      when: Jul-Sep 2022
+      status: in-person
+    - year: 2019
+      kind: visiting
+      event: Visiting Ph.D. student, EnICS Labs, Bar-Ilan University
+      when: 2019-2020
+      status: in-person
+
+# ---------------------------------------------------------- South Korea ------
+- city: Jeju
+  country: South Korea
+  iso: KOR
+  lat: 33.4996
+  lon: 126.5312
+  visits:
+    - year: 2023
+      kind: conference
+      event: IEEE International Symposium on Integrated Circuits and Systems (ISICAS)
+      when: Oct 2023
+      status: in-person
+
+# ---------------------------------------------------------- Switzerland ------
+- city: Lausanne
+  country: Switzerland
+  iso: CHE
+  lat: 46.5197
+  lon: 6.6323
+  visits:
+    - year: 2019
+      kind: conference
+      event: Int. Conf. on Synthesis, Modeling, Analysis and Simulation Methods and Applications to Circuit Design (SMACD)
+      when: Jul 2019
+      status: in-person
+
+# ------------------------------------------------------- United Kingdom ------
+- city: London
+  country: United Kingdom
+  iso: GBR
+  lat: 51.5074
+  lon: -0.1278
+  visits:
+    - year: 2025
+      kind: conference
+      event: IEEE International Symposium on Circuits and Systems (ISCAS) - 3 talks
+      when: May 2025
+      status: in-person
+
+# ------------------------------------------------------------------ USA ------
+- city: Austin
+  country: United States
+  iso: USA
+  lat: 30.2672
+  lon: -97.7431
+  visits:
+    - year: 2022
+      kind: conference
+      event: IEEE International Symposium on Circuits and Systems (ISCAS)
+      when: May-Jun 2022
+      status: virtual

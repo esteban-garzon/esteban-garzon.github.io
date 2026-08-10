@@ -1,0 +1,223 @@
+---
+layout: gridlay
+title: Travel Map
+sitemap: false
+permalink: /travel-map/
+toc:
+  - title: World Map
+    id: world
+  - title: Countries & Cities
+    id: breakdown
+---
+
+{%- comment -%}
+  Conference cities and visiting-researcher stays, plotted from _data/travel.yml.
+
+  Country outlines come from _includes/world-map-paths.svg, generated once by
+  scripts/build_world_map.py with an equirectangular projection in a 2000x1000
+  coordinate space. The marker maths below is that same projection:
+
+      x = (lon + 180) * (2000 / 360)   ->  lon | plus: 180  | times: PX_PER_DEG
+      y = (90  - lat) * (1000 / 180)   ->  lat | times: -1 | plus: 90 | times: PX_PER_DEG
+
+  The map references a hidden sprite of country paths through <use>, so the
+  90 KB of path data is emitted once and re-used for the base land layer and
+  for each highlighted country on top of it.
+{%- endcomment -%}
+
+{% assign px = 5.5555556 %}
+
+{%- comment -%} --- Aggregate the data once, up front ---------------------- {%- endcomment -%}
+{% assign visited_iso = "" %}
+{% assign stay_iso = "" %}
+{% assign plotted_cities = 0 %}
+{% assign total_visits = 0 %}
+{% assign first_year = 3000 %}
+
+{% for place in site.data.travel %}
+  {% assign live = 0 %}
+  {% assign is_stay = false %}
+  {% for visit in place.visits %}
+    {% unless visit.status == "virtual" %}
+      {% assign live = live | plus: 1 %}
+      {% if visit.kind == "visiting" %}{% assign is_stay = true %}{% endif %}
+      {% if visit.year < first_year %}{% assign first_year = visit.year %}{% endif %}
+    {% endunless %}
+  {% endfor %}
+  {% if live > 0 %}
+    {% assign plotted_cities = plotted_cities | plus: 1 %}
+    {% assign total_visits = total_visits | plus: live %}
+    {% unless visited_iso contains place.iso %}
+      {% assign visited_iso = visited_iso | append: place.iso | append: "," %}
+    {% endunless %}
+    {% if is_stay %}
+      {% unless stay_iso contains place.iso %}
+        {% assign stay_iso = stay_iso | append: place.iso | append: "," %}
+      {% endunless %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% assign visited_list = visited_iso | split: "," %}
+{% assign stay_list = stay_iso | split: "," %}
+
+<h1>Travel Map</h1>
+
+<p class="lead">Every city where I have presented at a conference or given an invited
+seminar since {{ first_year }}, plus the institutions where I have been a visiting
+researcher. Built from the <a href="{{ site.baseurl }}/talks/">talks</a> and
+<a href="{{ site.baseurl }}/about/">biography</a> pages.</p>
+
+{% include toc.html %}
+
+<ul class="stat-strip">
+  <li class="stat-tile">
+    <span class="stat-tile__value">{{ visited_list | size }}</span>
+    <span class="stat-tile__label">Countries</span>
+  </li>
+  <li class="stat-tile">
+    <span class="stat-tile__value">{{ plotted_cities }}</span>
+    <span class="stat-tile__label">Cities</span>
+  </li>
+  <li class="stat-tile">
+    <span class="stat-tile__value">{{ total_visits }}</span>
+    <span class="stat-tile__label">Visits</span>
+  </li>
+  <li class="stat-tile">
+    <span class="stat-tile__value">{{ stay_list | size }}</span>
+    <span class="stat-tile__label">Research stays</span>
+  </li>
+</ul>
+
+{%- comment -%} --- Hidden sprite: country paths + fill patterns ----------- {%- endcomment -%}
+<svg class="map-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="map-hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="14" class="map-hatch__line" stroke-width="5"/>
+    </pattern>
+    {%- comment -%} Fine-pitch twin of the pattern above, for the legend swatch. {%- endcomment -%}
+    <pattern id="map-hatch-fine" width="2.4" height="2.4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="2.4" class="map-hatch__line" stroke-width="0.85"/>
+    </pattern>
+    <g id="world-countries">{% include world-map-paths.svg %}</g>
+  </defs>
+</svg>
+
+<h2 class="section-heading" id="world">World Map</h2>
+
+<figure class="map-figure">
+  <svg class="map map--world" viewBox="0 28 2000 790" role="img"
+       aria-labelledby="world-map-title world-map-desc" preserveAspectRatio="xMidYMid meet">
+    <title id="world-map-title">World map of conference cities and research stays</title>
+    <desc id="world-map-desc">{{ visited_list | size }} countries are highlighted. The full country
+    and city breakdown is listed further down this page.</desc>
+
+    <g class="map__land"><use href="#world-countries" xlink:href="#world-countries"/></g>
+    {% for iso in visited_list %}<use class="map__country" href="#c-{{ iso }}" xlink:href="#c-{{ iso }}"/>{% endfor %}
+    {% for iso in stay_list %}<use class="map__country map__country--stay" href="#c-{{ iso }}" xlink:href="#c-{{ iso }}"/>{% endfor %}
+
+    <g class="map__markers">
+      {%- for place in site.data.travel %}
+        {%- assign live = 0 %}
+        {%- assign upcoming = 0 %}
+        {%- assign is_stay = false %}
+        {%- for visit in place.visits %}
+          {%- unless visit.status == "virtual" %}
+            {%- assign live = live | plus: 1 %}
+            {%- if visit.status == "upcoming" %}{% assign upcoming = upcoming | plus: 1 %}{% endif %}
+            {%- if visit.kind == "visiting" %}{% assign is_stay = true %}{% endif %}
+          {%- endunless %}
+        {%- endfor %}
+        {%- if live > 0 %}
+          {%- assign mx = place.lon | plus: 180 | times: px %}
+          {%- assign my = place.lat | times: -1 | plus: 90 | times: px %}
+          {%- assign slug = place.city | slugify %}
+          {%- assign kindclass = "" %}
+          {%- if is_stay %}{% assign kindclass = " map__marker--stay" %}{% endif %}
+          {%- if upcoming == live %}{% assign kindclass = kindclass | append: " map__marker--upcoming" %}{% endif %}
+      <g class="map__marker{{ kindclass }}" data-city="{{ slug }}" transform="translate({{ mx }},{{ my }})">
+        <title>{{ place.city }}, {{ place.country }}</title>
+        <circle class="map__hit" r="26"/>
+        {%- if is_stay %}
+        <rect class="map__dot" x="-9" y="-9" width="18" height="18" transform="rotate(45)"/>
+        {%- else %}
+        <circle class="map__dot" r="9.5"/>
+        {%- endif %}
+      </g>
+        {%- endif %}
+      {%- endfor %}
+
+      {%- comment -%}
+        Labels only outside the European cluster: at world scale the Italian
+        cities sit within a few pixels of each other and their labels would
+        overlap into mush. Those cities are named by their hover tooltip and by
+        the breakdown further down the page.
+      {%- endcomment -%}
+      {%- for place in site.data.travel %}
+        {%- if place.lon < -12 or place.lon > 38 or place.lat < 30 or place.lat > 60 %}
+          {%- assign live = 0 %}
+          {%- for visit in place.visits %}{% unless visit.status == "virtual" %}{% assign live = live | plus: 1 %}{% endunless %}{% endfor %}
+          {%- if live > 0 %}
+            {%- assign mx = place.lon | plus: 180 | times: px %}
+            {%- assign my = place.lat | times: -1 | plus: 90 | times: px %}
+            {%- assign lx = mx | plus: 16 %}
+            {%- assign ly = my | plus: 6 %}
+      <text class="map__label" x="{{ lx }}" y="{{ ly }}" data-city="{{ place.city | slugify }}">{{ place.city }}</text>
+          {%- endif %}
+        {%- endif %}
+      {%- endfor %}
+    </g>
+  </svg>
+  <figcaption class="map-figure__caption">
+    Country outlines: <a href="https://www.naturalearthdata.com/" rel="noopener">Natural Earth</a> (public domain),
+    110&nbsp;m admin&#8209;0 boundaries, equirectangular projection.
+  </figcaption>
+</figure>
+
+{% include travel-legend.html %}
+
+<h2 class="section-heading" id="breakdown">Countries &amp; Cities</h2>
+
+{% assign groups = site.data.travel | group_by: "country" %}
+
+<div class="travel-grid">
+{%- for group in groups %}
+  {%- assign country_stay = false %}
+  {%- assign country_cities = 0 %}
+  {%- for place in group.items %}
+    {%- for visit in place.visits %}
+      {%- unless visit.status == "virtual" %}
+        {%- if visit.kind == "visiting" %}{% assign country_stay = true %}{% endif %}
+      {%- endunless %}
+    {%- endfor %}
+  {%- endfor %}
+  <section class="travel-country{% if country_stay %} travel-country--stay{% endif %}">
+    <h3 class="travel-country__name">
+      {{ group.name }}
+      <span class="travel-country__count">{{ group.items | size }}&nbsp;{% if group.items.size == 1 %}city{% else %}cities{% endif %}</span>
+    </h3>
+    {%- if country_stay %}
+    <p class="travel-country__badge"><i class="fa fa-flask" aria-hidden="true"></i> Visiting researcher</p>
+    {%- endif %}
+    <ul class="travel-city-list">
+      {%- for place in group.items %}
+      <li class="travel-city" id="city-{{ place.city | slugify }}" data-city="{{ place.city | slugify }}">
+        <p class="travel-city__name">{{ place.city }}</p>
+        <ul class="travel-visits">
+          {%- for visit in place.visits %}
+          <li class="travel-visit travel-visit--{{ visit.kind }}{% if visit.status != 'in-person' %} travel-visit--{{ visit.status }}{% endif %}">
+            <span class="travel-visit__when">{{ visit.when }}</span>
+            <span class="travel-visit__event">{{ visit.event }}</span>
+            {%- if visit.status == "virtual" %}<span class="travel-visit__tag">remote</span>{% endif %}
+            {%- if visit.status == "upcoming" %}<span class="travel-visit__tag travel-visit__tag--upcoming">upcoming</span>{% endif %}
+          </li>
+          {%- endfor %}
+        </ul>
+      </li>
+      {%- endfor %}
+    </ul>
+  </section>
+{%- endfor %}
+</div>
+
+<script src="{{ site.baseurl }}/js/travel-map.js" defer></script>
