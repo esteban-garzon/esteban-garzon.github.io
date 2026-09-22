@@ -1,0 +1,9 @@
+@inproceedings{garzon2026nonvolatile,
+  title={{A Non-Volatile Memory Centric Architecture for Energy-Efficient Vision Transformer Networks}},
+  author={Garzón, Esteban, and Speranza, Rebecca, and Mosquera, Cristhopher, and Lanuzza, Marco},
+  booktitle={2026 IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)},
+  pages={1--5},
+  year={2026},
+  organization={IEEE},
+  doi={}
+}

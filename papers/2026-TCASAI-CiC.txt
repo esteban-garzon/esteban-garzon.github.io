@@ -1,0 +1,10 @@
+@article{harary2026cic,
+  title={{CiC-BCNN: A 65nm Compute-in-CAM-Based Binary CNN Accelerator for Image Classification}},
+  author={Harary, Yuval and Rechef, Eyal and Garzón, Esteban and Yavits, Leonid},
+  journal={IEEE Transactions on Circuits and Systems for Artificial Intelligence (TCASAI)}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={},
+  doi={}
+}

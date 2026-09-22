@@ -1,6 +1,16 @@
+- authors: <span class="author-me">E. Garzón</span>, R. Speranza, C. Mosquera, M. Lanuzza
+  title: "A Non-Volatile Memory Centric Architecture for Energy-Efficient Vision Transformer Networks"
+  conf: "To be presented at: IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS), Pisa, Italy, 10-13 Nov."
+  year: 2026
+
+- authors: C. Mosquera, <span class="author-me">E. Garzón</span>, M. Lanuzza, A. Teman, L. Yavits
+  title: "AM5: Bulk Logic-in-Memory Using MRAM NAND Crossbar"
+  conf: "To be presented at: IEEE Cross-Disciplinary Conference on Memory-Centric Computing (CCMCC), Lyon, France, 28-31 Oct."
+  year: 2026
+
 - authors: <span class="author-me">E. Garzón</span>
   title: "STT-MRAM-based Content-Addressable Memory for In-Memory and Neuromorphic Computing"
-  conf: "To be Presented at: IEEE Trends in Magnetism Conference (TMAG), Milan, Italy, 07-11 Sep."
+  conf: "IEEE Trends in Magnetism Conference (TMAG), Milan, Italy, 07-11 Sep."
   year: 2026
 
 - authors: Y. Harary, A. Sharoni, <span class="author-me">E. Garzón</span>, L. Yavits

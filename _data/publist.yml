@@ -1,3 +1,30 @@
+- title: "CiC-BCNN: A 65nm Compute-in-CAM-Based Binary CNN Accelerator for Image Classification"
+  authors: Y. Harary, E. Rechef, <span class="author-me">E. Garzón</span>, L. Yavits
+  #pdf: 2024-SSCL-OCCAM
+  url: 2026-TCASAI-CiC
+  image: 2026-TCASAI-CiC-image.png
+  display: <b>Accepted for publication in IEEE Transactions on Circuits and Systems for Artificial Intelligence (TCASAI)</b>
+  year: 2026
+  #doi: 10.1109/JETCAS.2026.3689530
+  #arxiv: XXXX.13080
+  type_J: journal
+  abstract: "..."
+  project: "PIMAT"
+  # corresponding author  journal
+
+- title: "A Non-Volatile Memory Centric Architecture for Energy-Efficient Vision Transformer Networks"
+  authors: <span class="author-me">E. Garzón</span>, R. Speranza, C. Mosquera, M. Lanuzza
+  #pdf: 2026-ICAI-SRAMPIM
+  url: 2026-ICAI-nvCiM
+  image: 2026-ICAI-nvCiM-image.png
+  display: "<b>to be presented at IEEE International Conference on Application of Information Technologies in Engineering, Management and Science (ICAI-TEMS)</b>"
+  year: 2026
+  #doi:
+  #arxiv:
+  type_C: conference
+  abstract: "..."
+  project: "PIMAT"
+
 - title: "SRAM-Based Processing-in-Memory Cell Enabling Binary Neural Networks Through XNOR Multiplication and Charge-Domain Accumulation"
   authors: C. Mosquera, R. Taco, B. Zambrano, <span class="author-me">E. Garzón</span>, A. Catania, S. Strangio, G. Iannaccone, M. Lanuzza
   #pdf: 2026-ICECS-SRAMPIM
