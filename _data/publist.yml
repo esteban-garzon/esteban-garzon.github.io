@@ -5,7 +5,7 @@
   image: 2026-TCASAI-CiC-image.png
   display: <b>Accepted for publication in IEEE Transactions on Circuits and Systems for Artificial Intelligence (TCASAI)</b>
   year: 2026
-  #doi: 10.1109/JETCAS.2026.3689530
+  doi: 10.1109/TCASAI.2026.3737405
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "..."
@@ -45,7 +45,7 @@
   image: 2026-OJCAS-currentref-image.png
   display: <b> IEEE Open Journal of Circuits and Systems (OJCAS)</b>
   year: 2026
-  #doi: 10.1109/JETCAS.2026.3689530
+  doi: 10.1109/OJCAS.2026.3719819
   #arxiv: XXXX.13080
   type_J: journal
   abstract: "This paper presents a nanoampere current reference designed for ultra-low-power and area-
